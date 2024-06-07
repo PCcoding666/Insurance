@@ -1,7 +1,3 @@
-import sys
-import os
-sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
-
 import json
 import logging
 import streamlit as st
@@ -9,8 +5,6 @@ from api_calls import get_structured_data_from_image
 from batch_processing import process_images_and_merge
 from report_analysis import analyze_report
 from my_utils import pdf_to_images, clean_response
-
-
 
 logging.basicConfig(level=logging.INFO)
 
@@ -79,7 +73,7 @@ def format_markdown(analysis_result):
         abnormal_conditions = analysis_data.get("abnormal_conditions", [])
         suggestions = analysis_data.get("suggestions", [])
         
-        md = "# 1. Abnormal conditions of health indicators\n\n"
+        md = "## 1. Abnormal conditions of health indicators\n\n"
         for idx, condition in enumerate(abnormal_conditions, 1):
             md += f"**{idx}.** 项目: {condition['item_name']}\n"
             md += f"   - 结果: {condition['result']}\n"
@@ -87,7 +81,7 @@ def format_markdown(analysis_result):
             md += f"   - 备注: {condition['remark']}\n"
             md += f"   - 解释: {condition['explanation']}\n\n"
 
-        md += "# 2. Comprehensive diagnostic suggestions\n\n"
+        md += "## 2. Comprehensive diagnostic suggestions\n\n"
         for suggestion in suggestions:
             md += f"- {suggestion}\n"
         
