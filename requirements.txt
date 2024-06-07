@@ -4,4 +4,5 @@ Pillow
 gradio
 PyMuPDF
 dashscope
-opencv-python==4.6.0.66
+opencv-python-headless
+streamlit
