@@ -1,20 +1,20 @@
+# main.py
+
 import os
 import json
 import logging
 import streamlit as st
-import re
-import pandas as pd
 from api_calls import get_structured_data_from_image
 from batch_processing import process_images_and_merge
-from pdf_to_images import pdf_to_images
 from report_analysis import analyze_report
+from utils import pdf_to_images, clean_response
 
 logging.basicConfig(level=logging.INFO)
 
 def process_file(files, model="gpt-4o"):
     custom_prompt = """
         Please extract the results in this image and turn them into structured data in JSON format. 
-        Pay special attention to horizontal alignment when extracting text, there may have some skip part in one row of datalike '参考区间'. 
+        Pay special attention to horizontal alignment when extracting text, there may have some skip part in one row of data like '参考区间'. 
         When processing data in a table, grab the data row by row. 
         For content where some information in the image is blocked or unclear, use Not Visible as the output. Output content don't need to translate, keep it original. 
         Your output does not need to contain any additional information.
@@ -65,60 +65,43 @@ def run_analysis(metadata):
     try:
         analysis_result, duration, input_tokens, output_tokens = analyze_report(metadata)
         logging.info(f"Analysis result: {analysis_result}")
-        json_parts, suggestions = extract_json_and_suggestions(analysis_result)
-        json_analysis_result = json.dumps(json_parts, ensure_ascii=False, indent=2)
-        return json_analysis_result, suggestions, duration, input_tokens, output_tokens
+        return analysis_result, duration, input_tokens, output_tokens
     except Exception as e:
         logging.error(f"Error analyzing report: {str(e)}")
-        return json.dumps({"error": str(e)}, ensure_ascii=False, indent=2), "", 0, 0, 0
+        return str(e), 0, 0, 0
 
-def extract_json_and_suggestions(response):
-    # Extract all JSON parts from the response and the suggestions part
-    json_parts = []
-    suggestions = ""
-    
-    # Extract JSON parts
-    matches = re.findall(r'\{.*?\}', response, re.DOTALL)
-    for match in matches:
-        try:
-            json_parts.append(json.loads(match))
-        except json.JSONDecodeError as e:
-            logging.error(f"Error parsing part as JSON: {e}")
-            continue
-    
-    # Extract suggestions part
-    suggestions_match = re.search(r'Comprehensive diagnostic suggestions:(.*)', response, re.DOTALL)
-    if suggestions_match:
-        suggestions = suggestions_match.group(1).strip()
-    
-    return json_parts, suggestions
+def format_markdown(analysis_result):
+    try:
+        analysis_data = json.loads(analysis_result)
+        abnormal_conditions = analysis_data.get("abnormal_conditions", [])
+        suggestions = analysis_data.get("suggestions", [])
+        
+        md = "# 1. Abnormal conditions of health indicators\n\n"
+        for idx, condition in enumerate(abnormal_conditions, 1):
+            md += f"**{idx}.** 项目: {condition['item_name']}\n"
+            md += f"   - 结果: {condition['result']}\n"
+            md += f"   - 参考区间: {condition['reference_range']}\n"
+            md += f"   - 备注: {condition['remark']}\n"
+            md += f"   - 解释: {condition['explanation']}\n\n"
 
-def clean_response(response):
-    match = re.search(r'\{.*\}', response, re.DOTALL)
-    if match:
-        extracted_content = match.group(0)
-        cleaned_content = extracted_content.replace('\n', ' ').replace('\r', ' ').replace('  ', ' ')
-        try:
-            return json.loads(cleaned_content)
-        except json.JSONDecodeError:
-            return cleaned_content
-    else:
-        return response
-
-def json_to_dataframe(json_data, keys):
-    data = []
-    for item in json_data:
-        row = {key: item.get(key, None) for key in keys}
-        data.append(row)
-    return pd.DataFrame(data)
+        md += "# 2. Comprehensive diagnostic suggestions\n\n"
+        for suggestion in suggestions:
+            md += f"- {suggestion}\n"
+        
+        return md
+    except Exception as e:
+        logging.error(f"Error formatting markdown: {str(e)}")
+        return analysis_result
 
 def main():
-    st.title("Medical report")
+    st.title("Medical Report Processing")
 
     if 'metadata' not in st.session_state:
         st.session_state.metadata = ""
     if 'submit_result' not in st.session_state:
         st.session_state.submit_result = ""
+    if 'analysis_result' not in st.session_state:
+        st.session_state.analysis_result = ""
 
     uploaded_files = st.file_uploader("Upload Image(s) or PDF", type=["png", "jpg", "jpeg", "bmp", "gif", "pdf"], accept_multiple_files=True)
 
@@ -134,16 +117,7 @@ def main():
                 st.session_state.metadata = result_str
                 st.session_state.submit_result = f"### Metadata\n```json\n{result_str}\n```"
                 st.markdown(st.session_state.submit_result)
-                
-                # Display results in table format
-                keys = ["No", "项目", "结果", "单位", "参考区间"]
-                for filename, json_data in parsed_result.items():
-                    if isinstance(json_data, dict) and "results" in json_data:
-                        df = json_to_dataframe(json_data["results"], keys)
-                        st.markdown(f"#### Results for {filename}")
-                        st.dataframe(df)
-                
-                st.text(f"Processing Time 1: {duration}")
+                st.text(f"Processing Time: {duration}")
         else:
             st.warning("Please upload at least one file.")
 
@@ -151,23 +125,11 @@ def main():
         metadata = st.session_state.metadata
         if metadata:
             with st.spinner('Analyzing...'):
-                result, suggestions, duration, input_tokens, output_tokens = run_analysis(metadata)
-                try:
-                    parsed_result = json.loads(result)
-                    result_str = json.dumps(parsed_result, ensure_ascii=False, indent=2)
-                except json.JSONDecodeError:
-                    result_str = result
-                st.markdown(st.session_state.submit_result)  # Display the Submit result again
-                st.markdown(f"### Risk Assessment Report\n```json\n{result_str}\n```")
-                
-                # Display analysis results in table format
-                keys = ["item_name", "result", "reference_range", "remark", "explanation"]
-                df = json_to_dataframe(parsed_result, keys)
-                st.dataframe(df)
-                
-                if suggestions:
-                    st.markdown(f"### Comprehensive Diagnostic Suggestions\n{suggestions}")
-                st.text(f"Processing Time 2: {duration}")
+                result, duration, input_tokens, output_tokens = run_analysis(metadata)
+                formatted_result = format_markdown(result)
+                st.session_state.analysis_result = formatted_result
+                st.markdown(f"### Risk Assessment Report\n{formatted_result}")
+                st.text(f"Processing Time: {duration}")
         else:
             st.warning("Please provide metadata for analysis.")
 

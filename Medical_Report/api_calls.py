@@ -1,14 +1,21 @@
 # api_calls.py
+
 import requests
 import json
-from datetime import datetime
 import logging
-import os
+from datetime import datetime
 from config import api_key, qwen_api_key
-from image_processing import encode_image_to_base64
-from dashscope import MultiModalConversation  # 确保已安装 dashscope
+from utils import encode_image_to_base64
 
 def get_structured_data_from_image(image_path, prompt, model):
+    """
+    Get structured data from an image using the specified model.
+
+    :param image_path: Path to the image file.
+    :param prompt: The prompt to be used for the API call.
+    :param model: The model to be used ('gpt-4o' or 'qwen-vl-max').
+    :return: The structured data, duration of the API call, input tokens, and output tokens.
+    """
     base64_image = encode_image_to_base64(image_path)
     if model == 'gpt-4o':
         return call_gpt_4o(base64_image, prompt, image_path)
@@ -18,6 +25,14 @@ def get_structured_data_from_image(image_path, prompt, model):
         raise ValueError(f"Unsupported model: {model}")
 
 def call_gpt_4o(base64_image, prompt, image_path):
+    """
+    Call the GPT-4o API with the specified parameters.
+
+    :param base64_image: Base64 encoded image.
+    :param prompt: The prompt for the API.
+    :param image_path: Path to the original image file.
+    :return: The structured data, duration of the API call, input tokens, and output tokens.
+    """
     message = {
         "role": "user",
         "content": [
@@ -54,6 +69,14 @@ def call_gpt_4o(base64_image, prompt, image_path):
         return None, 0, 0, 0
 
 def call_qwen_vl_max(image_path, prompt, qwen_api_key):
+    """
+    Call the Qwen-vl-max API with the specified parameters.
+
+    :param image_path: Path to the image file.
+    :param prompt: The prompt for the API.
+    :param qwen_api_key: API key for Qwen-vl-max.
+    :return: The structured data, duration of the API call.
+    """
     local_file_path = f"file://{os.path.abspath(image_path)}"
     messages = [{
         'role': 'user',
@@ -77,7 +100,7 @@ def call_qwen_vl_max(image_path, prompt, qwen_api_key):
     if response.status_code == 200:
         structured_data = response.output
         logging.info(f"Response for {image_path}: {structured_data}")
-        return structured_data, duration.total_seconds(), 0, 0  # qwen API 不返回token数
+        return structured_data, duration.total_seconds(), 0, 0
     else:
         logging.error(f"Error: {response.code}")
         logging.error(response.message)
