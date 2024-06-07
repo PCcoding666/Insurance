@@ -13,17 +13,27 @@ def analysis_medical_prompt(report):
     :param report: The JSON data of the health check report.
     :return: The generated prompt string.
     """
-    prompt = (
-        "The following is the JSON data of a health check report. Please review and identify any abnormalities.\n"
-        "Check the health indicators, and if there are abnormalities, please indicate which indicators are abnormal and explain the reasons.\n"
-        f"Health check report JSON data:\n{report}\n"
-        "Your output should with headings like: '1. Abnormal conditions of health indicators; 2. Comprehensive diagnostic suggestions'\n"
-        "For heading 1, if there are health-related abnormalities, please return the abnormal values and their explanations, formatted as:\n"
-        "{'item_name': 'Indicator Name', 'result': 'Test Result', 'reference_range': 'Reference Range', 'remark': 'Remark', 'explanation': 'Explanation'}.\n"
-        'If there are comprehensive diagnostic suggestions, print the diagnostic suggestions directly.\n'
-        'All content should be in markdown form. \n'
-        "If any heading you have no output, for heading 1:please return: 'No abnormalities found'.For heading 2, please return 'diagnostic suggestions'\n"
-    )
+
+    
+    prompt = f"""
+    Review the following health check report JSON data and identify any abnormalities.
+    The language should be consistent with the language in the report
+    Health check report JSON data:
+    {report}
+    
+    Output:
+    1. Abnormal conditions of health indicators
+    2. Comprehensive diagnostic suggestions
+    
+    For heading 1, list any abnormalities in this format:
+    {{'item_name': 'Indicator Name', 'result': 'Test Result', 'reference_range': 'Reference Range', 'remark': 'Remark', 'explanation': 'Explanation'}}
+    If no abnormalities are found, return: 'No abnormalities found'
+    
+    For heading 2, provide diagnostic suggestions or return: 'No diagnostic suggestions'
+    
+    All content should be in markdown format.
+    """
+
     return prompt
 
 def analyze_report(report):
