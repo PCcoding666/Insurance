@@ -1,12 +1,13 @@
 # config.py
 import openai
 import logging
+import os
 
 # Set up logging
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(message)s')
 
 # Your OpenAI API key
-api_key = 'sk-proj-5c5PuieVb45JrUQN3FVhT3BlbkFJJJFnKGadNLdWO75xhusD'
+api_key = os.getenv("OPENAI_API_KEY")
 openai.api_key = api_key
 
 # Qwen API key
