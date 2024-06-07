@@ -1,6 +1,7 @@
-# main.py
-
+import sys
 import os
+sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
+
 import json
 import logging
 import streamlit as st
@@ -8,6 +9,8 @@ from api_calls import get_structured_data_from_image
 from batch_processing import process_images_and_merge
 from report_analysis import analyze_report
 from my_utils import pdf_to_images, clean_response
+
+
 
 logging.basicConfig(level=logging.INFO)
 

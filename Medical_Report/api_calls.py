@@ -4,8 +4,10 @@ import requests
 import json
 import logging
 from datetime import datetime
-from my_config import api_key, qwen_api_key
 from my_utils import encode_image_to_base64
+from my_config import api_key, qwen_api_key
+import logging
+from datetime import datetime
 
 def get_structured_data_from_image(image_path, prompt, model):
     """
