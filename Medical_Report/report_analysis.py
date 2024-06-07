@@ -4,7 +4,7 @@ import logging
 import requests
 import json
 from datetime import datetime
-from config import api_key
+from my_config import api_key
 
 def analysis_medical_prompt(report):
     """
