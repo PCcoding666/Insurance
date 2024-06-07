@@ -29,7 +29,9 @@ def analysis_medical_prompt(report):
     {{'item_name': 'Indicator Name', 'result': 'Test Result', 'reference_range': 'Reference Range', 'remark': 'Remark', 'explanation': 'Explanation'}}
     If no abnormalities are found, return: 'No abnormalities found'
     
-    For heading 2, provide diagnostic suggestions or return: 'No diagnostic suggestions'
+    For heading 2, provide diagnostic suggestions. 
+    If there is a diagnostic suggestion in the result, it will be output directly. 
+    If not, make fact-based inferences and analysis based on the abnormal values.
     
     All content should be in markdown format.
     """
@@ -62,7 +64,7 @@ def call_gpt_4o_report(message):
     payload = {
         "model": "gpt-4o",
         "messages": [message],
-        "temperature": 0.3
+        "temperature": 0.1
     }
     start_time = datetime.now()
     response = requests.post(url, headers=headers, data=json.dumps(payload))
