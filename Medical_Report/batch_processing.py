@@ -3,7 +3,7 @@
 import os
 import logging
 from api_calls import get_structured_data_from_image
-from utils import clean_response
+from my_utils import clean_response
 
 def process_images_and_merge(image_paths, prompt, model):
     """

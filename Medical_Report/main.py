@@ -7,7 +7,7 @@ import streamlit as st
 from api_calls import get_structured_data_from_image
 from batch_processing import process_images_and_merge
 from report_analysis import analyze_report
-from utils import pdf_to_images, clean_response
+from my_utils import pdf_to_images, clean_response
 
 logging.basicConfig(level=logging.INFO)
 
