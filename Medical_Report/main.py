@@ -73,13 +73,14 @@ def run_analysis(metadata):
         logging.error(f"Error analyzing report: {str(e)}")
         return str(e), 0, 0, 0
 
+
 def format_markdown(analysis_result):
     try:
         analysis_data = json.loads(analysis_result)
         abnormal_conditions = analysis_data.get("abnormal_conditions", [])
         suggestions = analysis_data.get("suggestions", [])
         
-        md = "# 1. Abnormal conditions of health indicators\n\n"
+        md = "## 1. Abnormal conditions of health indicators\n\n"
         for idx, condition in enumerate(abnormal_conditions, 1):
             md += f"**{idx}.** 项目: {condition['item_name']}\n"
             md += f"   - 结果: {condition['result']}\n"
@@ -87,7 +88,7 @@ def format_markdown(analysis_result):
             md += f"   - 备注: {condition['remark']}\n"
             md += f"   - 解释: {condition['explanation']}\n\n"
 
-        md += "# 2. Comprehensive diagnostic suggestions\n\n"
+        md += "## 2. Comprehensive diagnostic suggestions\n\n"
         for suggestion in suggestions:
             md += f"- {suggestion}\n"
         
@@ -95,6 +96,7 @@ def format_markdown(analysis_result):
     except Exception as e:
         logging.error(f"Error formatting markdown: {str(e)}")
         return analysis_result
+
 
 def main():
     st.title("Medical Report Processing")
