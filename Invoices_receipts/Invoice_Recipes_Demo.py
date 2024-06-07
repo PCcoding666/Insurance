@@ -14,8 +14,8 @@ def is_supported_image(file_path):
         return False
 
 def extract(file_path):
-    key = "6d166f7906c849f886727c9d50e19b40"
-    endpoint = "https://validationcomparisonwithgpt4o.cognitiveservices.azure.com/"
+    key = st.secrets['key']
+    endpoint = st.secrets['endpoint']
     # 创建客户端
     document_analysis_client = DocumentAnalysisClient(endpoint=endpoint, credential=AzureKeyCredential(key))
 
