@@ -2,12 +2,13 @@
 import openai
 import logging
 import os
+import streamlit as st
 
 # Set up logging
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(message)s')
 
 # Your OpenAI API key
-api_key = os.getenv("OPENAI_API_KEY")
+api_key = st.secrets["OPENAI_API_KEY"]
 openai.api_key = api_key
 
 # Qwen API key
