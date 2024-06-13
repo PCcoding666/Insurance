@@ -1,7 +1,5 @@
-<<<<<<< HEAD
 # Insurance
 Insurance Project for FWD
-=======
 # Project Title
 
 This project processes images and PDF files to extract structured data and provides a Streamlit interface for user interaction. The project also includes image preprocessing for enhanced image quality.
@@ -70,4 +68,3 @@ The Streamlit interface allows users to upload images and PDF files, which are t
 ## License
 
 This project is licensed under the MIT License. See the LICENSE file for more details.
->>>>>>> master
