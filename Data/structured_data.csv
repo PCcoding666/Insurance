@@ -1,0 +1,140 @@
+0
+"```json
+{
+  ""GENERAL BIOCHEMISTRY"": {
+    ""Lipids"": {
+      ""Total Cholesterol"": {
+        ""RESULTS"": 5.6,
+        ""UNITS"": ""mmol/L"",
+        ""REF. RANGES"": ""< 5.2""
+      },
+      ""Triglyceride"": {
+        ""RESULTS"": 0.78,
+        ""UNITS"": ""mmol/L"",
+        ""REF. RANGES"": ""< 1.68""
+      },
+      ""HDL Cholesterol"": {
+        ""RESULTS"": 1.78,
+        ""UNITS"": ""mmol/L"",
+        ""REF. RANGES"": ""> 1.03""
+      },
+      ""LDL Cholesterol"": {
+        ""RESULTS"": 3.46,
+        ""UNITS"": ""mmol/L"",
+        ""REF. RANGES"": ""< 2.58""
+      },
+      ""Non-HDL Cholesterol"": {
+        ""RESULTS"": 3.82,
+        ""UNITS"": ""mmol/L"",
+        ""REF. RANGES"": ""< 3.37""
+      },
+      ""Total Cholesterol/HDL ratio"": {
+        ""RESULTS"": 3.1,
+        ""UNITS"": """",
+        ""REF. RANGES"": ""< 5.0""
+      }
+    },
+    ""Electrolytes"": {
+      ""Sodium"": {
+        ""RESULTS"": 135,
+        ""UNITS"": ""mmol/L"",
+        ""REF. RANGES"": ""(135-145)""
+      },
+      ""Potassium"": {
+        ""RESULTS"": 8.0,
+        ""UNITS"": ""mmol/L"",
+        ""REF. RANGES"": ""(3.5-5.1)""
+      },
+      ""Chloride"": {
+        ""RESULTS"": 99,
+        ""UNITS"": ""mmol/L"",
+        ""REF. RANGES"": ""(95-110)""
+      }
+    },
+    ""Renal Function"": {
+      ""Urea"": {
+        ""RESULTS"": 2.8,
+        ""UNITS"": ""mmol/L"",
+        ""REF. RANGES"": ""(2.5-8.0)""
+      },
+      ""Creatinine"": {
+        ""RESULTS"": 55,
+        ""UNITS"": ""umol/L"",
+        ""REF. RANGES"": ""(40-80)""
+      },
+      ""eGFR"": {
+        ""RESULTS"": 122,
+        ""UNITS"": ""mL/min/1.73m²"",
+        ""REF. RANGES"": ""Not Visible""
+      },
+      ""Uric Acid"": {
+        ""RESULTS"": 0.53,
+        ""UNITS"": ""mmol/L"",
+        ""REF. RANGES"": ""(0.15-0.45)""
+      },
+      ""Calcium"": {
+        ""RESULTS"": 2.27,
+        ""UNITS"": ""mmol/L"",
+        ""REF. RANGES"": ""(2.10-2.55)""
+      },
+      ""Corrected Calcium"": {
+        ""RESULTS"": 2.11,
+        ""UNITS"": ""mmol/L"",
+        ""REF. RANGES"": ""(2.10-2.55)""
+      },
+      ""Phosphate"": {
+        ""RESULTS"": 1.10,
+        ""UNITS"": ""mmol/L"",
+        ""REF. RANGES"": ""(0.65-1.45)""
+      }
+    },
+    ""Liver Function"": {
+      ""Total Protein"": {
+        ""RESULTS"": 81,
+        ""UNITS"": ""g/L"",
+        ""REF. RANGES"": ""(60-82)""
+      },
+      ""Albumin"": {
+        ""RESULTS"": 50,
+        ""UNITS"": ""g/L"",
+        ""REF. RANGES"": ""(35-50)""
+      },
+      ""Globulin"": {
+        ""RESULTS"": 31,
+        ""UNITS"": ""g/L"",
+        ""REF. RANGES"": ""(20-39)""
+      },
+      ""Albumin/Globulin ratio"": {
+        ""RESULTS"": 1.6,
+        ""UNITS"": """",
+        ""REF. RANGES"": ""(1.0-2.5)""
+      },
+      ""Alkaline Phosphatase"": {
+        ""RESULTS"": 61,
+        ""UNITS"": ""U/L"",
+        ""REF. RANGES"": ""(30-120)""
+      },
+      ""Total Bilirubin"": {
+        ""RESULTS"": ""Not Visible"",
+        ""UNITS"": ""umol/L"",
+        ""REF. RANGES"": ""(< 21)""
+      },
+      ""GGT"": {
+        ""RESULTS"": ""Not Visible"",
+        ""UNITS"": ""U/L"",
+        ""REF. RANGES"": ""(< 51)""
+      },
+      ""AST"": {
+        ""RESULTS"": ""Not Visible"",
+        ""UNITS"": ""U/L"",
+        ""REF. RANGES"": ""(< 35)""
+      },
+      ""ALT"": {
+        ""RESULTS"": ""Not Visible"",
+        ""UNITS"": ""U/L"",
+        ""REF. RANGES"": ""(< 45)""
+      }
+    }
+  }
+}
+```"

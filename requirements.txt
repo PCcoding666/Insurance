@@ -1,0 +1,10 @@
+openai
+requests
+Pillow
+gradio
+PyMuPDF
+dashscope
+opencv-python-headless
+streamlit
+azure-core
+azure-ai-formrecognizer
