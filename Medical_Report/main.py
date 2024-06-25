@@ -17,8 +17,7 @@ logging.basicConfig(level=logging.INFO)
 def process_file(files, model="gpt-4o"):
     custom_prompt = """
         Please extract the results in this image and turn them into structured data in JSON format. 
-        Pay special attention to horizontal alignment when extracting text, there may have some skip part in one row of data like '参考区间'. 
-        When processing data in a table, grab the data row by row. 
+        Pay special attention to horizontal alignment when extracting text, there may have some skip part in one row of data. 
         For content where some information in the image is blocked or unclear, use Not Visible as the output. Output content don't need to translate, keep it original. 
         Your output does not need to contain any additional information.
     """
