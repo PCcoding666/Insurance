@@ -1,0 +1,311 @@
+FileName,Description,Quantity,Unit,UnitPrice,ProductCode,Date,Tax,Amount
+Sample_Image (105).jpg,"DR. MUI
+(CHGL)
+(03/07/2023 ECG REPORTING)",,,,31811,04/07/23,,400.00
+Sample_Image (7).jpg,"Consultation Fee:
+Consultation Services (C - FV)",,,,,,,123.05
+Sample_Image (7).jpg,"Specialised:
+Fine Needle Aspiration With Tech Assista
+Ward/ Clinic / Other Procedures:
+Aspiration - Fine Needle",,,,,,,326.89
+Sample_Image (9).jpg,EQUIPMENT AND SUPPLY,,,,,,,605.30
+Sample_Image (9).jpg,DAILY TREATMENT FEE,,,,,,,224.30
+Sample_Image (9).jpg,Hospital,,,,,,,
+Sample_Image (9).jpg,GST @ 7%,,,,,,,"1,084.80"
+Sample_Image (9).jpg,DR TEOH TIONG ANN,,,,,,,"6,794.50"
+Sample_Image (9).jpg,DR ASOK KURUP,,,,,,,321.00
+Sample_Image (9).jpg,DR TEOH PEI FEN,,,,,,,"1,457.88"
+Sample_Image (12).jpg,E.CUG. EXAMINATION,,,,,01-01-15,,
+Sample_Image (12).jpg,心電圖檢查,,,,,,,$425
+Sample_Image (12).jpg,踏旋器運動檢查,,,,,,,"$2,420"
+Sample_Image (12).jpg,"ENDOSCOPIC CHARGE-GASTROSCOPY
+胃窺鏡檢查",,,,,02-01-15,,"$2,518"
+Sample_Image (12).jpg,"ENDOSCOPIC CHARGES-COLONOSCOPY
+結腸窺鏡檢查",,,,,,,"$3,853"
+Sample_Image (12).jpg,"HISTOPATHOLOGICAL EXAMINATION
+病理化驗",,,,,,,"$2,840"
+Sample_Image (12).jpg,藥費/藥物注射費,,,,,,,$667
+Sample_Image (12).jpg,"TREATMENT/ASSOCIATE MATERIALS
+治療及有關物料費",,,,,,,"$1,034"
+Sample_Image (12).jpg,巡房費,,,,,02-01-15,,"$2,000"
+Sample_Image (12).jpg,手術費,,,,,,,"$18,000"
+Sample_Image (12).jpg,麻醉費,,,,,,,"$6,000"
+Sample_Image (13).jpg,加床位費,,,,,01-01-15,,$180
+Sample_Image (13).jpg,入院服務,,,,,,,$180
+Sample_Image (13).jpg,病床/病房收費,,,,,,,$750
+Sample_Image (13).jpg,藥費/藥物注射費,,,,,02-01-15,,$560
+Sample_Image (13).jpg,病床/病房收費,,,,,,,$750
+Sample_Image (13).jpg,"TREATMENT/ASSOCIATE MATERIALS
+治療及有關物料費",,,,,,,S290
+Sample_Image (13).jpg,巡房费,,,,,02-01-15,,"$2,000"
+Sample_Image (13).jpg,"手術費
+麻醉费",,,,,,,"$30,000"
+Sample_Image (14).jpg,"JECHOCARDIOGRAM/ULTRASOUND
+超聲波心臟檢查/超
+聲波",,,,,01-01-15,,"$2,550"
+Sample_Image (14).jpg,入院服務,,,,,,,S180
+Sample_Image (14).jpg,病床/病房收費,,,,,,,$750
+Sample_Image (14).jpg,ULTRASOUND,,,,,,,"$3,000"
+Sample_Image (14).jpg,MEDICINE/INJECTION,,,,,02-01-15,,$520
+Sample_Image (14).jpg,病床/病房收费,,,,,,,$750
+Sample_Image (14).jpg,巡房费,,,,,02-01-15,,"$2,000"
+Sample_Image (14).jpg,"手術費
+麻醉費",,,,,,,"$4,000"
+Sample_Image (14).jpg,Anaesthetic,,,,,,,"$16,000"
+Sample_Image (18).jpg,XR-CHEST 1 VIEW,1,,,3501010049,09.03.2024,,52.99
+Sample_Image (18).jpg,^ XR-SURCHARGE FIRST HR,1,,,3501080016,09.03.2024,,138.00
+Sample_Image (18).jpg,C-REACTIVE PROTEIN,1,,,4001000183,09.03.2024,,35.53
+Sample_Image (18).jpg,^ AFTER HRS SURCHARGE,1,,,4004000495,09.03.2024,,49.48
+Sample_Image (18).jpg,GENERAL FOLLOW-UP SCREEN,1,,,4004001146,09.03.2024,,68.52
+Sample_Image (18).jpg,MYCOPLAMSA PNEUMONIAE IGM,1,,,4008000034,09.03.2024,,73.59
+Sample_Image (18).jpg,DENGUE NS1 ANTIGEN TEST,1,,,4008000035,09.03.2024,,69.78
+Sample_Image (18).jpg,INFLUENZA A&B ANTIGEN (NUR),1,,,4008000085,09.03.2024,,50.75
+Sample_Image (18).jpg,ANTIGEN RAPID TEST (COVID-19),1,,,4008000178,09.03.2024,,39.24
+Sample_Image (18).jpg,UCC NURSING FEE,1,,,5600000028,09.03.2024,,45.34
+Sample_Image (18).jpg,RMO1,1,,,5700000040,09.03.2024,,43.27
+Sample_Image (18).jpg,OBSERVATION BED < 2HRS,1,,,5701000004,09.03.2024,,215.09
+Sample_Image (18).jpg,CONSULTATION - AFTER HOUR,1,,,7108000002,09.03.2024,,148.62
+Sample_Image (19).jpg,DEXTROMETHORPHAN 15MG/5ML 90ML SYRU,1,,,DEXT22,09.03.2024,,13.55
+Sample_Image (19).jpg,DIFFLAM FORTE THROAT 15ML MOUTH SPR,1,,,DIFF19,09.03.2024,,38.94
+Sample_Image (19).jpg,OMEPRAZOLE 20MG CAPSULES,10,,,OMEP3,09.03.2024,,23.30
+Sample_Image (19).jpg,PARACETAMOL 500mg TABLETS,18,,,PARA18,09.03.2024,,11.88
+Sample_Image (19).jpg,SYNFLEX 275MG TABLETS,20,,,SYNF1,09.03.2024,,27.00
+Sample_Image (20).jpg,Class B2 (2 DAYS),,,,,,,600.00
+Sample_Image (20).jpg,Class B2 (2 DAYS),,,,,,,328.00
+Sample_Image (20).jpg,,,,,,,,142.60
+Sample_Image (20).jpg,Laboratory,,,,,,,260.51
+Sample_Image (20).jpg,Specialised,,,,,,,265.23
+Sample_Image (20).jpg,X-ray,,,,,,,"1,481.48"
+Sample_Image (20).jpg,Non Standard,,,,,,,11.75
+Sample_Image (20).jpg,Standard,,,,,,,27.59
+Sample_Image (20).jpg,Ward/ Clinic / Other Procedures,,,,,,,202.01
+Sample_Image (22).jpg,Consultation (1 Qty),,,,,,,"$
+16.30"
+Sample_Image (22).jpg,Charcoal 200mg Cap (30 Qty),,,,,,,"$
+1.40"
+Sample_Image (22).jpg,Oral Rehydration Salt Sac (6 Qty),,,,,,,"$
+0.60"
+Sample_Image (23).jpg,WARD (CLASS C) (1.0 day(s)),,,,,,,169.37
+Sample_Image (23).jpg,IMMEDIATE POST OPERATIVE CARE,,,,,,,202.12
+Sample_Image (23).jpg,WARD PROCEDURES,,,,,,,189.89
+Sample_Image (23).jpg,DAILY TREATMENT FEE,,,,,,,84.00
+Sample_Image (23).jpg,X-RAY INVESTIGATIONS,,,,,,,607.31
+Sample_Image (23).jpg,SURGICAL SUPPLIES,,,,,,,411.87
+Sample_Image (23).jpg,CONSUMABLES,,,,,,,921.45
+Sample_Image (23).jpg,REHABILITATIVE SERVICES,,,,,,,100.37
+Sample_Image (23).jpg,IMPLANTS,,,,,,,"1,560.62"
+Sample_Image (23).jpg,DRUGS / PRESCRIPTIONS / INJECTIONS,,,,,,,15.88
+Sample_Image (23).jpg,SURGICAL OPERATION,,,,,,,"3,937.44"
+Sample_Image (24).jpg,CONSULTATION,1,,$120.00,,,,$120.00
+Sample_Image (24).jpg,X-RAYS (PA),1,,$50.00,,,,$50.00
+Sample_Image (24).jpg,"Root Canal Treatment Stage 1 -
+Extirpation / Emergency Treatment",1,,"$1,200.00",,,,"$1,200.00"
+Sample_Image (24).jpg,Arcoxia 120mg - tablet,3,,$5.00,,,,$15.00
+Sample_Image (25).jpg,Consult-Standard <15Mins,1,,,,,,$54.00
+Sample_Image (25).jpg,U/s Pregnancy Scan,1,,,,,,$162.11
+Sample_Image (25).jpg,Oxytocin Injection 10 iu/ml,0.3,,,,,,$24.37
+Sample_Image (25).jpg,Procyte Blood Test,1,,,,,,$99.42
+Sample_Image (25).jpg,Catalyst Chem 17 Blood Test,1,,,,,,$163.00
+Sample_Image (25).jpg,Catalyst Lyte 4 Blood Test,1,,,,,,$59.00
+Sample_Image (25).jpg,Alfaxan Injection 10Mg/mL,1,,,,,,$38.37
+Sample_Image (25).jpg,Methone 10Mg/mL Injection Per mL,0.04,,,,,,$16.61
+Sample_Image (25).jpg,Meloxicam Injection 5Mg/ml Per mL,0.09,,,,,,$17.47
+Sample_Image (25).jpg,A/H IV Catherisation (Ex fluids),1,,,,,,$197.96
+Sample_Image (25).jpg,Afterhours Caesarian Section,1,,,,,,$3858.48
+Sample_Image (25).jpg,Monosyn 2/0,1,,,,,,$39.00
+Sample_Image (25).jpg,Gabapentin 50mg tablets,3,,,,,,$4.59
+Sample_Image (26).jpg,X-RAY INVESTIGATIONS,,,,,,,0.00
+Sample_Image (26).jpg,DRUGS / PRESCRIPTIONS / INJECTIONS,,,,,,,0.00
+Sample_Image (26).jpg,A&E ATTENDANCE FEE,,,,,,,138.00
+Sample_Image (27).jpg,CONSULT - REPEAT VISIT (1 UN),,,,,,,
+Sample_Image (27).jpg,,,,,,,,151.00
+Sample_Image (27).jpg,ULTRASOUND OBS SIMPLE (MULTIPLE) (1 UN),,,,,,,200.20
+Sample_Image (27).jpg,PLACENTAL LOCALISATION (1 UN),,,,,,,96.20
+Sample_Image (27).jpg,OBSTETRIC ROUTINE CHECK (1 UN),,,,,,,22.10
+Sample_Image (28).jpg,"CONSULT - NEW VISIT, DEL SUITE (1 UN)",,,,,,,146.00
+Sample_Image (28).jpg,ANTENATAL CARDIOTOCOGRAPHY (CTG) (1 UN),,,,,,,80.60
+Sample_Image (28).jpg,ACTIM PARTUS / PROM (1 EA),,,,,,,35.83
+Sample_Image (30).jpg,WARD (CLASS C) (8.0 day(s)),,,,,,,"3,168.00"
+Sample_Image (30).jpg,"DAILY TREATMENT FEE (CLASS NRO ) (8.0
+day(s))",,,,,,,"2,158.00"
+Sample_Image (30).jpg,LABORATORY INVESTIGATIONS,,,,,,,"1,097.20"
+Sample_Image (30).jpg,X-RAY INVESTIGATIONS,,,,,,,"1,856.35"
+Sample_Image (30).jpg,SPECIALISED INVESTIGATIONS,,,,,,,902.20
+Sample_Image (30).jpg,REHABILITATIVE SERVICES,,,,,,,65.00
+Sample_Image (30).jpg,DELIVERY RELATED CHARGES,,,,,,,"1,158.30"
+Sample_Image (30).jpg,DRUGS / PRESCRIPTIONS / INJECTIONS,,,,,,,118.05
+Sample_Image (30).jpg,WARD PROCEDURES,,,,,,,669.50
+Sample_Image (30).jpg,OTHER PROCEDURES,,,,,,,63.70
+Sample_Image (30).jpg,CONSUMABLES,,,,,,,40.93
+Sample_Image (31).jpg,PRACTICE COST,1.0,,,,,,16.00
+Sample_Image (31).jpg,"MAMMOGRAM ADDITIONAL VIEW (UNILATERAL
+BREAST)",1.0,,,,,,58.00
+Sample_Image (31).jpg,ULTRASOUND TARGETED BREAST,1.0,,,,,,180.00
+Sample_Image (84).jpg,Case Medication 1.1.1,,,,,,,530.00
+Sample_Image (84).jpg,Gpo-A-Flu Capsule (75 Mg),10,,53.00,,,,530.00
+Sample_Image (84).jpg,Lab Investigation 1.1.4,,,,,,,"1,750.00"
+Sample_Image (84).jpg,Influenza A/B screening ( Immunochromatography ),1,,"1,750.00",,,,"1,750.00"
+Sample_Image (84).jpg,OPD Service Charge 1.1.12,,,,,,,100.00
+Sample_Image (84).jpg,- Out patient nursing service charge,,,,,,,100.00
+Sample_Image (84).jpg,Other Medical Service Charges 1.1.14(2),,,,,,,200.00
+Sample_Image (84).jpg,Other Medical Charge,,,,,,,200.00
+Sample_Image (84).jpg,"Physician Evaluation 1.2.1
+ค่าตรวจรักษากรณีผู้ป่วยนอกครั้งแรก ระดับ 2",,,,,,,750.00
+Sample_Image (84).jpg,"PAITOON NARONGCHAI, M.D.",,,,,,,750.00
+Sample_Image (85).jpg,1.1.1(3) Drugs,,,,,,,"1,177.00"
+Sample_Image (85).jpg,1.1.1(4) Parenteral Nutrition,,,,,,,656.00
+Sample_Image (85).jpg,1.1.2(1) Medical Supplies 1,,,,,,,"1,460.00"
+Sample_Image (85).jpg,1.1.4 Lab Investigation and Pathology,,,,,,,"1,380.00"
+Sample_Image (85).jpg,1.1.7.1 General Medical Equipment,,,,,,,125.00
+Sample_Image (85).jpg,1.1.14(1.5) Bed & Nursing Service,,,,,,,500.00
+Sample_Image (85).jpg,1.1.14(2) Basic Hospital Charges,,,,,,,250.00
+Sample_Image (85).jpg,1.2.1(1) First Outpatient Care,,,,,,,800.00
+Sample_Image (86).jpg,1.1.1 Drugs and Midical Nutrition,,,"1,049.00",,,,"1,049.00"
+Sample_Image (86).jpg,1.1.4 Laboratory Investigation,,,975.00,,,,975.00
+Sample_Image (86).jpg,1.1.12 Nursing and Midwifery Charge,,,100.00,,,,100.00
+Sample_Image (86).jpg,"1.1.14 Packaged Medical Charge
+1.1.14(2.1) Other Medical Charges",,,200.00,,,,200.00
+Sample_Image (86).jpg,1.2.1 Physician Evaluation and Management Services,,,650.00,,,,650.00
+Sample_Image (87).jpg,"NURSING CARE (TREATMENT ROOM) (RTK-
+AG) (SCREENING)",1,,,,23-JUN-2023,,8.20
+Sample_Image (87).jpg,REGISTRATION,1,,,,23-JUN-2023,,20.00
+Sample_Image (87).jpg,"SAMPLE HANDLING/PROCESSING (RTK-AG)
+(SCREENING)",1,,,,23-JUN-2023,,18.50
+Sample_Image (87).jpg,"TREATMENT ROOM / FACILITY FEE (RTK-AG)
+(SCREENING)",1,,,,23-JUN-2023,,12.30
+Sample_Image (87).jpg,"INFLUENZA VIRUS & RSV, PCR",1,,,,23-JUN-2023,,292.00
+Sample_Image (87).jpg,SARS-COV-2 AG (COVID-19) (SCREENING),1,,,,23-JUN-2023,,79.20
+Sample_Image (87).jpg,AERIUS TAB 5MG,7,,,,23-JUN-2023,,22.75
+Sample_Image (87).jpg,FLUHALT CAP 75MG,10,,,,23-JUN-2023,,146.50
+Sample_Image (87).jpg,PARACAP TAB 500MG,42,,,,23-JUN-2023,,25.20
+Sample_Image (87).jpg,STREPSILS MAX PRO DIRECT SPRAY 15ML,1,,,,23-JUN-2023,,43.00
+Sample_Image (87).jpg,STREPSILS MAXPRO LOZ 8.75MG 16S,1,,,,23-JUN-2023,,31.55
+Sample_Image (87).jpg,CONSULTATION,1,,,,23-JUN-2023,,180.00
+Sample_Image (88).jpg,Doctor's Professional Fees,,,,,,,$800.00
+Sample_Image (88).jpg,Anaesthetist's Fee,,,,,,,$0.00
+Sample_Image (88).jpg,Room Type 1,3 Hours,,,,,,$118.52
+Sample_Image (88).jpg,"DS
+NON-GA",,,,,,,
+Sample_Image (88).jpg,Daily Treatment Fee,,,,,,,$137.04
+Sample_Image (88).jpg,Hospital & Surgical Charges,,,,,,,"$1,320.00"
+Sample_Image (88).jpg,Others,,,,,,,"$1,300.00"
+Sample_Image (88).jpg,Laboratory,,,,,,,$800.00
+Sample_Image (88).jpg,GST 8%,,,,,,,
+Sample_Image (88).jpg,Medisave Claim for Surgical Procedure,,,,,,,$350.00
+Sample_Image (88).jpg,Medisave Claim for Hospital Charges,,,,,,,$300.00
+Sample_Image (89).jpg,TATION (1 QTY),,,,,,,54.50
+Sample_Image (89).jpg,AMINE HCL LOZ - (NS) (48 QTY),,,,,,,24.00
+Sample_Image (89).jpg,CYSTEINE 600MG EFF TAB - (NS) (8 QTY),,,,,,,3.20
+Sample_Image (89).jpg,"METHORPHAN 15MG/5ML SYR 200ML -
+TY)",,,,,,,3.50
+Sample_Image (89).jpg,DINE TAB - (S1) (10 QTY),,,,,,,1.70
+Sample_Image (89).jpg,TAMOL 500MG TAB - (S1) (120 QTY),,,,,,,9.60
+Sample_Image (89).jpg,FEN 200MG TAB - (S1) (50 QTY),,,,,,,10.00
+Sample_Image (89).jpg,TAZOLINE 0.05% N/SPRAY - (S1)-MSV (1,,,,,,,3.57
+Sample_Image (89).jpg,OXICLAV 1G TAB - (S2) (14 QTY),,,,,,,5.60
+Sample_Image (89).jpg,DINE 10MG TAB - (S2)-MSV (30 QTY),,,,,,,10.50
+Sample_Image (89).jpg,"ASONE FUROATE 50MCG N/SP - (S2)-
+QTY)",,,,,,,15.36
+Sample_Image (90).jpg,IV CHEMOTHERAPY INFUSION (1 QTY),,,,,,,44.20
+Sample_Image (90).jpg,"PEGFILGRASTIM 6 MG/ 0.6 ML PF SYRINGE (1
+QTY)",,,,,,,144.63
+Sample_Image (90).jpg,METOCLOPRAMIDE 10MG TAB (20 QTY),,,,,,,4.40
+Sample_Image (90).jpg,DEXAMETHASONE 4MG TAB (6 QTY),,,,,,,0.99
+Sample_Image (90).jpg,DOXOrubicin HCL 50MG INJ (2 QTY),,,,,,,62.55
+Sample_Image (90).jpg,CYCLOPHOSPHAMIDE 1G INJ (1 QTY),,,,,,,21.22
+Sample_Image (90).jpg,DEXAMETHASONE 4MG/ML PF INJ (2 QTY),,,,,,,3.76
+Sample_Image (90).jpg,"NETUPITANT 300MG , PALONOSETRON 0.5MG
+CAP (AKYNZEO) (1 QTY)",,,,,,,95.34
+Sample_Image (90).jpg,PREPARATION FEE (2 QTY),,,,,,,176.00
+Sample_Image (90).jpg,I/V START (1 QTY),,,,,,,31.85
+Sample_Image (90).jpg,<2 HRS PRIVATE (1 QTY),,,,,,,218.59
+Sample_Image (91).jpg,Consultation Services (SC - FV),,,,,,,"140,00"
+Sample_Image (91).jpg,Full Blood Count,,,,,,,42.25
+Sample_Image (91).jpg,Liver Panel,,,,,,,74.75
+Sample_Image (91).jpg,Vitamin D (25 Hydroxy),,,,,,,89.70
+Sample_Image (91).jpg,Renal Panel 1 Modified,,,,,,,59.15
+Sample_Image (91).jpg,Iron Panel,,,,,,,83.46
+Sample_Image (91).jpg,Thyroid Screen 1,,,,,,,68.90
+Sample_Image (91).jpg,"Zinc, Serum",,,,,,,75.79
+Sample_Image (92).jpg,LSCS WITH SPINAL 2 BEDDED,,,,,,,"2,204.00"
+Sample_Image (92).jpg,ACCOMMODATION,,,,,,,656.00
+Sample_Image (92).jpg,DAILY TREATMENT FEES,,,,,,,420.00
+Sample_Image (92).jpg,BABY CARE SERVICE,,,,,,,220.00
+Sample_Image (92).jpg,OPERATING THEATRE CHARGES,,,,,,,211.00
+Sample_Image (92).jpg,MEDICATIONS,,,,,,,"1,776.10"
+Sample_Image (92).jpg,MEDICAL SUPPLIES,,,,,,,"1,202.80"
+Sample_Image (92).jpg,MEDICAL LABORATORY FEE,,,,,,,584.00
+Sample_Image (92).jpg,PROCEDURE,,,,,,,683.00
+Sample_Image (92).jpg,USE OF EQUIPMENT,,,,,,,25.00
+Sample_Image (92).jpg,GST,,,,,,,638.55
+Sample_Image (92).jpg,DR ANG AI TIN (Operation Fee $810.00),,,,,,,810.00
+Sample_Image (92).jpg,DR TAN MARY (Operation Fee $1728.00),,,,,,,"1,728.00"
+Sample_Image (92).jpg,"DR THAM WAI LUM BENJAMIN (Attendance Fee $486.00, Operation Fee $4428.00)",,,,,,,"4,914.00"
+Sample_Image (92).jpg,"DEPOSIT / PAYMENTS RECEIVED
+29/03/2023 RT202315421 Visa",,,,,,,"-8,000.00"
+Sample_Image (101).jpg,Full Blood Examination (FBE),,,,65070*R,10-May-23,,$25.42
+Sample_Image (101).jpg,4 or More Coagulation Tests,,,,65129*R,10-May-23,,$53.25
+Sample_Image (101).jpg,Biochemistry -5+ Tests,,,,66512*R,,,$26.55
+Sample_Image (101).jpg,Thyroid Function Tests,,,,66719*,,,$52.20
+Sample_Image (101).jpg,1 Microbial Antibody,,,,69384*,,,$23.47
+Sample_Image (101).jpg,Hepatitis Ab/Ag -3 Tests,,,,69481*,,,$60.82
+Sample_Image (101).jpg,Complement C3 & C4 -2 Tests,,,,71085*,,,$43.42
+Sample_Image (101).jpg,Antinuclear Antibodies,,,,71097*,,,$36.67
+Sample_Image (101).jpg,Double-Stranded DNA Abs,,,,71099*,,,$39.75
+Sample_Image (101).jpg,Antibodies to 1 or more ENA,,,,71101*,,,$26.10
+Sample_Image (101).jpg,Spec Coll Fee -ACC,,,,73929*,,,$3.60
+Sample_Image (101).jpg,Biochemistry Quant. - 2 Tests,,,,66503*R,10-May-23,,$17.47
+Sample_Image (101).jpg,Microalbumin,,,,66560*,10-May-23,,$30.15
+Sample_Image (101).jpg,MC&S Urine,,,,69333*,,,$30.82
+Sample_Image (101).jpg,Histo Complex Lvl 5 (1+ Specs),,,,72830*,11-May-23,,$411.22
+Sample_Image (101).jpg,IHC 7-10 Abs,,,,72849*,11-May-23,,$156.45
+Sample_Image (101).jpg,3 Coagulation Tests,,,,65126*R,11-May-23,,$41.77
+Sample_Image (101).jpg,Spec Coll Fee -APP & Hosp. IP,,,,73931*R,11-May-23,,$3.60
+Sample_Image (101).jpg,2 Microbial Antibodies,,,,69387*,12-May-23,,$43.50
+Sample_Image (101).jpg,Quantiferon Gold TB,,,,69471*,12-May-23,,$52.35
+Sample_Image (101).jpg,Epstein Barr Virus -1 Ab,,,,69472*,,,$23.47
+Sample_Image (101).jpg,Spec Coll Fee -APP & Hosp. IP,,,,73931*,,,$3.60
+Sample_Image (101).jpg,CMV Viral Load,,,,396137*R,,,$180.00
+Sample_Image (101).jpg,EBV Load,,,,396718*R,,,$75.00
+Sample_Image (101).jpg,Full Blood Examination (FBE),,,,65070*,15-May-23,,$25.42
+Sample_Image (101).jpg,Biochemistry -5+ Tests,,,,66512*,15-May-23,,$26.55
+Sample_Image (101).jpg,Microalbumin,,,,66560*,,,$30.15
+Sample_Image (101).jpg,THR Drug Complex 1 Test,,,,66812*,,,$52.20
+Sample_Image (101).jpg,Spec Coll Fee -Onsite ACC,,,,73920*,,,$3.60
+Sample_Image (103).jpg,"TREATMENT/ASSOCIATE MATERIALS
+治療及有關物料費",,,,,10-06-23,,$415
+Sample_Image (103).jpg,Doctor Fee 醫生費,,,,,,,
+Sample_Image (103).jpg,DR. CHAN KUNG NGAI 陳功毅,,,,,10-06-23,,"$3,980"
+Sample_Image (104).jpg,"MEDICINE
+藥費",,,,100,03/07/23,,705.00
+Sample_Image (104).jpg,"LABORATORY TEST(A)
+化驗費(A)",,,,200,,,"8,830.00"
+Sample_Image (104).jpg,"ECG EXAMINATION
+心電圖",,,,210,,,960.00
+Sample_Image (104).jpg,"RADIOLOGY
+診斷及介入放射費",,,,300,,,420.00
+Sample_Image (104).jpg,"COMPUTED TOMOGRAPHY
+電腦掃描",,,,350,,,"8,180.00"
+Sample_Image (104).jpg,"FOOD/DRINKS
+膳費",,,,500,,,556.00
+Sample_Image (104).jpg,"ROOM
+房租",,,,600,,,"1,200.00"
+Sample_Image (104).jpg,"心臓超音波掃描
+ECHOCARDIOGRAM",,,,675,,,"2,390.00"
+Sample_Image (104).jpg,"STRESS TEST
+運動壓力測驗",,,,676,,,"2,610.00"
+Sample_Image (104).jpg,ECG (CARDIOLOGY) 心電圖,,,,679,,,"3,360.00"
+Sample_Image (104).jpg,"MEDICINE
+藥費",,,,100,04/07/23,,"4,804.00"
+Sample_Image (104).jpg,"LABORATORY TEST(A)
+化驗費 (A)",,,,200,,,"3,940.00"
+Sample_Image (104).jpg,"FOOD/DRINKS
+膳費",,,,500,,,414.00
+Sample_Image (104).jpg,"ROOM
+房租",,,,600,,,600.00
+Sample_Image (104).jpg,"ULTRASOUND (O&G)
+超音波影像",,,,684,,,920.00
+Sample_Image (104).jpg,DR. MUI,,,,31811,03/07/23,,"3,500.00"
+Sample_Image (104).jpg,DR. MUI,,,,31811,03/07/23,,"3,500.00"
+Sample_Image (104).jpg,DR. TANG,,,,25116,04/07/23,,"2,000.00"
+Sample_Image (104).jpg,DR. MUI,,,,31811,04/07/23,,"3,600.00"

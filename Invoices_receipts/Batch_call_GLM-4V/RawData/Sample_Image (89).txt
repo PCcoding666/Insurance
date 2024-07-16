@@ -1,0 +1,28 @@
+First Step:
+
+```markdown
+|                             | TOTAL AMOUNT(BEFORE GOVT SUBSIDY) | TOTAL AMOUNT(BEFORE GST)  |
+|-----------------------------|----------------------------------|-------------------------------|
+| GOVT SUBSIDY                 | -49.07                           | -49.07                        |
+| TOTAL AMOUNT (BEFORE GST)    | $92.46                           | $92.46                        |
+| 8% GST                      | 7.40                             | 7.40                          |
+| GST absorbed by Govt          | -7.40                            | -7.40                         |
+| TOTAL AMOUNT (AFTER GOVT SUBSIDY) | $92.46                           | $92.46                        |
+| TOTAL AMOUNT PAYABLE          | $92.46                           | $92.46                        |
+| Net Payment made             | 0.00                             | 0.00                          |
+| FINAL AMOUNT PAYABLE          | $92.46                           | $92.46                        |
+
+```
+
+Second Step:
+
+```json
+{
+  "AMOUNT_BEFORE_GOVT_SUBSIDY": "141.53",
+  "AMOUNT_BEFORE_GST": "$92.46",
+  "GST_ABSORBED_BY_GOVT": "-49.07",
+  "TOTAL_AMOUNT_PAYABLE": "$92.46",
+  "NET_PAYMENT_MADE": "0.00",
+  "FINAL_AMOUNT_PAYABLE": "$92.46"
+}
+```

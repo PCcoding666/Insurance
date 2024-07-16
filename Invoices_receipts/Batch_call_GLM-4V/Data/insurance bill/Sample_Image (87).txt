@@ -1,0 +1,44 @@
+First Step:
+
+```markdown
+| DATE         | DESCRIPTION                           | UNIT  | GROSS CHARGES (RM) | DISCOUNT (RM) |
+|--------------|---------------------------------------|-------|---------------------|-----------------|
+| 23-JUN-2023  | HOSPITAL CHARGES                      |        |                     |                 |
+|              | NURSING CARE (TREATMENT ROOM) (RTK-AG) (SCREENING) | 1     | 8.20                | 0.00            |
+| 23-JUN-2023  | REGISTRATION                          | 1     | 20.00               | 0.00            |
+| 23-JUN-2023  | SAMPLE HANDLING/PROCESSING (RTK-AG) (SCREENING) | 1     | 18.50               | 0.00            |
+| 23-JUN-2023  | TREATMENT ROOM / FACILITY FEE (RTK-AG) (SCREENING) | 1     | 12.30               | 0.00            |
+|              | SUBTOTAL                              |        | 59.00               | 0.00            |
+|              | LABORATORY                             |        |                     |                 |
+| 23-JUN-2023  | INFLUENZA VIRUS & RSV, PCR             | 1     | 292.00              | 0.00            |
+| 23-JUN-2023  | SARS-COV-2 AG (COVID-19) (SCREENING) | 1     | 79.20               | 0.00            |
+|              | SUBTOTAL                              |        | 371.20              | 0.00            |
+|              | MEDICATION                            |        |                     |                 |
+| 23-JUN-2023  | AERIUS TAB 5MG                        | 7     | 22.75               |                 |
+| 23-JUN-2023  | FLUHALT CAP 75MG                     | 10    | 146.50              |                 |
+| 23-JUN-2023  | PARACAP TAB 500MG                    | 42    | 25.20               |                 |
+| 23-JUN-2023  | STREPSILS MAX PRO DIRECT SPRAY 15ML  | 1     | 43.00               |                 |
+| 23-JUN-2023  | STREPSILS MAXPRO LOZ 8.75MG 16S      | 1     | 31.55               |                 |
+|              | SUBTOTAL                              |        | 269.00              |                 |
+|              | HOSPITAL CHARGES TOTAL                |        | 699.20              |                 |
+| DOCTOR CHARGES | DR LEM LI KHEN                        |        |                     |                 |
+|              | DOCTOR CHARGES                        |        |                     |                 |
+| 23-JUN-2023  | CONSULTATION                         | 1     | 180.00              |                 |
+|              | SUBTOTAL                              |        | 180.00              |                 |
+|              | TOTAL                                 |        |                     |                 |
+```
+
+Second Step:
+
+```json
+{
+  "date": "23-JUN-2023",
+  "hospital_charges": {
+    "nursing_care": {
+      "unit": 1,
+      "gross_charges": 8.20,
+      "discount": 0.00
+    },
+    "registration": {
+      "unit": 1,
+      "gross_charges": 

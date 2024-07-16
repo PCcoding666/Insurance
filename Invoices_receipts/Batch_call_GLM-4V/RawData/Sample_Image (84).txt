@@ -1,0 +1,70 @@
+First Step:
+
+```markdown
+| Item                             | Qty  | Unit       | Total Amount | Discount | Total Net |
+|---------------------------------|------|------------|--------------|----------|------------|
+| Drugs and Parenteral Nutrition |      |            |              |          |            |
+| - Case Medication              |      |            |              |          |            |
+|  - Gpo-A-Flu Capsule (75 Mg)   | 10   | 53.00      | 530.00       | 0.00     | 530.00     |
+| Lab Investigation and Pathology |      |            |              |          |            |
+|  - Influenza A/B screening    | 1    | 1,750.00   | 1,750.00     | 0.00     | 1,750.00   |
+| Nursing or Midwifery Charge     |      |            |              |          |            |
+| - OPD Service Charge         |      |            |              |          |            |
+|  - Out patient nursing service charge | 100.00 | 100.00     | 100.00       | 0.00     | 100.00     |
+| Packaged Medical Charge        |      |            |              |          |            |
+| - Other Medical Service Charges |      |            |              |          |            |
+|  - Other Medical Charge         | 200.00 | 200.00     | 200.00       | 0.00     | 200.00     |
+| Physician Evaluation           |      |            |              |          |            |
+| - Physician Evaluation        | 1    | 750.00     | 750.00       | 0.00     | 750.00     |
+|                                - Thai Text                  |      |            |              |          |            |
+|                                - PAITOON NARONGCHAI, M.D. |      |            |              |          |            |
+| Net THREE THOUSAND THIRTY BAHT ONLY |      |            |              |          |            |
+```
+
+Second Step:
+
+```json
+{
+  "Item": {
+    "Drugs and Parenteral Nutrition": {
+      "Case Medication": {
+        "Gpo-A-Flu Capsule (75 Mg)": {
+          "Qty": "10",
+          "Unit": "53.00",
+          "Total Amount": "530.00",
+          "Discount": "0.00",
+          "Total Net": "530.00"
+        }
+      },
+      "Lab Investigation and Pathology": {
+        "Influenza A/B screening (Immunochromatography)": {
+          "Qty": "1",
+          "Unit": "1,750.00",
+          "Total Amount": "1,750.00",
+          "Discount": "0.00",
+          "Total Net": "1,750.00"
+        }
+      },
+      "Nursing or Midwifery Charge": {
+        "OPD Service Charge": {
+          "Qty": "100.00",
+          "Unit": "100.00",
+          "Total Amount": "100.00",
+          "Discount": "0.00",
+          "Total Net": "100.00"
+        }
+      },
+      "Packaged Medical Charge": {
+        "Other Medical Service Charges": {
+          "Qty": "200.00",
+          "Unit": "200.00",
+          "Total Amount": "200.00",
+          "Discount": "0.00",
+          "Total Net": "200.00"
+        }
+      },
+      "Physician Evaluation": {
+        "Physician Evaluation": {
+          "Qty": "1",
+          "Unit": "750.00",
+          "Total Amount": "750.00",

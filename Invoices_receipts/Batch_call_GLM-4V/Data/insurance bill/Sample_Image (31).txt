@@ -1,0 +1,67 @@
+### First Step: Extracting Text in Markdown Format
+Here is the extracted text from the image in markdown format:
+
+```markdown
+# TAX INVOICE
+
+| GST REGN NO. | PAGE | BILL TYPE | VISIT NO. | VISIT DATE/TIME | BILL DATE | PATIENT NAME | PATIENT ID NO. | POLICY NO. |
+|------------------|-----|-----------|------------|------------------|------------|----------------|------------------|--------------|
+|                  | 1 of 1 | PATINOUT |              | 2023-01-16 8 AM  | 16-DEC-2022 |                |                  |              |
+| DESCRIPTION      | QTY | S$ |
+| - PRACTICE COST  | 1.0 | 16.00 | 16.00 |
+| RADIOLOGY        |      |          |
+| - MAMMOGRAM ADDITIONAL VIEW (UNILATERAL BREAST) | 1.0 | 58.00 | 58.00 |
+| - ULTRASOUND TARGETED BREAST | 1.0 | 180.00 | 180.00 |
+| SUB-TOTAL        |      |          |
+|                  | 238.00 |          |
+| TOTAL CHARGES BEFORE GST |      |          |
+|                  | 254.00 |          |
+| GST @ 7%         |      |          |
+|                  | 17.78 |          |
+| TOTAL CHARGES AFTER GST |      |          |
+|                  | 271.78 |          |
+| LESS ROUNDING ADJUSTMENT |      |          |
+|                  | (0.03) |          |
+| TOTAL AMOUNT PAID |      |          |
+|                  | 271.75 |          |
+| RES2201922525 - 16/12/2022 - UOB VCMC (VISA MASTER) |      |          |
+| TOTAL BALANCE DUE |      |          |
+|                  | 0.00 |          |
+
+### Second Step: Extracting Key Field Information in JSON Format
+Here is the extracted key field information in JSON format:
+
+```json
+{
+  "GST_REGN_NO": "",
+  "PAGE": "1 of 1",
+  "BILL_TYPE": "PATINOUT",
+  "VISIT_NO": "",
+  "VISIT_DATE_TIME": "2023-01-16 8 AM",
+  "BILL_DATE": "16-DEC-2022",
+  "PATIENT_NAME": "",
+  "PATIENT_ID_NO": "",
+  "POLICY_NO": "",
+  "PRACTICE_COST": {
+    "QTY": 1,
+    "S$": 16.00
+  },
+  "RADIOLOGY": [
+    {
+      "DESCRIPTION": "MAMMOGRAM ADDITIONAL VIEW (UNILATERAL BREAST)",
+      "QTY": 1,
+      "S$": 58.00
+    },
+    {
+      "DESCRIPTION": "ULTRASOUND TARGETED BREAST",
+      "QTY": 1,
+      "S$": 180.00
+    }
+  ],
+  "SUB_TOTAL": 238.00,
+  "TOTAL_CHARGES_BEFORE_GST": 254.00,
+  "GST_7%": 17.78,
+  "TOTAL_CHARGES_AFTER_GST": 271.78,
+  "LESS_ROUNDING_ADJUSTMENT": "(0.03)",
+  "TOTAL_AMOUNT_PAID": 271.75,
+  "RES2201922525_DATE": "1

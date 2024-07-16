@@ -1,0 +1,84 @@
+### First Step - Text Extraction
+```markdown
+# Changi General Hospital SingHealth
+## TAX INVOICE
+- BILL REF. NO.: 6923672547A
+- BILL DATE: 25 AUG 2023
+- LOCATION: A&E
+- VISIT DATE: 25 AUG 2023 10:03 AM
+- PATIENT NAME: HE A NIA
+- SINGAPORE ID: #########
+- QR CODE: Accepts PayNow
+- FINAL AMOUNT PAYABLE: $138.00
+
+## CHARGES
+- SERVICES:
+  - INVESTIGATIONS: X-RAY INVESTIGATIONS ($73.50)
+  - MEDICATIONS: DRUGS / PRESCRIPTIONS / INJECTIONS ($24.22)
+  - TREATMENT: A&E ATTENDANCE FEE ($276.00)
+- TOTAL AMOUNT (BEFORE GOVT SUBSIDY): $373.72
+- GOVT SUBSIDY: -$235.72
+- TOTAL AMOUNT (BEFORE GST): $138.00
+- GST absorbed by Govt: $11.04
+- TOTAL AMOUNT (AFTER GOVT SUBSIDY): $138.00
+- Net Payment made: $138.00
+- FINAL AMOUNT PAYABLE: $138.00
+
+## PAYMENT SUMMARY
+- SCHEME/ECHEQUE ID/PAYOR: HEM_
+- TOTAL AMOUNT (AFTER GOVT SUBSIDY): $138.00
+- REFERENCE NO.: [Not visible]
+- AMOUNT PAYABLE (S): $138.00
+
+---
+
+[Continued on Page 2]
+
+Changi General Hospital Pte Ltd | www.cgh.com.sg
+2 Simel Street 3 Singapore 529889 | Tel: +65 6788 8833
+Company Registration No. 198904226R | GST Reg. No. M90368910N
+
+For bill enquiries, please contact us at:
+Tel: +65 6407 8108
+https://for.sg/askhs
+
+PRINTED ON: 25 AUG 2023 01:26 PM
+```
+
+### Second Step - Key Field Information
+```json
+{
+  "Bill Reference Number": "6923672547A",
+  "Bill Date": "25 Aug 2023",
+  "Location": "A&E",
+  "Visit Date": "25 Aug 2023 10:03 AM",
+  "Patient Name": "HE A NIA",
+  "Singapore ID": "#########",
+  "Payment Method": {
+    "QR Code": "Accepts PayNow",
+    "Final Amount Payable": "$138.00"
+  },
+  "Charges": {
+    "Services": [
+      {
+        "Type": "Investigations",
+        "Description": "X-Ray Investigations",
+        "Amount Before Subsidy": "$73.50",
+        "Amount After Subsidy": "$0.00"
+      },
+      {
+        "Type": "Medications",
+        "Description": "Drugs / Prescriptions / Injections",
+        "Amount Before Subsidy": "$24.22",
+        "Amount After Subsidy": "$0.00"
+      },
+      {
+        "Type": "Treatment",
+        "Description": "A&E Attendance Fee",
+        "Amount Before Subsidy": "$276.00",
+        "Amount After Subsidy": "$138.00"
+      }
+    ],
+    "Total Amount Before Government Subsidy": "$373.72",
+    "Government Subsidy": "-$235.72",
+    "Total Amount Before Goods and

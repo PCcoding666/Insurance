@@ -1,0 +1,42 @@
+First Step:
+
+```markdown
+| DESCRIPTION                   | BEFORE GOVT SUBSIDY ($) | AFTER GOVT SUBSIDY ($) |
+|------------------------------|-------------------------|-----------------------|
+| PROFESSIONAL FEES - DOCTOR    | $469.50                 | $42.26                |
+| CONSULT - REPEAT VISIT (1 UN) | $151.00                 | $151.00                |
+| X-RAY INVESTIGATIONS          | $200.20                 | $200.20                |
+| ULTRASOUND OBS SIMPLE (MULTIPLE) (1 UN) | $200.20                 | $200.20                |
+| PLACENTAL LOCALISATION (1 UN) | $96.20                  | $96.20                  |
+| WARD PROCEDURES               | $22.10                  | $22.10                  |
+| OBSTETRIC ROUTINE CHECK (1 UN) | $22.10                  | $22.10                  |
+| TOTAL AMOUNT (BEFORE GOVT SUBSIDY) | $469.50                 | $42.26                  |
+| TOTAL AMOUNT (BEFORE GST)      | $469.50                 | $42.26                  |
+| 9% GST                        | $42.26                  | $42.26                  |
+| TOTAL AMOUNT (AFTER GOVT SUBSIDY) | $511.76                 | $511.76                 |
+| TOTAL AMOUNT (AFTER GST)      | $511.76                 | $511.76                 |
+```
+
+Second Step:
+
+```json
+{
+  "Description": {
+    "Professional Fees - Doctor": "$469.50",
+    "Consult - Repeat Visit (1 Unit)": "$151.00",
+    "X-Ray Investigations": "$200.20",
+    "Ultrasound Obs Simple (Multiple) (1 Unit)": "$200.20",
+    "Placental Localisation (1 Unit)": "$96.20",
+    "Ward Procedures": "$22.10",
+    "Obstetric Routine Check (1 Unit)": "$22.10"
+  },
+  "Before Govt Subsidy": {
+    "Total Amount": "$469.50",
+    "GST": "$42.26"
+  },
+  "After Govt Subsidy": {
+    "Total Amount": "$511.76",
+    "GST": "$511.76"
+  }
+}
+```

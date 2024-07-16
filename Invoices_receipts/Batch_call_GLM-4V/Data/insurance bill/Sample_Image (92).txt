@@ -1,0 +1,70 @@
+### First Step - Extract Text in Markdown Format
+```markdown
+# THOMSON MEDICAL
+## INTERIM BILL
+- BILL NO : [Redacted]
+- DATE : 05/04/2023
+- ACCOUNT NO : [Redacted]
+- GST REG. No : [Redacted]
+
+| PATIENT NAME | HOSPITAL NO. | EPISODE NO. | RM NO. | PAYER TYPE |
+|------------------|---------------|----------------|--------|----------------|
+| [Redacted]      |                | 1              | 320B   | H              |
+
+### HOSPITAL CHARGES
+- LCSCS WITH SPINAL 2 BEDDED : 2,204.00
+- ACCOMMODATION : 656.00
+- DAILY TREATMENT FEES : 420.00
+- BABY CARE SERVICE : 221.00
+- OPERATING THEATRE CHARGES : 1,776.10
+- MEDICATIONS : 1,776.10
+- MEDICAL SUPPLIES : 1,202.80
+- PROCEDURE : 584.00
+- USE OF EQUIPMENT : 683.00
+- TOTAL HOSPITAL CHARGES : 7,981.90
+- GST : 638.55
+- TOTAL CHARGES INCLUSIVE OF GST : 8,620.45
+
+### DOCTOR FEES
+- DR ANG AI TIN (Operation Fee $810.00) : 810.00
+- DR TAN MARY (Operation Fee $1728.00) : 1,728.00
+- DR THAM WAI LUM BENJAMIN (Attendance Fee $486.00, Operation Fee $4428.00) : 4,914.00
+- TOTAL DOCTOR FEES : 7,452.00
+
+## GRAND TOTAL
+- GRAND TOTAL : 16,072.45
+
+## DEPOSIT / PAYMENTS RECEIVED
+- DEPOSIT / PAYMENTS RECEIVED : -8,000.00
+- TOTAL PAYMENT RECEIVED : -8,000.00
+
+## AMOUNT PAYABLE TO DR THAM WAI LUM BENJAMIN AT CLINIC
+- AMOUNT PAYABLE TO DR THAM WAI LUM BENJAMIN AT CLINIC : -1,296.00
+
+## PAYMENT REQUIRED
+- PAYMENT REQUIRED : 6,776.45
+- DR ANG AI TIN fees $810.00, instruction 'To Collect $810.00'
+
+## ADMISSION DATE : 03/04/2023 00:45
+## DISCHARGE DATE : 05/04/2023 09:43
+
+---
+
+Thomson Medical Pte. Ltd.
+339 Thomson Road, Singapore 307677
+T +65 6350 2222 F +65 6235 4408
+W www.thomsonmedical.com
+Registered Number: 19710228K
+
+Page 1 of 2 SYS PRINTED ON 06/04/2023 12:03
+```
+
+### Second Step - Key Field Information in JSON Format
+```json
+{
+  "Hospital_Charges": {
+    "LCSCS_with_Spinal_2_Bedded": "2,204.00",
+    "Accommodation": "656.00",
+    "Daily_Treatment_Fees": "420.00",
+    "Baby_Care_Service": "221.00",
+    "Operating_Theatre_Charges": "1,776

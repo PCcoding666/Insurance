@@ -1,0 +1,11 @@
+First Step:
+
+```markdown
+---
+TO: [Blurred]
+NUH National University Hospital
+
+PATIENT NAME: [Blurred]
+LOCATION: ENT-HEAD & NECK SURG CTR - 15D
+
+Description                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                

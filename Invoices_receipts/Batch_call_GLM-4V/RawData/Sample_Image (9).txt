@@ -1,0 +1,11 @@
+First Step:
+
+```markdown
+# Mount Elizabeth Orchard Hospital - Tax Invoice
+
+| Page No | GST Reg No | Business Reg No | Print Date/Time | Bill Date | Customer No | Case No | Bill Document No | Admission Date | Discharge Date |
+|---------|-------------|------------------|-----------------|------------|-------------|---------|-------------------|-----------------|-----------------|
+| 3 of 4  | 20-0409811-Z | 53029035M        | 16.02.2022/22:31:39 | 16.02.2022 | 6449330      | 2022009391 | 100000042         | 08.02.2022      | 09.02.2022      | 16:09:04          |
+
+## Service Description & Amount ($)
+| EQUIPMENT AND SUPPLY                  | 605.30                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                

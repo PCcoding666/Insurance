@@ -1,0 +1,47 @@
+### First Step: Extract the text in the image and return with markdown format
+```markdown
+---
+TOTAL AMOUNT(BEFORE GOVT SUBSIDY): $15,291.61
+GOVT SUBSIDY: -$7,091.29
+TOTAL AMOUNT (BEFORE GST): $8,200.32
+8% GST: $656.02
+GST absorbed by Govt: $656.02
+TOTAL AMOUNT AFTER GOVT SUBSIDY): $8,200.32
+Payable by MEDISHIELD LIFE: $2,916.56
+Payable by MEDISAVE: -$4,500.00
+Payable by OTHER SCHEMES: -$783.76
+TOTAL AMOUNT PAYABLE: $0.00
+Net Payment made: $0.00
+FINAL AMOUNT PAYABLE: $0.00
+
+CHARGES
+| SERVICES                   | DESCRIPTION                         | BEFORE GOVT SUBSIDY ($) | AFTER GOVT SUBSIDY ($) |
+|--------------------------|-------------------------------------|-------------------------|-------------------------|
+| WARD CHARGES             | WARD (CLASS C) (1.0 day(s))       | 390.00                   | 169.37                  |
+| TREATMENT SERVICES       | IMMEDIATE POST OPERATIVE CARE     | 404.00                   | 202.12                  |
+|                          | WARD PROCEDURES                    | 381.00                   | 189.89                  |
+| DAILY TREATMENT FEE      | DAILY TREATMENT FEE               | 168.00                   | 84.00                   |
+| INVESTIGATIONS           | X-RAY INVESTIGATIONS              | 1,087.00                 | 607.31                  |
+| CONSUMABLES               | SURGICAL SUPPLIES                 | 820.00                   | 411.87                  |
+|                          | CONSUMABLES                        | 1,727.52                 | 921.45                  |
+| THERAPY SERVICES         | REHABILITATIVE SERVICES           | 146.00                   | 100.37                  |
+| SURGERY SERVICES         | IMPLANTS/PRESCRIPTIONS/INJECTIONS | 2,270.01                 | 1,560.62                 |
+|                          | MEDICATIONS                       | 24.09                    | 15.88                   |
+| SURGICAL OPERATION        | SURGICAL OPERATION                 | 7,873.99                 | 3,937.44                 |
+| TOTAL AMOUNT (BEFORE GOVT SUBSIDY): | $15,291.61
+| GOVT SUBSIDY: | -$7,091.29
+| TOTAL AMOUNT (BEFORE GST): | $8,200.32
+```
+
+### Second Step: Extract the key field information from the text and return in JSON format
+```json
+{
+  "Total Amount Before Govt Subsidy": "$15,291.61",
+  "Govt Subsidy": "-$7,091.29",
+  "Total Amount Before Gst": "$8,200.32",
+  "Gst": "$656.02",
+  "Gst Absorbed By Govt": "$656.02",
+  "Total Amount After Govt Subsidy": "$8,200.32",
+  "Payable By Medishield Life": "$2,916.56",
+  "Payable By Medisave": "-$4,500.00",
+  "Payable By Other Schemes":

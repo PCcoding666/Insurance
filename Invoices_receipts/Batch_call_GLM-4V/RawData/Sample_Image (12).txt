@@ -1,0 +1,56 @@
+First Step:
+
+```markdown
+| Date       | Particulars                   | Amount (HK$) | Sub-total (HK$) |
+|------------|--------------------------------|--------------|-------------------|
+| 01-Jan-2015 | E.C.G. EXAMINATION            | $425         | $425              |
+| 01-Jan-2015 | LABORATORY TEST               | $3,895        | $3,895             |
+| 02-Jan-2015 | ADMISSION SERVICE CHARGE     | $1,600        | $1,600             |
+| 02-Jan-2015 | BEDROOM CHARGE                | $750          | $750              |
+| 02-Jan-2015 | STRESS TEST                   | $2,420        | $2,420             |
+| 02-Jan-2015 | ENDOSCOPIC CHARGE-GASTROESCOPY | $2,518        | $9,580             |
+| 02-Jan-2015 | ENDOSCOPIC CHARGE-COLONOSCOPY | $3,853        | $9,580             |
+| 02-Jan-2015 | HISTOPATHOLOGICAL EXAMINATION  | $2,840        | $9,580             |
+| 02-Jan-2015 | MEDICINE/INJECTION            | $867          | $9,580             |
+| 02-Jan-2015 | TREATMENT/ASSOCIATE MATERIALS | $1,034        | $9,580             |
+| ------------| TOTAL HOSPITAL CHARGES        | $20,492       | $20,492            |
+| 02-Jan-2015 | DR. CHAN TAI MAN 陳大文          | $2,000        | $26,000            |
+| 02-Jan-2015 | Ward Round Fee                | $18,000       | $26,000            |
+| 02-Jan-2015 | Operation                      | $6,000        | $26,000            |
+| 02-Jan-2015 | DR. LEE TAI MAN 李大文           | $26,000       | $26,000            |
+| ------------| TOTAL DOCTOR FEE ($)            | $26,000       | $26,000            |
+| GRAND TOTAL |                                | $46,492       | $46,492            |
+| TOTAL BALANCE DUE                |                                | $46,492       | $46,492            |
+```
+
+Second Step:
+
+```json
+{
+  "Admission Date": "01-Jan-2015",
+  "Discharge Date": "02-Jan-2015",
+  "Total Hospital Charges": "$20,492",
+  "Doctor Fees": [
+    {
+      "Doctor Name": "DR. CHAN TAI MAN 陳大文",
+      "Amount": "$2,000"
+    },
+    {
+      "Doctor Name": "Ward Round Fee",
+      "Amount": "$18,000"
+    },
+    {
+      "Doctor Name": "Operation",
+      "Amount": "$6,000"
+    },
+    {
+      "Doctor Name": "DR. LEE TAI MAN 李大文",
+      "Amount": "$26,000"
+    }
+  ],
+  "Grand Total": "$46,492",
+  "Total Balance Due": "$46,492"
+}
+```
+
+The above JSON represents a structured breakdown of the hospital invoice. It includes details such as admission and discharge dates, total hospital charges, individual doctor fees, grand total, and the total balance due. The 'Particulars

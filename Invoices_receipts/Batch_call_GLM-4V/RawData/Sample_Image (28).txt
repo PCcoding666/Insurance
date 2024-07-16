@@ -1,0 +1,38 @@
+First Step:
+
+```markdown
+| DESCRIPTION                   | BEFORE GOVT SUBSIDY ($) | AFTER GOVT SUBSIDY ($) |
+|------------------------------|-------------------------|-------------------------|
+| PROFESSIONAL FEES - DOCTOR    | 262.43                  | 286.04                  |
+| CONSULT - NEW VISIT, DEL SUITE (1 UN) | 146.00                  | 146.00                  |
+| SPECIALISED INVESTIGATIONS    | 80.60                   | 80.60                   |
+| ANTENATAL CARDIOTOCOGRAPHY (CTG) (1 UN) | 80.60                   | 80.60                   |
+| CONSUMABLES                   | 35.83                   | 35.83                   |
+| TOTAL AMOUNT (BEFORE GST)    | 262.43                  | 286.04                  |
+| 9% GST                        | 23.61                   | 23.61                   |
+| TOTAL AMOUNT (AFTER GST)    | 286.04                  | 286.04                  |
+| FINAL AMOUNT PAYABLE          | 0.00                    | 0.00                    |
+```
+
+Second Step:
+
+```json
+{
+  "DESCRIPTION": {
+    "PROFESSIONAL FEES - DOCTOR": "262.43",
+    "CONSULT - NEW VISIT, DEL SUITE (1 UN)": "146.00",
+    "SPECIALISED INVESTIGATIONS": "80.60",
+    "ANTENATAL CARDIOTOCOGRAPHY (CTG) (1 UN)": "80.60",
+    "CONSUMABLES": "35.83",
+    "TOTAL AMOUNT (BEFORE GST)": "262.43",
+    "9% GST": "23.61",
+    "TOTAL AMOUNT (AFTER GST)": "286.04",
+    "FINAL AMOUNT PAYABLE": "0.00"
+  },
+  "KEY_FIELD_INFORMATION": {
+    "REFERNCE NO.": "",
+    "AMOUNT PAYABLE ($)": "286.04",
+    "PAYMENT SUMMARY TO BE CONTINUED ON PAGE 2": true
+  }
+}
+```

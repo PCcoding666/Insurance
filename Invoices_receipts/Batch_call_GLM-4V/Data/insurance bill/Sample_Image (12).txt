@@ -1,0 +1,63 @@
+First Step:
+
+```markdown
+# Hospital Invoice Sample 1 - Gastroscopy & Colonoscopy Case
+
+| 日期 DATE | 29-Jul-2015 12:07:16 |
+|--------------|---------------------------|
+| 姓名 NAME | 福安麒 FOOK AN HONG (0000) |
+| 病人编号 PATIENT NO. | HN201500009J |
+| 入院日期 ADMISSION DATE | 01-Jan-2015 |
+| 出院日期 DISCHARGE DATE | 02-Jan-2015 |
+
+## 收费明细 STATEMENT OF ACCOUNT
+
+| 日期 DATE | 项目 PARTICULARS | 金额（HK$) |  subtotal(HK$) |
+|--------------|---------------------------|----------------------|-------------------------|
+| 01-01-15 | 心电图检查 E.C.G. EXAMINATION | $425 | $425 |
+|              | 化验费 LABORATORY CHARGE | $385 | $385 |
+|              | 入院服务费 ADMISSION SERVICE | $420 | $420 |
+|              | 病房费 BEDROOM CHARGE | $1,800 | $1,800 |
+|              | 特别/额外收费 SPECIAL/ADDITIONAL CHARGE | $750 | $750 |
+|              | 压力测试 STRESS TEST | $2,420 | $2,420 |
+| 02-01-15 | 胃镜检查 ENDOSCOPIC CHECK-GASTOSCOPY | $2,518 | $9,580 |
+|              | 结肠镜检查 ENDOSCOPIC CHARGES-COLONOSCOPY | $3,853 | $3,853 |
+|              | 病理化验 HISTOPATHOLOGICAL EXAMINATION | $2,840 | $2,840 |
+|              | 药物/注射费 MEDICINE/INJECTION | $867 | $867 |
+|              | 治疗及有关物料费 TREATMENT/ASSOCIATE MATERIALS | $1,034 | $1,034 |
+|              | 总医院费用 TOTAL HOSPITAL CHARGES | $20,492 | $20,492 |
+
+## 医生费用 DOCTOR FEE ($)
+
+| 日期 DATE | 医生名称 DOCTOR'S NAME | 金额（HK$) | 
+|--------------|---------------------------|----------------------|
+| 02-01-15 | 陈大文 DR. CHAN TAI MAN | $2,000 | $2,000 |
+|              | 李大文 DR. LEE TAI MAN | $18,000 | $18,000 |
+|              | 麻醉费 ANAESTHETIC | $6,000 | $6,000 |
+|              | 总医生费用 TOTAL DOCTOR FEE ($) | $26,000 | $26,000 |
+
+GRAND TOTAL
+
+總額 $46,492
+
+TOTAL BALANCE DUE
+
+應繳金额總數 $46,492
+
+**備註：**
+1. 本帐單须於出院後一小时内付款，如未能在出院時扣款，出院时须预付存款。
+2. 所有收費均已包括，如有任何收费，另行通知。
+3. 以上收费不包括日数及附加费用的服務。
+4. 本院保留向逾期账单收取每日按比例加收利息的权利。
+5. 出院账单如有差错，請尽快通知计费科。
+6. 其他一切事宜，恕不另行通知。
+
+**Interim account, when presented, must be settled within 24 hours. Deposit will be offset in the final account.**
+
+**Final account must be settled upon patient's discharge; out-patient account must be settled after consultation;**
+
+**No official receipt will be issued.**
+
+**The Hospital reserves the right to impose surcharge on the overdue accounts.**
+
+**

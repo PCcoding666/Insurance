@@ -1,0 +1,62 @@
+First Step:
+
+```markdown
+# Hospital Invoice Sample 3 - Haemorrhoidectomy / St. Teresa's Hospital
+
+| 日期 DATE                   | 29-Jul-2015 11:58:10                        |
+|---------------------------|----------------------------------------------|
+| 姓名 NAME                  | 何启凯 HO KAI PAK (0001)                       |
+| 病人编号 PATIENT NO.        | HN20150001IX                               |
+| 入院日期 ADMISSION DATE    | 01-Jan-2015                                |
+| 出院日期 DISCHARGE DATE    | 02-Jan-2015                                |
+| 项目 DATE                  | PARTICULARS                                |
+| 加床费 EXTRA BED           | $180                                        |
+| 病理化验 HISTOPATHOLOGICAL EXAMINATION | $2,840                                     |
+| 化验费 LABORATORY            | $1,975                                     |
+| 麻醉/药物注射费 ANESTHETIC/INJECTIN | $320                                        |
+| 手术费 OPERATING THEATRE CHARGE | $3,260                                     |
+| 手术室物料费 OPERATING THEATRE MATERIALS | $7,784                                     |
+| 入院服务费 ADMISSION SERVICE   | $180                                        |
+| 病床/病房收费 BED/ROOM CHARGE | $750                                        |
+| 药费/药物注射费 MEDICINE/INJECTION | $560                                        |
+| 床位/病房收费 BED/ROOM CHARGE | $750                                        |
+| 治疗及有关物料费 TREATMENT/ASSOCIATE MATERIALS | $290                                        |
+| 总医院费用 TOTAL HOSPITAL CHARGES | $18,749                                     |
+| 医生费用 TOTAL DOCTOR FEE(S) | $42,000                                     |
+| 总费用 GRAND TOTAL          | $60,749                                     |
+| 总额 TOTAL BALANCE DUE     | $60,749                                     |
+
+### 注意：
+
+* 住院账单须於出院後二十四小时内清付，馀款在出院时扣除，出院时请清付余额。
+* 本收据只限於本院使用，复印无效。
+* 所有收费根据病人的情况、个案/手术的复杂性及个别医生所定之收费等因素而有所改动。
+* 各项的费用会根据病人的情况、个案/手术的复杂性及个别医生所定之收费等因素而有所改动。
+* 出院后如有查询，敬请保留此收据。
+* 以上逐项票据样本乃以本院標易住院收费為藍本，所有數據只作参考用途。
+* 各项目的收费會根據病人的情況、個案/手術的複雜性及個別醫生所定之收費等因素而有所改變。
+* 上述收费样本发票係根據病人在标准病房("SW")住宿的收费编號而成。所有信息应以实际收费为准。
+* 实际费用可能会根据病人的情况、病例复杂性和个别医生的收费有所不同。
+```
+
+Second Step:
+
+```json
+{
+  "Hospital_Invoice": {
+    "Sample_Number": "3",
+    "Type": "Haemorrhoidectomy",
+    "Provider": "St. Teresa's Hospital",
+    "Address": "27 Prince Edward Road, Kowloon, Hong Kong",
+    "Phone": "2200 3434",
+    "Website": "www.sth.org.hk",
+    "Patient_Information": {
+      "Name": "何启凯",
+      "Patient_No": "HN20150001IX",
+      "Admission_Date": "01-Jan-2015",
+      "Discharge_Date": "02-Jan-2015"
+    },
+    "Charges": [
+      {
+        "Description": "EXTRA BED",
+        "Amount": "$

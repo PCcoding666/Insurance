@@ -1,0 +1,93 @@
+First Step:
+
+```markdown
+---
+TO: [Blurred]
+NUH National University Hospital
+Description: ENT-HEAD & NECK SURG CTR - 15D
+MRN/NRIC: XYZ
+Case No.: 1521395503F-00001
+Visit Date: 27.01.2021 09:00
+Location: NCZENTP
+Invoice Date: 27.01.2021
+Type of Supply: CASH/CREDIT
+GST Reg No.: M2-0069889-4
+PLEASE PAY UPON RECEIPT OF THIS INVOICE
+
+Patient Name: [Blurred]
+Consultation Fee: Consultation Services (C - FV): 123.05
+Investigations: Fine Needle Aspiration With Tech Assista: 326.89
+Treatment Services: Ward/Clinic / Other Procedures: Aspiration - Fine Needle: 81.64
+Total Amount Payable: 531.58
+Adjustment: Round down for amount payable by patient: 0.03
+Payment: Master Card - 27.01.2021, Receipt #: NO14614931: 531.55
+Total Due After Payment: 0.00
+Due From: 0.00
+
+FOR INFORMATION
+WITHOUT REFERAL
+Total amount payable before GST is $496.80.
+Total GST at 7% is $34.78 for this bill.
+The amount payable by patient has been rounded down to the nearest 5 cents.
+---
+```
+
+Second Step:
+
+```json
+{
+  "Description": "ENT-HEAD & NECK SURG CTR - 15D",
+  "To": {
+    "Name": "[Blurred]",
+    "Organization": "NUH National University Hospital"
+  },
+  "Patient": {
+    "Identification": {
+      "MRN/NRIC": "XYZ"
+    },
+    "Case_Number": "1521395503F-00001",
+    "Visit_Date": "27.01.2021 09:00",
+    "Location": "NCZENTP"
+  },
+  "Invoice": {
+    "Date": "27.01.2021",
+    "Supply_Type": "CASH/CREDIT",
+    "GST_Registration_Number": "M2-0069889-4"
+  },
+  "Details": {
+    "Consultation_Fee": {
+      "Description": "Consultation Services (C - FV)",
+      "Amount": 123.05
+    },
+    "Investigations": {
+      "Description": "Fine Needle Aspiration With Tech Assista",
+      "Amount": 326.89
+    },
+    "Treatment_Services": {
+      "Description": "Aspiration - Fine Needle",
+      "Amount": 81.64
+    }
+  },
+  "Total_Amount_Payable": 531.58,
+  "Adjustments": {
+    "Round_Down": 0.03
+  },
+  "Payment": {
+    "Method": "Master Card",
+    "Date": "27.01.2021",
+    "Receipt_Number": "NO14614931",
+    "Amount": 531.55
+  },
+  "Post_Payment_Status": {
+    "Total_Due": 0.00,
+    "Due_From": 0.00
+  },
+  "Additional_Information": {
+    "Without_Referral": {
+      "Before_GST_Amount": 496.80,
+      "GST_Amount": 34.78
+    },
+    "Rounding_Note": "The amount payable by patient has been rounded down to the nearest 5 cents."
+  }
+}
+```

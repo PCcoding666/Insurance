@@ -1,0 +1,70 @@
+### First Step: Extracting Text in Markdown Format
+```markdown
+# Mount Elizabeth Orchard
+## TAX INVOICE
+- Page No.: 3 of 4
+- GST Reg No.: 20-0409811-Z
+- Business Reg No.: 53029035M
+- Print Date/Time: 16.02.2022 / 22:31:39
+- Bill Date: 16.02.2022
+- Customer No.: 6449330
+- Case No.: 2022009391
+- Bill Document No.: 100000042
+- Admission Date: 08.02.2022
+- Discharge Date: 09.02.2022
+- Time: 16:09:04
+
+| Service Description | Amount ($) |
+|----------------------|---------------|
+| EQUIPMENT AND SUPPLY | 605.30       |
+| DAILY TREATMENT FEE  | 224.30       |
+| Subtotal             | 15,497.23    |
+| Hospital Charges     | 15,497.23    |
+| GST @ 7%              | 1,084.80     |
+| Hospital Charges Subtotal | 16,582.03    |
+| Rounding Difference  | 0.01         |
+
+| Doctor Fee           |                |
+| - DR TEOH TIONG ANN  | 6,794.50     |
+| - DR ASOK KURUP      | 321.00       |
+| - DR TEOH PEI FEN    | 1,457.88     |
+| Total Doctor Fee     | 8,573.38     |
+| Total Bill            | 25,155.42    |
+| Total Hospital Charges | 25,155.42    |
+
+Mount Elizabeth Hospital • 3 Mount Elizabeth • Singapore 228510 • Tel: 6737 2666 • Fax: 6735 3748
+Owned by Parkway Hospitals Singapore Pte Ltd • Company Reg. No. 200409811Z
+```
+
+### Second Step: Extracting Key Field Information in JSON Format
+```json
+{
+  "Invoice": {
+    "Provider": "Mount Elizabeth Orchard",
+    "Document_Type": "TAX INVOICE",
+    "Page_Number": 3,
+    "GST_Registration_Number": "20-0409811-Z",
+    "Business_Registration_Number": "53029035M",
+    "Print_DateTime": "16.02.2022 / 22:31:39",
+    "Bill_Date": "16.02.2022",
+    "Customer_Number": 6449330,
+    "Case_Number": 2022009391,
+    "Bill_Document_Number": 100000042,
+    "Admission_Date": "08.02.2022",
+    "Discharge_Date": "09.02.2022",
+    "Total_Service_Amount": 15497.23,
+    "Hospital_Charges": 15497.23,
+    "GST_Amount": 1084.80,
+    "Subtotal_After_Tax": 16582.03,
+    "Rounding_Difference": 0.01,
+    "Doctor_Fees": [
+      {
+        "Name": "DR TEOH TIONG ANN",
+        "Amount": 6794.50
+      },
+      {
+        "Name": "DR ASOK KURUP",
+        "Amount": 321.00
+      },
+      {
+        "Name": "DR TEOH PEI FEN

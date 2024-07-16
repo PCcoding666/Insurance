@@ -1,0 +1,88 @@
+First Step:
+
+```markdown
+# Original Receipt [OPD / ER]
+
+| Description                   | Amount      | Discount    | Net Amount  |
+|------------------------------|-------------|-------------|-------------|
+| Drugs and Medical Nutrition  | 1,049.00     | 0.00        | 1,049.00     |
+| Laboratory Investigation     | 975.00      | 0.00        | 975.00      |
+| Nursing and Midwifery Charge | 975.00      | 0.00        | 975.00      |
+| Packaged Medical Charge      | 100.00      | 0.00        | 100.00      |
+| Other Medical Charges        | 200.00      | 0.00        | 200.00      |
+| Physician Evaluation and Management Services | 650.00     | 0.00        | 650.00      |
+
+Total                        | 2,974.00     | 0.00        | 2,974.00     |
+
+# Two Thousand, Nine Hundred Seventy-four Baht Only
+
+BI-67-1038187 Print Date&Time 13/03/2024 12:58
+```
+
+Second Step:
+
+```json
+{
+  "Receipt_Type": "Original",
+  "Service_Type": {
+    "OPD": true,
+    "ER": false
+  },
+  "Doc_Number": "099-4-00017791-7",
+  "Patient_Information": {
+    "Name": "[Blurred]",
+    "HN": "[Blurred]",
+    "VN": "0138856-67"
+  },
+  "Visit_Details": {
+    "Date": "13/03/2024",
+    "Time": "11:00",
+    "Doctor": "SALINNART PHANPRASERT, MD."
+  },
+  "Services": [
+    {
+      "Description": "Drugs and Medical Nutrition",
+      "Amount": 1049.00,
+      "Discount": 0.00,
+      "Net_Amount": 1049.00
+    },
+    {
+      "Description": "Laboratory Investigation",
+      "Amount": 975.00,
+      "Discount": 0.00,
+      "Net_Amount": 975.00
+    },
+    {
+      "Description": "Nursing and Midwifery Charge",
+      "Amount": 975.00,
+      "Discount": 0.00,
+      "Net_Amount": 975.00
+    },
+    {
+      "Description": "Packaged Medical Charge",
+      "Amount": 100.00,
+      "Discount": 0.00,
+      "Net_Amount": 100.00
+    },
+    {
+      "Description": "Other Medical Charges",
+      "Amount": 200.00,
+      "Discount": 0.00,
+      "Net_Amount": 200.00
+    },
+    {
+      "Description": "Physician Evaluation and Management Services",
+      "Amount": 650.00,
+      "Discount": 0.00,
+      "Net_Amount": 650.00
+    }
+  ],
+  "Total_Amount": 2974.00,
+  "Print_Details": {
+    "BI_Number": "67-1038187",
+    "Print_DateTime": "13/03/2024 12:58"
+  },
+  "Cashier_Information": {
+    "Name": "JARUNEE NEDARUN"
+  },
+  "Additional_Instructions": "The patient may return the medication if experiencing adverse reaction.",

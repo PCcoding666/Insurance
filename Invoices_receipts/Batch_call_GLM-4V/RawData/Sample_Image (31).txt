@@ -1,0 +1,60 @@
+First Step:
+
+```markdown
+# TAX INVOICE
+
+| GST REGN NO. | PAGE | VISIT NO. | BILL TYPE | BILL DATE | VISIT DATE/TIME | INVOICE NO. | PAY BY | PATIENT NAME | PATIENT ID NO. | ADDRESS | POLICY NO. |
+|-----------------|------|-----------|------------|------------|---------------|--------------|--------|-------------|--------------|----------|-------------|
+|                  |      |            |            |            |               |              |          |             |              |          |             |
+| PRACTICE COST   | 1.0  | 16.00     |            |            |               |              |          |             |              |          |             |
+| RADIOLOGY        |      |            |            |            |               |              |          |             |              |          |             |
+| MAMMOGRAM ADDITIONAL VIEW (UNILATERAL BREAST) | 1.0 | 58.00     |            |            |               |              |          |             |              |          |             |
+| ULTRASOUND TARGETED BREAST                  | 1.0 | 180.00    |            |            |               |              |          |             |              |          |             |
+| SUB-TOTAL        |      |            |            |            |               |              |          |             |              |          |             |
+| TOTAL CHARGES BEFORE GST                    |      |            |            |            |               |              |          |             |              |          |             |
+| GST @ 7%        |      |            |            |            |               |              |          |             |              |          |             |
+| TOTAL CHARGES AFTER GST                    |      |            |            |            |               |              |          |             |              |          |             |
+| LESS ROUNDING ADJUSTMENT                   |      |            |            |            |               |              |          |             |              |          |             |
+| TOTAL AMOUNT PAID                          |      |            |            |            |               |              |          |             |              |          |             |
+| RES2201922525 - 16/12/2022 - UOB VCMC (VISA MASTER) |      |            |            |            |               |              |          |             |              |          |             |
+| TOTAL BALANCE DUE                          |      |            |            |            |               |              |          |             |              |          |             |
+```
+
+Second Step:
+
+```json
+{
+  "GST_REGN_NO": "",
+  "PAGE": "1 of 1",
+  "VISIT_NO": "16-DEC-2022",
+  "BILL_TYPE": "PATINVOUT",
+  "BILL_DATE": "16-DEC-2022",
+  "VISIT_DATE_TIME": "8 AM",
+  "INVOICE_NO": "",
+  "PAY_BY": "",
+  "PATIENT_NAME": "",
+  "PATIENT_ID_NO": "",
+  "ADDRESS": "",
+  "POLICY_NO": "",
+  "PRACTICE_COST": {
+    "QTY": 1.0,
+    "S$": 16.00
+  },
+  "RADIOLOGY": [
+    {
+      "MAMMOGRAM_ADDITIONAL_VIEW": {
+        "QTY": 1.0,
+        "S$": 58.00
+      }
+    },
+    {
+      "ULTRASOUND_TARGETED_BREAST": {
+        "QTY": 1.0,
+        "S$": 180.00
+      }
+    }
+  ],
+  "SUB_TOTAL": 238.00,
+  "TOTAL_CHARGES_BEFORE_GST": 254.00,
+  "GST_@_7%": 17.78,
+  "TOTAL_CHARGES_AFTER_G

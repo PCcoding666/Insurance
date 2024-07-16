@@ -1,0 +1,69 @@
+First Step:
+
+```markdown
+# National University Hospital
+## TAX INVOICE (Finalised)
+  - BILL REF. NO.: 15267304E
+  - BILL DATE: 07 Nov 2023
+  - LOCATION: TEMPORARY PANDEMIC WARD
+  - ADMISSION DATE: 30 Oct 2023 08:29 PM
+  - DISCHARGE DATE: 01 Nov 2023 01:36 PM
+
+|                           |                        |
+|--------------------------|-------------------------|
+| TOTAL AMOUNT (BEFORE GST): $ 3,319.17 |
+| 8% GST: $ 265.53 |
+| Transferred In Charges: $ 140.00 |
+| TOTAL AMOUNT: $ 3,724.70 |
+| Payable by OTHER SCHEMES: -$ 3,324.86 |
+| TOTAL AMOUNT PAYABLE: $ 399.84 |
+| Net Payment made: $ -1,500.00 |
+| Adjustment(s): $ -0.04 |
+| CREDIT BALANCE: $ -1,100.20 |
+
+## CHARGES
+| SERVICES                  | DESCRIPTION              | AMOUNT ($)             |
+|---------------------------|-----------------------------|-------------------------|
+| ROOM CHARGE               | Class B2 (2 DAYS)         | $ 600.00                |
+| DAILY TREATMENT FEE      | Class B2 (2 DAYS)         | $ 328.00                |
+| CONSUMABLES               |                        | $ 142.60                |
+| INVESTIGATIONS            | Laboratory                | $ 260.51                |
+|                           | Specialised               | $ 265.23                |
+|                           | X-ray                    | $ 1,481.48              |
+| MEDICATIONS               | Non Standard             | $ 11.75                 |
+|                           | Standard                 | $ 27.59                 |
+| TREATMENT SERVICES       | Ward / Clinic / Other Procedures | $ 202.01                |
+
+| TOTAL AMOUNT (BEFORE GST): $ 3,319.17 |
+| 8% GST: $ 265.53 |
+| A&E Attendance Fee (Transferred from Case No.: 1525670975F): $ 140.00 |
+| TOTAL AMOUNT: $ 3,724.70 |
+```
+
+Second Step:
+
+```json
+{
+  "National University Hospital": {
+    "TAX INVOICE (Finalised)": {
+      "BILL REF. NO.": "15267304E",
+      "BILL DATE": "07 Nov 2023",
+      "LOCATION": "TEMPORARY PANDEMIC WARD",
+      "ADMISSION DATE": "30 Oct 2023 08:29 PM",
+      "DISCHARGE DATE": "01 Nov 2023 01:36 PM"
+    },
+    "Amount Details": {
+      "Total Amount Before Gst": "$ 3,319.17",
+      "Gst": "$ 265.53",
+      "Transferred In Charges": "$ 140.00",
+      "Total Amount": "$ 3,724.70",
+      "Payable By Other Schemes": "-$ 3,324.86",
+      "Total Amount Payable": "$ 399.84",
+      "Net Payment Made": "$ -1,500.00",
+      "Adjustments": "$ -0.04",
+      "Credit Balance": "$ -1,100.20"
+    },
+    "Charges": [
+      {
+        "Service": "Room Charge",
+        "Description": "

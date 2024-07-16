@@ -1,0 +1,11 @@
+ImageName,Description,Quantity,Unit,UnitPrice,ProductCode,Date,Tax,Amount
+Sample_Image (13),EXTRA BED,,,$180,,,,$180
+Sample_Image (13),HISTOPATHOLOGICAL EXAMINATION,,,"$2,840",,,,"$2,840"
+Sample_Image (13),LABORATORY,,,"$1,975",,,,"$1,975"
+Sample_Image (13),ANESTHETIC/INJECTION,,,$320,,,,$320
+Sample_Image (13),OPERATING THEATRE CHARGE,,,"$3,260",,,,"$3,260"
+Sample_Image (13),OPERATING THEATRE MATERIALS,,,"$7,784",,,,"$7,784"
+Sample_Image (13),ADMISSION SERVICE,,,$180,,,,$180
+Sample_Image (13),BED/ROOM CHARGE,,,$750,,,,$750
+Sample_Image (13),MEDICINE/INJECTION,,,$560,,,,$560
+Sample_Image (13),TREATMENT/ASSOCIATE MATERIALS,,,$290,,,,$290

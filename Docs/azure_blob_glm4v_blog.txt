@@ -1,0 +1,148 @@
+
+# 使用Azure Blob存储和GLM-4V API的图像处理解决方案
+
+## 简介
+本文介绍了如何使用Azure Blob存储上传图像，并结合GLM-4V API对图像进行处理的全过程。我们将讨论如何生成SAS URL，上传文件到Blob存储，调用GLM-4V API，以及在过程中遇到的问题和解决方案。
+
+## 步骤一：生成SAS URL
+SAS（共享访问签名）URL允许您在不泄露存储帐户密钥的情况下，授予对Azure存储资源的有限访问权限。以下是生成SAS URL的步骤：
+
+1. 打开Azure Portal，导航到存储帐户。
+2. 选择“共享访问签名”。
+3. 配置权限、起始日期和时间、到期日期和时间。
+4. 生成并复制SAS URL。
+
+## 步骤二：上传文件到Azure Blob存储
+我们使用Python中的`azure-storage-blob`库来上传文件。以下是上传文件的代码示例：
+
+```python
+import os
+from azure.storage.blob import BlobServiceClient, ContentSettings
+
+def upload_blob_and_get_url(local_file_path, container_name, sas_url):
+    """
+    Upload a local file to Azure Blob storage and get its URL.
+
+    Parameters:
+    local_file_path (str): Path to the local file
+    container_name (str): Azure Blob storage container name
+    sas_url (str): Blob storage service URL with SAS token
+
+    Returns:
+    str: URL of the uploaded Blob
+    """
+    try:
+        blob_name = os.path.basename(local_file_path)
+        print(f"Blob name: {blob_name}")
+
+        blob_service_client = BlobServiceClient(account_url=sas_url)
+        print(f"Blob service client created with URL: {sas_url}")
+
+        container_client = blob_service_client.get_container_client(container_name)
+        print(f"Container client created for container: {container_name}")
+
+        if not container_client.exists():
+            print(f"Container does not exist, creating container: {container_name}")
+            container_client.create_container()
+        else:
+            print(f"Container already exists: {container_name}")
+
+        blob_client = container_client.get_blob_client(blob_name)
+        print(f"Blob client created for blob: {blob_name}")
+
+        with open(local_file_path, "rb") as data:
+            content_settings = ContentSettings(content_type='image/jpeg')
+            blob_client.upload_blob(data, overwrite=True, content_settings=content_settings)
+            print(f"File uploaded: {local_file_path}")
+
+        blob_url = f"https://{blob_service_client.account_name}.blob.core.windows.net/{container_name}/{blob_name}"
+        print("Uploaded to Blob Storage URL:", blob_url)
+        return blob_url
+
+    except Exception as e:
+        print(f"An error occurred: {e}")
+        print(f"SAS URL: {sas_url}")
+        return None
+
+# Example call
+if __name__ == "__main__":
+    container_name = "convertimg2url"
+    sas_url = 'https://<your_storage_account>.blob.core.windows.net/?sv=2022-11-02&ss=b&srt=sco&sp=rwdlacupiytfx&se=2024-08-01T10:41:17Z&st=2024-07-15T02:41:17Z&spr=https&sig=<your_signature>'
+    local_file_path = "/path/to/your/image.jpg"
+
+    blob_url = upload_blob_and_get_url(local_file_path, container_name, sas_url)
+
+    if blob_url:
+        print("File uploaded successfully. Blob URL:", blob_url)
+    else:
+        print("Failed to upload file.")
+```
+
+## 遇到的问题及解决方案
+
+### 问题一：InvalidUri
+#### 错误信息
+```
+The requested URI does not represent any resource on the server.
+ErrorCode: InvalidUri
+```
+#### 解决方案
+确保SAS URL指向Blob服务的根目录，而不是包含具体容器名称的URL。确保URL格式正确，包含必要的参数和权限。
+
+### 问题二：AuthenticationFailed
+#### 错误信息
+```
+Server failed to authenticate the request. Make sure the value of Authorization header is formed correctly including the signature.
+ErrorCode: AuthenticationFailed
+```
+#### 解决方案
+确保SAS URL中的签名正确无误。生成SAS URL时，要确保所有参数都正确配置，并且生成的URL在使用时依然有效。
+
+## 步骤三：调用GLM-4V API进行图像处理
+
+一旦图像成功上传到Azure Blob存储，我们可以调用GLM-4V API对图像进行处理。以下是示例代码：
+
+```python
+from zhipuai import ZhipuAI
+
+def call_glm_api(image_url, prompt, client):
+    try:
+        response = client.chat.completions.create(
+            model="glm-4v",
+            messages=[
+                {
+                    "role": "user",
+                    "content": [
+                        {
+                            "type": "text",
+                            "text": prompt
+                        },
+                        {
+                            "type": "image_url",
+                            "image_url": {
+                                "url": image_url
+                            }
+                        }
+                    ]
+                }
+            ]
+        )
+        return response.choices[0].message
+    except Exception as e:
+        logging.error(f"An error occurred while calling the API: {e}")
+        return None
+
+# Example call
+if __name__ == "__main__":
+    client = ZhipuAI(api_key="your_api_key")  # Replace with your actual API key
+    image_url = "https://<your_storage_account>.blob.core.windows.net/<your_container>/<your_image>"
+    prompt = "Please analyze the content in the image in detail, extract the text in the image and return with markdown format, do not ignore any information in the image, and extract the key field information from the text and return in json format"
+
+    result = call_glm_api(image_url, prompt, client)
+    print(result)
+```
+
+通过以上步骤，我们实现了将图像上传到Azure Blob存储，并调用GLM-4V API对图像进行处理的完整流程。
+
+## 总结
+本文介绍了如何使用Azure Blob存储上传图像，并结合GLM-4V API对图像进行处理。我们讨论了生成SAS URL、上传文件、调用API以及处理过程中遇到的问题和解决方案。希望本文对您在使用Azure Blob存储和GLM-4V API时有所帮助。

@@ -1,0 +1,45 @@
+First Step:
+
+```markdown
+| DATE                   | PARTICULARS                       | AMOUNT (HK$) | SUBTOTAL (HK$) |
+|-------------------------|--------------------------------------|---------------|------------------|
+| 01-Jan-15              | ECHOCARDIOGRAM/ULTTRASOUND        | $2,550        | $2,550           |
+| 01-Jan-15              | HISTOPATHOLOGICAL EXAMINATION     | $2,840        | $2,840           |
+| 01-Jan-15              | MEDICINE INJECTION                | $7,960        | $7,960           |
+| 01-Jan-15              | OPERATING THEATRE CHARGE        | $2,600        | $2,600           |
+| 01-Jan-15              | ADMISSION SERVICE                 | $180          | $180             |
+| 02-Jan-15              | BEDROOM CHARGE                    | $750          | $750             |
+| 02-Jan-15              | ULTRASOUND                        | $3,000        | $3,000           |
+| 02-Jan-15              | MEDICINE/INJECTION                | $520          | $520             |
+| 02-Jan-15              | BED/ROOM CHARGE                   | $750          | $750             |
+| TOTAL HOSPITAL CHARGES | - | - | $16,830 | $16,830 |
+| 02-Jan-15              | DOCTOR FEE                        | $2,000        | $2,000           |
+| 02-Jan-15              | Ward Round Fee                    | $10,000       | $10,000          |
+| 02-Jan-15              | Operation                         | $4,000        | $4,000           |
+| 02-Jan-15              | Anaesthetic                       | $16,000       | $16,000          |
+| GRAND TOTAL            | - | - | $34,100 | $34,100 |
+| TOTAL BALANCE DUE      | - | - | $34,100 | $34,100 |
+```
+
+Second Step:
+
+```json
+{
+  "date": "01-Jan-15",
+  "particulars": {
+    "echocardiogram/ultrasound": "$2,550",
+    "histopathological examination": "$2,840",
+    "medicine injection": "$7,960",
+    "operating theatre charge": "$2,600",
+    "admission service": "$180",
+    "bedroom charge": "$750",
+    "ultrasound": "$3,000",
+    "medicine/injection": "$520",
+    "bed/room charge": "$750"
+  },
+  "amount_hkd": "$16,830",
+  "subtotal_hkd": "$16,830"
+}
+```
+
+Please note that due to the quality of the image provided, some details may be unclear or difficult to interpret. The extracted information is based on the visible and legible content within the constraints of the image's resolution.

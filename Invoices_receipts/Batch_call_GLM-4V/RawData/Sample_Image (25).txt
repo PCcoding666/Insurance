@@ -1,0 +1,22 @@
+First Step:
+
+```markdown
+---
+VetSurge Ptd Ltd
+Advanced VetCare
+M/B UEN 201609329Z
+26 Jalan Pari Burong
+Singapore, 488692
+Telephone: 6636 1788
+Email: enquiries@advancedvetcare.sg
+ADVANCED VETCARE
+BILL TO [Redacted]
+[Redacted]
+[Redacted]
+TAX INVOICE
+Date: 06-04-2024
+Due Date: 06-04-2024
+Customer #: 236214
+Animal: Little Girl
+Invoice #: 597133
+Description                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                

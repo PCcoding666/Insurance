@@ -1,0 +1,60 @@
+First Step:
+
+```markdown
+| SERVICES                   | DESCRIPTION                       | BEFORE GOVT SUBSIDY ($) | AFTER GOVT SUBSIDY ($) |
+|---------------------------|----------------------------------|-------------------------|-----------------------|
+| WARD CHARGES              | WARD (CLASS C) (1.0 day(s))        | 390.00                  | 169.37                |
+| TREATMENT SERVICES       | IMMEDIATE POST OPERATIVE CARE    | 404.00                  | 202.12                |
+| DAILY TREATMENT FEE       | DAILY TREATMENT FEE             | 168.00                  | 84.00                 |
+| INVESTIGATIONS           | X-RAY INVESTIGATIONS             | 1,087.00                | 607.31                |
+| CONSUMABLES                | SURGICAL SUPPLIES                | 820.00                  | 411.87                |
+| THERAPY SERVICES         | REHABILITATIVE SERVICES           | 146.00                  | 100.37                |
+| SURGERY SERVICES         | IMPLANTS / PRESCRIPTIONS / INJECTIONS | 2,270.01                | 1,560.62               |
+| MEDICATIONS               | DRUGS / PRESCRIPTIONS / INJECTIONS | 24.09                   | 15.88                 |
+| SURGICAL OPERATION        | SURGICAL OPERATION                | 7,873.99                | 3,937.44               |
+| TOTAL AMOUNT (BEFORE GOVT SUBSIDY) | - | 15,291.61 | - |
+| GOVT SUBSIDY               | - | -7,091.29 | - |
+| TOTAL AMOUNT (BEFORE GST) | - | 8,200.32 | - |
+```
+
+Second Step:
+
+```json
+{
+  "Ward Charges": {
+    "Description": "WARD (CLASS C) (1.0 day(s))",
+    "Before Govt Subsidy": "390.00",
+    "After Govt Subsidy": "169.37"
+  },
+  "Treatment Services": {
+    "Description": "IMMEDIATE POST OPERATIVE CARE",
+    "Before Govt Subsidy": "404.00",
+    "After Govt Subsidy": "202.12"
+  },
+  "Daily Treatment Fee": {
+    "Description": "DAILY TREATMENT FEE",
+    "Before Govt Subsidy": "168.00",
+    "After Govt Subsidy": "84.00"
+  },
+  "Investigations": {
+    "Description": "X-RAY INVESTIGATIONS",
+    "Before Govt Subsidy": "1,087.00",
+    "After Govt Subsidy": "607.31"
+  },
+  "Consumables": {
+    "Description": "SURGICAL SUPPLIES",
+    "Before Govt Subsidy": "820.00",
+    "After Govt Subsidy": "411.87"
+  },
+  "Therapy Services": {
+    "Description": "REHABILITATIVE SERVICES",
+    "Before Govt Subsidy": "146.00",
+    "After Govt Subsidy": "100.37"
+  },
+  "Surgery Services": {
+    "Description": "IMPLANTS / PRESCRIPTIONS / INJECTIONS",
+    "Before Govt Subsidy": "2,270.01",
+    "After Govt Subsidy": "1,560.62"
+  },
+  "Medications": {
+    "Description": "DRUGS /

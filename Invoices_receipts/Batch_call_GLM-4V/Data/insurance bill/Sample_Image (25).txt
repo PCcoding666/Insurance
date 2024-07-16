@@ -1,0 +1,91 @@
+First Step:
+
+```markdown
+---
+VetSurge Ptd Ltd
+Advanced VetCare
+M/B
+UEN 201609329Z
+26 Jalan Pari Burong
+Singapore, 488692
+Telephone: 6636 1788
+Email: enquiries@advancedvetcare.sg
+
+BILL TO
+[Blurred]
+
+ADVANCED VETCARE
+
+Date: 06-04-2024
+Due Date: 06-04-2024
+Customer #: 236214
+Animal: Little Girl
+Invoice #: 597133
+
+Description                        Staff Member  Qty      Total
+Consult-Standard <15Mins           Dr Adelle Ho   1        $54.00
+US Pregnancy Scan              Dr Adelle Ho   1        $162.11
+Oxytocin Injection 10 iu/ml     Dr Adelle Ho   0.3     $24.37
+Procytes Blood Test             Dr Adelle Ho   1        $99.42
+Catalyst Chem 17 Blood Test     Dr Adelle Ho   1        $163.00
+Catalyst Lyte 4 Blood Test     Dr Adelle Ho   1        $59.00
+Alfaxan Injection 10mg/mL       Dr Adelle Ho   1        $39.37
+Methone 10mg/mL Injection Per mL  Dr Adelle Ho   0.04    $16.61
+Meloxicam Injection 5mg/mL Per mL  Dr Adelle Ho   0.09    $17.47
+A/H IV Catheterisation (Ex fluids)  Dr Adelle Ho   1        $197.96
+Afterhours Caesarian Section     Dr Adelle Ho   1        $3853.48
+Monosyn 2/0                       Dr Adelle Ho   1        $39.00
+Gabapentin 50mg tablets         Dr Adelle Ho   3        $4.59
+
+Total:                                $4734.38
+Payment method: MasterCard
+Amount paid: -$4250.00
+Balance:                            $484.38
+
+Notes:
+Thank you for choosing Advanced VetCare.
+---
+```
+
+Second Step:
+
+```json
+{
+  "Company": "VetSurge Ptd Ltd",
+  "Service_Provider": "Advanced VetCare",
+  "Bill_To": {
+    "Name": "[Blurred]",
+    "Address": "26 Jalan Pari Burong, Singapore, 488692",
+    "Phone": "6636 1788",
+    "Email": "enquiries@advancedvetcare.sg"
+  },
+  "Invoice_Details": {
+    "Date": "06-04-2024",
+    "Due_Date": "06-04-2024",
+    "Customer_Number": "236214",
+    "Animal_Name": "Little Girl",
+    "Invoice_Number": "597133"
+  },
+  "Services": [
+    {
+      "Description": "Consult-Standard <15Mins",
+      "Staff_Member": "Dr Adelle Ho",
+      "Quantity": 1,
+      "Price": "$54.00",
+      "Total": "$54.00"
+    },
+    {
+      "Description": "US Pregnancy Scan",
+      "Staff_Member": "Dr Adelle Ho",
+      "Quantity": 1,
+      "Price": "$162.11",
+      "Total": "$162.11"
+    },
+    {
+      "Description": "Oxytocin Injection 10 iu/ml",
+      "Staff_Member": "Dr Adelle Ho",
+      "Quantity": 0.3,
+      "Price": "$24.37",
+      "Total": "$7.31"
+    },
+    

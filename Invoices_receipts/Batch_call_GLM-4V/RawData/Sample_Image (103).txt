@@ -1,0 +1,80 @@
+First Step:
+
+```markdown
+# St. Teresa's Hospital Statement of Account
+
+| Date       | 10-06-2023                  |
+|------------|------------------------------|
+| Name       | [Patient Name Obscured]    |
+| Patient No.| AXXXXXXXXX44510X            |
+| Address    | 372 Prince Edward Road, Kowloon, Hong Kong        |
+| Website    | www.sth.org.hk              |
+| Phone      | PH2023146516                |
+| Sex        | [Sex Obscured]              |
+| Room No.   | [Room No. Obscured]          |
+| Outpatient Services | STATEMENT OF ACCOUNT |
+
+| Date       | 10-06-23                    |
+| Particulars| TREATMENT/ASSOCIATE MATERIALS |
+| Amount (HK$) | $415                       |
+| Subtotal (HK$) | $415                       |
+| Total Charges | $415                       |
+
+| Date       | 10-06-23                    |
+| Particulars| DOCTOR FEE                   |
+| Amount (HK$) | $3,980                      |
+| Subtotal (HK$) | $3,980                      |
+| Total Doctor Fee | $3,980                      |
+
+| Total Balance Due | $4,395                      |
+
+| Diagnosis   | Fishbone ingestion (Accident) |
+| Dr. Chan Kung Nga | 陳功毅醫生 |
+
+### Notes:
+1. 住院賬單须於出院後二十四小时内付，将金留在出院時扣除，出院時請清付餘額。
+2. 門診賬單須於诊症後付。
+3. 網上院印账单，若長悬未清户，方可作有效收據。
+4. 本帐单如有誤，請即與收费處聯絡。
+5. 此帐单只限本院职员收取院内机具的福利。
+6. 出院账单如有查询，医院保留追讨权利。
+
+N.B. Interim account, when presented, must be settled within 24 hours. Deposit will be offset in the final account. Final account must be settled upon patient's discharge. 2. Out-Patient account must be settled after consultation. 3. Receipt is only valid when cheque is cleared and hospital chop is imprinted. 4. No other official receipt will be issued. 5. The Hospital reserves the right to impose surcharge on the overdue accounts. 6. The Hospital reserves the right to subsequently bill any undercharge. E & O.E.
+
+---
+
+Payment Date: 10-06-2023
+
+| Payment Method | VISA                        |
+|----------------|------------------------------|
+| Total Amount (HK$) | $4,395                      |
+```
+
+Second Step:
+
+```json
+{
+  "Statement_of_Account": {
+    "Date": "10-06-2023",
+    "Name": "[Patient Name Obscured]",
+    "Patient_No": "AXXXXXXXXX44510X",
+    "Address": "372 Prince Edward Road, Kowloon, Hong Kong",
+    "Website": "www.sth.org.hk",
+    "Phone": "PH2023146516",
+    "Sex": "[Sex Obscured]",
+    "Room_No": "[Room No. Obscured]",
+    "Service": "Outpatient Services",
+    "Statement_Type": "STATEMENT OF ACCOUNT",
+    "Details": [
+      {
+        "Date": "10-06-23",
+        "Particulars": "TREATMENT/ASSOCIATE MATERIALS",
+        "Amount": "$415",
+        "Subtotal": "$415",
+        "Total_Charges": "$415"
+      },
+      {
+        "Date": "10-06-23",
+        "Particulars": "DOCTOR FEE",
+        "Amount": "$3,980",
+        "Subtotal": "$3

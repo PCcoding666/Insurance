@@ -1,0 +1,41 @@
+First Step:
+
+```markdown
+| DESCRIPTION                   | AMOUNT ($) |
+|------------------------------|-------------|
+| Consultation Services (SC - FV) | 140.00      |
+| Laboratory                    |             |
+| Full Blood Count              | 42.25       |
+| Liver Panel                   | 74.75       |
+| Vitamin D (25 Hydroxy)        | 89.70       |
+| Renal Panel 1 Modified        | 59.15       |
+| Iron Panel                    | 83.46       |
+| Thyroid Screen 1              | 68.90       |
+| Zinc, Serum                   | 75.79       |
+| TOTAL AMOUNT (BEFORE GST)    | 634.00      |
+| 8% GST                        | 50.72       |
+| TOTAL AMOUNT                  | 684.72      |
+```
+
+Second Step:
+
+```json
+{
+  "key_field_information": {
+    "DESCRIPTION": "Consultation Services (SC - FV)",
+    "AMOUNT": "140.00",
+    "LABORATORY": {
+      "Full Blood Count": "42.25",
+      "Liver Panel": "74.75",
+      "Vitamin D (25 Hydroxy)": "89.70",
+      "Renal Panel 1 Modified": "59.15",
+      "Iron Panel": "83.46",
+      "Thyroid Screen 1": "68.90",
+      "Zinc, Serum": "75.79",
+      "TOTAL AMOUNT (BEFORE GST)": "634.00",
+      "8% GST": "50.72",
+      "TOTAL AMOUNT": "684.72"
+    }
+  }
+}
+```

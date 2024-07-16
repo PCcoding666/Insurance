@@ -1,0 +1,56 @@
+First Step:
+
+```markdown
+|                             | BEFORE GOVT SUBSIDY ($) | AFTER GOVT SUBSIDY ($) |
+|-----------------------------|--------------------------|-------------------------|
+| TOTAL AMOUNT(BEFORE GOVT SUBSIDY) | $141.53  | $ -49.07 |
+| GOVT SUBSIDY               | $ -49.07  | $        |
+| TOTAL AMOUNT (BEFORE GST)      | $92.46  | $        |
+| 8% GST                      | $7.40  | $        |
+| GST absorbed by Govt          | $7.40  | $ -7.40 |
+| TOTAL AMOUNT (AFTER GOVT SUBSIDY) | $92.46  | $        |
+| TOTAL AMOUNT PAYABLE         | $92.46  | $        |
+| Net Payment made            | $0.00  | $        |
+| FINAL AMOUNT PAYABLE         | $92.46  | $        |
+
+---
+
+| MEDICATION                  | BEFORE GOVT SUBSIDY ($) | AFTER GOVT SUBSIDY ($) |
+|-----------------------------|--------------------------|-------------------------|
+| ADMINE HCL LOZ - (NS) (48 QTY) | $54.50  | $29.30  |
+| CYSTEINE 600MG EFF TAB - (NS) (8 QTY) | $24.00  | $24.00  |
+| DOMETHORPHAN 15MG/5ML SYR 200ML - (S1) (1 QTY) | $3.50  | $2.10  |
+| FENADINE TAB - (S1) (10 QTY) | $1.70  | $1.28  |
+| PARACETAMOL 500MG TAB - (S1) (120 QTY) | $9.60  | $4.20  |
+| PHENERGEN 200MG TAB - (S1) (50 QTY) | $10.00  | $2.10  |
+| RITAZOLINE 0.05% N/SPRAY - (S1)-MSV (1 QTY) | $3.57  | $2.68  |
+| OXICLAV 1G TAB - (S2) (14 QTY) | $5.60  | $4.20  |
+| PIROXICAM 10MG TAB - (S2)-MSV (30 QTY) | $10.50  | $7.88  |
+| PREDNISONE FUROATE 50MCG N/SP - (S2)- (QTY) | $15.36  | $11.52  |
+
+---
+
+| CHARGE                     | AMOUNT (BEFORE GOVT SUBSIDY) | AMOUNT (BEFORE GST) |
+|-----------------------------|--------------------------|-------------------------|
+| GOVT SUBSIDY                 | -$49.07                   | $92.46                  |
+
+Charges to be continued on page 2.
+```
+
+Second Step:
+
+```json
+{
+  "CHARGE": {
+    "AMOUNT (BEFORE GOVT SUBSIDY)": "141.53",
+    "AMOUNT (BEFORE GST)": "92.46"
+  },
+  "MEDICATION": [
+    {
+      "NAME": "ADMINE HCL LOZ - (NS) (48 QTY)",
+      "BEFORE GOVT SUBSIDY": "$54.50",
+      "AFTER GOVT SUBSIDY": "$29.30"
+    },
+    {
+      "NAME": "CYSTEINE 600MG EFF TAB - (NS) (8 QTY)",
+      "BEFORE
