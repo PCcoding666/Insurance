@@ -1,69 +1,119 @@
-FileName,CustomerName,VendorName,CustomerAddress,VendorAddress,InvoiceDate,TotalTax,InvoiceTotal,AmountDue
-Sample_Image (105).jpg,,HKSH,,香港跑馬地山村道2號,4 JUL 2023,,"52,889.00","48,889.00"
-Sample_Image (7).jpg,,"NUH
+FileName,ProcessingTime,CustomerName,VendorName,CustomerAddress,VendorAddress,InvoiceDate,TotalTax,InvoiceTotal,AmountDue
+Sample_Image (105).jpg,6.2659547328948975,,HKSH,,香港跑馬地山村道2號,4 JUL 2023,,"52,889.00","48,889.00"
+Sample_Image (7).jpg,5.789432525634766,,"NUH
 National University
 Hospital",,"a, Singapore 119074",27.01.2021,$34.78,,
-Sample_Image (9).jpg,,"Mount Elizabeth™
+Sample_Image (9).jpg,5.762023687362671,,"Mount Elizabeth™
 ORCHARD",,3 Mount Elizabeth . Singapore 228510,16.02.2022,"1,084.80","25,155.42",
-Sample_Image (12).jpg,,"聖德肋撒醫院
+Sample_Image (12).jpg,8.011290550231934,,"聖德肋撒醫院
 ST. TERESA'S HOSPITAL",,"香港九龍大子班327號
 327 PRINCE EDWARD ROAD, KOWLOON, HONG KONG",29-Jul-2015,,"$46,492","$46,492"
-Sample_Image (13).jpg,HO KAI PAK (0001),"聖德肋撒醫院
+Sample_Image (13).jpg,7.9799182415008545,HO KAI PAK (0001),"聖德肋撒醫院
 ST. TERESA'S HOSPITAL",,"香港九龍大子道327號
 27 PRINCE EDWARD ROAD, KOWLOON, HONG KONG",29-Jul-2015,,"$60,749","$60,749"
-Sample_Image (14).jpg,歡,"聖德肋撒醫院
+Sample_Image (14).jpg,27.07115626335144,歡,"聖德肋撒醫院
 ST. TERESA'S HOSPITAL",,"香港九龍大子道327號
 327 PRINCE EDWARD ROAD, KOWLOON, HONG KONG",29-Jul-2015,,"$34,100","$34,100"
-Sample_Image (18).jpg,,"TM
+Sample_Image (18).jpg,5.8362109661102295,,"TM
 Mount Elizabeth
 ORCHARD",,,10.03.2024,,,
-Sample_Image (19).jpg,,"Mount Elizabeth™
+Sample_Image (19).jpg,5.775023698806763,,"Mount Elizabeth™
 ORCHARD",,3 Mount Elizabeth · Singapore 228510,10.03.2024,103.04,"1,247.91",
-Sample_Image (20).jpg,,"National University
+Sample_Image (20).jpg,5.682570695877075,,"National University
 Hospital",,,07 NOV 2092,265.53,"3,724.70",
-Sample_Image (22).jpg,,,,,11/04/2024,"$
+Sample_Image (22).jpg,5.749317169189453,,,,,11/04/2024,"$
 1.65","$
 18.30",
-Sample_Image (23).jpg,,KK Women's and Children's Hospital Pte Ltd,,100 Bukit Timah Road Singapore 229899,31 JUL 2023,,"8,200.32","$
+Sample_Image (23).jpg,8.127934217453003,,KK Women's and Children's Hospital Pte Ltd,,100 Bukit Timah Road Singapore 229899,31 JUL 2023,,"8,200.32","$
 0.00"
-Sample_Image (24).jpg,,"DENTAL
+Sample_Image (24).jpg,5.887944936752319,,"DENTAL
 SURC",,"Jadari Park Drive #02-11'
 50
 The Woodleigh Mall Singapore 367803
 6 E: woodle",22/03/2024,,"$1,385.00",
-Sample_Image (25).jpg,,ADVANCED VETCARE,,"201609329Z
+Sample_Image (25).jpg,22.898579597473145,,ADVANCED VETCARE,,"201609329Z
 26 Jalan Pari Burong
 Singapore, 488692",06-04-2024,,$4734.38,$484.38
-Sample_Image (26).jpg,,"Changi
+Sample_Image (26).jpg,6.588324785232544,,"Changi
 General Hospital
 SingHealth",SINGAPORE 413312,2 Simei Street 3 Singapore 529889,25 AUG 2023,,138.00,138.00
-Sample_Image (27).jpg,,,,,,42.26,"$
+Sample_Image (27).jpg,5.777338266372681,,,,,,42.26,"$
 511.76",511.76
-Sample_Image (28).jpg,,,,,,23.61,"$
+Sample_Image (28).jpg,5.8200905323028564,,,,,,23.61,"$
 286.04",286.04
-Sample_Image (30).jpg,,,,,,"1,016.76","12,473.13",
-Sample_Image (31).jpg,,Raffles Hospital Pte Ltd,,RAFFLES WOMEN'S CENTRE 585 NORTH BRIDGE ROAD #12-00 RAFFLES HOSPITAL,16-DEC-2022,17.78,271.78,0.00
-Sample_Image (84).jpg,,"โรงพยาบาลกรุงเทพ
+Sample_Image (30).jpg,5.758599281311035,,,,,,"1,016.76","12,473.13",
+Sample_Image (31).jpg,7.854616165161133,,Raffles Hospital Pte Ltd,,RAFFLES WOMEN'S CENTRE 585 NORTH BRIDGE ROAD #12-00 RAFFLES HOSPITAL,16-DEC-2022,17.78,271.78,0.00
+Sample_Image (84).jpg,5.80632472038269,,"โรงพยาบาลกรุงเทพ
 BANGKOK HOSPITAL
 เชียงใหม่ • CHIANG MAI",,,12/02/2024,,"3,330.00",
-Sample_Image (85).jpg,,"โรงพยาบาลกรุงเทพคริสเตียน
+Sample_Image (85).jpg,22.898675203323364,,"โรงพยาบาลกรุงเทพคริสเตียน
 มูลนิธิแห่งสภาคริสตจักรในประเทศไทย
 THE BANGKOK CHRISTIAN HOSPITAL",,"124 ถนนสีลม เขตบางรัก กรุงเทพฯ 10500
 124 Silom Road, Bangkok 10500",DATE _9 Apr 24,,"6,348.00",
-Sample_Image (86).jpg,,"โรงพยาบาลหัวเฉียว
+Sample_Image (86).jpg,7.085097551345825,,"โรงพยาบาลหัวเฉียว
 (มูลนิธิป่อเต็กตึ๊ง)
 HUA CHIEW HOSPITAL
 华侨医院(附属报德善堂)",,"เลขที่ 665 ถนนบำรุงเมือ
 แขวงคลองมหานาค เขตป้อมปราบศัตรูพ่าย กรุงเทพฯ 10100",13/03/2024,,"2,974.00",
-Sample_Image (87).jpg,,,,,,,180.00,
-Sample_Image (88).jpg,,,,,,$358.04,"$4,183.60",
-Sample_Image (89).jpg,,,,,,,,
-Sample_Image (90).jpg,,,,,,,,
-Sample_Image (91).jpg,,,,,,50.72,684.72,684.72
-Sample_Image (92).jpg,,"THOMSON
+Sample_Image (87).jpg,5.786230564117432,,,,,,,180.00,
+Sample_Image (88).jpg,5.73246169090271,,,,,,$358.04,"$4,183.60",
+Sample_Image (89).jpg,5.698637962341309,,,,,,,,
+Sample_Image (90).jpg,7.8090174198150635,,,,,,,,
+Sample_Image (91).jpg,5.830864906311035,,,,,,50.72,684.72,684.72
+Sample_Image (92).jpg,22.83050775527954,,"THOMSON
 MEDICAL",,"339 Thomson Road, Singapore 307677",05/04/2023,638.55,"16,072.45","-1,296.00"
-Sample_Image (101).jpg,,MELBOURNE HEALTH,,"300 Grattan Street, Parkville, VIC 3052",02-Jun-23,$0.00,$1598.57,$1598.57
-Sample_Image (103).jpg,,"聖德肋搬醫院
+Sample_Image (101).jpg,8.843512535095215,,MELBOURNE HEALTH,,"300 Grattan Street, Parkville, VIC 3052",02-Jun-23,$0.00,$1598.57,$1598.57
+Sample_Image (103).jpg,6.9631922245025635,,"聖德肋搬醫院
 ST. TERESA'S HOSPITAL",,"香港九龍太子道327號
 327 PRINCE EDWARD ROAD, KOWLOON, HONG KONG",10-06-2023,,"$4,395","$4,395"
-Sample_Image (104).jpg,,香港養和醫院有限公司,,香港跑馬地山村道2號,4 JUL 2023,,"4,000.00",
+Sample_Image (104).jpg,8.08375334739685,,香港養和醫院有限公司,,香港跑馬地山村道2號,4 JUL 2023,,"4,000.00",
+Thai_bill (1).jpg,5.840349197387695,บริษัท ขายดิบขายดี จำกัด,"Surebatt
+store",123/45 แขวงคันนายาว เขตคันนายาว กรุงเทพฯ 10230,29/49 ซ.รามอินทรา 65 แยก 2-2-2 แขวงท่าแร้ง เขตบางเขน กรุงเทพฯ 10230,28/06/18,,410.00,
+Thai_bill (2).jpg,7.582172632217407,,"SPEED
+COMPANY",,,12/23/21,£ 68978,£748760,
+Thai_bill (3).jpg,5.661097049713135,วิราวรรณ สะอาด,,,,07/08/2551,"70,000.00","1,070,000.00",
+Thai_bill (4).jpg,23.779075384140015,,,,,,,"12,000.00",
+Thai_bill (5).jpg,7.599594593048096,บริษัท ข้างหน้า จำกัด,LOGO,"47/88 หมู่9 ต.บางพูด อ.ปากเกร็ด
+จ.นนทบุรี 11120",47/103 หมู่9 ต.บางพูด อ.ปากเกร็ด จ.นนทบุรี 11120,17/05/65,280,"4,280",
+Thai_bill (1).png,9.70042109489441,ช00001,บริษัท ตัวอย่าง จำกัด,"หจก.โชคชัยเจริญ
+648/3 หมู่ 10 ถ.รามคำแหง
+แขวงสะพานสูง เขตสะพานสูง",323 อาคารยูไนเต็ดเซ็นเตอร์ ชั้น 39 ห้อง 3903 สีลม บางรัก กทม.,31/01/56,0.00,"87,000.00",
+Thai_bill (2).png,5.728672504425049,,"SINOVAC LIFE SCIENCES CO., LTD.",,"เลขที่ 21 ตรอก/ซอย ถนน TIANFU STREET หมูที่ ตำบล/แขวง อำเภอ/เขต DAXING DISTRICT
+จังหวัด BEIJING รหัสไปรษณีย์",,,,
+Thai_bill (3).png,5.729087591171265,,SMEasy-Doc,,305 บ้านหนองไดร์ ม.6 ต.หนองจ้อน อ.สันทราย จ.เชียงใหม่ 50210,22/3/2559,,"1,016.50",
+Thai_bill (4).png,9.859513521194458,MISS NAPISA SAA,KTC,"โรงเรียนบ้านในไร่
+หมู่7
+นาเตย ท้ายเหมือง
+พังงา 82120",591 อาคารสมัชชาวาณิช 2 ชั้น 14 ถนนสุขุมวิท แขวงคลองตันเหนือ เขตวัฒนา กรุงเทพฯ 1,18/09/21,,"33,415.78",
+Thai_bill (5).png,21.76209306716919,,ลูกค้า บริษัท โลตัส จำกัด,,7/160 ท่าแร้ง บางเขน กรุงเทพมหานคร 10220,29/01/2020,350.00,"5,350.00",
+Thai_bill (6).png,7.5752174854278564,,,,,21/2/61,22.31,547.31,
+Thai_bill (7).png,7.573989629745483,,,,,2021/05/01,34.93 ฿,533.93 B,533.93 B
+Thai_bill (8).png,7.578593492507935,,,,,21/2/61,22.31,547.31,
+Thai_bill (9).png,5.423624753952026,,Good Invoice จำกัด,/แขวง ตัวอย่าง อำเภอ/เขต ตัวอย่าง จังหวัด ตัวอย่าง รหัส,1 หมู่1 ตำบล/แขวง ตัวอย่าง อำเภอ/เขต ตัวอย่าง จังหวัด ตัวอย่าง 11111,29/05/2020,32.00,500.00,
+Thai_bill (10).png,6.691318511962891,Por2 Company Limited,ABC Company Limited,,,,,"USD $7,970",
+Thai_bill (11).png,19.600239038467407,ผู้ซื้อทดสอบ จำกัด สำนักงานใหญ่,บริษัท ผู้ขายทดสอบ จำกัด (สำนักงานใหญ่),99 หมู่ 99 ถ.สาทร 99 แขวงสีลม เขตบางรัก กรุงเทพมหานคร 10500,"999 หมู่ 999 ถ.สาทร 999 แขวงสีลม
+เขตบางรัก กรุงเทพมหานคร 10500",09/09/2564,,,
+Thai_bill (12).png,5.453701972961426,ผู้ซื้อทดสอบ จำกัด สำนักงานใหญ่,บริษัท ผู้ขายทดสอบ จำกัด (สำนักงานใหญ่),99 หมู่ 99 ถ.สาทร 99 แขวงสีลม เขตบางรัก กรุงเทพมหานคร 10500,999 หมู่ 999 ถ. สาทร 999 แขวงสีลม,09/09/2564,"19.60
+บาท",299.60,
+Thai_bill (13).png,8.44744873046875,บริษัท กขค จำกัด,บริษัท วินวินโซลูชั่น ออดิทติ้ง จำกัด,"53 หมู่ที่ 2 อาคารแจ้งประสิทธิ์ ชั้น 3 ถนนแจ้งวัฒนะ แขวงทุ่งสองห้อง เขตหลักสี่
+กรุงเทพมหานคร","8/209 หมู่บ้านทาวน์อเวนิว ศรีนครินทร์ ซอยอ่อนนุช 68 แขวงสวนหลวง
+เขตสวนหลวง กรุงเทพมหานคร 10250",28-Aug-20,,"10,000.00",
+Thai_bill (14).png,7.656513690948486,บริษัท ซิณี เพรสทิจ จำกัด (สำนักงานใหญ่),"BMƯ
+BUILD ME UP CONSULTANT
+COMPANY LIMITED",44/14 หมู่ที่ 5 ตำบลบางพลีใหญ่ อำเภอบางพลี จังหวัดสมุทรปราการ 10540,"เลขที่ 33/1285 หมู่ที่ 8 ตำบลพิมลราช อำเภอบางบัวทอง จังหวัดนนทบุรี
+11110",02/08/2022,245.00,"3,745.00","3,640.00"
+Thai_bill (15).png,7.648301601409912,บริษัท ซิณี เพรสทิจ จำกัด (สำนักงานใหญ่),"BMƯ
+BUILD ME UP CONSULTANT
+COMPANY LIMITED",44/14 หมู่ที่ 5 ตำบลบางพลีใหญ่ อำเภอบางพลี จังหวัดสมุทรปราการ 10540,"เลขที่ 33/1285 หมู่ที่ 8 ตำบลพิมลราช อำเภอบางบัวทอง จังหวัดนนทบุรี
+11110",02/08/2022,245.00,"3,745.00","3,640.00"
+Thai_bill (16).png,8.905510187149048,"MISS
+โรงเรียน
+A SAA
+ไร่",KTC,"นาเตย ท้าย
+พังงา 82120",591 อาคารสมัชชาวาณิช 2 ชั้น 14 ถนนสุขุมวิท แขวงคลองตันเหนือ เขตวัฒนา กรุงเทพฯ 10110,18/09/21,,"33,415.78","1,719.39"
+Thai_bill (17).png,22.01400113105774,,,,,,104.25,"1,593.51","1,593.51"
+Thai_bill (18).png,5.61815881729126,"ถึง,บริษัท มั่งมีเพชรพลอย จำกัด",IVOMaker,"คุณ รุ่งเรือง ค้าขายร่ำรวย
+99/9 ปากน้ำโพ อำเภอเมือง นครสวรรค์ 60000","เอบีซี นามสมมุติ
+41 / 94 ปากเกร็ด นนทบุรี 11120",05-11-2020,,,
+Thai_bill (19).png,8.631080627441406,บริษัท กรุงเทพผลิตเหล็ก จำกัด (มหาชน),PROSOFT,"83/1 หมู่4 ถ.พหลโยธิน
+ต.ลำไทร อ.วังน้อย จ.พระนครศรีอยุธยา 54000",2571/1 ซ.รามคำแหง 75 ถ.รามคำแหง แขวงหัวหมาก เขตบางกะปิ กรุงเทพฯ 10240,20/03/2553,,"3,987,091.29",

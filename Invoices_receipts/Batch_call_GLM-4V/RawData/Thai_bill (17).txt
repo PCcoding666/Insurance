@@ -1,0 +1,62 @@
+First Step:
+
+```markdown
+# Bill Information
+- Service Type: ระบาดค่าเซินต์สูงความจุ 2Gbps/Fibre 2000/1000 Mbps ปีนักษ์ 1,399 บาท/ชั่วโมง
+- Bill Cycle Start Date: 22/11/2566
+- Bill Cycle End Date: 23/11/2566
+- Current Charge: 1,593.51 THB
+- Outstanding Balance: 0.00 THB
+- Total Outstanding Balance: 1,593.51 THB
+- Current Due Date: 24/12/2566
+
+# Summary of Current Charges
+- Internet Fee: 6,289.26 THB
+- Playbox Fee: 4,800.00 THB
+- VAT @ 7%: 104.25 THB
+- Total Current Charge: 1,593.51 THB
+
+# Your Package Details
+- Package Name: PLAY PREMIUM PLUS 299
+- Subscription Period: 1 ปีนักศึกษ์ 24 ชั่วโมง
+- Service Description: ระบาดค่าเซินต์สูงความจุ 2Gbps/Fibre 2000/1000 Mbps ปีนักศึกษ์ 1,399 บาท/ชั่วโมง
+
+# Current Charges Breakdown
+- Internet Fee: 90.26 THB (for the period 22/11/2566 - 23/11/2566)
+- Playbox Fee: 1,390.00 THB
+- VAT @ 7%: 4,800.00 THB
+- Total Current Charge Before VAT: 1,489.26 THB
+- VAT @ 7%: 104.25 THB
+- Total Current Charge Including Tax: 1,593.51 THB
+
+# Additional Information
+- Withholding Tax:
+  - Value Added Tax (VAT): 0.00 THB
+  - Personal Income Tax: 44.68 THB
+  - Business Income Tax: 0.00 THB
+
+```
+
+Second Step:
+
+```json
+{
+  "Bill Information": {
+    "Service Type": "ระบาดค่าเซินต์สูงความจุ 2Gbps/Fibre 2000/1000 Mbps ปีนักศึกษ์ 1,399 บาท/ชั่วโมง",
+    "Bill Cycle Start Date": "22/11/2566",
+    "Bill Cycle End Date": "23/11/2566",
+    "Current Charge": "1,593.51 THB",
+    "Outstanding Balance": "0.00 THB",
+    "Total Outstanding Balance": "1,593.51 THB",
+    "Current Due Date": "24/12/2566"
+  },
+  "Summary of Current Charges": {
+    "Internet Fee": "6,289.26 THB",
+    "Playbox Fee": "4,800.00 THB",
+    "VAT @ 7%": "104.25 THB",
+    "Total Current Charge": "1,593.51 THB"
+  },
+  "Your Package Details": {
+    "Package Name": "PLAY PREMIUM PLUS 299",
+    "Subscription Period": "1 ปีนักศึกษ์ 24 ชั่วโมง",
+    "Service Description": "ระบาดค่าเซินต์สูงความจุ 2Gbps/Fibre 2000/1000 Mbps ปี

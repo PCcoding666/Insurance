@@ -1,76 +1,39 @@
 First Step:
 
 ```markdown
-# Hospital Invoice Sample 2
-## D. & C.
+# Sample Hospital Invoice
 
-| 日期 DATE | 29-Jul-2015 12:02:25 |
-|--------------|-------------------------|
-| 姓名 NAME | 常凤秀 SHANG FONG SIU (0001) |
-| 病人编号 PATIENT NO. | HN201500010Z |
-| 入院日期 ADMISSION DATE | 01-Jan-2015 |
-| 日期 DATE | 01-01-15 |
-| 超声波心臟检查/超聲波 ECHOCARDIOGRAM/ULTRASOUND | $2,550 |
-| 病理學檢驗 BIOPATHOLOGICAL EXAMINATION | $2,840 |
-| 藥物/療物注射 MEDICINE/INJECTION | $3,670 |
-| 手術室費 OPERATING THEATRE CHARGE | $2,600 |
-| 手術室物料费 OPERATING THEATRE MATERIALS | $180 |
-| 入院服務费 ADMISSION SERVICE | $750 |
-| 病房收费 BEDROOM CHARGE | $3,000 |
-| 超声波 ULTRASOUND | $16,830 |
-| 药物/物质注射 MEDICINE/INJECTION | $520 |
-| 病床/病房收费 BED/ROOM CHARGE | $750 |
-| 住院费用 TOTAL HOSPITAL CHARGES | $18,100 |
-| 日期 DATE | 02-01-15 |
-| 医生费 TOTAL DOCTOR FEE | $16,000 |
-| 總計 GRAND TOTAL | $34,100 |
-
----
+| Particulars                   | Amount (HK$)       | Sub-Total (HK$)        |
+|-------------------------------|----------------------|-------------------------|
+| Echocardiogram/Ultrasound   | $2,550               | $2,550                  |
+| Histopathological Examination | $2,840               | $2,840                  |
+| Medicine/Injection           | $3,600               | $3,600                  |
+| Operating Theatre Charge      | $2,670               | $2,670                  |
+| Admission Service            | $180                 | $180                    |
+| Bedroom Charge                | $750                 | $750                    |
+| Ultrasound                    | $3,000               | $3,000                  |
+| Medicine/Injection           | $520                 | $520                    |
+| Bed/Room Charge               | $750                 | $750                    |
+| TOTAL HOSPITAL CHARGES      | $16,830              | $16,830                  |
+| Doctor Fee                   | $16,000              | $16,000                  |
+| GRAND TOTAL                   | $34,100              | $34,100                  |
+```
 
 Second Step:
 
 ```json
 {
-  "Invoice": {
-    "Hospital": "圣德肋撒医院 ST. TERESA'S HOSPITAL",
-    "Address": "九龙太子道327号 327 Prince Edward Road Kowloon, Hong Kong",
-    "Website": "www.stteresa.org.hk",
-    "Patient_Info": {
-      "Name": "常凤秀",
-      "Patient_No": "HN201500010Z",
-      "Admission_Date": "01-Jan-2015",
-      "Discharge_Date": "02-Jan-2015"
-    },
-    "Statement_of_Account": [
-      {
-        "Date": "01-01-15",
-        "Particulars": {
-          "超声波心臟检查/超聲波": "$2,550",
-          "病理學檢驗": "$2,840",
-          "藥物/療物注射": "$3,670",
-          "手術室費": "$2,600",
-          "手術室物料费": "$180",
-          "入院服務费": "$750",
-          "病房收费": "$3,000",
-          "超声波": "$16,830",
-          "药物/物質注射": "$520",
-          "病床/病房收费": "$750"
-        },
-        "Amount_HKD": "$16,830"
-      },
-      {
-        "Date": "02-01-15",
-        "Particulars": {
-          "陈大文医生费": "$2,000",
-          "手术费": "$10,000",
-          "麻醉费": "$4,000"
-        },
-        "Amount_HKD": "$16,000"
-      }
-    ],
-    "Grand_Total": "$34,100",
-    "Balance_Due": "$34,100",
-    "Remarks": [
-      "1. 本帐单须於出院後二十四小时内付清，否则在出院时扣除，出院时请结清余额。",
-      "2. 所有帐单须分次支付。",
-      "3. 以上所列
+  "key_field_information": {
+    "hospital_name": "ST. TERESA'S HOSPITAL",
+    "patient_name": "SHANG Foon SIU",
+    "patient_number": "HN201500010Z",
+    "admission_date": "01-Jan-2015",
+    "discharge_date": "02-Jan-2015",
+    "total_hospital_charges": "$16,830",
+    "doctor_fee": "$16,000",
+    "grand_total": "$34,100"
+  }
+}
+```
+
+Please note that the JSON format provided is a structured representation of the key field information extracted from the invoice. It excludes any visual elements or non-essential details.

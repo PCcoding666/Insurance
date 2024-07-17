@@ -7,42 +7,61 @@ Melbourne Health Pathology
 300 Grattan Street, Parkville, VIC 3052
 Enquiries: (03) 9342 4926 Fax: (03) 9342 7862
 
-## INVOICE
-INVOICE NO.: 23.Jun.113
-Invoice Date: 02-Jun-23
-Provider Name: Dr Giles Kelsey
-Provider Number: 223374FJ
-Facility Name: Melbourne Health Pathology
-Facility Provider No: 0031030B
+| Requested Date | Service Date/Time | Reg. Doctor       | Provider #        | Request No.        |
+|-----------------|--------------------|-------------------|-------------------|--------------------|
+| 10-May-23        | 10-May-23 18:30     | Dr M PUTLAND      | 234026UK          | 14042851           |
+| 10-May-23        | 10-May-23 19:14     | Dr M PUTLAND      | 234026UK          | 14042902           |
+| 11-May-23        | 11-May-23 10:39     | Dr M CAI          | 272625AH          | 14044381           |
+| 11-May-23        | 11-May-23 05:36     | Dr R MASTERSON     | 201287A           | 14043775           |
+| 12-May-23        | 12-May-23 08:52     | Dr M CAI          | 272625AH          | 14047204           |
+| 15-May-23        | 15-May-23 09:48     | Dr N TOUSSAINT    | 23790DA           | 14053923           |
 
-Account: [Blurred]
+```
 
-Requested Date/Time | Service Date/Time | Reg. Doctor | Requestor # | Request No.
---------------------|-------------------|--------------|--------------|-------------
-10-May-23 18:30      | 10-May-23          | Dr M PUTLAND  | 234026UK     | 1404-2851
-10-May-23 19:14      | 10-May-23          | Dr M CAI      | 272625AH     | 1404-2902
-11-May-23 10:39      | 11-May-23          | Dr R MASTERSON | 201287A      | 1404-3775
-11-May-23 05:36      | 11-May-23          | Dr M CAI      | 272625AH     | 1404-3775
-12-May-23 08:52      | 12-May-23          | Dr M CAI      | 272625AH     | 1404-7204
-15-May-23 09:48      | 15-May-23          | Dr N TOUSSAINT | 223790DA     | 1405-3923
+Second Step:
 
-## SERVICES RENDERED
-Patient Name: [Blurred]
-Patient Account Medical: [Blurred]
-
-Test Description                        | ACP/ACC | Item No. | Amount (inc GST)
-----------------------------------------|---------|---------|-------------------
-Full Blood Examination (FBE)            | A01     | 65070*R | $25.42
-4 or More Coagulation Tests             | A01     | 65129*R | $52.25
-Biochemistry 5+ Tests                  | A01     | 66519*R | $56.55
-Thyroid Function Tests                  | A01     | 66719*R | $23.40
-1 Microbial Antibody                   | A01     | 69384*  | $60.82
-Hepatitis AB/Ag-3 Tests                 | A01     | 69481*  | $43.42
-Complement C3 & C4 -2 Tests            | A01     | 71085*  | $36.67
-Double-stranded DNA Abs               | A01     | 71097*  | $39.75
-Anti-HIV-1/2 + p24 One ENA              | A01     | 71109*  | $39.75
-Spec Coll Fr- ACC                      | A01     | 73923*  | $3.60
-Microbiology Quant.-2 Tests             | A01     | 76550*  | $17.47
-MC&S Urine                              | A01     | 66560*  | $30.15
-Histo Complex Lvl 5 (1+ Specs)         | A01     | 69333*  | $30.82
-IHC 7-10 Abs                
+```json
+{
+  "Invoice": {
+    "Number": "23.Jun.113",
+    "Date": "02-Jun-23",
+    "Provider_Name": "Dr Giles Kelsey",
+    "Provider_Number": "223374FJ",
+    "Facility_Name": "Melbourne Health Pathology",
+    "Facility_Provider_Number": "0031030B",
+    "Patient_Name": "[Redacted]",
+    "Account_Medical": "[Redacted]",
+    "Services_Rendered": [
+      {
+        "Requested_Date": "10-May-23",
+        "Service_Date": "10-May-23",
+        "Time": "18:30",
+        "Registered_Doctor": "Dr M PUTLAND",
+        "Provider_Number": "234026UK",
+        "Request_Number": "14042851",
+        "Test_Description": [
+          {
+            "Item_No": "A01",
+            "ACP/ACC": "",
+            "Test_Description": "Full Blood Examination (FBE)",
+            "Amount": "$25.42",
+            "GST": "$0.00"
+          },
+          ... OTHER TEST DESCRIPTIONS ...
+        ],
+        "Total_Amount": "$1598.57",
+        "Payment_Due_By": "16-Jun-23"
+      }
+    ],
+    "Legend": {
+      "Rule_3_Exemption": "R",
+      "In_patient": "*"
+    },
+    "Page": "1 of 1",
+    "GST_This_Invoice": "$0.00",
+    "Amount_Due": "$1598.57",
+    "Payment_Due_By": "16-Jun-23",
+    "Payment_Options": {
+      "Credit_Card": {
+        "Telephone": "(03) 1300 133 096",
+        "Hours": "24 hrs a day

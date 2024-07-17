@@ -1,60 +1,52 @@
-First Step:
-
 ```markdown
-| SERVICES                   | DESCRIPTION                       | BEFORE GOVT SUBSIDY ($) | AFTER GOVT SUBSIDY ($) |
-|---------------------------|----------------------------------|-------------------------|-----------------------|
-| WARD CHARGES              | WARD (CLASS C) (1.0 day(s))        | 390.00                  | 169.37                |
-| TREATMENT SERVICES       | IMMEDIATE POST OPERATIVE CARE    | 404.00                  | 202.12                |
-| DAILY TREATMENT FEE       | DAILY TREATMENT FEE             | 168.00                  | 84.00                 |
-| INVESTIGATIONS           | X-RAY INVESTIGATIONS             | 1,087.00                | 607.31                |
-| CONSUMABLES                | SURGICAL SUPPLIES                | 820.00                  | 411.87                |
-| THERAPY SERVICES         | REHABILITATIVE SERVICES           | 146.00                  | 100.37                |
-| SURGERY SERVICES         | IMPLANTS / PRESCRIPTIONS / INJECTIONS | 2,270.01                | 1,560.62               |
-| MEDICATIONS               | DRUGS / PRESCRIPTIONS / INJECTIONS | 24.09                   | 15.88                 |
-| SURGICAL OPERATION        | SURGICAL OPERATION                | 7,873.99                | 3,937.44               |
-| TOTAL AMOUNT (BEFORE GOVT SUBSIDY) | - | 15,291.61 | - |
-| GOVT SUBSIDY               | - | -7,091.29 | - |
-| TOTAL AMOUNT (BEFORE GST) | - | 8,200.32 | - |
+# Hospital Bill Summary
+
+## Step 1 - Extracted Text
+- **Total Amount Before Govt Subsidy:** $15,291.61
+- **Govt Subsidy:** (-$7,091.29)
+- **Total Amount After Govt Subsidy:** $8,200.32
+- **GST Absorbed by Govt:** $656.02
+- **Payable by Medisave:** $4,500.00
+- **Payable by Other Schemes:** (-$783.76)
+- **Total Amount Payable:** $0.00
+- **Net Payment Made:** $0.00
+- **Final Amount Payable:** $0.00
+
+### Charges
+| Service                   | Description                        | Before Govt Subsidy ($) | After Govt Subsidy ($) |
+|---------------------------|-----------------------------------|--------------------------|--------------------------|
+| Ward Charges             | WARD (CLASS C) (1.0 day(s))      | 390.00                   | 169.37                   |
+| Treatment Services       | IMMEDIATE POST OPERATIVE CARE    | 404.00                   | 202.12                   |
+|                          | WARD PROCEDURES                  | 381.00                   | 189.89                   |
+| Daily Treatment Fee      | DAILY TREATMENT FEE              | 168.00                   | 84.00                    |
+| Investigations            | X-RAY INVESTIGATIONS             | 1,087.00                  | 607.31                   |
+| Consumables               | SURGICAL SUPPLIES                | 820.00                   | 411.87                   |
+|                          | CONSUMABLES                      | 1,727.52                  | 921.45                   |
+| Therapy Services         | REHABILITATIVE SERVICES           | 146.00                   | 100.37                   |
+| Surgery Services          | IMPLANTS / PRESCRIPTIONS / INJECTIONS | 2,270.01                  | 1,560.62                  |
+| Medications              | DRUGS / PRESCRIPTIONS / INJECTIONS | 24.09                    | 15.88                    |
+| Surgical Operation        | SURGICAL OPERATION                | 7,873.99                  | 3,937.44                  |
+
+**Total Amount Before Govt Subsidy:** $15,291.61
+**Govt Subsidy:** (-$7,091.29)
+**Total Amount After Govt Subsidy:** $8,200.32
+
 ```
-
-Second Step:
-
+### Key Field Information
 ```json
 {
-  "Ward Charges": {
-    "Description": "WARD (CLASS C) (1.0 day(s))",
-    "Before Govt Subsidy": "390.00",
-    "After Govt Subsidy": "169.37"
-  },
-  "Treatment Services": {
-    "Description": "IMMEDIATE POST OPERATIVE CARE",
-    "Before Govt Subsidy": "404.00",
-    "After Govt Subsidy": "202.12"
-  },
-  "Daily Treatment Fee": {
-    "Description": "DAILY TREATMENT FEE",
-    "Before Govt Subsidy": "168.00",
-    "After Govt Subsidy": "84.00"
-  },
-  "Investigations": {
-    "Description": "X-RAY INVESTIGATIONS",
-    "Before Govt Subsidy": "1,087.00",
-    "After Govt Subsidy": "607.31"
-  },
-  "Consumables": {
-    "Description": "SURGICAL SUPPLIES",
-    "Before Govt Subsidy": "820.00",
-    "After Govt Subsidy": "411.87"
-  },
-  "Therapy Services": {
-    "Description": "REHABILITATIVE SERVICES",
-    "Before Govt Subsidy": "146.00",
-    "After Govt Subsidy": "100.37"
-  },
-  "Surgery Services": {
-    "Description": "IMPLANTS / PRESCRIPTIONS / INJECTIONS",
-    "Before Govt Subsidy": "2,270.01",
-    "After Govt Subsidy": "1,560.62"
-  },
-  "Medications": {
-    "Description": "DRUGS /
+  "Total_Amount_Before_Govt_Subsidy": "$15,291.61",
+  "Govt_Subsidy": "-$7,091.29",
+  "Total_Amount_After_Govt_Subsidy": "$8,200.32",
+  "GST_Absorbed_by_Govt": "$656.02",
+  "Payable_by_Medisave": "$4,500.00",
+  "Payable_by_Other_Schemes": "-$783.76",
+  "Total_Amount_Payable": "$0.00",
+  "Net_Payment_Made": "$0.00",
+  "Final_Amount_Payable": "$0.00",
+  "Charges": {
+    "Ward_Charges": {
+      "Description": "WARD (CLASS C) (1.0 day(s))",
+      "Before_Govt_Subsidy": "$390.00",
+      "After_Govt_Subsidy": "$169.37"
+    

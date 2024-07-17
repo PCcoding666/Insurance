@@ -2,6 +2,7 @@ import os
 import requests
 import json
 import pandas as pd
+import re
 
 # 请在此处填入您的APIKey
 API_KEY = "61b5150277229e4c9f6337e013e1836f.5LkrF5U7FXOP9YgR"
@@ -71,62 +72,58 @@ def call_glm_api(content):
     response = requests.post(API_URL, headers=headers, data=json.dumps(payload))
     return response.json()
 
+def remove_json_comments(json_str):
+    # 使用正则表达式去除注释
+    pattern = re.compile(r'//.*?\n')
+    cleaned_json_str = re.sub(pattern, '', json_str)
+    return cleaned_json_str
+
+def extract_json_objects(content):
+    content = remove_json_comments(content)
+    json_objects = []
+    start = 0
+    while True:
+        json_start = content.find('{', start)
+        if json_start == -1:
+            break
+        json_end = content.find('}', json_start) + 1
+        if json_end == -1:
+            break
+        json_str = content[json_start:json_end].strip()
+        json_objects.append(json_str)
+        start = json_end
+    return json_objects
+
 def extract_json_from_response(response):
     message_content = response['choices'][0]['message']['content']
-    
     try:
-        # 逐步解析 JSON 内容
-        json_objects = []
-        start = 0
-        
-        while True:
-            json_start = message_content.find('```json', start)
-            if json_start == -1:
-                break
-            json_end = message_content.find('```', json_start + 7)
-            if json_end == -1:
-                break
-            json_str = message_content[json_start + 7:json_end].strip()
-            json_objects.append(json_str)
-            start = json_end + 3
-        
+        json_objects = extract_json_objects(message_content)
         if len(json_objects) < 2:
             raise ValueError("Expected JSON objects not found")
-        
-        first_json = json.loads(json_objects[0])
-        
-        # 清理第二个 JSON 数组中的注释和无关内容
-        second_json_str = json_objects[1]
-        cleaned_json_str = ""
-        in_object = False
-        brace_count = 0
-        
-        for i, char in enumerate(second_json_str):
-            if char == '{':
-                if brace_count == 0:
-                    in_object = True
-                brace_count += 1
-            if in_object:
-                cleaned_json_str += char
-            if char == '}':
-                brace_count -= 1
-                if brace_count == 0:
-                    in_object = False
-                    cleaned_json_str += ','
-        
-        cleaned_json_str = cleaned_json_str.rstrip(',')
 
-        second_json = json.loads(f'[{cleaned_json_str}]')
+        first_json = json.loads(json_objects[0])
+        second_json = json.loads(json_objects[1])
         
         print("JSON parsing succeeded.")
         return first_json, second_json
     except (ValueError, IndexError, json.JSONDecodeError) as e:
         print(f"Error extracting JSON: {e}")
+        print(f"Output was: {message_content}")
         raise
 
 def json_to_dataframes(json_content, file_name):
     info_dict = json_content[0]
     items_list = json_content[1]
+
+    # 确保 info_dict 是字典
+    if isinstance(info_dict, str):
+        info_dict = json.loads(info_dict)
+
+    # 确保 items_list 是列表
+    if isinstance(items_list, str):
+        items_list = json.loads(items_list)
+    elif isinstance(items_list, dict):
+        items_list = [items_list]
 
     # 获取图片命名，去掉后缀
     image_name = file_name.replace(".txt", "")

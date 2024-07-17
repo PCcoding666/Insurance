@@ -1,4 +1,5 @@
 import os
+import time
 import numpy as np
 import pandas as pd
 from azure.core.credentials import AzureKeyCredential
@@ -13,16 +14,14 @@ def is_supported_image(file_path):
         return False
 
 def extract(file_path, client):
-    # 打开图片文件并读取为二进制流
     with open(file_path, "rb") as file:
         poller = client.begin_analyze_document("prebuilt-invoice", document=file)
-    # 获取分析结果
     invoices = poller.result()
     return invoices
 
-def info_extract(invoices, file_name):
+def info_extract(invoices, file_name, processing_time):
     docs = invoices.documents
-    info_dict = {'FileName': file_name}
+    info_dict = {'FileName': file_name, 'ProcessingTime': processing_time}
     items_list = []
 
     for doc in docs:
@@ -79,7 +78,7 @@ def info_extract(invoices, file_name):
         Items = fields.get('Items')
         if Items:
             for item in Items.value:
-                item_dict = {'FileName': file_name}
+                item_dict = {'FileName': file_name, 'ProcessingTime': processing_time}
                 item_dict['Description'] = item.value.get('Description').content if item.value.get('Description') else None
                 item_dict['Quantity'] = item.value.get('Quantity').content if item.value.get('Quantity') else None
                 item_dict['Unit'] = item.value.get('Unit').content if item.value.get('Unit') else None
@@ -123,8 +122,11 @@ def main():
         print(f"Processing file {i + 1}/{total_files}: {file_name}")
         
         try:
+            start_time = time.time()
             invoices = extract(file_path, document_analysis_client)
-            info_dict, items_list = info_extract(invoices, file_name)
+            processing_time = time.time() - start_time
+            
+            info_dict, items_list = info_extract(invoices, file_name, processing_time)
             info_df, items_df = save_to_dataframes(info_dict, items_list)
             
             all_info_df = pd.concat([all_info_df, info_df], ignore_index=True)

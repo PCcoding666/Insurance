@@ -1,30 +1,30 @@
 First Step:
 
 ```markdown
-| DATE         | DESCRIPTION                          | UNIT  | GROSS CHARGES (RM) | DISCOUNT (RM) |
+| DATE         | DESCRIPTION                            | UNIT  | GROSS CHARGES (RM) | DISCOUNT (RM) |
 |--------------|---------------------------------------|-------|---------------------|-----------------|
 | 23-JUN-2023  | HOSPITAL CHARGES                      |        |                     |                 |
-|              | NURSING CARE (TREATMENT ROOM) (RTK-AG) (SCREENING) | 1     | 8.20                | 0.00            |
-|              | REGISTRATION                          | 1     | 20.00               | 0.00            |
-|              | SAMPLE HANDLING/PROCESSING (RTK-AG) (SCREENING) | 1     | 18.50               | 0.00            |
-|              | TREATMENT ROOM / FACILITY FEE (RTK-AG) (SCREENING) | 1     | 12.30               | 0.00            |
-|              | SUBTOTAL                              |        | 59.00               |                 |
-|              | LABORATORY                            |        |                     |                 |
-|              | INFLUENZA VIRUS & RSV, PCR             | 1     | 292.00              | 0.00            |
-|              | SARS-COV-2 AG (COVID-19) (SCREENING) | 1     | 79.20               | 0.00            |
-|              | SUBTOTAL                              |        | 371.20              |                 |
-|              | MEDICATION                           |        |                     |                 |
+|              | NURSING CARE (TREATMENT ROOM) (RTK-AG)(SCREENING) | 1     | 8.20                | 0.00            |
+|              | REGISTRATION                           | 1     | 20.00               | 0.00            |
+|              | SAMPLE HANDLING/PROCESSING (RTK-AG)(SCREENING) | 1     | 18.50               | 0.00            |
+|              | TREATMENT ROOM / FACILITY FEE (RTK-AG)(SCREENING) | 1     | 12.30               | 0.00            |
+|              | SUBTOTAL                              |        | 59.00               | 0.00            |
+|              | LABORATORY                             |        |                     |                 |
+|              | INFLUENZA VIRUS & RSV, PCR                | 1     | 292.00              | 0.00            |
+|              | SARS-COV-2 AG (COVID-19) (SCREENING)    | 1     | 79.20               | 0.00            |
+|              | SUBTOTAL                              |        | 371.20              | 0.00            |
+|              | MEDICATION                             |        |                     |                 |
 |              | AERIUS TAB 5MG                        | 7     | 22.75               |                 |
 |              | FLUHALT CAP 75MG                      | 10    | 146.50              |                 |
 |              | PARACAP TAB 500MG                     | 42    | 25.20               |                 |
-|              | STREPSILS MAX PRO DIRECT SPRAY 15ML  | 1     | 43.00               |                 |
+|              | STREPSILS MAX PRO DIRECT SPRAY 15ML | 1     | 43.00               |                 |
 |              | STREPSILS MAXPRO LOZ 8.75MG 16S      | 1     | 31.55               |                 |
 |              | SUBTOTAL                              |        | 269.00              |                 |
 |              | HOSPITAL CHARGES TOTAL                |        | 699.20              |                 |
 |              | DOCTOR CHARGES                        |        |                     |                 |
-|              | DR LEM LI KHEN                        |        |                     |                 |
+|              | DR LEM LI KHEN                         |        |                     |                 |
 |              | DOCTOR CHARGES                        |        |                     |                 |
-| 23-JUN-2023  | CONSULTATION                        | 1     | 180.00              |                 |
+| 23-JUN-2023  | CONSULTATION                         | 1     | 180.00              |                 |
 |              | SUBTOTAL                              |        | 180.00              |                 |
 |              | TOTAL                                 |        |                     |                 |
 ```
@@ -34,20 +34,20 @@ Second Step:
 ```json
 {
   "DATE": "23-JUN-2023",
-  "DESCRIPTIONS": [
-    {
-      "HOSPITAL_CHARGES": {
-        "NURSING_CARE": {
-          "UNIT": 1,
-          "GROSS_CHARGES": 8.20,
-          "DISCOUNT": 0.00
-        },
-        "REGISTRATION": {
-          "UNIT": 1,
-          "GROSS_CHARGES": 20.00,
-          "DISCOUNT": 0.00
-        },
-        "SAMPLE_HANDLING_PROCESSING": {
-          "UNIT": 1,
-          "GROSS_CHARGES": 18.50,
-          "DISCOUNT": 0.0
+  "HOSPITAL_CHARGES": {
+    "NURSING_CARE": {
+      "UNIT": 1,
+      "GROSS_CHARGES": 8.20,
+      "DISCOUNT": 0.00
+    },
+    "REGISTRATION": {
+      "UNIT": 1,
+      "GROSS_CHARGES": 20.00,
+      "DISCOUNT": 0.00
+    },
+    "SAMPLE_HANDLING": {
+      "UNIT": 1,
+      "GROSS_CHARGES": 18.50,
+      "DISCOUNT": 0.00
+    },
+    "TREATMENT

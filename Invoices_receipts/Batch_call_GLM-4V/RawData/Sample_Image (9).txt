@@ -1,11 +1,80 @@
 First Step:
 
 ```markdown
-# Mount Elizabeth Orchard Hospital - Tax Invoice
+# Mount Elizabeth Orchard
+## TAX INVOICE
+- Page: 3 of 4
+- GST Reg No: 20-0409811-Z
+- Business Reg No: 53029035M
+- Print Date/Time: 16.02.2022/22:31:39
+- Bill Date: 16.02.2022
+- Customer No: 6449330
+- Case No: 2022009391
+- Bill Document No: 100000042
+- Admission Date: 08.02.2022
+- Discharge Date: 09.02.2022
 
-| Page No | GST Reg No | Business Reg No | Print Date/Time | Bill Date | Customer No | Case No | Bill Document No | Admission Date | Discharge Date |
-|---------|-------------|------------------|-----------------|------------|-------------|---------|-------------------|-----------------|-----------------|
-| 3 of 4  | 20-0409811-Z | 53029035M        | 16.02.2022/22:31:39 | 16.02.2022 | 6449330      | 2022009391 | 100000042         | 08.02.2022      | 09.02.2022      | 16:09:04          |
+| Service Description | Amount ($) |
+|----------------------|---------------|
+| EQUIPMENT AND SUPPLY | 605.30 |
+| DAILY TREATMENT FEE | 224.30 |
 
-## Service Description & Amount ($)
-| EQUIPMENT AND SUPPLY                  | 605.30                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                
+| Subtotal                  | 15,497.23 |
+| Hospital Charges            | 15,497.23 |
+| GST @ 7%                  | 1,084.80 |
+| Hospital Charges Subtotal  | 16,582.03 |
+| Rounding Difference       | 0.01         |
+
+| Doctor Fee               |           |
+| DR TEOH TIONG ANN         | 6,794.50   |
+| DR ASOK KURUP             | 321.00     |
+| DR TEOH PEI FEN           | 1,457.88   |
+| Total Doctor Fee          | 8,573.38   |
+
+| Total Bill                | 25,155.42  |
+| Total Hospital Charges   | 25,155.42  |
+```
+
+Second Step:
+
+```json
+{
+  "Invoice": {
+    "Provider": "Mount Elizabeth Orchard",
+    "Page_Count": 3,
+    "GST_Registration_Number": "20-0409811-Z",
+    "Business_Registration_Number": "53029035M",
+    "Print_DateTime": "16.02.2022/22:31:39",
+    "Bill_Date": "16.02.2022",
+    "Customer_Number": 6449330,
+    "Case_Number": 2022009391,
+    "Bill_Document_Number": 100000042,
+    "Admission_Date": "08.02.2022",
+    "Discharge_Date": "09.02.2022"
+  },
+  "Service_Details": [
+    {
+      "Description": "EQUIPMENT AND SUPPLY",
+      "Amount": 605.30
+    },
+    {
+      "Description": "DAILY TREATMENT FEE",
+      "Amount": 224.30
+    }
+  ],
+  "Summary": {
+    "Subtotal": 15497.23,
+    "Hospital_Charges": 15497.23,
+    "GST_Amount": 1084.80,
+    "Hospital_Charges_Subtotal": 16582.03,
+    "Rounding_Difference": 0.01
+  },
+  "Doctor_Fees": {
+    "DR_TEOH_TIONG_ANN": 6794.50,
+    "DR_ASOK_KURUP": 321.00,
+    "DR_TEOH_PEI_FEN": 1457.88,
+    "Total": 8573.38
+  },
+  "Billing": {
+    "Total_Bill": 25155.42,
+    "Total_Hospital_Charges": 2

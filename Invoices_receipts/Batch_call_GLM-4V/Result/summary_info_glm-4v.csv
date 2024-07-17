@@ -1,27 +1,46 @@
-ImageName,CustomerName,VendorName,CustomerAddress,VendorAddress,InvoiceDate,TotalTax,InvoiceTotal,AmountDue
-Sample_Image (103),[Patient Name Obscured],St. Teresa's Hospital,"372 Prince Edward Road, Kowloon, Hong Kong",N/A,10-06-2023,Unknown,"$4,395","$4,395"
-Sample_Image (101),[Blurred],Melbourne Health Pathology,,"300 Grattan Street, Parkville, VIC 3052",02-Jun-23,Unknown,313.75,313.75
-Sample_Image (12),Unknown,Unknown,Unknown,Unknown,02-Jan-2015,Unknown,"$46,492","$46,492"
-Sample_Image (105),[Redacted],Hong Kong Sanatorium & Hospital Ltd,"Room 2503-1, Hospital No. 23-16924-4",Unknown,4 JUL 2023,Unknown,"52,889.00","48,889.00"
-Sample_Image (13),何启凯 HO KAI PAK (0001),St. Teresa's Hospital,N/A,N/A,29-Jul-2015,Unknown,"$60,749","$60,749"
-Sample_Image (14),常凤秀 SHANG FONG SIU,圣德肋撒医院 ST. TERESA'S HOSPITAL,N/A,"九龙太子道327号 327 Prince Edward Road Kowloon, Hong Kong",29-Jul-2015,Unknown,"$34,100","$34,100"
-Sample_Image (23),,,,,2023-05-10,Unknown,77.67,
-Sample_Image (22),,Yishun,,Clinic: Yishun,11/04/2024 09:06,1.65,19.95,18.30
-Sample_Image (25),[Redacted],VetSurge Ptd Ltd,[Redacted],"26 Jalan Pari Burong, Singapore, 488692",06-04-2024,8.61,131.61,131.61
-Sample_Image (24),Unknown,Dental Centre - Woodleigh,Not provided,Not provided,22 Mar 2024,Unknown,"$1,385.00",$0.00
-Sample_Image (26),SINGAPORE #########,Changi General Hospital Pte Ltd,,2 Simel Street 3 Singapore 529889,25 AUG 2023,11.04,138.00,138.00
-Sample_Image (27),Unknown,Unknown,Unknown,Unknown,Unknown,42.26,511.76,511.76
-Sample_Image (28),,,,,,23.61,286.04,0.00
-Sample_Image (30),Unknown,Unknown,Unknown,Unknown,Unknown,1016.76,12473.13,0.00
-Sample_Image (7),[Blurred],NUH National University Hospital,Not provided,Not provided,27.01.2021,34.78,531.58,0.00
-Sample_Image (84),Unknown,Unknown,Unknown,Unknown,Unknown,Unknown,3030.00,3030.00
-Sample_Image (87),Unknown,Unknown,Unknown,Unknown,23-JUN-2023,Unknown,1099.20,1099.20
-Sample_Image (85),HN 10643417,The Bangkok Christian Hospital,,,2024-04-09,Unknown,6348.00,6348.00
-Sample_Image (86),"SALINNART PHANPRASERT, MD.",[Redacted],[Redacted],[Redacted],13/03/2024,Unknown,2974.00,2974.00
-Sample_Image (88),Unknown,Unknown,Unknown,Unknown,Unknown,358.04,4833.60,4183.60
-Sample_Image (9),Unknown,Mount Elizabeth Orchard Hospital,,,16.02.2022,,605.30,605.30
-Sample_Image (89),Unknown,Unknown,Unknown,Unknown,Unknown,7.40,92.46,92.46
-Sample_Image (90),,,,,,,800.52,
-Sample_Image (92),Unknown,Thomson Medical Pte. Ltd.,Not provided,"339 Thomson Road, Singapore 307677",Not provided,638.55,"8,620.45","-1,296.00"
-Sample_Image (91),Unknown,Unknown,Unknown,Unknown,Unknown,50.72,684.72,684.72
-Sample_Image (104),Unknown,Unknown,Unknown,Unknown,03/07/23,Unknown,"39,889.00","39,889.00"
+ImageName,CustomerName,VendorName,CustomerAddress,VendorAddress,InvoiceDate,TotalTax,InvoiceTotal,AmountDue,Description,Amount,Quantity,Unit,UnitPrice,ProductCode,Date,Tax,CustomerTaxID,VendorTaxID,TransactionDate,PostingDate
+Sample_Image (103),,St. Teresa's Hospital,,,10/6/23,,4395,4395,,,,,,,,,,,,
+Sample_Image (101),[Redacted],Melbourne Health,,"300 Grattan Street, Parkville, VIC 3052",02-Jun-23,0.00,1598.57,1598.57,,,,,,,,,,,,
+Sample_Image (12),福安麒 FOOK AN HONG,Hospital,HN2015000009J,Not provided,2015-07-29,,46492,46492,,,,,,,,,,,,
+Sample_Image (105),[Redacted],HKSH,,,4 JUL 2023,,"52,889.00","48,889.00",,,,,,,,,,,,
+Sample_Image (13),何启凯 HO KAI PAK (000),St. Teresa's Hospital,,"27 Prince Edward Road, Kowloon, Hong Kong",29-Jul-2015,,"$60,749","$60,749",,,,,,,,,,,,
+Sample_Image (14),SHANG Foon SIU,ST. TERESA'S HOSPITAL,,,,,34100.00,34100.00,,,,,,,,,,,,
+Sample_Image (23),,Hospital Name,,,,$656.02,"$15,291.61",$0.00,,,,,,,,,,,,
+Sample_Image (22),,Clinic,,Yishun,11/04/2024 09:06,$1.65,$19.95,$18.30,,,,,,,,,,,,
+Sample_Image (20),,,,,,,,,Class B2 (2 DAYS),328.00,,,,,,,,,,
+Sample_Image (25),Blurred,Advanced VetCare,Not provided,"26 Jalan Pari Burong, Singapore, 488692",2024-04-06,,4734.38,484.38,,,,,,,,,,,,
+Sample_Image (24),Customer Name Not Provided,Dental Centre - Woodleigh,,,22 Mar 2024,,1385.00,0.00,,,,,,,,,,,,
+Sample_Image (27),,,,,,42.26,511.76,511.76,,,,,,,,,,,,
+Sample_Image (28),,,,,,23.61,286.04,286.04,,,,,,,,,,,,
+Sample_Image (30),,,,,,1016.76,12473.13,0.00,,,,,,,,,,,,
+Sample_Image (31),PATIENT NAME,PAYER NAME,ADDRESS,Not provided,16-DEC-2022,11.78,271.78,0.00,,,,,,,,,,,,
+Sample_Image (7),[Blurred],NUH National University Hospital,,"Block 50, Singapore 119074",27.01.2021,34.78,531.58,0.00,,,,,,,,,,,,
+Sample_Image (84),,,,,,,,,,,,,,,,,,,,
+Sample_Image (87),null,null,null,null,23-JUN-2023,null,699.2,null,,,,,,,,,,,,
+Sample_Image (85),John Doe,The Bangkok Christian Hospital,"123 Some Street, City, ZIP Code","456 Hospital Road, Bangkok, 10400, Thailand",2023-04-01,500.0,5000.0,4500.0,,,,,,,,,,,,
+Sample_Image (86),Patient_ID: 0138856-67,"SALINNART PHANPRASERT, MD.",,,13/03/2024,,2974.0,2974.0,,,,,,,,,,,,
+Sample_Image (88),Customer Name (missing from provided data),Vendor Name (missing from provided data),Customer Address (missing from provided data),Vendor Address (missing from provided data),Invoice Date (missing from provided data),358.04,4833.60,4833.60,,,,,,,,,,,,
+Sample_Image (9),Not provided,Mount Elizabeth Orchard,Not provided,Not provided,16.02.2022,1084.8,25155.42,Not provided,,,,,,,,,,,,
+Sample_Image (89),,,,,,7.40,$92.46,$92.46,,,,,,,,,,,,
+Sample_Image (90),,,,,,,800.73,,,,,,,,,,,,,
+Sample_Image (92),,,,,,,,,LCSCS WITH SPINAL 2 BEDDED,"2,204.00",1,,"2,204.00",,,,,,,
+Sample_Image (91),,,,,,50.72,684.72,,,,,,,,,,,,,
+Sample_Image (104),,,,,,,"39,889.00","39,889.00",,,,,,,,,,,,
+Sample_Image (18),6668443,Mount Elizabeth Orchard,,24-Hour Urgent Care Centre,10.03.2024,,,,,,,,,,,,,,,
+Thai_bill (2),ผู้จัดหลัง,"SINOVAC LIFE SCIENCES CO., LTD.",21 ถูกใจ ตัวอักษร/ชื่อ ถูกใจ/ชื่อ ถูกใจ ดากิน ดิสต์ บีซี และ/หรือ บีซี และ/หรือ บีซี และ,"รัฐบาลเอล, PEOPLE'S REPUBLIC OF CHINA",2021-05-22,,,,,,,,,,,,,,,
+Thai_bill (3),,SMEasy-Doc,,,22/3/2559,,,,,,,,,,,,,,,
+Thai_bill (4),John Doe,ABC Company,"123 Main St, Anytown, USA","456 Business Rd, Businesstown, USA",2023-04-01,24.99,299.99,299.99,,,,,,,,,,,,
+Thai_bill (5),,ชื่อผู้供應商,,,29/01/2020,,5000.00,5000.00,,,,,,,,,,,,
+Thai_bill (7),,[Supplier Name],,,2021/05/01,34.93,533.93,533.93,,,,,,,,,,,,
+Thai_bill (8),ชื่อผู้เสียง,ไม่มีข้อมูล,ที่อยู่,ไม่มีข้อมูล,2034-11-21,22.31,547.31,547.31,,,,,,,,,,,,
+Thai_bill (9),,ผู้ขาย ที่มีที่รับค่าประกันภัณฑ์ 11111,,,29/05/2020,32.0,500.0,500.0,,,,,,,,,,,,
+Thai_bill (10),Mr. B B,ABC Company Limited,Import Company,Export Company,DD/MM/YYYY,,"USD 37,970","USD 37,970",,,,,,,,,,,,
+Thai_bill (11),99 หน่อย 99 ถูกใจ,999 หน่อย 999 ถูกใจ,10500,10500,09/09/2564 09:00,,,,,,,,,,,,,,,
+Thai_bill (12),บริษัท ตุลีย์,บริษัท กู้เงิน จำหน่าย,"99 ถูกใจ 99, ระบาดสัมภาพ 10500","999 ถูกใจ 999, ระบาดสัมภาพ 10500",09/09/2564,19.6,309.6,309.6,,,,,,,,,,,,
+Thai_bill (13),,,,,,,,,,,,,,,,,,,,
+Thai_bill (14),บริษัท ที่มีความสันต์,บริษัท ที่มีความสันต์,44/14 ถ.น้ำหายใหญ่ กรุงธนบุรี 10540,-,2022-08-02,105.0,3745.0,3640.0,,,,,,,,,0115564018396,0105564067809,,
+Thai_bill (15),บริษัทเล็กซีน,"BMU BUILD ME UP CONSULTANT CO.,LTD.",44/14 ถ.5 ต.วัดไม้ อ.ประจำ จ.นครศาล์ 10540,,2022-08-02,245.00,"3,745.00","3,640.00",,,,,,,,,,,,
+Thai_bill (16),,,,,,,,,Payment -KTB Inter,14459.96,,,,,,,,,01/09/21,01/09/21
+Thai_bill (17),Customer Name Not Provided,Vendor Name Not Provided,Customer Address Not Provided,Vendor Address Not Provided,22/11/2566,104.25 THB,"1,593.51 THB","1,593.51 THB",,,,,,,,,,,,
+Thai_bill (18),บุญย ธนวันที่,บุญย ธนวันที่,41/94 หน้างคุณา 11120,99/9 หน้างคุณา 60000,05-11-2020,,,,,,,,,,,,,,,
+Thai_bill (19),,PROSOFT,,,,,,,,,,,,,,,,,,

@@ -1,0 +1,61 @@
+First Step:
+
+```markdown
+# Invoice
+
+## Customer Information
+- Name / ชื่อ: บริษัท ที่มีความสันต์
+- Address / ที่อยู่: 44/14 ถ.น้ำหายใหญ่ กรุงธนบุรี 10540
+- Tax ID / เลขประจำภาษาไทย: 0115564018396
+- Attention / ผู้เฝ้าระดับ: -
+- Email / อีเมล: p24ongina@gmail.com
+
+## BMU Consultant Information
+- Company Logo: BMU BUILD ME UP CONSULTANT
+- Issue No. / เลขที่ออก: N-20220800002
+- Issue Date / วันออก: 02/08/2022
+- Due Date / วันเป็นจำหน่าย: 09/08/2022
+- Reference / เลขที่เอกสาร: -
+
+## Issuer Information
+- Name / ชื่อ: บริษัท ที่มีความสันต์
+- Tax ID / เลขประจำภาษาไทย: 0105564067809
+- Phone / โทรศัพย์: 0610655570
+
+## Item Details
+- ID No. / เลขที่สินค้า: P0001
+- Description: รายงานสำหรับการประเมินผลการปกครองภาษาไทยและประเภทของ (ภาษาไทย)
+- Quantity: 1.00
+- Unit Price: 3,500.00
+- Pre-Tax Amount: 3,500.00
+
+## Total Amounts
+- Grand Total: 3,745.00
+- Withheld Tax: 105.00
+- Net to Pay: 3,640.00
+
+## Payment Information
+- Approved By / อนุมัติโดย: 0961308666
+- Prepared By / จัดจำหน่ายโดย: Kankwan soda
+
+---
+
+# Invoice
+
+## Customer Information
+- Name / ชื่อ: บริษัท ที่มีความสันต์
+- Address / ที่อยู่: 44/14 ถ.น้ำหายใหญ่ กรุงธนบุรี 10540
+- Tax ID / เลขประจำภาษาไทย: 0115564018396
+- Attention / ผู้เฝ้าระดับ: -
+- Email / อีเมล: p24ongina@gmail.com
+
+## BMU Consultant Information
+- Company Logo: BMU BUILD ME UP CONSULTANT
+- Issue No. / เลขที่ออก: N-20220800002
+- Issue Date / วันออก: 02/08/2022
+- Due Date / วันเป็นจำหน่าย: 09/08/2022
+- Reference / เลขที่เอกสาร: -
+
+## Issuer Information
+- Name / ชื่อ: บริษัท ที่มีความสันต์
+- Tax ID / เลขประจำภาษาไทย: 0105564067809

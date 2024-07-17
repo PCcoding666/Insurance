@@ -4,20 +4,20 @@ First Step:
 | Item                             | Qty  | Unit       | Total Amount | Discount | Total Net |
 |---------------------------------|------|------------|--------------|----------|------------|
 | Drugs and Parenteral Nutrition |      |            |              |          |            |
-| - Case Medication              |      |            |              |          |            |
+| - Case Medication               |      |            |              |          |            |
 |  - Gpo-A-Flu Capsule (75 Mg)   | 10   | 53.00      | 530.00       | 0.00     | 530.00     |
 | Lab Investigation and Pathology |      |            |              |          |            |
 |  - Influenza A/B screening    | 1    | 1,750.00   | 1,750.00     | 0.00     | 1,750.00   |
-| Nursing or Midwifery Charge     |      |            |              |          |            |
-| - OPD Service Charge         |      |            |              |          |            |
+| Nursing or Midwifery Charge    |      |            |              |          |            |
+| - OPD Service Charge            |      |            |              |          |            |
 |  - Out patient nursing service charge | 100.00 | 100.00     | 100.00       | 0.00     | 100.00     |
 | Packaged Medical Charge        |      |            |              |          |            |
 | - Other Medical Service Charges |      |            |              |          |            |
-|  - Other Medical Charge         | 200.00 | 200.00     | 200.00       | 0.00     | 200.00     |
+|  - Other Medical Charge        | 200.00 | 200.00     | 200.00       | 0.00     | 200.00     |
 | Physician Evaluation           |      |            |              |          |            |
 | - Physician Evaluation        | 1    | 750.00     | 750.00       | 0.00     | 750.00     |
-|                                - Thai Text                  |      |            |              |          |            |
-|                                - PAITOON NARONGCHAI, M.D. |      |            |              |          |            |
+|                                  |      |            |              |          |            |
+|                                  | 3,330.00 |            |              |          | 3,330.00   |
 | Net THREE THOUSAND THIRTY BAHT ONLY |      |            |              |          |            |
 ```
 
@@ -68,3 +68,4 @@ Second Step:
           "Qty": "1",
           "Unit": "750.00",
           "Total Amount": "750.00",
+          

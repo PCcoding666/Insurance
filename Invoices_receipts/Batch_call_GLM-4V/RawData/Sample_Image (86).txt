@@ -1,55 +1,77 @@
 First Step:
 
 ```markdown
-# Original Receipt [OPD / ER]
-
-| Description                   | Amount      | Discount    | Net Amount  |
-|------------------------------|-------------|-------------|-------------|
-| Drugs and Medical Nutrition  | 1,049.00     | 0.00        | 1,049.00     |
-| Laboratory Investigation     | 975.00      | 0.00        | 975.00      |
-| Nursing and Midwifery Charge | 975.00      | 0.00        | 975.00      |
-| Packaged Medical Charge      | 100.00      | 0.00        | 100.00      |
-| Other Medical Charges        | 200.00      | 0.00        | 200.00      |
-| Physician Evaluation and Management Services | 650.00      | 0.00        | 650.00      |
-
-Total                          | 2,974.00     | 0.00        | 2,974.00     |
-
-**Two Thousand, Nine Hundred Seventy-four Baht Only**
-
-BI-67-1038187 Print Date&Time 13/03/2024 12:58
+| Description                   | Amount       | Discount     | Net Amount   |
+|------------------------------|---------------|--------------|--------------|
+| Drugs and Medical Nutrition | 1,049.00      | 0.00         | 1,049.00     |
+| Laboratory Investigation    | 975.00        | 0.00         | 975.00       |
+| Nursing and Midwifery Charge | 975.00        | 0.00         | 975.00       |
+| Packaged Medical Charge      | 100.00        | 0.00         | 100.00       |
+| Other Medical Charges        | 200.00        | 0.00         | 200.00       |
+| Physician Evaluation and Management Services | 650.00       | 0.00         | 650.00       |
+| Total                        | 2,974.00      | 0.00         | 2,974.00      |
 ```
 
 Second Step:
 
 ```json
 {
-  "Patient_Name": "SALINNART PHANPRASERT, MD.",
-  "Doc_No": "[Redacted]",
-  "HN": "[Redacted]",
-  "VN": "0138856-67",
+  "Patient_ID": "0138856-67",
+  "Doc_No": "[Blurred]",
+  "Receipt_Type": {
+    "Original": true,
+    "OPD": false,
+    "ER": false
+  },
   "Date": "13/03/2024",
   "Time": "11:00",
   "Doctor": "SALINNART PHANPRASERT, MD.",
-  "Receipt_Type": {
-    "Original": true,
-    "OPD": true,
-    "ER": false
+  "Items": [
+    {
+      "Description": "Drugs and Medical Nutrition",
+      "Amount": 1049.00,
+      "Discount": 0.00,
+      "Net_Amount": 1049.00
+    },
+    {
+      "Description": "Laboratory Investigation",
+      "Amount": 975.00,
+      "Discount": 0.00,
+      "Net_Amount": 975.00
+    },
+    {
+      "Description": "Nursing and Midwifery Charge",
+      "Amount": 975.00,
+      "Discount": 0.00,
+      "Net_Amount": 975.00
+    },
+    {
+      "Description": "Packaged Medical Charge",
+      "Amount": 100.00,
+      "Discount": 0.00,
+      "Net_Amount": 100.00
+    },
+    {
+      "Description": "Other Medical Charges",
+      "Amount": 200.00,
+      "Discount": 0.00,
+      "Net_Amount": 200.00
+    },
+    {
+      "Description": "Physician Evaluation and Management Services",
+      "Amount": 650.00,
+      "Discount": 0.00,
+      "Net_Amount": 650.00
+    }
+  ],
+  "Total_Amount": 2974.00,
+  "Print_Details": {
+    "Date_and_Time": "13/03/2024 12:58",
+    "Batch_Number": "BI-67-1038187"
   },
-  "Details": {
-    "Drugs and Medical Nutrition": 1049.00,
-    "Laboratory Investigation": 975.00,
-    "Nursing and Midwifery Charge": 975.00,
-    "Packaged Medical Charge": 100.00,
-    "Other Medical Charges": 200.00,
-    "Physician Evaluation and Management Services": 650.00
-  },
-  "Amount": 2974.00,
-  "Discount": 0.00,
-  "Net_Amount": 2974.00,
-  "Currency": "Baht",
-  "Print_Info": {
-    "Reference": "BI-67-1038187",
-    "Date_Time": "13/03/2024 12:58"
+  "Cashier": "JARUNEE NEDARUN",
+  "Additional_Info": {
+    "Return_Policy": "The patient may return the medication if experiencing adverse reaction."
   }
 }
 ```

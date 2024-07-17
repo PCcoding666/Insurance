@@ -1,0 +1,59 @@
+First Step:
+
+```markdown
+# Invoice Information
+- Invoice Number: NV2001-0003
+- Date of Issue: 29/01/2020
+- Supplier Code: C001
+- Supplier Name: ชื่อผู้供應商 (Supplier Name is blurred out)
+- Company Code: 7160
+- Company Name: ชื่อบริษัท (Company Name is blurred out)
+- PO Number: 10220
+- Currency: THB (Thai Baht)
+- Total Amount Due: 5,000.00 THB
+
+## Item Details
+- No.: FSER0002
+- Description: รายละเอียง (Description is blurred out)
+- Quantity: 10 units
+- Unit Price: 500.00 THB
+- Total Cost: 5,000.00 THB
+
+---
+
+(Note: The text above assumes that the blurred out sections are due to privacy concerns and does not contain any personal information.)
+```
+
+Second Step:
+
+```json
+{
+  "Invoice": {
+    "Number": "NV2001-0003",
+    "Date": "29/01/2020",
+    "Supplier_Code": "C001",
+    "Supplier_Name": "[Blurred]",
+    "Company_Code": "7160",
+    "Company_Name": "[Blurred]",
+    "PO_Number": "10220",
+    "Currency": "THB",
+    "Total_Amount_Due": "5,000.00"
+  },
+  "Items": [
+    {
+      "Item_Number": "FSER0002",
+      "Description": "[Blurred]",
+      "Quantity": "10",
+      "Unit_Price": "500.00",
+      "Total_Cost": "5,000.00"
+    }
+  ],
+  "Signatures": {
+    "Buyer": "",
+    "Seller": "",
+    "Authorized_Personnel": ""
+  }
+}
+```
+
+(Note: The JSON provided above excludes any personal information by referring to it as "[Blurred]". It also assumes that the signature fields will be filled by handwriting which is not included in the extracted data.)

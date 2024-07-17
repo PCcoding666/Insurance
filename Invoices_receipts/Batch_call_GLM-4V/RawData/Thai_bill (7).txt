@@ -1,0 +1,102 @@
+First Step:
+
+```markdown
+# Invoice OV/2021/0063
+
+| Company Branch | Head Office                  |
+|-----------------|------------------------------|
+| Supplier        | [Supplier Name]              |
+| Tax. ID.        | [Tax Identification Number] |
+| Branch          | [Branch Code]                 |
+| Fiscal Position | [Fiscal Position Description] |
+| Source Document | 001                          |
+| Supplier Invoice Number | 001                          |
+| Payment Reference| [Payment Reference Number]   |
+
+| Invoice Date    | 2021/05/01                   |
+| Due Date        | 2021/05/26                   |
+| Account         | 21100 สำนวาม                |
+| Journal         | Purchase Journal (THB)      |
+| Header for Report| INVOICE                     |
+| Currency        | THB                          |
+
+| Product         | Description                  |
+|-----------------| Account                      |
+| Asset Category   | Quantity                    |
+| Unit of Measure  | Unit Price (%)               |
+| Discount (%)     | Taxes                        |
+| Amount          |                              |
+
+|                |                                |
+|                |                                |
+|                |                                |
+|                |                                |
+|                |                                |
+|                |                                |
+|                |                                |
+|                |                                |
+|                |                                |
+|                |                                |
+|                |                                |
+| Tax Description | Tax Account                   |
+| Base            | Amount                       |
+
+| Subtotal :      |                              |
+| Tax :            |                              |
+| Total :         |                              |
+| Balance :       |                              |
+```
+
+Second Step:
+
+```json
+{
+  "Invoice": {
+    "Number": "OV/2021/0063",
+    "Company_Branch": "Head Office",
+    "Supplier": {
+      "Name": "[Supplier Name]",
+      "Tax_ID": "[Tax Identification Number]",
+      "Branch": "[Branch Code]",
+      "Fiscal_Position": "[Fiscal Position Description]"
+    },
+    "Source_Document": "001",
+    "Supplier_Invoice_Number": "001",
+    "Payment_Reference": "[Payment Reference Number]"
+  },
+  "Details": {
+    "Invoice_Date": "2021/05/01",
+    "Due_Date": "2021/05/26",
+    "Account": "21100 สำนวาม",
+    "Journal": "Purchase Journal (THB)",
+    "Header_for_Report": "INVOICE",
+    "Currency": "THB"
+  },
+  "Items": [
+    {
+      "Product": "[Product Name]",
+      "Description": "[Description]",
+      "Account": "63100 ระบาด",
+      "Asset_Category": "[Asset Category]",
+      "Quantity": "1.000",
+      "Unit_of_Measure": "Units",
+      "Unit_Price": "499.00",
+      "Discount": "0.00",
+      "Taxes": "7%",
+      "Amount": "499.00"
+    }
+  ],
+  "Taxes": {
+    "Description": "[Tax Description]",
+    "Account": "11262 ภาษาไทย",
+    "Base": "499.00",
+    "Amount": "34.93"
+  },
+  "Summary": {
+    "Subtotal": "499.00",
+    "Tax": "34.93",
+    "Total": "533.93",
+    "Balance": "533.93"
+  }
+}
+```

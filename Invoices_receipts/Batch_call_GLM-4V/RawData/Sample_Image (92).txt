@@ -1,69 +1,48 @@
-First Step:
-
+### First Step: Extract the text in the image and return with markdown format
 ```markdown
-| HOSPITAL CHARGES | AMOUNT |
-|------------------|---------|
-| LCSCS WITH SPINAL 2 BEDDED | 2,204.00 |
-| ACCOMMODATION      | 656.00  |
-| DAILY TREATMENT FEES | 420.00  |
-| BABY CARE SERVICE   | 221.00  |
-| OPERATING THEATRE CHARGES | 211.00  |
-| MEDICATIONS        | 1,776.10 |
-| MEDICAL SUPPLIES    | 1,202.80 |
-| PROCEDURE          | 584.00  |
-| USE OF EQUIPMENT    | 683.00  |
-| TOTAL HOSPITAL CHARGES | 7,981.90 |
-| GST                | 638.55  |
-| TOTAL CHARGES INCLUSIVE OF GST | 8,620.45 |
-
-| DOCTOR FEES | AMOUNT |
-|------------------|---------|
-| DR ANG AI TIN (Operation Fee $810.00) | 810.00 |
-| DR TAN MARY (Operation Fee $1728.00) | 1,728.00 |
-| DR THAM WAI LUM BENJAMIN (Attendance Fee $486.00, Operation Fee $4428.00) | 4,914.00 |
-| TOTAL DOCTOR FEES | 7,452.00 |
-
-| GRAND TOTAL |
-|------------------|---------|
-| DEPOSIT / PAYMENTS RECEIVED | -8,000.00 |
-| TOTAL PAYMENT RECEIVED | -8,000.00 |
-| AMOUNT PAYABLE TO DR THAM WAI LUM BENJAMIN AT CLINIC | -1,296.00 |
-
-| PAYMENT REQUIRED |
-|------------------|---------|
-| DR ANG AI TIN fees $810.00, instruction 'To Collect $810.00' |
-| ADMISSION DATE : 03/04/2023 00:45 |
-| DISCHARGE DATE : 05/04/2023 09:43 |
-| LENGTH OF STAY : 2.0 |
-| TABLE OF OPERATION : AC |
-
----
-
-Thomson Medical Pte. Ltd.
-339 Thomson Road, Singapore 307677
-T +65 6350 2222 F +65 6823 4408
-W www.thomsonmedical.com
-Registered Number: 19710220K
+| INTERIM BILL | THOMSON MEDICAL |
+|------------------|-----------------|
+| BILL NO          | DATE            | ACCOUNT NO      | GST REG. No     |
+| :                | :                | :                | :                |
+| 05/04/2023       | 05/04/2023       | 1                | 1                |
+| PATIENT NAME     | HOSPITAL NO.     | EPISODE NO.      | RM NO.           | PAYER TYPE      |
+| -----------------| -               | 1                | 320B             | H                |
+| HOSPITAL CHARGES | AMOUNT          |
+| LCSCS WITH SPINAL 2 BEDDED   | 2,204.00         |
+| ACCOMMODATION      | 656.00           |
+| DAILY TREATMENT FEES    | 420.00           |
+| BABY CARE SERVICE   | 220.00           |
+| OPERATING THEATRE CHARGES | 211.00           |
+| MEDICATIONS        | 1,776.10         |
+| MEDICAL SUPPLIES    | 1,202.80         |
+| PROCEDURE          | 584.00           |
+| USE OF EQUIPMENT    | 683.00           |
+| TOTAL HOSPITAL CHARGES | 7,981.90         |
+| GST                | 25.00            |
+| TOTAL CHARGES INCLUSIVE OF GST | 8,620.45         |
+| DOCTOR FEES       | AMOUNT          |
+| DR ANG Ai TIN (Operation Fee $810.00)   | 810.00           |
+| DR TAN MARY (Operation Fee $1728.00)   | 1,728.00         |
+| DR THAM WAI LUM BENJAMIN (Attendance Fee $486.00, Operation Fee $4428.00)   | 4,914.00         |
+| TOTAL DOCTOR FEES   | 7,452.00         |
+| GRAND TOTAL        |                  |
+| DEPOSIT / PAYMENTS RECEIVED | AMOUNT          |
+| 29/03/2023 RT202315421 Visa | -8,000.00        |
+| TOTAL PAYMENT RECEIVED |                  |
+| -8,000.00         |                  |
+| AMOUNT PAYABLE TO DR THAM WAI LUM BENJAMIN AT CLINIC | AMOUNT          |
+| -1,296.00         |                  |
+| PAYMENT REQUIRED   |                  |
+| DR ANG Ai TIN fees $810.00, instruction 'To Collect $810.00' |                  |
+| ADMISSION DATE    | DISCHARGE DATE   | LENGTH OF STAY   | TABLE OF OPERATION |
+| 03/04/2023 00:45  | 05/04/2023 09:43  | 2.0              | 4C               |
+| Thomson Medical Pte. Ltd. | Page 1 of 2 | SYS | PRINTED ON 06/04/2023 12:03 |
+| 339 Thomson Road, Singapore 307677 | F +65 6222 2222 | W www.thomsonmedical.com | Registered Number: 19710228K |
 ```
 
-Second Step:
-
+### Second Step: Extract the key field information from the text and return in JSON format
 ```json
 {
-  "Hospital Charges": {
-    "LCSCS With Spinal 2 Bedded": "2,204.00",
-    "Accommodation": "656.00",
-    "Daily Treatment Fees": "420.00",
-    "Baby Care Service": "221.00",
-    "Operating Theatre Charges": "211.00",
-    "Medications": "1,776.10",
-    "Medical Supplies": "1,202.80",
-    "Procedure": "584.00",
-    "Use of Equipment": "683.00",
-    "Total Hospital Charges": "7,981.90",
-    "GST": "638.55",
-    "Total Charges Inclusive of GST": "8,620.45"
-  },
-  "Doctor Fees": {
-    "Dr Ang Ai Tin (Operation Fee $810.00)": "810.00",
-    "Dr Tan Mary (Operation Fee $1728.00)": "
+  "INTERIM_BILL": {
+    "THOMSON_MEDICAL": true,
+    "BILL

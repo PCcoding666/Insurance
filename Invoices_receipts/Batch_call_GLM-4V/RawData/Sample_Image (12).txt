@@ -1,56 +1,47 @@
 First Step:
 
 ```markdown
-| Date       | Particulars                   | Amount (HK$) | Sub-total (HK$) |
-|------------|--------------------------------|--------------|-------------------|
-| 01-Jan-2015 | E.C.G. EXAMINATION            | $425         | $425              |
-| 01-Jan-2015 | LABORATORY TEST               | $3,895        | $3,895             |
-| 02-Jan-2015 | ADMISSION SERVICE CHARGE     | $1,600        | $1,600             |
-| 02-Jan-2015 | BEDROOM CHARGE                | $750          | $750              |
-| 02-Jan-2015 | STRESS TEST                   | $2,420        | $2,420             |
-| 02-Jan-2015 | ENDOSCOPIC CHARGE-GASTROESCOPY | $2,518        | $9,580             |
-| 02-Jan-2015 | ENDOSCOPIC CHARGE-COLONOSCOPY | $3,853        | $9,580             |
-| 02-Jan-2015 | HISTOPATHOLOGICAL EXAMINATION  | $2,840        | $9,580             |
-| 02-Jan-2015 | MEDICINE/INJECTION            | $867          | $9,580             |
-| 02-Jan-2015 | TREATMENT/ASSOCIATE MATERIALS | $1,034        | $9,580             |
-| ------------| TOTAL HOSPITAL CHARGES        | $20,492       | $20,492            |
-| 02-Jan-2015 | DR. CHAN TAI MAN 陳大文          | $2,000        | $26,000            |
-| 02-Jan-2015 | Ward Round Fee                | $18,000       | $26,000            |
-| 02-Jan-2015 | Operation                      | $6,000        | $26,000            |
-| 02-Jan-2015 | DR. LEE TAI MAN 李大文           | $26,000       | $26,000            |
-| ------------| TOTAL DOCTOR FEE ($)            | $26,000       | $26,000            |
-| GRAND TOTAL |                                | $46,492       | $46,492            |
-| TOTAL BALANCE DUE                |                                | $46,492       | $46,492            |
-```
+# Hospital Invoice Sample 1 - Gastroscopy & Colonoscopy Case
 
-Second Step:
+| 日期 DATE                   | 29-Jul-2015 12:07:16                        |
+|-----------------------------|-------------------------------------------|
+| 姓名 NAME                   | 福安麒 FOOK AN HONG (0000)                   |
+| 病人编号 PATIENT NO.       | HN2015000009J                            |
+| 入院日期 ADMISSION DATE     | 01-Jan-2015                              |
+| 页码 PAGE                   | 1 of 1                                   |
+| 编號 NO.                   | AC2015000126                              |
+| 性别 SEX                   | Male                                     |
+| 房號 ROOM/BED             | M815A                                    |
+| 出院日期 DISCHARGE DATE   | 02-Jan-2015                              |
 
-```json
-{
-  "Admission Date": "01-Jan-2015",
-  "Discharge Date": "02-Jan-2015",
-  "Total Hospital Charges": "$20,492",
-  "Doctor Fees": [
-    {
-      "Doctor Name": "DR. CHAN TAI MAN 陳大文",
-      "Amount": "$2,000"
-    },
-    {
-      "Doctor Name": "Ward Round Fee",
-      "Amount": "$18,000"
-    },
-    {
-      "Doctor Name": "Operation",
-      "Amount": "$6,000"
-    },
-    {
-      "Doctor Name": "DR. LEE TAI MAN 李大文",
-      "Amount": "$26,000"
-    }
-  ],
-  "Grand Total": "$46,492",
-  "Total Balance Due": "$46,492"
-}
-```
+## STATEMENT OF ACCOUNT
 
-The above JSON represents a structured breakdown of the hospital invoice. It includes details such as admission and discharge dates, total hospital charges, individual doctor fees, grand total, and the total balance due. The 'Particulars
+| 日期 DATE                   | 项目 PARTICULARS                           | 金额（HK$) AMOUNT (HK$) | 小计（HK$) SUB-TOTAL (HK$) |
+|-----------------------------|-------------------------------------------|------------------------------|-------------------------------------|
+| 01-Jan-15                  | E.C.G. EXAMINATION                      | $425                         |                                    |
+|                             | LABORATORY                               | $3,855                       |                                    |
+|                             | ADMISSION SERVICE                       | $420                         |                                    |
+|                             | BEDROOM CHARGE                          | $1,800                       |                                    |
+|                             | STRESS TEST                             | $950                         |                                    |
+|                             | 心脏图检查                                   |                                |                                    |
+|                             | 化验费                                     |                                |                                    |
+|                             | 住院服务                                   |                                |                                    |
+|                             | 病房费                                     |                                |                                    |
+| 02-Jan-15                  | 内窥镜收费-胃镜检查                             | $2,420                       |                                    |
+|                             | 内窥镜收费-结肠镜检查                            | $2,518                       | $9,580                             |
+|                             | 病理化验                                   | $3,853                       |                                    |
+|                             | 药物/注射费                                | $2,840                       |                                    |
+|                             | 治疗及有关物料费                             | $867                         |                                    |
+|                             | TOTAL HOSPITAL CHARGES                  | $1,034                       |                                    |
+|                             | 医院帐目合共                                 |                                |                                    |
+| 02-Jan-15                  | 医生费用 DR. CHAN TAI MAN 陳大文             | $10,912                      |                                    |
+|                             | Ward Round Fee                         | $2,000                       |                                    |
+|                             | Operation                               | $18,000                      |                                    |
+|                             | 3532 DR. LEE TAI MAN 李大文               | $6,000                       |                                    |
+|                             | Anesthetic                             |                                |                                    |
+|                             | TOTAL DOCTOR FEE(S)                    |                                |                                    |
+|                             | 医生费用合共                                 | $26,000                      |                                    |
+|                             | GRAND TOTAL                             |                                |                                    |
+|                             | 總額                                      | $46,492                      |                                    |
+|                             | 應缴金额總數                                |                                |                                    |
+|                             |                                                                                                                                                                                

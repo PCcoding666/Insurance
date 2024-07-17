@@ -3,29 +3,39 @@ First Step:
 ```markdown
 # Hospital Invoice Sample 3 - Haemorrhoidectomy / St. Teresa's Hospital
 
-| 日期 DATE                   | 29-Jul-2015 11:58:10            |
-|---------------------------|----------------------------------|
-| 姓名 NAME                  | 何启凯 HO KAI PAK (0001)           |
-| 病人编号 PATIENT NO.        | HN20150001IX                   |
-| 入院日期 ADMISSION DATE    | 01-Jan-2015                    |
-| 出院日期 DISCHARGE DATE    | 02-Jan-2015                    |
-| 项目 DATE                  | PARTICULARS                    |
-| 加床费 EXTRA BED           | $180                            |
-| 病理化验 HISTOPATHOLOGICAL EXAMINATION | $2,840                      |
-| 化验费 LABORATORY              | $1,975                      |
-| 麻醉/药物注射费 ANESTHETIC/INJECTION | $320                      |
-| 手术费 OPERATING THEATRE CHARGE | $3,260                      |
-| 手术室物料费 OPERATING THEATRE MATERIALS | $7,784                      |
-| 入院服务费 ADMISSION SERVICE    | $180                            |
-| 病床/病房收费 BED/ROOM CHARGE  | $750                            |
-| 药费/药物注射费 MEDICINE/INJECTION | $560                            |
-| 床位/病房收费 BED/ROOM CHARGE  | $750                            |
-| 治疗及有关物料费 TREATMENT/ASSOCIATE MATERIALS | $290                            |
-| 总医院费用 TOTAL HOSPITAL CHARGES | $18,749                      |
-| 医生费用 TOTAL DOCTOR FEE(S) | $42,000                      |
-| 总费用 GRAND TOTAL          | $60,749                      |
-| 总额 TOTAL BALANCE DUE     | $60,749                      |
-| 应缴金额总数 AMOUNT TO BE PAID | $60,749                      |
+| 日期 DATE | 29-Jul-2015 11:58:10 |
+|--------------|-------------------------|
+| 姓名 NAME | 何启凯 HO KAI PAK (000) |
+| 病人编号 PATIENT NO. | HN20150001IX |
+| 入院日期 ADMISSION DATE | 01-Jan-2015 |
+| 出院日期 DISCHARGE DATE | 02-Jan-2015 |
+| 项目 DATE | 01-01-15 - 02-01-15 |
+| 详情 PARTICULARS | 加床床位费 EXTRA BED |
+|                  | 病理化验 HISTOPATHOLOGICAL EXAMINATION |
+|                  | 化验费 LABORATORY |
+|                  | 麻醉/药物注射费 ANESTHETIC/INJECTION |
+|                  | 手术商费 OPERATING THEATRE CHARGE |
+|                  | 手术室物料费 OPERATING THEATRE MATERIALS |
+|                  | 入院服务费 ADMISSION SERVICE |
+|                  | 病床/病房收费 BED/ROOM CHARGE |
+|                  | 药费/药物注射费 MEDICINE/INJECTION |
+|                  | 病床/病房收费 BED/ROOM CHARGE |
+|                  | 治疗费及有关物料费 TREATMENT/ASSOCIATE MATERIALS |
+| 金额 AMOUNT (HK$) | $180 |
+| 总计 SUBTOTAL (HK$) | $7,149 |
+| 住院费用合计 TOTAL HOSPITAL CHARGES | $17,149 |
+| 日期 DATE | 02-01-15 |
+| 详情 PARTICULARS | 医生费用 TOTAL DOCTOR FEE(S) |
+|                  | 1850 DR. CHAN TAI MAN 谭大文 Ward Round Fee |
+|                  | 3532 DR. LEE TAI MAN 李大文 Operation Anesthetic |
+|                  | 监护费 WARD ROUND FEE |
+|                  | 手术费 SURGERY |
+|                  | 麻醉费 ANESTHETIC |
+| 金额 AMOUNT (HK$) | $2,000 |
+| 总计 SUBTOTAL (HK$) | $42,000 |
+| 医生费用合计 GRAND TOTAL | $42,000 |
+| 总额 TOTAL BALANCE DUE | $60,749 |
+| 应缴金额总数 GRAND TOTAL | $60,749 |
 
 ```
 
@@ -33,49 +43,33 @@ Second Step:
 
 ```json
 {
-  "Patient Information": {
-    "Name": "何启凯",
-    "Patient No.": "HN20150001IX",
-    "Admission Date": "01-Jan-2015",
-    "Discharge Date": "02-Jan-2015"
-  },
-  "Invoice Details": {
-    "Items": [
+  "Hospital Invoice": {
+    "Sample_Number": "3",
+    "Type": "Haemorrhoidectomy",
+    "Provider": "St. Teresa's Hospital",
+    "Address": "27 Prince Edward Road, Kowloon, Hong Kong",
+    "Phone": "2200 3434",
+    "Website": "www.sth.org.hk",
+    "Patient_Information": {
+      "Name": "何启凯",
+      "Patient_No": "HN20150001IX",
+      "Admission_Date": "01-Jan-2015",
+      "Discharge_Date": "02-Jan-2015"
+    },
+    "Invoice_Details": [
       {
-        "Description": "EXTRA BED",
-        "Amount (HK$)": "$180"
+        "Date": "01-Jan-15",
+        "Description": "加床床位费",
+        "Amount": "$180"
       },
       {
-        "Description": "HISTOPATHOLOGICAL EXAMINATION",
-        "Amount (HK$)": "$2,840"
+        "Description": "病理化验",
+        "Amount": "$2,840"
       },
       {
-        "Description": "LABORATORY",
-        "Amount (HK$)": "$1,975"
+        "Description": "化验费",
+        "Amount": "$1,975"
       },
       {
-        "Description": "ANESTHETIC/INJECTION",
-        "Amount (HK$)": "$320"
-      },
-      {
-        "Description": "OPERATING THEATRE CHARGE",
-        "Amount (HK$)": "$3,260"
-      },
-      {
-        "Description": "OPERATING THEATRE MATERIALS",
-        "Amount (HK$)": "$7,784"
-      },
-      {
-        "Description": "ADMISSION SERVICE",
-        "Amount (HK$)": "$180"
-      },
-      {
-        "Description": "BED/ROOM CHARGE",
-        "Amount (HK$)": "$750"
-      },
-      {
-        "Description": "MEDICINE/INJECTION",
-        "Amount (HK$)": "$560"
-      },
-      {
-        "Description": "BED/ROOM CHAR
+        "Description": "麻醉/药物注射费",
+        "Amount": "$3,200

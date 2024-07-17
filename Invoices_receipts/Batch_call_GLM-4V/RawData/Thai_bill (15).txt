@@ -1,0 +1,66 @@
+First Step:
+
+```markdown
+# Invoice
+
+## Customer Information
+- Name / ชื่อผู้สั่งซื้อ: บริษัทเล็กซีน
+- Address / ที่อยู่: 44/14 ถ.5 ต.วัดไม้ อ.ประจำ จ.นครศาล์ 10540
+- Tax ID / หมายเลขภาษาไทย: 011564018396
+- Email / อีเมล: p24onginal@gmail.com
+- Attention / แนะนำ: -
+
+## Issuer Information
+- Name / ชื่อผู้ให้: BMU BUILD ME UP CONSULTANT CO.,LTD.
+- Address / ที่อยู่: -
+- Tax ID / หมายเลขภาษาไทย: 010556406789
+- Phone / โทรศัพย์: T: 0610655570
+- Email / อีเมล: E: -
+- Weight / น้ำหนา: W: -
+
+## Invoice Details
+- Invoice No. / เลขที่ invoice: N-20220800002
+- Issue Date / วันที่ issue: 02/08/2022
+- Due Date / วันที่ due: 09/08/2022
+- Reference / หมายเลข reference: -
+
+## Item Information
+- ID No. / เลขที่สินค้า: P0001
+- Description / รายละเอียง: บริษัทเล็กซีน รุ่น 6.5
+- Quantity / จำนวณ: 1.00
+- Unit Price / ค่าต่อหน่อย: 3,500.00
+- Pre-Tax Amount / ค่ารับเมื่อไม่มีภาษาไทย: 3,500.00
+
+## Remarks / หมายเหตุ
+- Remarks / หมายเหตุ: -
+
+## Summary of Charges
+- Pre-VAT Amount / ค่ารับเมื่อมีภาษาไทย: 3,500.00
+- VAT / ภาษาไทย: 245.00
+- Grand Total / รายทั้ง: 3,745.00
+- Withheld Tax / ภาษาไทย: 105.00
+- Net to Pay / ค่าที่จะช่องเงิน: 3,640.00
+
+## Payment Information
+- Approved by / อนุมัติโดย: 0961308666
+- Accepted by / รับค่าโดย: -
+
+## Documentation
+- Page / หน้า: 1/1
+- Date / วัน: 02/08/2022
+- Prepared by / ทำโดย: Kankwan soda
+```
+
+Second Step:
+
+```json
+{
+  "Invoice": {
+    "Customer": {
+      "Name": "บริษัทเล็กซีน",
+      "Address": "44/14 ถ.5 ต.วัดไม้ อ.ประจำ จ.นครศาล์ 10540",
+      "Tax_ID": "011564018396",
+      "Email": "p24onginal@gmail.com"
+    },
+    "Issuer": {
+      "Name": "BMU BUILD ME UP

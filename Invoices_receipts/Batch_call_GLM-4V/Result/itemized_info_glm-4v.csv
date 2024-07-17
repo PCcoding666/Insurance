@@ -1,145 +1,46 @@
-ImageName,Description,Quantity,Unit,UnitPrice,ProductCode,Date,Tax,Amount
-Sample_Image (103),TREATMENT/ASSOCIATE MATERIALS,1,N/A,415.0,N/A,10-06-23,Unknown,415
-Sample_Image (103),DOCTOR FEE,1,N/A,3980.0,N/A,10-06-23,Unknown,3980
-Sample_Image (101),Full Blood Examination (FBE),1,ACP/ACC,25.42,65070*R,10-May-23,Unknown,25.42
-Sample_Image (101),4 or More Coagulation Tests,1,ACP/ACC,52.25,65129*R,10-May-23,Unknown,52.25
-Sample_Image (101),Biochemistry 5+ Tests,1,ACP/ACC,56.55,66519*R,Unknown,Unknown,56.55
-Sample_Image (101),Thyroid Function Tests,1,ACP/ACC,23.4,66719*R,Unknown,Unknown,23.4
-Sample_Image (12),E.C.G. EXAMINATION,1,Each,425.0,Unknown,01-Jan-2015,Unknown,425
-Sample_Image (12),LABORATORY TEST,1,Each,3895.0,Unknown,01-Jan-2015,Unknown,3895
-Sample_Image (12),ADMISSION SERVICE CHARGE,1,Each,1600.0,Unknown,02-Jan-2015,Unknown,1600
-Sample_Image (12),BEDROOM CHARGE,1,Each,750.0,Unknown,02-Jan-2015,Unknown,750
-Sample_Image (12),STRESS TEST,1,Each,2420.0,Unknown,02-Jan-2015,Unknown,2420
-Sample_Image (12),ENDOSCOPIC CHARGE-GASTROESCOPY,1,Each,2518.0,Unknown,02-Jan-2015,Unknown,2518
-Sample_Image (12),ENDOSCOPIC CHARGE-COLONOSCOPY,1,Each,3853.0,Unknown,02-Jan-2015,Unknown,3853
-Sample_Image (12),HISTOPATHOLOGICAL EXAMINATION,1,Each,2840.0,Unknown,02-Jan-2015,Unknown,2840
-Sample_Image (12),MEDICINE/INJECTION,1,Each,867.0,Unknown,02-Jan-2015,Unknown,867
-Sample_Image (12),TREATMENT/ASSOCIATE MATERIALS,1,Each,1034.0,Unknown,02-Jan-2015,Unknown,1034
-Sample_Image (12),DR. CHAN TAI MAN 陳大文,1,Each,2000.0,Unknown,02-Jan-2015,Unknown,2000
-Sample_Image (12),Ward Round Fee,1,Each,18000.0,Unknown,02-Jan-2015,Unknown,18000
-Sample_Image (12),Operation,1,Each,6000.0,Unknown,02-Jan-2015,Unknown,6000
-Sample_Image (12),DR. LEE TAI MAN 李大文,1,Each,26000.0,Unknown,02-Jan-2015,Unknown,26000
-Sample_Image (105),DR. MUI (03/07/2023 ECG REPORTING),1,Each,400.0,31811,4 JUL 2023,Unknown,400.0
-Sample_Image (13),EXTRA BED,1,N/A,180.0,N/A,N/A,Unknown,180
-Sample_Image (13),HISTOPATHOLOGICAL EXAMINATION,1,N/A,2840.0,N/A,N/A,Unknown,2840
-Sample_Image (13),LABORATORY,1,N/A,1975.0,N/A,N/A,Unknown,1975
-Sample_Image (14),超声波心臟检查/超聲波 ECHOCARDIOGRAM/ULTRASOUND,1,N/A,2550.0,N/A,01-01-15,Unknown,2550
-Sample_Image (14),病理學檢驗 BIOPATHOLOGICAL EXAMINATION,1,N/A,2840.0,N/A,01-01-15,Unknown,2840
-Sample_Image (14),藥物/療物注射 MEDICINE/INJECTION,1,N/A,3670.0,N/A,01-01-15,Unknown,3670
-Sample_Image (14),医生费 TOTAL DOCTOR FEE,1,N/A,16000.0,N/A,02-01-15,Unknown,16000
-Sample_Image (23),服务描述,1,个,25.42,65070*R,2023-05-10,Unknown,25.42
-Sample_Image (23),4 or More Coagulation Tests,1,,52.25,65129*R,2023-05-10,Unknown,52.25
-Sample_Image (22),Consultation,1,,16.3,,11/04/2024,Unknown,16.3
-Sample_Image (22),Charcoal 200mg Cap,30,,1.4,,11/04/2024,Unknown,42.0
-Sample_Image (22),Oral Rehydration Salt Sac,6,,0.6,,11/04/2024,Unknown,3.6
-Sample_Image (25),Consultation 06-Apr-2024,1,N/A,59.0,Unknown,06-04-2024,S,59.0
-Sample_Image (25),"Vaccine - Canine Distemper, Adenovirus Type 2, Parainfluenza",1,Vial,32.0,Unknown,06-04-2024,S,32.0
-Sample_Image (25),Leptospira (4-Way),1,Vial,32.0,Unknown,06-04-2024,S,32.0
-Sample_Image (24),Consultation,1,Not provided,120.0,Not provided,22 Mar 2024,Unknown,120.0
-Sample_Image (24),X-Rays (PA),1,Not provided,50.0,Not provided,22 Mar 2024,Unknown,50.0
-Sample_Image (24),Root Canal Treatment Stage 1 - Extirpation / Emergency Treatment,1,Not provided,1200.0,Not provided,22 Mar 2024,Unknown,1200.0
-Sample_Image (24),Aroxia 120mg - tablet,3,Not provided,5.0,Not provided,22 Mar 2024,Unknown,15.0
-Sample_Image (26),X-RAY INVESTIGATIONS,1,,73.5,,25 AUG 2023,Unknown,0.0
-Sample_Image (26),DRUGS / PRESCRIPTIONS / INJECTIONS,1,,24.22,,25 AUG 2023,Unknown,0.0
-Sample_Image (26),A&E ATTENDANCE FEE,1,,276.0,,25 AUG 2023,Unknown,138.0
-Sample_Image (27),PROFESSIONAL FEES - DOCTOR,1,UN,151.0,Unknown,Unknown,Unknown,151.0
-Sample_Image (27),CONSULT - REPEAT VISIT,1,UN,151.0,Unknown,Unknown,Unknown,151.0
-Sample_Image (27),X-RAY INVESTIGATIONS,1,Unknown,200.2,Unknown,Unknown,Unknown,200.2
-Sample_Image (27),ULTRASOUND OBS SIMPLE (MULTIPLE),1,UN,96.2,Unknown,Unknown,Unknown,96.2
-Sample_Image (27),PLACENTAL LOCALISATION,1,UN,96.2,Unknown,Unknown,Unknown,96.2
-Sample_Image (27),WARD PROCEDURES,1,Unknown,22.1,Unknown,Unknown,Unknown,22.1
-Sample_Image (27),OBSTETRIC ROUTINE CHECK,1,UN,22.1,Unknown,Unknown,Unknown,22.1
-Sample_Image (28),PROFESSIONAL FEES - DOCTOR,1,UN,262.43,,,Unknown,262.43
-Sample_Image (28),"CONSULT - NEW VISIT, DEL SUITE",1,UN,146.0,,,Unknown,146.0
-Sample_Image (28),SPECIALISED INVESTIGATIONS,1,UN,80.6,,,Unknown,80.6
-Sample_Image (28),ANTENATAL CARDIOTOCOGRAPHY (CTG),1,UN,80.6,,,Unknown,80.6
-Sample_Image (28),CONSUMABLES,1,UN,35.83,,,Unknown,35.83
-Sample_Image (30),WARD (CLASS C) (8.0 day(s)),1,day(s),395.0,Unknown,Unknown,Unknown,3168.0
-Sample_Image (30),DAILY TREATMENT FEE (CLASS NRO) (8.0 day(s)),1,day(s),269.75,Unknown,Unknown,Unknown,2158.0
-Sample_Image (30),LABORATORY INVESTIGATIONS,1,Unknown,1097.2,Unknown,Unknown,Unknown,1097.2
-Sample_Image (30),X-RAY INVESTIGATIONS,1,Unknown,1856.35,Unknown,Unknown,Unknown,1856.35
-Sample_Image (30),SPECIALISED INVESTIGATIONS,1,Unknown,902.2,Unknown,Unknown,Unknown,902.2
-Sample_Image (30),REHABILITATIVE SERVICES,1,Unknown,65.0,Unknown,Unknown,Unknown,65.0
-Sample_Image (30),DELIVERY RELATED CHARGES,1,Unknown,1158.3,Unknown,Unknown,Unknown,1158.3
-Sample_Image (30),DRUGS / PRESCRIPTIONS / INJECTIONS,1,Unknown,118.05,Unknown,Unknown,Unknown,118.05
-Sample_Image (30),WARD PROCEDURES,1,Unknown,669.5,Unknown,Unknown,Unknown,669.5
-Sample_Image (30),OTHER PROCEDURES,1,Unknown,63.7,Unknown,Unknown,Unknown,63.7
-Sample_Image (30),CONSUMABLES,1,Unknown,40.93,Unknown,Unknown,Unknown,40.93
-Sample_Image (7),Consultation Services (C - FV),1,Not provided,123.05,Not provided,27.01.2021,Unknown,123.05
-Sample_Image (7),Fine Needle Aspiration With Tech Assista,1,Not provided,326.89,Not provided,27.01.2021,Unknown,326.89
-Sample_Image (7),Aspiration - Fine Needle,1,Not provided,81.64,Not provided,27.01.2021,Unknown,81.64
-Sample_Image (84),Gpo-A-Flu Capsule (75 Mg),10,Each,53.0,Unknown,Unknown,Unknown,530.0
-Sample_Image (84),Influenza A/B screening (Immunochromatography),1,Each,1750.0,Unknown,Unknown,Unknown,1750.0
-Sample_Image (84),Out patient nursing service charge,1,Each,100.0,Unknown,Unknown,Unknown,100.0
-Sample_Image (84),Other Medical Charge,1,Each,200.0,Unknown,Unknown,Unknown,200.0
-Sample_Image (84),Physician Evaluation,1,Each,750.0,Unknown,Unknown,Unknown,750.0
-Sample_Image (87),NURSING CARE (TREATMENT ROOM) (RTK-AG) (SCREENING),1,service,8.2,Unknown,23-JUN-2023,Unknown,8.2
-Sample_Image (87),REGISTRATION,1,service,20.0,Unknown,23-JUN-2023,Unknown,20.0
-Sample_Image (87),SAMPLE HANDLING/PROCESSING (RTK-AG) (SCREENING),1,service,18.5,Unknown,23-JUN-2023,Unknown,18.5
-Sample_Image (87),TREATMENT ROOM / FACILITY FEE (RTK-AG) (SCREENING),1,service,12.3,Unknown,23-JUN-2023,Unknown,12.3
-Sample_Image (87),"INFLUENZA VIRUS & RSV, PCR",1,service,292.0,Unknown,23-JUN-2023,Unknown,292.0
-Sample_Image (87),SARS-COV-2 AG (COVID-19) (SCREENING),1,service,79.2,Unknown,23-JUN-2023,Unknown,79.2
-Sample_Image (87),AERIUS TAB 5MG,7,tab,22.75,Unknown,23-JUN-2023,Unknown,158.25
-Sample_Image (87),FLUHALT CAP 75MG,10,cap,146.5,Unknown,23-JUN-2023,Unknown,1465.0
-Sample_Image (87),PARACAP TAB 500MG,42,tab,25.2,Unknown,23-JUN-2023,Unknown,1058.4
-Sample_Image (87),STREPSILS MAX PRO DIRECT SPRAY 15ML,1,spray,43.0,Unknown,23-JUN-2023,Unknown,43.0
-Sample_Image (87),STREPSILS MAXPRO LOZ 8.75MG 16S,1,loz,31.55,Unknown,23-JUN-2023,Unknown,31.55
-Sample_Image (87),CONSULTATION,1,service,180.0,Unknown,23-JUN-2023,Unknown,180.0
-Sample_Image (85),Drugs,1,,1177.0,,2024-04-09,Unknown,1177.0
-Sample_Image (85),Parenteral Nutrition,1,,656.0,,2024-04-09,Unknown,656.0
-Sample_Image (85),Medical Supplies 1,1,,1460.0,,2024-04-09,Unknown,1460.0
-Sample_Image (85),Lab Investigation and Pathology,1,,1380.0,,2024-04-09,Unknown,1380.0
-Sample_Image (85),General Medical Equipment,1,,125.0,,2024-04-09,Unknown,125.0
-Sample_Image (85),Bed & Nursing Service,1,,500.0,,2024-04-09,Unknown,500.0
-Sample_Image (85),Basic Hospital Charges,1,,250.0,,2024-04-09,Unknown,250.0
-Sample_Image (85),First Outpatient Care,1,,800.0,,2024-04-09,Unknown,800.0
-Sample_Image (86),Drugs and Medical Nutrition,1,Each,1049.0,[Redacted],13/03/2024,Unknown,1049.0
-Sample_Image (86),Laboratory Investigation,1,Each,975.0,[Redacted],13/03/2024,Unknown,975.0
-Sample_Image (86),Nursing and Midwifery Charge,1,Each,975.0,[Redacted],13/03/2024,Unknown,975.0
-Sample_Image (86),Packaged Medical Charge,1,Each,100.0,[Redacted],13/03/2024,Unknown,100.0
-Sample_Image (86),Other Medical Charges,1,Each,200.0,[Redacted],13/03/2024,Unknown,200.0
-Sample_Image (86),Physician Evaluation and Management Services,1,Each,650.0,[Redacted],13/03/2024,Unknown,650.0
-Sample_Image (88),Doctor's Professional Fees,1,Service,800.0,Unknown,Unknown,Unknown,800.0
-Sample_Image (88),Anaesthetist's Fee,1,Service,0.0,Unknown,Unknown,Unknown,0.0
-Sample_Image (88),Room Type 1 DS - NON-GA,1,Service,118.52,Unknown,Unknown,Unknown,118.52
-Sample_Image (88),Daily Treatment Fee,1,Service,137.04,Unknown,Unknown,Unknown,137.04
-Sample_Image (88),Hospital & Surgical Charges,1,Service,1320.0,Unknown,Unknown,Unknown,1320.0
-Sample_Image (88),Others,1,Service,1300.0,Unknown,Unknown,Unknown,1300.0
-Sample_Image (9),EQUIPMENT AND SUPPLY,,,,,08.02.2022 - 09.02.2022,Unknown,605.30
-Sample_Image (89),GOVT SUBSIDY,1,Unknown,-49.07,Unknown,Unknown,Unknown,-49.07
-Sample_Image (89),TOTAL AMOUNT (AFTER GOVT SUBSIDY),1,Unknown,92.46,Unknown,Unknown,8% GST,92.46
-Sample_Image (90),IV CHEMOTHERAPY INFUSION,1,QTY,44.2,,,Unknown,44.2
-Sample_Image (90),PEG FILGRANSTIM 6 MG/0.6 ML PF SYRINGE,1,QTY,144.63,,,Unknown,144.63
-Sample_Image (90),METOCLOPRAMIDE 10MG TAB,20,QTY,0.22,,,Unknown,4.4
-Sample_Image (90),DEXAMETHASONE 4MG TAB,6,QTY,0.165,,,Unknown,0.99
-Sample_Image (90),DOXORUBICIN HCL 50MG INJ,2,QTY,31.275,,,Unknown,62.55
-Sample_Image (90),CYCLOPHOSPHAMIDE 1G INJ,1,QTY,21.22,,,Unknown,21.22
-Sample_Image (90),DEXAMETHASONE 4MG/ML PF INJ,2,QTY,1.88,,,Unknown,3.76
-Sample_Image (90),"NETUPTANT 300MG , PALONOSETRON 0.5MG CAP (AKYNZEO)",1,QTY,95.34,,,Unknown,95.34
-Sample_Image (90),PREPARATION FEE,2,QTY,88.0,,,Unknown,176.0
-Sample_Image (90),I/V START,1,QTY,31.85,,,Unknown,31.85
-Sample_Image (90),<2 HRS PRIVATE,1,QTY,218.59,,,Unknown,218.59
-Sample_Image (92),LCSCS With Spinal 2 Bedded,1,Not provided,2204.0,Not provided,Not provided,Not provided,2204.0
-Sample_Image (92),Accommodation,1,Not provided,656.0,Not provided,Not provided,Not provided,656.0
-Sample_Image (92),Daily Treatment Fees,1,Not provided,420.0,Not provided,Not provided,Not provided,420.0
-Sample_Image (92),Dr Ang Ai Tin (Operation Fee $810.00),1,Not provided,810.0,Not provided,Not provided,Not provided,810.0
-Sample_Image (92),Total Doctor Fees,1,Not provided,7452.0,Not provided,Not provided,Not provided,7452.0
-Sample_Image (91),Consultation Services (SC - FV),1,Service,140.0,Unknown,Unknown,Unknown,140.0
-Sample_Image (91),Full Blood Count,1,Test,42.25,Unknown,Unknown,Unknown,42.25
-Sample_Image (91),Liver Panel,1,Test,74.75,Unknown,Unknown,Unknown,74.75
-Sample_Image (91),Vitamin D (25 Hydroxy),1,Test,89.7,Unknown,Unknown,Unknown,89.7
-Sample_Image (91),Renal Panel 1 Modified,1,Test,59.15,Unknown,Unknown,Unknown,59.15
-Sample_Image (91),Iron Panel,1,Test,83.46,Unknown,Unknown,Unknown,83.46
-Sample_Image (91),Thyroid Screen 1,1,Test,68.9,Unknown,Unknown,Unknown,68.9
-Sample_Image (91),"Zinc, Serum",1,Test,75.79,Unknown,Unknown,Unknown,75.79
-Sample_Image (104),MEDICINE,1,Unknown,705.0,100,03/07/23,Unknown,705.0
-Sample_Image (104),LABORATORY TEST (A),1,Unknown,8830.0,200,03/07/23,Unknown,8830.0
-Sample_Image (104),ECHOCARDIOGRAM,1,Unknown,2390.0,679,04/07/23,Unknown,2390.0
-Sample_Image (104),STRESS TEST,1,Unknown,2610.0,676,04/07/23,Unknown,2610.0
-Sample_Image (104),ECG (CARDIOLOGY),1,Unknown,3360.0,679,04/07/23,Unknown,3360.0
-Sample_Image (104),MEDICINE,1,Unknown,4804.0,100,04/07/23,Unknown,4804.0
-Sample_Image (104),LABORATORY TEST (A),1,Unknown,3940.0,200,04/07/23,Unknown,3940.0
-Sample_Image (104),FOOD/DRINKS,1,Unknown,414.0,500,04/07/23,Unknown,414.0
-Sample_Image (104),ROOM,1,Unknown,600.0,600,04/07/23,Unknown,600.0
-Sample_Image (104),ULTRASOUND (O&G),1,Unknown,920.0,684,04/07/23,Unknown,920.0
-Sample_Image (104),TOTAL HOSPITAL CHARGES,1,Unknown,39889.0,900,04/07/23,Unknown,39889.0
+ImageName,Description,Quantity,Unit,UnitPrice,ProductCode,Date,Tax,Amount,CustomerName,VendorName,CustomerAddress,VendorAddress,InvoiceDate,TotalTax,InvoiceTotal,AmountDue,TransactionDate,PostingDate
+Sample_Image (103),TREATMENT/ASSOCIATE MATERIALS - TOTAL CHARGES,,,,,10/6/23,,415,,,,,,,,,,
+Sample_Image (101),Full Blood Examination (FBE),1,,25.42,A01,10-May-23,0.00,25.42,,,,,,,,,,
+Sample_Image (12),E.C.G. EXAMINATION,1,,425,,2015-01-01,,425,,,,,,,,,,
+Sample_Image (105),DR. MUI (03/07/2023 ECG REPORTING),,,400.00,31811,03/07/2023,,400.00,,,,,,,,,,
+Sample_Image (13),加床床位费 EXTRA BED,,,,,01-01-15,,$180,,,,,,,,,,
+Sample_Image (14),Echocardiogram/Ultrasound,1,,2550.00,,,,2550.00,,,,,,,,,,
+Sample_Image (23),WARD (CLASS C) (1.0 day(s)),1.0,day(s),$390.00,,,,$169.37,,,,,,,,,,
+Sample_Image (22),Consultation,1,,$16.30,,11/04/2024,,$16.30,,,,,,,,,,
+Sample_Image (20),,,,,,,,142.60,,,,,,,,,,
+Sample_Image (25),Consult-Standard <15Mins,1,,54.0,,2024-04-06,,54.0,,,,,,,,,,
+Sample_Image (24),Consultation,1,,120.00,,,,120.00,,,,,,,,,,
+Sample_Image (27),CONSULT - REPEAT VISIT,1,UN,151.0,,,,151.0,,,,,,,,,,
+Sample_Image (28),PROFESSIONAL FEES - DOCTOR,1,UN,146.00,,,,146.00,,,,,,,,,,
+Sample_Image (30),WARD (CLASS C) (8.0 day(s)),8.0,day(s),396.00,,,,3168.00,,,,,,,,,,
+Sample_Image (31),PRACTICE COST,1.0,S$,16.00,Not provided,16-DEC-2022,Not provided,16.00,,,,,,,,,,
+Sample_Image (7),Consultation Fee,,,123.05,,,,123.05,,,,,,,,,,
+Sample_Image (84),,,,,,,,,,,,,,,3330.00,3330.00,,
+Sample_Image (87),NURSING CARE (TREATMENT ROOM) (RTK-AG)(SCREENING),1,null,8.2,RTK-AG,23-JUN-2023,null,8.2,,,,,,,,,,
+Sample_Image (85),Consultation Fee,1,visit,1500.0,CON-001,2023-04-01,100.0,1600.0,,,,,,,,,,
+Sample_Image (86),Drugs and Medical Nutrition,,,1049.0,,13/03/2024,,1049.0,,,,,,,,,,
+Sample_Image (88),"INTESTINE/STOMACH, UPPER GI ENDOSCOPY WITH / WITHOUT BIOPSY","1 (missing from provided data, assuming 1)",(missing from provided data),800.00 (assuming this is for the doctor's professional fee),SF7031,(missing from provided data),"358.04 (total tax, not item-specific)",800.00 (doctor's professional fee),,,,,,,,,,
+Sample_Image (9),EQUIPMENT AND SUPPLY,Not provided,Not provided,Not provided,Not provided,Not provided,Not provided,605.3,,,,,,,,,,
+Sample_Image (89),LACTATION,1,QTY,54.50,,,,29.30,,,,,,,,,,
+Sample_Image (90),IV CHEMOTHERAPY INFUSION,1,,44.2,,,,44.2,,,,,,,,,,
+Sample_Image (92),ACCOMMODATION,1,,656.00,,,,656.00,,,,,,,,,,
+Sample_Image (91),Consultation Services (SC - FV),,,140.00,,,,140.00,,,,,,,,,,
+Sample_Image (104),MEDICINE,,,,100,03/07/23,,705.00,,,,,,,,,,
+Sample_Image (18),XR - CHEST 1 VIEW,1,,52.99,3501010049,09.03.2024,,52.99,,,,,,,,,,
+Thai_bill (2),SUSPENSION FOR INJECTION,,,,,2021-05-21,,,,,,,,,,,,
+Thai_bill (3),Full Version,1,,950.0,,,,950.0,,,,,,,,,,
+Thai_bill (4),Widget,2,pcs,99.99,WIDG123,2023-04-01,9.99,199.98,,,,,,,,,,
+Thai_bill (5),รายละเอียง,10,units,500.00,FSER0002,29/01/2020,,5000.00,,,,,,,,,,
+Thai_bill (7),[Description],1.000,Units,499.00,,,7%,499.00,,,,,,,,,,
+Thai_bill (8),รายการ,1,ไม่มีข้อมูล,200.0,ไม่มีข้อมูล,ไม่มีข้อมูล,ไม่มีข้อมูล,200.0,,,,,,,,,,
+Thai_bill (9),รายการ1,1,,100.0,,29/05/2020,,100.0,,,,,,,,,,
+Thai_bill (10),ABC,1000,pieces,29.99,,,,29990,,,,,,,,,,
+Thai_bill (11),,,,,,,,,,,,,,,,,,
+Thai_bill (12),Item 1,2,Each,40.0,1,09/09/2564,7%,80.0,,,,,,,,,,
+Thai_bill (13),,,,,,,,,,,,,,,,,,
+Thai_bill (14),รายงานสำหรับการประเมินผลการปกครองภาษาไทยและประเภทของ (ภาษาไทย),1.0,-,3500.0,P0001,2022-08-02,105.0,3500.0,,,,,,,,,,
+Thai_bill (15),บริษัทเล็กซีน รุ่น 6.5,1.00,,"3,500.00",P0001,2022-08-02,245.00,"3,500.00",,,,,,,,,,
+Thai_bill (16),Payment -KBANK/KO,,,,,,,1049.67,,,,,,,,,11/09/21,11/09/21
+Thai_bill (17),Internet Fee,1,hour,90.26 THB,Not Provided,22/11/2566 - 23/11/2566,Not Provided,90.26 THB,,,,,,,,,,
+Thai_bill (18),Samsung Galaxy S9,1,แท่ง,27000.0,,,,27000.0,,,,,,,,,,
+Thai_bill (19),ระบาดสั่งของ (ระบาดสั่งของ),,,,BI5311-00001,,,,,,,,,,,,,

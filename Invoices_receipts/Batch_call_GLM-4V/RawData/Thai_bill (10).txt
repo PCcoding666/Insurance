@@ -1,0 +1,81 @@
+First Step:
+
+```markdown
+# Commercial Invoice
+
+### EXPORTER NAME & ADDRESS
+ABC Company Limited
+
+### COMMERCIAL INVOICE
+
+| Date | DD/MM/YYYY | Mode of Transportation | Vessel / Air |
+|--------|--------------|-----------------------|-------------|
+| Invoice Number | INV 0101 | Incoterms | FOB Bangkok |
+| Referred to P.O. or L/C Number | PO 2323 | Payment Terms | 50% Advanced T/T 50% L/C |
+| Port of Loading | Bangkok | Post of Destination | Tokyo |
+
+### Items
+
+| No. | Description | Quantity | Price per Unit | Amount |
+| ----- | -------------- | ----------- | ------------- | ----------- |
+| 1 | ABC | 1,000 pieces | USD 29.99 | USD 29,990 |
+| 2 | DEF | 2,000 kilograms | USD 1.99 | USD 7,980 |
+
+| Total |                  |                      |                  | USD 37,970 |
+
+### Remarks:
+1. Shipping Mark: ABC Company
+2. Payment must be made by end of month.
+3. Extra Documents Fee is excluded.
+
+### Mr. A B
+Export Company
+
+### Mr. B B
+Import Company
+```
+
+Second Step:
+
+```json
+{
+  "CommercialInvoice": {
+    "EXPORTER_NAME_ADDRESS": "ABC Company Limited",
+    "COMMERCIAL_INVOICE": {
+      "Date": "DD/MM/YYYY",
+      "ModeOfTransportation": "Vessel / Air",
+      "Incoterms": "FOB Bangkok",
+      "ReferredToPOOrLCNumber": "PO 2323",
+      "PaymentTerms": "50% Advanced T/T 50% L/C",
+      "PortOfLoading": "Bangkok",
+      "PostOfDestination": "Tokyo"
+    },
+    "Items": [
+      {
+        "No": 1,
+        "Description": "ABC",
+        "Quantity": "1,000 pieces",
+        "PricePerUnit": "USD 29.99",
+        "Amount": "USD 29,990"
+      },
+      {
+        "No": 2,
+        "Description": "DEF",
+        "Quantity": "2,000 kilograms",
+        "PricePerUnit": "USD 1.99",
+        "Amount": "USD 7,980"
+      }
+    ],
+    "Total": "USD 37,970",
+    "Remarks": [
+      "Shipping Mark: ABC Company",
+      "Payment must be made by end of month.",
+      "Extra Documents Fee is excluded."
+    ],
+    "Signatures": {
+      "ExportCompany": "Mr. A B",
+      "ImportCompany": "Mr. B B"
+    }
+  }
+}
+```

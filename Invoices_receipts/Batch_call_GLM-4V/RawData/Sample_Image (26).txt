@@ -1,53 +1,49 @@
-### Step 1: Extract Text in Markdown Format
+First Step:
+
 ```markdown
 # Changi General Hospital SingHealth Tax Invoice
 
-### BILL REF NO: 6923672547A
-### BILL DATE: 25 AUG 2023
-### LOCATION: A&E
-### VISIT DATE: 25 AUG 2023 10:03 AM
+| BILL REF. NO. | 6923672547A  |
+|------------------|---------------|
+| BILL DATE       | 25 AUG 2023   |
+| LOCATION         | A&E            |
+| VISIT DATE       | 25 AUG 2023 10:03 AM |
+| HRN              | 692023672547A  |
+| NRC / FIN / MNR | - / - / -     |
+| TOTAL AMOUNT(BEFORE GOVT SUBSIDY) | $ 373.72 |
+| GOVT SUBSIDY      | -$ 235.72 |
+| TOTAL AMOUNT (BEFORE GST) | $ 138.00 |
+| 8% GST           | $ 11.04 |
+| GST absorbed by Govt | -$ 11.04 |
+| TOTAL AMOUNT (AFTER GOVT SUBSIDY) | $ 138.00 |
+| Net Payment made | $ 0.00 |
+| FINAL AMOUNT PAYABLE | $ 138.00 |
 
-| HE/NIA | NRC / FIN / MN |
-|---------|------------------|
-| RE      | SINGAPORE ######### |
+## CHARGES
 
-[QR Code] Accepts: PayNow $138.00 FINAL AMOUNT PAYABLE
+| SERVICES                   | DESCRIPTION                  | BEFORE GOVT SUBSIDY ($) | AFTER GOVT SUBSIDY ($) |
+|---------------------------|---------------------------------|-----------------------------|-----------------------------|
+| INVESTIGATIONS             | X-RAY INVESTIGATIONS          | 73.50                       | 0.00                        |
+| MEDICATIONS                | DRUGS / PRESCRIPTIONS / INJECTIONS | 24.22                       | 0.00                        |
+| TREATMENT                  | A&E ATTENDANCE FEE             | 276.00                      | 138.00                      |
+| TOTAL AMOUNT (BEFORE GOVT SUBSIDY) | $ 373.72 |
+| GOVT SUBSIDY      | -$ 235.72 |
+| TOTAL AMOUNT (BEFORE GST) | $ 138.00 |
+| 8% GST           | $ 11.04 |
+| GST absorbed by Govt | -$ 11.04 |
+| TOTAL AMOUNT (AFTER GOVT SUBSIDY) | $ 138.00 |
 
-#### CHARGES
-
-| SERVICES                   | DESCRIPTION                         | BEFORE GOVT SUBSIDY ($) | AFTER GOVT SUBSIDY ($) |
-|-----------------------------|---------------------------------------|-------------------------|-------------------------|
-| INVESTIGATIONS              | X-RAY INVESTIGATIONS                | 73.50                   | 0.00                    |
-| MEDICATIONS                 | DRUGS / PRESCRIPTIONS / INJECTIONS | 24.22                   | 0.00                    |
-| TREATMENT                   | A&E ATTENDANCE FEE                  | 276.00                  | 138.00                  |
-
-| TOTAL AMOUNT (BEFORE GOVT SUBSIDY) | 373.72 |
-| GOVT SUBSIDY                  | -235.72 |
-| TOTAL AMOUNT (BEFORE GST)     | 138.00 |
-| 8% GST                        | 11.04                     |
-| GST absorbed by Govt (for subsidised patient only) | -11.04 |
-| TOTAL AMOUNT (AFTER GOVT SUBSIDY) | 138.00 |
-
-### PAYMENT SUMMARY
+## PAYMENT SUMMARY
 
 | SCHEME/ECHEQUE ID/PAYOR | TOTAL AMOUNT (AFTER GOVT SUBSIDY) | REFERENCE NO. | AMOUNT PAYABLE ($) |
-|--------------------------|---------------------------------------|-------------------------|-------------------------|
-| HEM_                       | 138.00                             |                       |                       |
+|-----------------------|---------------------------------|-----------------------------|-----------------------------|
+| HEM_                    | $ 138.00                       | -                          | $ 138.00                      |
 
 Payment Summary to be continued on page 2
-
-#### Changi General Hospital Pte Ltd Information
-- Company Registration No.: 198904226R
-- GST Reg No.: M90368910N
-- Address: 2 Simel Street 3 Singapore 529889
-- Tel: +65 6788 8833
-- Printed On: 25 Aug 2023 01:26 PM
-- For bill enquiries, please contact us at: +65 6407 8108
-- Website: https://for.sg/askhs
-
 ```
 
-### Step 2: Extract Key Field Information in JSON Format
+Second Step:
+
 ```json
 {
   "Changi General Hospital SingHealth": {
@@ -55,22 +51,13 @@ Payment Summary to be continued on page 2
     "Bill Date": "25 Aug 2023",
     "Location": "A&E",
     "Visit Date": "25 Aug 2023 10:03 AM",
-    "Patient Details": {
-      "He/Nia": "",
-      "Nrc/Fin/Mn": "",
-      "Re": "SINGAPORE #########",
-      "Payment Method": {
-        "QR Code": true,
-        "Amount": "$138.00"
-      }
-    },
-    "Charges": {
-      "Investigations": {
-        "X-Ray Investigations": {
-          "Before Subsidy": "73.50",
-          "After Subsidy": "0.00"
-        }
-      },
-      "Medications": {
-        "Drugs/Prescriptions/Injections": {
-          "Before Subsidy": "24
+    "HRN": "692023672547A",
+    "NRC/FIN/MNR": "-/-/-",
+    "Total Amount Before Govt Subsidy": "$373.72",
+    "Govt Subsidy": "-$235.72",
+    "Total Amount Before GST": "$138.00",
+    "GST": "$11.04",
+    "GST Absorbed By Govt": "-$11.04",
+    "Total Amount After Govt Subsidy": "$138.00",
+    "Net Payment Made": "$0.00",
+    "Final Amount Payable

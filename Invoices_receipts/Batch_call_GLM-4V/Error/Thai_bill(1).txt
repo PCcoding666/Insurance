@@ -1,0 +1,100 @@
+```json
+{
+  "Customer": {
+    "Name": "Company 39 Israel",
+    "Address": "In Thailand"
+  },
+  "Vendor": {
+    "Name": "Company 323 Israel",
+    "Address": "In Thailand"
+  },
+  "InvoiceDate": "64/3 ปี 10 กุมภาพันธ์ พ.ศ. 64",
+  "TotalTax": 0.00,
+  "InvoiceTotal": 87000.00,
+  "AmountDue": 87000.00
+},
+{
+  "Items": [
+    {
+      "Description": "TO01",
+      "Quantity": 1.00,
+      "Unit": "Each",
+      "UnitPrice": 9000.00,
+      "ProductCode": "TO01",
+      "Date": "64/3 ปี 10 กุมภาพันธ์ พ.ศ. 64",
+      "Tax": 0.00,
+      "Amount": 9000.00
+    },
+    {
+      "Description": "TO01",
+      "Quantity": 1.00,
+      "Unit": "Each",
+      "UnitPrice": 14000.00,
+      "ProductCode": "TO01",
+      "Date": "64/3 ปี 10 กุมภาพันธ์ พ.ศ. 64",
+      "Tax": 0.00,
+      "Amount": 14000.00
+    },
+    {
+      "Description": "TO01",
+      "Quantity": 1.00,
+      "Unit": "Each",
+      "UnitPrice": 9000.00,
+      "ProductCode": "TO01",
+      "Date": "64/3 ปี 10 กุมภาพันธ์ พ.ศ. 64",
+      "Tax": 0.00,
+      "Amount": 9000.00
+    },
+    {
+      "Description": "TO01",
+      "Quantity": 1.00,
+      "Unit": "Each",
+      "UnitPrice": 9000.00,
+      "ProductCode": "TO01",
+      "Date": "64/3 ปี 10 กุมภาพันธ์ พ.ศ. 64",
+      "Tax": 0.00,
+      "Amount": 9000.00
+    },
+    {
+      "Description": "TO01",
+      "Quantity": 1.00,
+      "Unit": "Each",
+      "UnitPrice": 9000.00,
+      "ProductCode": "TO01",
+      "Date": "64/3 ปี 10 กุมภาพันธ์ พ.ศ. 64",
+      "Tax": 0.00,
+      "Amount": 9000.00
+    },
+    {
+      "Description": "TO01",
+      "Quantity": 1.00,
+      "Unit": "Each",
+      "UnitPrice": 14000.00,
+      "ProductCode": "TO01",
+      "Date": "64/3 ปี 10 กุมภาพันธ์ พ.ศ. 64",
+      "Tax": 0.00,
+      "Amount": 14000.00
+    },
+    {
+      "Description": "TO01",
+      "Quantity": 1.00,
+      "Unit": "Each",
+      "UnitPrice": 9000.00,
+      "ProductCode": "TO01",
+      "Date": "64/3 ปี 10 กุมภาพันธ์ พ.ศ. 64",
+      "Tax": 0.00,
+      "Amount": 9000.00
+    },
+    {
+      "Description": "TO01",
+      "Quantity": 1.00,
+      "Unit": "Each",
+      "UnitPrice": 14000.00,
+      "ProductCode": "TO01",
+      "Date": "64/3 ปี 10 กุมภาพันธ์ พ.ศ. 64",
+      "Tax": 0.00,
+      "Amount": 14000.00
+    }
+  ]
+}
+```

@@ -7,10 +7,10 @@ First Step:
 |-------------------------|-----|------------|------------|
 | Consultation           | 1   | $120.00    | $120.00    |
 | X-Rays (PA)            | 1   | $50.00     | $50.00     |
-| Root Canal Treatment Stage 1 - Extirpation / Emergency Treatment | 1   | $1,200.00  | $1,200.00  |
-| Aroxia 120mg - tablet  | 3   | $5.00      | $15.00     |
-| Sub-Total              |      | $1,385.00  | $1,385.00  |
-| Total                  |      | $1,385.00  | $1,385.00  |
+| Root Canal Treatment Stage 1 - Extirpation / Emergency Treatment | 1 | $1,200.00 | $1,200.00 |
+| Aroclia 120mg - tablet | 3   | $5.00      | $15.00     |
+| Sub-Total              |      |            | $1,385.00  |
+| Total                  |      |            | $1,385.00  |
 
 Outstanding Balance: $0.00
 
@@ -46,27 +46,22 @@ Second Step:
         "Subtotal": "$1,200.00"
       },
       {
-        "Description": "Aroxia 120mg - tablet",
+        "Description": "Aroclia 120mg - tablet",
         "Quantity": 3,
         "Unit Cost": "$5.00",
         "Subtotal": "$15.00"
       }
     ],
-    "Sub_Total": "$1,385.00",
+    "SubTotal": "$1,385.00",
     "Total": "$1,385.00",
     "Payment Method": "Visa",
     "Amount Paid": "$1,385.00",
     "Balance Due": "$0.00",
     "Payment Date": "22 Mar 2024"
   },
-  "Additional Information": {
-    "Online Claim Details": {
-      "Website": "https://www.cpf.gov.sg",
-      "Statement Section": "My Statement -> Section B -> Medisave/Medishield Life/Integrated Shield Plan Claims and Reimbursements",
-      "Information Link": "http://www.cpf.gov.sg -> FAQ -> Healthcare"
-    },
-    "Reimbursement Information": {
-      "Employers and Insurers": "Reimbursement should be made to cash outlay first, followed by Medisave, then Medishield Life OR the Integrated Shield PLan. To make reimbursement to Medisave and Medishield Life, submit through internet at http://www.cpf.gov.sg and proceed to Employers -> Services -> Medisave/Medishield Life Reimbursement. To reimbursement to an Integrated Shield Plan, please pay directly to the private insurer offering the Integrated Shield Plan."
+  "Reimbursements": {
+    "Employers & Insurers": {
+      "Instructions": "Reimbursement should be made to cash outlay first, followed by Medisave, then Medishield Life OR the Integrated Shield Plan. To make reimbursement to Medisave and Medishield Life, submit through internet at http://www.cpf.gov.sg and proceed to Employers >> Services >> Medisave/Medishield Life Reimbursement. To reimbursement to an Integrated Shield Plan, please pay directly to the private insurer offering the Integrated Shield Plan."
     }
   }
 }

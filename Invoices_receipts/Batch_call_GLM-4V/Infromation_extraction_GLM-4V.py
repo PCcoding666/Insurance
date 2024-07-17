@@ -1,15 +1,12 @@
 import sys
 import os
-# import logging
 from zhipuai import ZhipuAI
+
 # Add the directory containing the Convert_img2url.py file to the Python path
 sys.path.append("/home/ec2-user/Myproject/Insurance/Invoices_receipts")
 
 # Import the upload_blob_and_get_url function
 from Convert_img2url import upload_blob_and_get_url
-
-# Configure logging
-# logging.basicConfig(level=logging.INFO)
 
 # Function to call GLM API
 def call_glm_api(image_url, prompt, client):
@@ -34,10 +31,8 @@ def call_glm_api(image_url, prompt, client):
                 }
             ]
         )
-        # print(response.choices[0].message.content)
         return response.choices[0].message.content
     except Exception as e:
-        # logging.error(f"An error occurred while calling the API: {e}")
         return None
 
 # Function to process images in a folder
@@ -60,7 +55,6 @@ def save_result_to_file(result, filename, save_folder_path):
     result_file_path = os.path.join(save_folder_path, f"{os.path.splitext(filename)[0]}.txt")
     with open(result_file_path, "w") as file:
         file.write(result)
-    # logging.info(f"Result saved to {result_file_path}")
 
 # Example usage
 if __name__ == "__main__":
@@ -85,9 +79,7 @@ if __name__ == "__main__":
     # Initialize GLM-4V client
     try:
         client = ZhipuAI(api_key="61b5150277229e4c9f6337e013e1836f.5LkrF5U7FXOP9YgR")  # Replace with your actual API key
-        # logging.info(f"Initialized ZhipuAI client ✔")
     except Exception as e:
-        # logging.error(f"Failed to initialize the client: {e}")
         sys.exit(1)
 
     # Process images in the folder

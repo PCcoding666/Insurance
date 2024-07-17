@@ -1,0 +1,54 @@
+### Step 1: Extract the text in the image and return with markdown format
+
+```markdown
+# Krungthai Card Public Company Limited Statement
+
+## Account Information
+- Account Type: KTC PROUD
+- Account Number: 4216-68XX-XXXX-7062
+- Billing Date: 18/09/21
+- Payment Due Date: 03/10/21
+- Total Amount Due: 33,415.78 THB
+- Previous Payment: 12,000.00 THB
+- Credit Limit: 59,500.00 THB
+
+## Transactions
+| Transaction Date | Posting Date | Description                   | Amount (THB) |
+|------------------|---------------|-----------------------------|--------------|
+| 01/09/21         | 01/09/21      | Payment -KTB Inter          | 14,459.96    |
+| 11/09/21         | 11/09/21      | Payment -KBANK/KO            | 1,049.67     |
+| 10/09/21         | 10/09/21      | Usage Fee                   | 10,000.00    |
+| 10/09/21         | 10/09/21      | Interest                    | 181.29      |
+| 10/09/21         | 10/09/21      | FST                         | 120.87      |
+| 01/09/21         | 01/09/21      | Cash On Tap - BANGKOK        | 22,225.36   |
+| 05/09/21         | 05/09/21      | Cash On Tap - BANGKOK        | 2,000.00     |
+| 07/09/21         | 07/09/21      | Cash On Tap - BANGKOK        | 10,000.00    |
+| 13/09/21         | 14/09/21      | Cash Online - BANGKOK        | 6,800.00     |
+| 18/09/21         | 18/09/21      | Interest                    | 3,000.00     |
+| 18/09/21         | 18/09/21      | Usage Fee                   | 255.21      |
+| 18/09/21         | 18/09/21      | Total Charges               | 25,635.65   |
+
+## Additional Information
+- The statement is provided by Krungthai Card Public Company Limited.
+- The account holder's name and other personal details are blurred out for privacy reasons.
+- The transactions listed include payments to various entities and fees related to card usage.
+- There is a QR code on the right side of the image which seems to be related to contactless payment methods.
+- The total charges include the principal amount due, interest, usage fee, and service tax (FST).
+- The previous payment made was subtracted from the total amount due to show the outstanding balance.
+- The credit limit shown is the maximum amount the cardholder can charge without going over their spending limit.
+- The billing date indicates when the bank started counting charges for this statement period.
+- The payment due date is the last day to make a payment to avoid late fees or interest charges.
+- The total previous payment shows how much money has been paid towards the account since the last statement.
+
+```
+
+### Step 2: Extract the key field information from the text and return in JSON format
+
+```json
+{
+  "Account": {
+    "Type": "KTC PROUD",
+    "Number": "4216-68XX-XXXX-7062",
+    "BillingDate": "18/09/21",
+    "PaymentDueDate": "03/10/21",
+    "

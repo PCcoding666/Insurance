@@ -1,0 +1,43 @@
+First Step:
+
+```markdown
+####### สำนวามเป็นภาษาไทย
+[**ระบาดโรค**]
+
+[**SUSPENSION FOR INJECTION**]
+
+[**ผู้จัดหลัง**]
+
+[**SINOVAC LIFE SCIENCES CO., LTD.**]
+
+[**ที่อยู่**]
+21 ถูกใจ ตัวอักษร/ชื่อ ถูกใจ/ชื่อ ถูกใจ ดากิน ดิสต์ บีซี และ/หรือ บีซี และ/หรือ บีซี และ
+
+[**รัฐบาลเอล**]
+
+[**PEOPLE'S REPUBLIC OF CHINA**]
+
+[**เข้ารับ**]
+22 วันที่ พ.ศ. 2564
+
+[**ออก**]
+21 วันที่ พ.ศ. 2565
+
+[**ผู้สั่งหน่อย**]
+
+[**ลงเนื้อน**]
+```
+
+Second Step:
+
+```json
+{
+  "Company": "SINOVAC LIFE SCIENCES CO., LTD.",
+  "Country": "PEOPLE'S REPUBLIC OF CHINA",
+  "Received_Date": "22 วันที่ พ.ศ. 2564",
+  "Expired_Date": "21 วันที่ พ.ศ. 2565",
+  "Authority": "[THAI TEXT NOT TRANSLATED]",
+  "Document_Type": "FORM MA-2",
+  "Document_Number": "IC 3/64 (NBC)"
+}
+```

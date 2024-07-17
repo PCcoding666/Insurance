@@ -3,32 +3,36 @@ First Step:
 ```markdown
 ---
 TO: [Blurred]
-NUH National University Hospital
-Description: ENT-HEAD & NECK SURG CTR - 15D
-MRN/NRIC: XYZ
-Case No.: 1521395503F-00001
-Visit Date: 27.01.2021 09:00
-Location: NCZENTP
-Invoice Date: 27.01.2021
-Type of Supply: CASH/CREDIT
-GST Reg No.: M2-0069889-4
-PLEASE PAY UPON RECEIPT OF THIS INVOICE
+NUH National University Hospital Logo
+Address: Block 50, Singapore 119074
+Phone: +65 6729 5678
+Company Registration No.: 198500843R
 
+Description
 Patient Name: [Blurred]
-Consultation Fee: Consultation Services (C - FV): 123.05
-Investigations: Fine Needle Aspiration With Tech Assista: 326.89
-Treatment Services: Ward/Clinic / Other Procedures: Aspiration - Fine Needle: 81.64
-Total Amount Payable: 531.58
-Adjustment: Round down for amount payable by patient: 0.03
-Payment: Master Card - 27.01.2021, Receipt #: NO14614931: 531.55
-Total Due After Payment: 0.00
-Due From: 0.00
+Location: ENT-HEAD & NECK SURG CTR - 15D
+
+Consultation Fee: 123.05 SGD
+Investigations
+  Fine Needle Aspiration With Tech Assista: 326.89 SGD
+
+Treatment Services
+  Ward/Clinic / Other Procedures: Aspiration - Fine Needle: 81.64 SGD
+
+Total Amount Payable: 531.58 SGD
+Adjustment: Round down for amount payable by patient: 0.03 SGD
+Payment: Master Card - 27.01.2021, Receipt #: NO14614931: 531.55 SGD
+Total Due After Payment: 0.00 SGD
+Due From: 0.00 SGD
 
 FOR INFORMATION
-WITHOUT REFERAL
+Without Referral
 Total amount payable before GST is $496.80.
 Total GST at 7% is $34.78 for this bill.
 The amount payable by patient has been rounded down to the nearest 5 cents.
+
+PAGE 1 OF 1
+IMPORTANT NOTE: Any party who is under a contractual obligation to reimburse the medical expenses shown on this bill, if required to refund to MediShield Life or the Integrated Shield Plan, please refer to the 'Enhancement to MediShield Life Reimbursement Scheme' for more details.
 ---
 ```
 
@@ -36,58 +40,49 @@ Second Step:
 
 ```json
 {
-  "Description": "ENT-HEAD & NECK SURG CTR - 15D",
-  "To": {
-    "Name": "[Blurred]",
-    "Organization": "NUH National University Hospital"
-  },
-  "Patient": {
-    "Identification": {
-      "MRN/NRIC": "XYZ"
-    },
-    "Case_Number": "1521395503F-00001",
-    "Visit_Date": "27.01.2021 09:00",
-    "Location": "NCZENTP"
-  },
-  "Invoice": {
-    "Date": "27.01.2021",
-    "Supply_Type": "CASH/CREDIT",
-    "GST_Registration_Number": "M2-0069889-4"
-  },
-  "Details": {
-    "Consultation_Fee": {
-      "Description": "Consultation Services (C - FV)",
-      "Amount": 123.05
-    },
+  "Patient_Name": "[Blurred]",
+  "Location": "ENT-HEAD & NECK SURG CTR - 15D",
+  "Invoice_Details": {
+    "Consultation_Fee": "123.05 SGD",
     "Investigations": {
-      "Description": "Fine Needle Aspiration With Tech Assista",
-      "Amount": 326.89
+      "Procedure": "Fine Needle Aspiration With Tech Assista",
+      "Amount": "326.89 SGD"
     },
     "Treatment_Services": {
-      "Description": "Aspiration - Fine Needle",
-      "Amount": 81.64
+      "Service": "Aspiration - Fine Needle",
+      "Amount": "81.64 SGD"
     }
   },
-  "Total_Amount_Payable": 531.58,
+  "Total_Amount_Payable": "531.58 SGD",
   "Adjustments": {
-    "Round_Down": 0.03
+    "Round_Down": "0.03 SGD"
   },
-  "Payment": {
-    "Method": "Master Card",
+  "Payment_Details": {
     "Date": "27.01.2021",
+    "Method": "Master Card",
     "Receipt_Number": "NO14614931",
-    "Amount": 531.55
+    "Amount": "531.55 SGD"
   },
   "Post_Payment_Status": {
-    "Total_Due": 0.00,
-    "Due_From": 0.00
+    "Total_Due": "0.00 SGD",
+    "Due_From": "0.00 SGD"
   },
   "Additional_Information": {
-    "Without_Referral": {
-      "Before_GST_Amount": 496.80,
-      "GST_Amount": 34.78
-    },
-    "Rounding_Note": "The amount payable by patient has been rounded down to the nearest 5 cents."
+    "GST_Details": {
+      "Before_GST": "$496.80",
+      "GST_At_7%": "$34.78",
+      "Rounded_Amount": "5 cents"
+    }
+  },
+  "Provider_Information": {
+    "Name": "NUH National University Hospital",
+    "Logo": true,
+    "Address": "Block 50, Singapore 119074",
+    "Phone": "+65 6729 5678",
+    "Company_Registration_No": "198500843R"
+  },
+  "Legal_Note": {
+    "MediShield_Life_Reimbursement": true
   }
 }
 ```
