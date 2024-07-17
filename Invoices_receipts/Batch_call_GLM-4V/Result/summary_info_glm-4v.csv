@@ -1,2 +1,27 @@
 ImageName,CustomerName,VendorName,CustomerAddress,VendorAddress,InvoiceDate,TotalTax,InvoiceTotal,AmountDue
-Sample_Image (13),何启凯 HO KAI PAK (0001),St. Teresa's Hospital,,,29-Jul-2015,,"$60,749","$60,749"
+Sample_Image (103),[Patient Name Obscured],St. Teresa's Hospital,"372 Prince Edward Road, Kowloon, Hong Kong",N/A,10-06-2023,Unknown,"$4,395","$4,395"
+Sample_Image (101),[Blurred],Melbourne Health Pathology,,"300 Grattan Street, Parkville, VIC 3052",02-Jun-23,Unknown,313.75,313.75
+Sample_Image (12),Unknown,Unknown,Unknown,Unknown,02-Jan-2015,Unknown,"$46,492","$46,492"
+Sample_Image (105),[Redacted],Hong Kong Sanatorium & Hospital Ltd,"Room 2503-1, Hospital No. 23-16924-4",Unknown,4 JUL 2023,Unknown,"52,889.00","48,889.00"
+Sample_Image (13),何启凯 HO KAI PAK (0001),St. Teresa's Hospital,N/A,N/A,29-Jul-2015,Unknown,"$60,749","$60,749"
+Sample_Image (14),常凤秀 SHANG FONG SIU,圣德肋撒医院 ST. TERESA'S HOSPITAL,N/A,"九龙太子道327号 327 Prince Edward Road Kowloon, Hong Kong",29-Jul-2015,Unknown,"$34,100","$34,100"
+Sample_Image (23),,,,,2023-05-10,Unknown,77.67,
+Sample_Image (22),,Yishun,,Clinic: Yishun,11/04/2024 09:06,1.65,19.95,18.30
+Sample_Image (25),[Redacted],VetSurge Ptd Ltd,[Redacted],"26 Jalan Pari Burong, Singapore, 488692",06-04-2024,8.61,131.61,131.61
+Sample_Image (24),Unknown,Dental Centre - Woodleigh,Not provided,Not provided,22 Mar 2024,Unknown,"$1,385.00",$0.00
+Sample_Image (26),SINGAPORE #########,Changi General Hospital Pte Ltd,,2 Simel Street 3 Singapore 529889,25 AUG 2023,11.04,138.00,138.00
+Sample_Image (27),Unknown,Unknown,Unknown,Unknown,Unknown,42.26,511.76,511.76
+Sample_Image (28),,,,,,23.61,286.04,0.00
+Sample_Image (30),Unknown,Unknown,Unknown,Unknown,Unknown,1016.76,12473.13,0.00
+Sample_Image (7),[Blurred],NUH National University Hospital,Not provided,Not provided,27.01.2021,34.78,531.58,0.00
+Sample_Image (84),Unknown,Unknown,Unknown,Unknown,Unknown,Unknown,3030.00,3030.00
+Sample_Image (87),Unknown,Unknown,Unknown,Unknown,23-JUN-2023,Unknown,1099.20,1099.20
+Sample_Image (85),HN 10643417,The Bangkok Christian Hospital,,,2024-04-09,Unknown,6348.00,6348.00
+Sample_Image (86),"SALINNART PHANPRASERT, MD.",[Redacted],[Redacted],[Redacted],13/03/2024,Unknown,2974.00,2974.00
+Sample_Image (88),Unknown,Unknown,Unknown,Unknown,Unknown,358.04,4833.60,4183.60
+Sample_Image (9),Unknown,Mount Elizabeth Orchard Hospital,,,16.02.2022,,605.30,605.30
+Sample_Image (89),Unknown,Unknown,Unknown,Unknown,Unknown,7.40,92.46,92.46
+Sample_Image (90),,,,,,,800.52,
+Sample_Image (92),Unknown,Thomson Medical Pte. Ltd.,Not provided,"339 Thomson Road, Singapore 307677",Not provided,638.55,"8,620.45","-1,296.00"
+Sample_Image (91),Unknown,Unknown,Unknown,Unknown,Unknown,50.72,684.72,684.72
+Sample_Image (104),Unknown,Unknown,Unknown,Unknown,03/07/23,Unknown,"39,889.00","39,889.00"

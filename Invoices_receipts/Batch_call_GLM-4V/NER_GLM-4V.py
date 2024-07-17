@@ -2,7 +2,6 @@ import os
 import requests
 import json
 import pandas as pd
-import re
 
 # 请在此处填入您的APIKey
 API_KEY = "61b5150277229e4c9f6337e013e1836f.5LkrF5U7FXOP9YgR"
@@ -37,6 +36,7 @@ The second JSON object should be an array of items, each containing the followin
 - Amount: The amount for each item.
 
 Please provide the resulting JSON output only, with no additional Explanatory text.
+
 """
 
 # 文件夹路径
@@ -58,8 +58,9 @@ def call_glm_api(content):
             {"role": "user", "content": content}
         ],
         "stream": False,
-        "temperature": 0.95,
+        "temperature": 0.5,
         "top_p": 0.7,
+        "max_tokens": 4095
     }
 
     headers = {
@@ -72,33 +73,52 @@ def call_glm_api(content):
 
 def extract_json_from_response(response):
     message_content = response['choices'][0]['message']['content']
-    print("Full response content:")
-    print(message_content)
     
     try:
-        # 使用正则表达式提取 JSON 对象和数组
-        json_objects = re.findall(r'\{(?:[^{}]|(?R))*\}', message_content)
-        json_arrays = re.findall(r'\[(?:[^\[\]]|(?R))*\]', message_content)
+        # 逐步解析 JSON 内容
+        json_objects = []
+        start = 0
         
-        if len(json_objects) >= 1:
-            first_json_str = json_objects[0]
-        else:
-            raise ValueError("First JSON object not found")
+        while True:
+            json_start = message_content.find('```json', start)
+            if json_start == -1:
+                break
+            json_end = message_content.find('```', json_start + 7)
+            if json_end == -1:
+                break
+            json_str = message_content[json_start + 7:json_end].strip()
+            json_objects.append(json_str)
+            start = json_end + 3
         
-        if len(json_arrays) >= 1:
-            second_json_str = json_arrays[0]
-        else:
-            raise ValueError("Second JSON array not found")
+        if len(json_objects) < 2:
+            raise ValueError("Expected JSON objects not found")
         
-        # print("First JSON content:")
-        # print(first_json_str)
-        # print("Second JSON content:")
-        # print(second_json_str)
+        first_json = json.loads(json_objects[0])
+        
+        # 清理第二个 JSON 数组中的注释和无关内容
+        second_json_str = json_objects[1]
+        cleaned_json_str = ""
+        in_object = False
+        brace_count = 0
+        
+        for i, char in enumerate(second_json_str):
+            if char == '{':
+                if brace_count == 0:
+                    in_object = True
+                brace_count += 1
+            if in_object:
+                cleaned_json_str += char
+            if char == '}':
+                brace_count -= 1
+                if brace_count == 0:
+                    in_object = False
+                    cleaned_json_str += ','
+        
+        cleaned_json_str = cleaned_json_str.rstrip(',')
 
-        # 转换为Python对象
-        first_json = json.loads(first_json_str)
-        second_json = json.loads(second_json_str)
-
+        second_json = json.loads(f'[{cleaned_json_str}]')
+        
+        print("JSON parsing succeeded.")
         return first_json, second_json
     except (ValueError, IndexError, json.JSONDecodeError) as e:
         print(f"Error extracting JSON: {e}")
@@ -140,6 +160,7 @@ def main():
         
         try:
             json_result = extract_json_from_response(response)
+            print(f"File {file_name} JSON parsing succeeded.")
             info_df, items_df = json_to_dataframes(json_result, file_name)
             
             summary_info.append(info_df)
