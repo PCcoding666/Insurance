@@ -1,71 +1,60 @@
 First Step:
 
 ```markdown
-| Item                             | Qty  | Unit       | Total Amount | Discount | Total Net |
-|---------------------------------|------|------------|--------------|----------|------------|
-| Drugs and Parenteral Nutrition |      |            |              |          |            |
-| - Case Medication               |      |            |              |          |            |
-|  - Gpo-A-Flu Capsule (75 Mg)   | 10   | 53.00      | 530.00       | 0.00     | 530.00     |
-| Lab Investigation and Pathology |      |            |              |          |            |
-|  - Influenza A/B screening    | 1    | 1,750.00   | 1,750.00     | 0.00     | 1,750.00   |
-| Nursing or Midwifery Charge    |      |            |              |          |            |
-| - OPD Service Charge            |      |            |              |          |            |
-|  - Out patient nursing service charge | 100.00 | 100.00     | 100.00       | 0.00     | 100.00     |
-| Packaged Medical Charge        |      |            |              |          |            |
-| - Other Medical Service Charges |      |            |              |          |            |
-|  - Other Medical Charge        | 200.00 | 200.00     | 200.00       | 0.00     | 200.00     |
-| Physician Evaluation           |      |            |              |          |            |
-| - Physician Evaluation        | 1    | 750.00     | 750.00       | 0.00     | 750.00     |
-|                                  |      |            |              |          |            |
-|                                  | 3,330.00 |            |              |          | 3,330.00   |
-| Net THREE THOUSAND THIRTY BAHT ONLY |      |            |              |          |            |
+| Item                               | Qty  | Unit      | Total Amount | Discount | Total Net |
+|----------------------------------|------|-----------|-------------|----------|------------|
+| Drugs and Parenteral Nutrition 1.1.1 |      |            | 530.00      | 0.00     | 530.00     |
+| Case Medication 1.1.1           |      | Gpo-A-Flu Capsule (75 Mg) | 10 | 53.00 | 0.00 | 530.00 |
+| Lab Investigation and Pathology 1.1.4 |      |            | 1,750.00    | 0.00     | 1,750.00   |
+| Nursing or Midwifery Charge 1.1.12 |      |            | 1,750.00    | 0.00     | 1,750.00   |
+| OPD Service Charge 1.1.12        |      | Out patient nursing service charge | 100.00 | 0.00     | 100.00     |
+| Packaged Medical Charge 1.1.14   |      |            | 100.00      | 0.00     | 100.00     |
+| Other Medical Service Charges 1.1.14(2) |      |            | 200.00      | 0.00     | 200.00     |
+| Physician Evaluation 1.2.1        |      |            | 750.00      | 0.00     | 750.00     |
+| Physician Evaluation 1.2.1        |      | อายุเที่ยวแพทย์ ประจำตั้งคม 2 | 750.00 | 0.00     | 750.00     |
+|                                   |      |            | 3,330.00    | 0.00     | 3,330.00   |
+| Net THREE THOUSAND THIRTY BAHT ONLY |      |            |             |          |            |
 ```
 
 Second Step:
 
 ```json
 {
-  "Item": {
-    "Drugs and Parenteral Nutrition": {
-      "Case Medication": {
-        "Gpo-A-Flu Capsule (75 Mg)": {
-          "Qty": "10",
-          "Unit": "53.00",
-          "Total Amount": "530.00",
-          "Discount": "0.00",
-          "Total Net": "530.00"
-        }
-      },
-      "Lab Investigation and Pathology": {
-        "Influenza A/B screening (Immunochromatography)": {
-          "Qty": "1",
-          "Unit": "1,750.00",
-          "Total Amount": "1,750.00",
-          "Discount": "0.00",
-          "Total Net": "1,750.00"
-        }
-      },
-      "Nursing or Midwifery Charge": {
-        "OPD Service Charge": {
-          "Qty": "100.00",
-          "Unit": "100.00",
-          "Total Amount": "100.00",
-          "Discount": "0.00",
-          "Total Net": "100.00"
-        }
-      },
-      "Packaged Medical Charge": {
-        "Other Medical Service Charges": {
-          "Qty": "200.00",
-          "Unit": "200.00",
-          "Total Amount": "200.00",
-          "Discount": "0.00",
-          "Total Net": "200.00"
-        }
-      },
-      "Physician Evaluation": {
-        "Physician Evaluation": {
-          "Qty": "1",
-          "Unit": "750.00",
-          "Total Amount": "750.00",
-          
+  "Statement": {
+    "Date": "12/02/2024",
+    "Print Date": "12/02/2024",
+    "Print Time": "13:22",
+    "HN": "36-24-004297",
+    "EN": "036-24-031467",
+    "Statement Date": "12/02/2024",
+    "Total Amount": "3,330.00",
+    "Discount": "0.00",
+    "Total Net": "3,330.00"
+  },
+  "Item List": [
+    {
+      "Description": "Drugs and Parenteral Nutrition 1.1.1",
+      "Qty": "",
+      "Unit": "",
+      "Amount": "530.00",
+      "Discount": "0.00",
+      "Net": "530.00"
+    },
+    {
+      "Description": "Case Medication 1.1.1",
+      "Qty": "10",
+      "Unit": "Gpo-A-Flu Capsule (75 Mg)",
+      "Amount": "530.00",
+      "Discount": "0.00",
+      "Net": "530.00"
+    },
+    {
+      "Description": "Lab Investigation and Pathology 1.1.4",
+      "Qty": "",
+      "Unit": "",
+      "Amount": "1,750.00",
+      "Discount": "0.00",
+      "Net": "1,750.00"
+    },
+    {
+      "Description": "Nursing or Midwifery Charge 1.1.

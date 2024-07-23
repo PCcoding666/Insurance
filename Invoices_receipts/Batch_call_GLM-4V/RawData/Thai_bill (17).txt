@@ -2,39 +2,34 @@ First Step:
 
 ```markdown
 # Bill Information
-- Service Type: ระบาดค่าเซินต์สูงความจุ 2Gbps/Fibre 2000/1000 Mbps ปีนักษ์ 1,399 บาท/ชั่วโมง
-- Bill Cycle Start Date: 22/11/2566
-- Bill Cycle End Date: 23/11/2566
+- Service Type: AIS Play Premium Plus 299
+- Package Details: 2Gbps/Fiber 2000/1000Mbps
+- Usage Period: From 22/11/2566 to 23/11/2566
 - Current Charge: 1,593.51 THB
 - Outstanding Balance: 0.00 THB
 - Total Outstanding Balance: 1,593.51 THB
-- Current Due Date: 24/12/2566
+- Due Date: 24/12/2566
 
 # Summary of Current Charges
-- Internet Fee: 6,289.26 THB
-- Playbox Fee: 4,800.00 THB
-- VAT @ 7%: 104.25 THB
+- Service Fee: 6,289.26 THB
+- VAT at 7%: 4,800.00 THB
+- Other Charges: 104.25 THB
 - Total Current Charge: 1,593.51 THB
 
-# Your Package Details
-- Package Name: PLAY PREMIUM PLUS 299
-- Subscription Period: 1 ปีนักศึกษ์ 24 ชั่วโมง
-- Service Description: ระบาดค่าเซินต์สูงความจุ 2Gbps/Fibre 2000/1000 Mbps ปีนักศึกษ์ 1,399 บาท/ชั่วโมง
+# Your Package
+- Package Name: AIS PLAYBOX
+- Subscription Period: 1 year (until 24/11/2566)
 
-# Current Charges Breakdown
-- Internet Fee: 90.26 THB (for the period 22/11/2566 - 23/11/2566)
-- Playbox Fee: 1,390.00 THB
-- VAT @ 7%: 4,800.00 THB
-- Total Current Charge Before VAT: 1,489.26 THB
-- VAT @ 7%: 104.25 THB
+# Current Charges
+- 2Gbps/Fiber 2000/1000Mbps usage from 22/11/2566 to 23/11/2566: 90.26 THB
+- 2Gbps/Fiber 2000/1000Mbps usage from 24/11/2566 to 23/12/2566: 1,390.00 THB
+- Information Withholding Tax: 4,800.00 THB
+
+# Total Current Charge before VAT
+- Amount Before VAT: 1,489.26 THB
+
+# Total Current Charge after Information Withholding Tax
 - Total Current Charge Including Tax: 1,593.51 THB
-
-# Additional Information
-- Withholding Tax:
-  - Value Added Tax (VAT): 0.00 THB
-  - Personal Income Tax: 44.68 THB
-  - Business Income Tax: 0.00 THB
-
 ```
 
 Second Step:
@@ -42,21 +37,43 @@ Second Step:
 ```json
 {
   "Bill Information": {
-    "Service Type": "ระบาดค่าเซินต์สูงความจุ 2Gbps/Fibre 2000/1000 Mbps ปีนักศึกษ์ 1,399 บาท/ชั่วโมง",
-    "Bill Cycle Start Date": "22/11/2566",
-    "Bill Cycle End Date": "23/11/2566",
+    "Service Type": "AIS Play Premium Plus 299",
+    "Package Details": {
+      "Speed": [
+        "2Gbps",
+        "Fiber",
+        "2000",
+        "1000Mbps"
+      ]
+    },
+    "Usage Period": {
+      "Start": "22/11/2566",
+      "End": "23/11/2566"
+    },
     "Current Charge": "1,593.51 THB",
     "Outstanding Balance": "0.00 THB",
     "Total Outstanding Balance": "1,593.51 THB",
-    "Current Due Date": "24/12/2566"
+    "Due Date": "24/12/2566"
   },
   "Summary of Current Charges": {
-    "Internet Fee": "6,289.26 THB",
-    "Playbox Fee": "4,800.00 THB",
-    "VAT @ 7%": "104.25 THB",
+    "Service Fee": "6,289.26 THB",
+    "VAT at 7%": "4,800.00 THB",
+    "Other Charges": "104.25 THB",
     "Total Current Charge": "1,593.51 THB"
   },
-  "Your Package Details": {
-    "Package Name": "PLAY PREMIUM PLUS 299",
-    "Subscription Period": "1 ปีนักศึกษ์ 24 ชั่วโมง",
-    "Service Description": "ระบาดค่าเซินต์สูงความจุ 2Gbps/Fibre 2000/1000 Mbps ปี
+  "Your Package": {
+    "Name": "AIS PLAYBOX",
+    "Subscription Period": {
+      "Start": "22/11/2566",
+      "End": "24/11/2566"
+    }
+  },
+  "Current Charges": {
+    "From 22/11/2566 to 23/11/2566": "90.26 THB",
+    "From 24/11/2566 to 23/12/2566": "1,390.00 THB",
+    "Information Withholding Tax": "4,800.00 THB"
+  },
+  "Total Current Charge before VAT": "1,489.26 THB",
+  "Total Current Charge after Information Withholding Tax": "1,593.51 THB"
+}
+```

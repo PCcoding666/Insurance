@@ -1,20 +1,18 @@
-First Step:
-
+### First Step - Extract Text in Markdown Format
 ```markdown
-# Mount Elizabeth Orchard
-## 24-Hour Urgent Care Centre
-## TAX INVOICE
-
-| Page | GST Reg No | Business Reg No | Print Date/Time | Bill Date | Customer No | Case No | Bill Document No | Visit Type | Attend Date | Attending Doctor |
-|------|-------------|------------------|------------------|------------|------------|---------|-------------------|------------|--------------|------------------|
+# Mount Elizabeth ORCHARD
+### 24-Hour Urgent Care Centre
+#### TAX INVOICE
+---
+| Page | GST Reg No | Business Reg No | Print Date/Time | Bill Date | Customer No | Case No | Bill Document No | Visit Type | Attendance Date | Attending Doctor |
+|------|-------------|------------------|------------------|-------------|--------------|----------|------------------|------------|------------------|------------------|
 | 1 of 3 | 20-0409811-Z | 5302903M | 10.03.2024/00:02:39 | 10.03.2024 | 6668443 | 2024019896 | 8209365715 | UCC WALK-IN | 09.03.2024 | DR SIM KEE SHENG KEVIN |
-
-| Date | Code | Service Description | Qty | Amount($$) |
-|------|------|----------------------|------|--------------|
-| 09.03.2024 | 3501010049 | XR - CHEST 1 VIEW | 1 | 52.99 |
+|------|-------------|------------------|------------------|-------------|--------------|----------|------------------|------------|------------------|------------------|
+| Date | Code | Service Description | Qty | Amount ($) |
+| 09.03.2024 | 3501010049 | XR-CHEST 1 VIEW | 1 | 52.99 |
 | 09.03.2024 | 3501080016 | ~ XR SURCHARGE FIRST HR | 1 | 138.00 |
-| 09.03.2024 | 4001000183 | C - REACTIVE PROTEIN | 1 | 35.53 |
-| 09.03.2024 | 4004000495 | ~ AFTER HRS SURCHARGE | 1 | 49.48 |
+| 09.03.2024 | 4001000183 | C-REACTIVE PROTEIN | 1 | 35.53 |
+| 09.03.2024 | 4004000495 | AFTER HRS SURCHARGE | 1 | 49.48 |
 | 09.03.2024 | 4004001146 | GENERAL FOLLOW-UP SCREEN | 1 | 68.52 |
 | 09.03.2024 | 400800034 | MYCOPLASMA PNEUMONIAE IGM | 1 | 73.59 |
 | 09.03.2024 | 400800035 | DENGUE NS1 ANTIGEN TEST | 1 | 69.78 |
@@ -24,10 +22,6 @@ First Step:
 | 09.03.2024 | 570000040 | RMO1 | 1 | 43.27 |
 | 09.03.2024 | 570100004 | OBSERVATION BED < 2HRS | 1 | 215.09 |
 | 09.03.2024 | 710800002 | CONSULTATION - AFTER HOUR | 1 | 148.62 |
-
-Note: (*) - non discountable items (**) - UCC Charges
-
-View Your Medisave and/or Medishield Life Claim Details Online
-Login to my cpf online services with your SingPass at http://www.cpf.gov.sg under 'Statement' > 'Section B - Transactions'. Select 'MediSave/MediShield Life Transactions Statement for Medical Expenses'. You can view a soft copy of the hardcopy Transactions Statement for Medical Expenses. The statement will be sent to you about a week after a transaction for medical expenses is made in your Medisave Account.
-
-Reimbursement For Claims Under Med
+|------|-------------|------------------|------------------|-------------|--------------|----------|------------------|------------|------------------|------------------|
+| Note: (*) - non discountable items | (*) - UCC Charges |
+| View Your Medisave and/or MediShield Life Claim Details Online | Login to my cpf online services with your SingPass at http://www.cpf.gov.sg/ > Members > My Account > Transactions Statement. Select "Medisave" under "Statement Type

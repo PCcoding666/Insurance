@@ -1,49 +1,47 @@
-### First Step - Extract Text in Markdown Format
+First Step:
+
 ```markdown
-|                             |                             |
-|-----------------------------|-----------------------------|
-| TOTAL AMOUNT(BEFORE GOVT SUBSIDY)$ | $141.53 |
-| GOVT SUBSIDY$                | -49.07                      |
-| TOTAL AMOUNT (BEFORE GST)$   | $92.46                      |
-| 8% GST$                      | 7.40                        |
-| GST absorbed by Govt$          | -7.40                       |
-| TOTAL AMOUNT (AFTER GOVT SUBSIDY)$ | $92.46 |
-| TOTAL AMOUNT PAYABLE$        | $92.46                      |
-| Net Payment made$            | 0.00                        |
-| FINAL AMOUNT PAYABLE$        | $92.46                      |
-|                             |                             |
-| ITEM                        | BEFORE GOVT SUBSIDY ($)     | AFTER GOVT SUBSIDY ($)     |
-| LACTATION (1 QTY)            | 54.50                       | 29.30                       |
-| ADAMINE HCL LOZ - (NS)(48 QTY) | 24.00                       | 24.00                       |
-| CYSTEINE 600MG EFF TAB - (NS)(8 QTY) | 3.20                        | 3.20                        |
-| DOMETHORPHAN 15MG/5ML SYR 200ML - (S1)(1 QTY) | 3.50                        | 2.10                        |
-| ACETADINE TAB - (S1)(10 QTY)  | 1.70                        | 1.28                        |
-| PARACETAMOL 500MG TAB - (S1)(120 QTY) | 9.60                        | 4.20                        |
-| BENEFEN 200MG TAB - (S1)(50 QTY)  | 10.00                       | 2.10                        |
-| AZELASTINE 0.05% N/SPRAY - (S1)-MSV (1 QTY) | 3.57                        | 2.68                        |
-| OXICLAV 1G TAB - (S2)(14 QTY)  | 5.60                        | 4.20                        |
-| ADRIAMINE 10MG TAB - (S2)-MSV (30 QTY)  | 10.50                       | 7.88                        |
-| MESONE FUROATE 50MCG N/SP - (S2)- (QTY) | 15.36                       | 11.52                       |
-|                             |                             |
-| AMOUNT (BEFORE GOVT SUBSIDY) |                             |
-| SUBSIDY                      | -49.07                      |
-| AMOUNT (BEFORE GST)          |                             |
-| CHARGES TO BE CONTINUED ON PAGE 2 |
+|                             | BEFORE GOVT SUBSIDY ($) | AFTER GOVT SUBSIDY ($) |
+|-----------------------------|--------------------------|------------------------|
+| TOTAL AMOUNT(BEFORE GOVT SUBSIDY)  | $141.53                  | -$49.07                 |
+| GOVT SUBSIDY                 | -$49.07                  | -$49.07                 |
+| TOTAL AMOUNT (BEFORE GST)      | $92.46                   | $7.40                   |
+| 8% GST                      | $7.40                    | -$7.40                  |
+| GST absorbed by Govt          | -$7.40                   | -$7.40                  |
+| TOTAL AMOUNT (AFTER GOVT SUBSIDY) | $92.46                   | $92.46                  |
+| TOTAL AMOUNT PAYABLE          | $92.46                   | $92.46                  |
+| Net Payment made              | $0.00                    | $0.00                   |
+| FINAL AMOUNT PAYABLE          | $92.46                   | $92.46                  |
+
+---
+
+| MEDICATION                   | BEFORE GOVT SUBSIDY ($) | AFTER GOVT SUBSIDY ($) |
+|-----------------------------|--------------------------|------------------------|
+| ADMINISTRATION (1 QTY)        | $54.50                   | $29.30                  |
+| DIPHENAMINE HCL LOZ - (NS) (48 QTY) | $24.00                   | $24.00                  |
+| CYSTEINE 600MG EFF TAB - (NS) (8 QTY) | $3.20                    | $3.20                   |
+| OMETHORPHAN 15MG/5ML SYR 200ML - (QTY) | $3.50                    | $2.10                   |
+| PHENERGINE TAB - (S1) (10 QTY) | $1.70                    | $1.28                   |
+| ACETAMOL 500MG TAB - (S1) (120 QTY) | $9.60                    | $4.20                   |
+| PARACETAMOL 200MG TAB - (S1) (50 QTY) | $10.00                   | $2.10                   |
+| BENAZOLINE 0.05% N/SPRAY - (S1)-MSV (1 QTY) | $3.57                    | $2.68                   |
+| CEFIXIME 1G TAB - (S2) (14 QTY) | $5.60                    | $4.20                   |
+| CLARITHROMYCIN 10MG TAB - (S2)-MSV (30 QTY) | $10.50                   | $7.88                   |
+| MESALAMINE FUROATE 50MCG N/SP - (S2)- (QTY) | $15.36                   | $11.52                  |
+
+---
+
+| CHARGE                      | AMOUNT (BEFORE GOVT SUBSIDY) | AMOUNT (BEFORE GST) |
+|-----------------------------|--------------------------|------------------------|
+| Subsidy                     | -$49.07                  | -$49.07                  |
+| Total Amount Before GST     | $92.46                   | $92.46                  |
 ```
 
-### Second Step - Extract Key Field Information in JSON Format
+Second Step:
+
 ```json
 {
   "before_govt_subsidy": {
     "total_amount": "$141.53",
-    "government_subsidy": "-$49.07",
-    "total_amount_before_gst": "$92.46",
-    "gst": "7.40",
-    "government_absorbed_gst": "-7.40",
-    "total_amount_after_govt_subsidy": "$92.46",
-    "total_amount_payable": "$92.46",
-    "net_payment_made": "0.00",
-    "final_amount_payable": "$92.46"
-  },
-  "after_govt_subsidy": {
-    "lactation": {"price":
+    "govt_subsidy": "-$49.07",
+    "total_amount_before_gst": "$92.

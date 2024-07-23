@@ -1,32 +1,32 @@
 First Step:
 
 ```markdown
-| Description                   | Amount       | Discount     | Net Amount   |
-|------------------------------|---------------|--------------|--------------|
-| Drugs and Medical Nutrition | 1,049.00      | 0.00         | 1,049.00     |
-| Laboratory Investigation    | 975.00        | 0.00         | 975.00       |
-| Nursing and Midwifery Charge | 975.00        | 0.00         | 975.00       |
-| Packaged Medical Charge      | 100.00        | 0.00         | 100.00       |
-| Other Medical Charges        | 200.00        | 0.00         | 200.00       |
-| Physician Evaluation and Management Services | 650.00       | 0.00         | 650.00       |
-| Total                        | 2,974.00      | 0.00         | 2,974.00      |
+| Description                   | Amount       | Discount      | Net Amount    |
+|-----------------------------|--------------|---------------|---------------|
+| Drugs and Medical Nutrition | 1,049.00      | 0.00          | 1,049.00      |
+| Laboratory Investigation    | 975.00        | 0.00          | 975.00        |
+| Nursing and Midwifery Charge | 100.00        | 0.00          | 100.00        |
+| Packaged Medical Charge     | 200.00        | 0.00          | 200.00        |
+| Other Medical Charges        | 650.00        | 0.00          | 650.00        |
+| Physician Evaluation and Management Services | 650.00        | 0.00          | 650.00        |
+| Total                       | 2,974.00      | 0.00          | 2,974.00      |
 ```
 
 Second Step:
 
 ```json
 {
-  "Patient_ID": "0138856-67",
-  "Doc_No": "[Blurred]",
+  "Patient_Name": "Omitted",
+  "Patient_Number": "0138856-67",
+  "Date": "13/03/2024",
+  "Time": "11:00",
+  "Doctor": "SALINNART PHANPRASERT, MD.",
   "Receipt_Type": {
     "Original": true,
     "OPD": false,
     "ER": false
   },
-  "Date": "13/03/2024",
-  "Time": "11:00",
-  "Doctor": "SALINNART PHANPRASERT, MD.",
-  "Items": [
+  "Details": [
     {
       "Description": "Drugs and Medical Nutrition",
       "Amount": 1049.00,
@@ -41,21 +41,21 @@ Second Step:
     },
     {
       "Description": "Nursing and Midwifery Charge",
-      "Amount": 975.00,
-      "Discount": 0.00,
-      "Net_Amount": 975.00
-    },
-    {
-      "Description": "Packaged Medical Charge",
       "Amount": 100.00,
       "Discount": 0.00,
       "Net_Amount": 100.00
     },
     {
-      "Description": "Other Medical Charges",
+      "Description": "Packaged Medical Charge",
       "Amount": 200.00,
       "Discount": 0.00,
       "Net_Amount": 200.00
+    },
+    {
+      "Description": "Other Medical Charges",
+      "Amount": 650.00,
+      "Discount": 0.00,
+      "Net_Amount": 650.00
     },
     {
       "Description": "Physician Evaluation and Management Services",
@@ -64,14 +64,22 @@ Second Step:
       "Net_Amount": 650.00
     }
   ],
-  "Total_Amount": 2974.00,
-  "Print_Details": {
-    "Date_and_Time": "13/03/2024 12:58",
-    "Batch_Number": "BI-67-1038187"
+  "Total": {
+    "Amount": 2974.00,
+    "Discount": 0.00,
+    "Net_Amount": 2974.00
   },
-  "Cashier": "JARUNEE NEDARUN",
-  "Additional_Info": {
-    "Return_Policy": "The patient may return the medication if experiencing adverse reaction."
+  "Print_Information": {
+    "Date_and_Time": "13/03/2024 12:58",
+    "Bill_Number": "BI-67-1038187"
+  },
+  "Cashier_Information": {
+    "Name": "JARUNEE NEDARUN",
+    "Contact_Information": {
+      "Phone": "0-2223-1351",
+      "Fax": "0-2223-1253",
+      "Website": "www.hc-hospital.com"
+    }
   }
 }
 ```

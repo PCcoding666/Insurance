@@ -37,7 +37,6 @@ The second JSON object should be an array of items, each containing the followin
 - Amount: The amount for each item.
 
 Please provide the resulting JSON output only, with no additional Explanatory text.
-
 """
 
 # 文件夹路径

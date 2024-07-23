@@ -1,43 +1,97 @@
 First Step:
 
 ```markdown
-####### สำนวามเป็นภาษาไทย
-[**ระบาดโรค**]
+# Thai Health Ministry Document - COVID-19 Vaccine Information
 
-[**SUSPENSION FOR INJECTION**]
+**Document Type:**
+IC 3/64 (NBC)
 
-[**ผู้จัดหลัง**]
+**Vaccine Information:**
+- **Vaccine Name:** CoronaVac
+- **Vaccine Code:** IC 90003/64 (NB)
+- **Suspension For Injection:** Yes
 
-[**SINOVAC LIFE SCIENCES CO., LTD.**]
+**Manufacturer Information:**
+- **Company Name:** SINOVAC LIFE SCIENCES CO., LTD.
+- **Address:** No. 21 Tianfu Street, Beijing, Daxing District, People's Republic of China
 
-[**ที่อยู่**]
-21 ถูกใจ ตัวอักษร/ชื่อ ถูกใจ/ชื่อ ถูกใจ ดากิน ดิสต์ บีซี และ/หรือ บีซี และ/หรือ บีซี และ
+**Contact Information:**
+- **Phone Number:** 0 2203 8600-3
 
-[**รัฐบาลเอล**]
+**Date and Time Stamp:**
+- **Time Stamp:** 24/2541
+- **Date:** 75/1
+- **Year:** 2022
 
-[**PEOPLE'S REPUBLIC OF CHINA**]
+**Weight Information:**
+- **Weight (g):** 22
+- **Volume (ml):** 2564
 
-[**เข้ารับ**]
-22 วันที่ พ.ศ. 2564
+**Additional Notes:**
+- **Page Number:** 21
+- **Signature:** Yes
 
-[**ออก**]
-21 วันที่ พ.ศ. 2565
+---
 
-[**ผู้สั่งหน่อย**]
-
-[**ลงเนื้อน**]
+# Thai Health Ministry Document - COVID-19 Vaccine Information JSON Format
+{
+  "Document_Type": "IC 3/64 (NBC)",
+  "Vaccine_Information": {
+    "Name": "CoronaVac",
+    "Code": "IC 90003/64 (NB)",
+    "Suspension_For_Injection": true
+  },
+  "Manufacturer_Information": {
+    "Company_Name": "SINOVAC LIFE SCIENCES CO., LTD.",
+    "Address": "No. 21 Tianfu Street, Beijing, Daxing District, People's Republic of China"
+  },
+  "Contact_Information": {
+    "Phone_Number": "0 2203 8600-3"
+  },
+  "Date_and_Time_Stamp": {
+    "Time_Stamp": "24/2541",
+    "Date": "75/1",
+    "Year": "2022"
+  },
+  "Weight_Information": {
+    "Weight": "22 g",
+    "Volume": "2564 ml"
+  },
+  "Additional_Notes": {
+    "Page_Number": "21",
+    "Signature": true
+  }
+}
 ```
 
 Second Step:
 
 ```json
 {
-  "Company": "SINOVAC LIFE SCIENCES CO., LTD.",
-  "Country": "PEOPLE'S REPUBLIC OF CHINA",
-  "Received_Date": "22 วันที่ พ.ศ. 2564",
-  "Expired_Date": "21 วันที่ พ.ศ. 2565",
-  "Authority": "[THAI TEXT NOT TRANSLATED]",
-  "Document_Type": "FORM MA-2",
-  "Document_Number": "IC 3/64 (NBC)"
+  "Document_Type": "IC 3/64 (NBC)",
+  "Vaccine_Code": "IC 90003/64 (NB)",
+  "Suspension_For_Injection": true,
+  "Manufacturer_Details": {
+    "Company_Name": "SINOVAC LIFE SCIENCES CO., LTD.",
+    "Address": "No. 21 Tianfu Street, Beijing, Daxing District, People's Republic of China"
+  },
+  "Contact_Number": "0 2203 8600-3",
+  "Date_Details": {
+    "Time_Stamp": "24/2541",
+    "Date": "75/1",
+    "Year": "2022"
+  },
+  "Weight": {
+    "Value": "22 g",
+    "Unit": "g"
+  },
+  "Volume": {
+    "Value": "2564 ml",
+    "Unit": "ml"
+  },
+  "Additional_Info": {
+    "Page_Number": "21",
+    "Signature": true
+  }
 }
 ```

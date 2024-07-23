@@ -7,27 +7,34 @@ First Step:
 - Type of Card: KTC PROUD
 - Account No.: 4216-68XX-XXXX-7062
 - Billing Date: 18/09/21
-- Payment Due Date: Not specified
+- Payment Due Date: [Not visible]
 - Total Amount: 33,415.78 THB
 - Total Due Amount: 59,500.00 THB
-- Previous Payment: Not specified
-- Credit Limit: Not specified
-- QR Code: Present but details not visible
-- Contact Information:
-  - Phone: 02 123 5000
-  - Website: www.ktc.co.th
+- Previous Payment: [Not visible]
 
 ## Transactions
 - Date: 01/09/21
-  - Description: Payment - KTB Internet
+  - Description: Payment - KB Internet
   - Amount: 14,459.96 THB
 - Date: 11/09/21
-  - Posting Date: 11/09/21
   - Description: Payment - KBANK(004)Internet
   - Amount: 1,049.67 THB
   - Interest: 10,000.00 THB
   - Total: 10,747.51 THB
 
+# Contact Information
+- Krungthai Card Public Company Limited
+- Phone: 02 123 5000
+- Website: www.ktc.co.th
+
+# Security Measures
+- QR Code: Yes
+- UID: Yes (139258 U)
+
+# Additional Information
+- Online Service Link: www.ktc.co.th/online
+- Mobile Service Link: www.ktc.co.th/ktcmobile
+- Reference: 2564 BE (Thai Year)
 ```
 
 Second Step:
@@ -37,33 +44,38 @@ Second Step:
   "Account_Number": "00000016466",
   "Statement_Date": "18/09/21",
   "Type_of_Card": "KTC PROUD",
-  "Account_No_Details": {
-    "Account_Number": "4216-68XX-XXXX-7062",
-    "Billing_Date": "18/09/21",
-    "Payment_Due_Date": null,
-    "Total_Amount": "33,415.78 THB",
-    "Total_Due_Amount": "59,500.00 THB",
-    "Previous_Payment": null,
-    "Credit_Limit": null
-  },
-  "Contact_Information": {
+  "Account_No": "4216-68XX-XXXX-7062",
+  "Billing_Date": "18/09/21",
+  "Payment_Due_Date": null,
+  "Total_Amount": "33,415.78",
+  "Total_Due_Amount": "59,500.00",
+  "Previous_Payment": null,
+  "Transactions": [
+    {
+      "Date": "01/09/21",
+      "Description": "Payment - KB Internet",
+      "Amount": "14,459.96"
+    },
+    {
+      "Date": "11/09/21",
+      "Description": "Payment - KBANK(004)Internet",
+      "Amount": "1,049.67",
+      "Interest": "10,000.00",
+      "Total": "10,747.51"
+    }
+  ],
+  "Contact": {
     "Phone": "02 123 5000",
     "Website": "www.ktc.co.th"
   },
-  "Transactions": [
-    {
-      "Transaction_Date": "01/09/21",
-      "Description": "Payment - KTB Internet",
-      "Amount": "14,459.96 THB"
-    },
-    {
-      "Transaction_Date": "11/09/21",
-      "Posting_Date": "11/09/21",
-      "Description": "Payment - KBANK(004)Internet",
-      "Amount": "1,049.67 THB",
-      "Interest": "10,000.00 THB",
-      "Total": "10,747.51 THB"
-    }
-  ]
+  "Security": {
+    "QR_Code": true,
+    "UID": "139258 U"
+  },
+  "Additional_Information": {
+    "Online_Service_Link": "www.ktc.co.th/online",
+    "Mobile_Service_Link": "www.ktc.co.th/ktcmobile",
+    "Reference": "2564 BE"
+  }
 }
 ```

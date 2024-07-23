@@ -4,51 +4,46 @@ First Step:
 # Invoice
 
 ## Customer Information
-- Name / ชื่อผู้สั่งซื้อ: บริษัทเล็กซีน
-- Address / ที่อยู่: 44/14 ถ.5 ต.วัดไม้ อ.ประจำ จ.นครศาล์ 10540
-- Tax ID / หมายเลขภาษาไทย: 011564018396
-- Email / อีเมล: p24onginal@gmail.com
-- Attention / แนะนำ: -
+- Name / ชื่อ: บริษัท ที่มีความสันต์
+- Address / ที่อยู่: 44/14 ถูกใจ 5 และน้ำเป็นไปได้ หน่องเล็ก 3 ของ
+- Tax ID / เลขภาพธุรกิจ: 011564018396
+- Attention / ผู้เฝ้าระบาด: -
+- Email / อีเมล: p24ongina@gmail.com
 
 ## Issuer Information
-- Name / ชื่อผู้ให้: BMU BUILD ME UP CONSULTANT CO.,LTD.
+- Name / ชื่อ: BMU BUILD ME UP CONSULTANT CO.,LTD.
 - Address / ที่อยู่: -
-- Tax ID / หมายเลขภาษาไทย: 010556406789
+- Tax ID / เลขภาพธุรกิจ: 010556406789
 - Phone / โทรศัพย์: T: 0610655570
-- Email / อีเมล: E: -
-- Weight / น้ำหนา: W: -
 
 ## Invoice Details
 - Invoice No. / เลขที่ invoice: N-20220800002
 - Issue Date / วันที่ issue: 02/08/2022
 - Due Date / วันที่ due: 09/08/2022
-- Reference / หมายเลข reference: -
+- Reference / หมายเลข: -
 
 ## Item Information
 - ID No. / เลขที่สินค้า: P0001
-- Description / รายละเอียง: บริษัทเล็กซีน รุ่น 6.5
-- Quantity / จำนวณ: 1.00
-- Unit Price / ค่าต่อหน่อย: 3,500.00
-- Pre-Tax Amount / ค่ารับเมื่อไม่มีภาษาไทย: 3,500.00
+- Description: รายงานการประจำตัวเอล 6.5
+- Quantity: 1.00
+- Unit Price: 3,500.00
+- Pre-Tax Amount: 3,500.00
 
-## Remarks / หมายเหตุ
-- Remarks / หมายเหตุ: -
-
-## Summary of Charges
-- Pre-VAT Amount / ค่ารับเมื่อมีภาษาไทย: 3,500.00
-- VAT / ภาษาไทย: 245.00
-- Grand Total / รายทั้ง: 3,745.00
-- Withheld Tax / ภาษาไทย: 105.00
-- Net to Pay / ค่าที่จะช่องเงิน: 3,640.00
+## Total Amounts
+- Grand Total: 3,745.00
+- VAT (Value Added Tax): 245.00
+- Withheld Tax: 105.00
+- Net to Pay: 3,640.00
 
 ## Payment Information
 - Approved by / อนุมัติโดย: 0961308666
-- Accepted by / รับค่าโดย: -
+- Accepted by: -
 
-## Documentation
-- Page / หน้า: 1/1
-- Date / วัน: 02/08/2022
-- Prepared by / ทำโดย: Kankwan soda
+## Footer
+- Prepared by / ที่จัด: Kanokwan soda
+- Date of Preparation / วันที่จัด: 02/08/2022
+
+---
 ```
 
 Second Step:
@@ -57,10 +52,25 @@ Second Step:
 {
   "Invoice": {
     "Customer": {
-      "Name": "บริษัทเล็กซีน",
-      "Address": "44/14 ถ.5 ต.วัดไม้ อ.ประจำ จ.นครศาล์ 10540",
+      "Name": "บริษัท ที่มีความสันต์",
+      "Address": "44/14 ถูกใจ 5 และน้ำเป็นไปได้ หน่องเล็ก 3 ของ",
       "Tax_ID": "011564018396",
-      "Email": "p24onginal@gmail.com"
+      "Attention": "",
+      "Email": "p24ongina@gmail.com"
     },
     "Issuer": {
-      "Name": "BMU BUILD ME UP
+      "Name": "BMU BUILD ME UP CONSULTANT CO.,LTD.",
+      "Address": "",
+      "Tax_ID": "010556406789",
+      "Phone": "T: 0610655570"
+    },
+    "Invoice_Details": {
+      "Invoice_No": "N-20220800002",
+      "Issue_Date": "02/08/2022",
+      "Due_Date": "09/08/2022",
+      "Reference": ""
+    },
+    "Item_Information": {
+      "ID_No": "P0001",
+      "Description": "รายงานการประจำตัวเอล 6.5",
+      "Quant

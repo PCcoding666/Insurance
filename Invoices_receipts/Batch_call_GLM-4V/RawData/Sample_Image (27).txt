@@ -4,35 +4,51 @@ First Step:
 | DESCRIPTION                   | BEFORE GOVT SUBSIDY ($) | AFTER GOVT SUBSIDY ($) |
 |------------------------------|-------------------------|-----------------------|
 | PROFESSIONAL FEES - DOCTOR    |                         |                       |
-| CONSULT - REPEAT VISIT (1 UN) | 151.00                  | 151.00                |
+| CONSULT - REPEAT VISIT (1 UN) | 151.00                  | 151.00                 |
 | X-RAY INVESTIGATIONS          |                         |                       |
-| ULTRASOUND OBS SIMPLE (MULTIPLE) (1 UN) | 200.20                  | 200.20                |
-| PLACENTAL LOCALISATION (1 UN)  | 96.20                   | 96.20                 |
+| ULTRASOUND OBS SIMPLE (MULTIPLE) (1 UN) | 200.20                  | 200.20                 |
+| PLACENTAL LOCALISATION (1 UN) | 96.20                   | 96.20                  |
 | WARD PROCEDURES               |                         |                       |
-| OBSTETRIC ROUTINE CHECK (1 UN) | 22.10                   | 22.10                 |
-| TOTAL AMOUNT (BEFORE GOVT SUBSIDY) | 469.50                  |                       |
-| TOTAL AMOUNT (BEFORE GST)      | 42.26                   |                       |
+| OBSTETRIC ROUTINE CHECK (1 UN) | 22.10                   | 22.10                  |
+| TOTAL AMOUNT (BEFORE GOVT SUBSIDY) | 469.50                  | 469.50                 |
 | 9% GST                        |                         |                       |
-| TOTAL AMOUNT (AFTER GOVT SUBSIDY) | 511.76                  |                       |
+| TOTAL AMOUNT (AFTER GOVT SUBSIDY) | 511.76                  | 511.76                 |
 ```
 
 Second Step:
 
 ```json
 {
+  "OBSTETRIC ROUTINE CHECK": {
+    "BEFORE GOVT SUBSIDY": "22.10",
+    "AFTER GOVT SUBSIDY": "22.10"
+  },
   "PROFESSIONAL FEES - DOCTOR": {
-    "CONSULT - REPEAT VISIT (1 UN)": "151.00",
-    "X-RAY INVESTIGATIONS": {
-      "ULTRASOUND OBS SIMPLE (MULTIPLE) (1 UN)": "200.20",
-      "PLACENTAL LOCALISATION (1 UN)": "96.20"
-    },
-    "WARD PROCEDURES": {
-      "OBSTETRIC ROUTINE CHECK (1 UN)": "22.10"
+    "CONSULT - REPEAT VISIT (1 UN)": {
+      "BEFORE GOVT SUBSIDY": "151.00",
+      "AFTER GOVT SUBSIDY": "151.00"
     }
   },
-  "TOTAL AMOUNT (BEFORE GOVT SUBSIDY)": "469.50",
-  "TOTAL AMOUNT (BEFORE GST)": "42.26",
-  "9% GST": "",
-  "TOTAL AMOUNT (AFTER GOVT SUBSIDY)": "511.76"
+  "X-RAY INVESTIGATIONS": {
+    "ULTRASOUND OBS SIMPLE (MULTIPLE) (1 UN)": {
+      "BEFORE GOVT SUBSIDY": "200.20",
+      "AFTER GOVT SUBSIDY": "200.20"
+    },
+    "PLACENTAL LOCALISATION (1 UN)": {
+      "BEFORE GOVT SUBSIDY": "96.20",
+      "AFTER GOVT SUBSIDY": "96.20"
+    }
+  },
+  "WARD PROCEDURES": {
+    "OBSTETRIC ROUTINE CHECK (1 UN)": {
+      "BEFORE GOVT SUBSIDY": "22.10",
+      "AFTER GOVT SUBSIDY": "22.10"
+    }
+  },
+  "TOTAL AMOUNTS": {
+    "BEFORE GOVT SUBSIDY": "469.50",
+    "AFTER GOVT SUBSIDY": "511.76"
+  },
+  "GST PERCENTAGE": "9%"
 }
 ```

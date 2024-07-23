@@ -1,24 +1,24 @@
 First Step:
 
 ```markdown
-| DESCRIPTION                       | AMOUNT ($)  |
-|----------------------------------|-------------|
-| CHEMOTHERAPY                     |             |
+| DESCRIPTION                   | AMOUNT ($) |
+|------------------------------|-------------|
+| CHEMOTHERAPY                 |              |
 | IV CHEMOTHERAPY INFUSION (1 QTY) | 44.20       |
-| DRUGS / PRESCRIPTIONS / INJECTIONS |           |
-| PEG FILGRANSTIM 6 MG/0.6 ML PF SYRINGE (1 QTY) | 144.63      |
-| METOCLOPRAMIDE 10MG TAB (20 QTY)   | 4.40        |
-| DEXAMETHASONE 4MG TAB (6 QTY)     | 0.99        |
-| DOXORUBICIN HCL 50MG INJ (2 QTY)   | 62.55       |
-| CYCLOPHOSPHAMIDE 1G INJ (1 QTY)    | 21.22       |
+| DRUGS / PRESCRIPTIONS / INJECTIONS |             |
+| PEG FILGRSTIM 6 MG/0.6 ML PF SYRINGE (1 QTY) | 144.63     |
+| METOCLOPRAMIDE 10MG TAB (20 QTY) | 4.40        |
+| DEXAMETHASONE 4MG TAB (6 QTY)  | 0.99        |
+| DOXORUBICIN HCL 50MG INJ (2 QTY) | 62.55       |
+| CYCLOPHOSPHAMIDE 1G INJ (1 QTY) | 21.22       |
 | DEXAMETHASONE 4MG/ML PF INJ (2 QTY) | 3.76        |
 | NETUPTANT 300MG , PALONOSETRON 0.5MG CAP (AKYNZEO) (1 QTY) | 95.34       |
-| PREPARATION FEE (2 QTY)            | 176.00      |
-| CONSUMABLES                       |             |
-| I/V START (1 QTY)                 | 31.85       |
-| FACILITY FEE                      |             |
-| <2 HRS PRIVATE (1 QTY)             | 218.59      |
-| TOTAL AMOUNT (BEFORE GST)         | 800.73      |
+| PREPARATION FEE (2 QTY)      | 176.00      |
+| CONSUMABLES                  |             |
+| I/V START (1 QTY)            | 31.85       |
+| FACILITY FEE                 |             |
+| <2 HRS PRIVATE (1 QTY)        | 218.59      |
+| TOTAL AMOUNT (BEFORE GST)    | 800.52      |
 ```
 
 Second Step:
@@ -27,23 +27,51 @@ Second Step:
 {
   "CHEMOTHERAPY": {
     "IV_CHEMOTHERAPY_INFUSION": "44.20",
-    "DRUGS_PRESCRIPTIONS_INJECTIONS": {
-      "PEG_FILGRANSTIM": "144.63",
-      "METOCLOPRAMIDE": "4.40",
-      "DEXAMETHASONE": "0.99",
-      "DOXORUBICIN": "62.55",
-      "CYCLOPHOSPHAMIDE": "21.22",
-      "DEXAMETHASONE_PF_INJ": "3.76",
-      "NETUPTANT_PALONOSETRON": "95.34"
-    },
+    "DRUGS_PRESCRIPTIONS_INJECTIONS": [
+      {
+        "Drug": "PEG FILGRSTIM 6 MG/0.6 ML PF SYRINGE",
+        "Quantity": "1 QTY",
+        "Amount": "144.63"
+      },
+      {
+        "Drug": "METOCLOPRAMIDE 10MG TAB",
+        "Quantity": "20 QTY",
+        "Amount": "4.40"
+      },
+      {
+        "Drug": "DEXAMETHASONE 4MG TAB",
+        "Quantity": "6 QTY",
+        "Amount": "0.99"
+      },
+      {
+        "Drug": "DOXORUBICIN HCL 50MG INJ",
+        "Quantity": "2 QTY",
+        "Amount": "62.55"
+      },
+      {
+        "Drug": "CYCLOPHOSPHAMIDE 1G INJ",
+        "Quantity": "1 QTY",
+        "Amount": "21.22"
+      },
+      {
+        "Drug": "DEXAMETHASONE 4MG/ML PF INJ",
+        "Quantity": "2 QTY",
+        "Amount": "3.76"
+      },
+      {
+        "Drug": "NETUPTANT 300MG , PALONOSETRON 0.5MG CAP",
+        "Quantity": "1 QTY",
+        "Amount": "95.34"
+      }
+    ],
     "PREPARATION_FEE": "176.00",
     "CONSUMABLES": {
-      "I_V_START": "31.85"
+      "I/V_START": "31.85"
     },
     "FACILITY_FEE": {
       "<2_HRS_PRIVATE": "218.59"
-    }
-  },
-  "TOTAL_AMOUNT_BEFORE_GST": "800.73"
+    },
+    "TOTAL_AMOUNT": "800.52"
+  }
 }
 ```

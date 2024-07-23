@@ -1,32 +1,35 @@
 First Step:
 
 ```markdown
-# Invoice Details
-- Invoice Number: [000] 000-0000
-- Date: 2034-12-26
-- Customer Information:
-  - Name: ไม่รู้ชื่อ
-  - Address: ไม่รู้ที่
-  - Phone: 0000 0000-0000
-  - ID: 564
-  - Company: ไม่รู้บริษันธ์
+# Invoice
 
-## Items
-| Item | Quantity | Price | Total |
-|------|----------|-------|-------|
-| A | 1 | 200.00 | 200.00 |
-| B75 | 5 | 75.00 | 375.00 |
-| C | 1 | 50.00 | 50.00 |
+### Company Information
+- Logo: [Company Logo]
+- Address: [Address Line 1] [Address Line 2] [City] [State/Province] [Postal Code] [Country]
+- Phone: (000) 000-0000
+- Date: 2034-06-21
 
-Total Amount: 525.00
-Tax Rate: 4.25%
-Tax Amount: 22.31
-Final Amount Due: 547.31
+### Customer Information
+- Name: [Customer Name]
+- ID: 564
 
-[Company Logo]
-[Company Name]
-[Company Address]
-[Company Email: email@address.com]
+### Items
+| Item Description | Quantity | Unit Price | Total Price |
+|------------------|---------|------------|------------|
+| Product A        | 1       | 200.00     | 200.00      |
+| Service B        | 5       | 75.00      | 375.00      |
+| Tax                | -       | 50.00      | 50.00       |
+
+### Summary
+- Subtotal: 525.00
+- Tax Rate: 4.25%
+- Tax Amount: 22.31
+- Grand Total: 547.31
+
+### Payment Information
+- Email: [email@address.com]
+
+---
 ```
 
 Second Step:
@@ -34,45 +37,44 @@ Second Step:
 ```json
 {
   "Invoice": {
-    "Number": "[000] 000-0000",
-    "Date": "2034-12-26",
+    "Company": {
+      "Logo": "",
+      "Address": "Address Line 1",
+      "AddressLine2": "Address Line 2",
+      "City": "City",
+      "StateOrProvince": "State/Province",
+      "PostalCode": "Postal Code",
+      "Country": "Country",
+      "Phone": "(000) 000-0000",
+      "Date": "2034-06-21"
+    },
     "Customer": {
-      "Name": "ไม่รู้ชื่อ",
-      "Address": "ไม่รู้ที่",
-      "Phone": "0000 0000-0000",
-      "ID": "564",
-      "Company": "ไม่รู้บริษันธ์"
+      "Name": "Customer Name",
+      "ID": 564
     },
     "Items": [
       {
-        "Item": "A",
+        "Description": "Product A",
         "Quantity": 1,
-        "Price": 200.00,
-        "Total": 200.00
+        "UnitPrice": 200.00,
+        "TotalPrice": 200.00
       },
       {
-        "Item": "B75",
+        "Description": "Service B",
         "Quantity": 5,
-        "Price": 75.00,
-        "Total": 375.00
-      },
-      {
-        "Item": "C",
-        "Quantity": 1,
-        "Price": 50.00,
-        "Total": 50.00
+        "UnitPrice": 75.00,
+        "TotalPrice": 375.00
       }
     ],
-    "TotalAmount": 525.00,
-    "TaxRate": 4.25,
-    "TaxAmount": 22.31,
-    "FinalAmountDue": 547.31
-  },
-  "CompanyDetails": {
-    "Logo": "",
-    "Name": "",
-    "Address": "",
-    "Email": "email@address.com"
+    "Summary": {
+      "Subtotal": 525.00,
+      "TaxRate": 4.25,
+      "TaxAmount": 22.31,
+      "GrandTotal": 547.31
+    },
+    "PaymentInformation": {
+      "Email": "email@address.com"
+    }
   }
 }
 ```

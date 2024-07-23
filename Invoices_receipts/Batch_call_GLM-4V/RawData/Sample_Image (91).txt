@@ -12,9 +12,9 @@ First Step:
 | Iron Panel                    | 83.46       |
 | Thyroid Screen 1              | 68.90       |
 | Zinc, Serum                   | 75.79       |
-| TOTAL AMOUNT (BEFORE GST)     | 634.00      |
+| TOTAL AMOUNT (BEFORE GST)    | 634.00      |
 | 8% GST                        | 50.72       |
-| TOTAL AMOUNT                   | 684.72      |
+| TOTAL AMOUNT                  | 684.72      |
 ```
 
 Second Step:
@@ -31,11 +31,12 @@ Second Step:
       "Renal Panel 1 Modified": "59.15",
       "Iron Panel": "83.46",
       "Thyroid Screen 1": "68.90",
-      "Zinc, Serum": "75.79",
-      "TOTAL AMOUNT (BEFORE GST)": "634.00",
-      "GST": "50.72",
-      "TOTAL AMOUNT": "684.72"
-    }
+      "Zinc, Serum": "75.79"
+    },
+    "TOTAL_AMOUNT_BEFORE_GST": "634.00",
+    "GST_PERCENTAGE": "8%",
+    "GST_AMOUNT": "50.72",
+    "TOTAL_AMOUNT": "684.72"
   }
 }
 ```

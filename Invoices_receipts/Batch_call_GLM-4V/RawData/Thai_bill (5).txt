@@ -1,59 +1,93 @@
-First Step:
+### Step 1: Extracting Text in Markdown Format
+The image contains an invoice document written in Thai language. Due to the complexity of Thai script and the potential loss of nuance in translation, I will provide a structured overview based on visible elements without translating the text verbatim.
 
 ```markdown
-# Invoice Information
-- Invoice Number: NV2001-0003
-- Date of Issue: 29/01/2020
-- Supplier Code: C001
-- Supplier Name: ชื่อผู้供應商 (Supplier Name is blurred out)
-- Company Code: 7160
-- Company Name: ชื่อบริษัท (Company Name is blurred out)
+# Invoice
+## Header
+- Company Logo: [Thai script]
+- Document Type: INVOICE
+- Number: C001
+- Date: 29/01/2020
+- Reference: NV2001-0003
+- VAT No.: 7/160
 - PO Number: 10220
-- Currency: THB (Thai Baht)
-- Total Amount Due: 5,000.00 THB
 
-## Item Details
-- No.: FSER0002
-- Description: รายละเอียง (Description is blurred out)
-- Quantity: 10 units
-- Unit Price: 500.00 THB
-- Total Cost: 5,000.00 THB
+## Customer Information
+- Name: [Thai script]
+- Address: [Thai script]
+- Tax ID: 111111111111
+- Currency: THB
+- Total Amount: 1,000,000
 
----
+## Items
+- Item No.: FSER0002
+- Description: [Thai script]
+- Quantity: 10
+- Unit Price: 500,000
+- Total Cost: 5,000,000
 
-(Note: The text above assumes that the blurred out sections are due to privacy concerns and does not contain any personal information.)
+## Additional Charges
+- Service Charge: 0.00
+- Discount: 5,000.00
+- Subtotal: 5,000,000
+- Tax: 5,000.00
+- Grand Total: 5,350,000
+
+## Payment Terms
+- Payment Method: [Thai script]
+- Due Date: 30 days from issue date
+
+## Acknowledgment
+- Signature Block: [Placeholder for signatures]
 ```
 
-Second Step:
+This is a simplified structure based on the visible elements and does not cover all possible details that might be found on an actual invoice.
+
+### Step 2: Extracting Key Field Information in JSON Format
+Here is the extracted key field information from the text in JSON format:
 
 ```json
 {
   "Invoice": {
-    "Number": "NV2001-0003",
-    "Date": "29/01/2020",
-    "Supplier_Code": "C001",
-    "Supplier_Name": "[Blurred]",
-    "Company_Code": "7160",
-    "Company_Name": "[Blurred]",
-    "PO_Number": "10220",
-    "Currency": "THB",
-    "Total_Amount_Due": "5,000.00"
-  },
-  "Items": [
-    {
-      "Item_Number": "FSER0002",
-      "Description": "[Blurred]",
-      "Quantity": "10",
-      "Unit_Price": "500.00",
-      "Total_Cost": "5,000.00"
+    "Header": {
+      "Company_Logo": "[Thai script]",
+      "Document_Type": "INVOICE",
+      "Number": "C001",
+      "Date": "29/01/2020",
+      "Reference": "NV2001-0003",
+      "VAT_No.": "7/160",
+      "PO_Number": "10220"
+    },
+    "Customer_Information": {
+      "Name": "[Thai script]",
+      "Address": "[Thai script]",
+      "Tax_ID": "111111111111",
+      "Currency": "THB",
+      "Total_Amount": "1,000,000"
+    },
+    "Items": {
+      "Item_No.": "FSER0002",
+      "Description": "[Thai script]",
+      "Quantity": 10,
+      "Unit_Price": 500,000,
+      "Total_Cost": 5,000,000
+    },
+    "Additional_Charges": {
+      "Service_Charge": 0.00,
+      "Discount": 5,000.00,
+      "Subtotal": 5,000,000,
+      "Tax": 5,000.00,
+      "Grand_Total": 5,350,000
+    },
+    "Payment_Terms": {
+      "Payment_Method": "[Thai script]",
+      "Due_Date": "30 days from issue date"
+    },
+    "Acknowledgment": {
+      "Signature_Block": "[Placeholder for signatures]"
     }
-  ],
-  "Signatures": {
-    "Buyer": "",
-    "Seller": "",
-    "Authorized_Personnel": ""
   }
 }
 ```
 
-(Note: The JSON provided above excludes any personal information by referring to it as "[Blurred]". It also assumes that the signature fields will be filled by handwriting which is not included in the extracted data.)
+This JSON object represents a structured view of the invoice data, focusing on key fields for clarity and ease of reference.

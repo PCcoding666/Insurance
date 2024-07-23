@@ -1,50 +1,14 @@
 First Step - Extracting Text in Markdown Format:
 
 ```markdown
-# SMEasy-Doc บริษัท/Company
-### Tax Invoice/Receipt เนื้อง/Type
-#### วันที่/Date: 22/3/2559
-#### หมายเลข REC-03-004
-#### เบอร์ติดต่อ/Reference No.: 1234567890123
+# SMEasy-Doc
+### Tax Invoice/Receipt
 
-| ชื่อสินค้า/Description | จำหน่าย/Quantity | รายได้/Amount | ภาษา/Currency |
-|----------------------|------------------------|---------------|---------------|
-| Full Version         | 1                      | 950.00        | THB            |
-| Standalone 950 u. 1 ปี  | 1                      | 950.00        | THB            |
-| Promotion 1,900 u. 4 ปี | 1                      | 1,016.50      | THB            |
+##### วันที่: 22/3/2559
+##### เลขอิสราม: REC-03-004
+##### บัญชีผู้จ่าย: 1234567890123
 
-(license) ระบาดการสั่งซื้อ/Copyright Notice
-```
-
-Second Step - Extracting Key Field Information in JSON Format:
-
-```json
-{
-  "Company": "SMEasy-Doc",
-  "Invoice_Type": "Tax Invoice/Receipt",
-  "Date": "22/3/2559",
-  "REC_Number": "03-004",
-  "Reference_No": "1234567890123",
-  "Items": [
-    {
-      "Description": "Full Version",
-      "Quantity": 1,
-      "Amount": 950.00,
-      "Currency": "THB"
-    },
-    {
-      "Description": "Standalone 950 u. 1 ปี",
-      "Quantity": 1,
-      "Amount": 950.00,
-      "Currency": "THB"
-    },
-    {
-      "Description": "Promotion 1,900 u. 4 ปี",
-      "Quantity": 1,
-      "Amount": 1016.50,
-      "Currency": "THB"
-    }
-  ],
-  "License_Note": ""
-}
-```
+| รายการ | หน่าต้อง | สั่งซื้อ | จ่าย/ได้ | ระบุ |
+| --- | --- | --- | --- | --- |
+| 1 SMEASY-DOC | Full Version | 950.00 | 950.00 | ประจำเดือน 950 บาท ต่อไปไม่ 1 เท่า |
+|                  | Standalone 950 u. และ 1 ในเดือน Promotion 1,900 u. และสั่งซื้อให้ค่าเป็น 4 เท่า |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                

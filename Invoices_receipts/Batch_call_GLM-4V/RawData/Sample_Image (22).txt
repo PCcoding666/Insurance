@@ -6,20 +6,32 @@ Bill No: 0124136180
 Visit Date: 11/04/2024 09:06
 Clinic: Yishun
 
-## CONSULTATION
-Consultation (1 Qty): $ 16.30
+CONSULTATION
+Consultation (1 Qty)
+$ 16.30
 
-## PRESCRIPTION
-Charcoal 200mg Cap (30 Qty): $ 1.40
-Oral Rehydration Salt Sac (6 Qty): $ 0.60
+PRESCRIPTION
+Charcoal 200mg Cap (30 Qty)
+$ 1.40
+Oral Rehydration Salt Sac (6 Qty)
+$ 0.60
 
-Amount Payable Before Tax: $ 18.30
-9% GST: $ 1.65
-Amount Payable After Tax: $ 19.95
-GST Subsidy: -$ 1.65
-Total Amount Payable: $ 18.30
+Amount Payable Before Tax
+$ 18.30
+9% GST
+$ 1.65
 
-Payment By Credit Card: $ 18.30
+Amount Payable After Tax
+$ 19.95
+GST Subsidy
+-$ 1.65
+
+Total Amount Payable
+$ 18.30
+
+Payment By
+Credit Card
+$ 18.30
 
 Government subsidy already included in the bill is $ 50.80
 ```
@@ -34,9 +46,11 @@ Second Step:
     "Visit_Date": "11/04/2024 09:06",
     "Clinic": "Yishun"
   },
-  "Consultation": {
-    "Quantity": 1,
-    "Amount": "$ 16.30"
+  "Service_Details": {
+    "Consultation": {
+      "Quantity": 1,
+      "Amount": "$ 16.30"
+    }
   },
   "Prescription": [
     {
@@ -50,12 +64,12 @@ Second Step:
       "Amount": "$ 0.60"
     }
   ],
-  "Tax_and_Payments": {
+  "Tax_and_Payment": {
     "Amount_Before_Tax": "$ 18.30",
-    "GST_Rate": 9%,
+    "GST_Rate": "9%",
     "GST_Amount": "$ 1.65",
     "Amount_After_Tax": "$ 19.95",
-    "GST_Subsidy": "-$ 1.65",
+    "GST_Subsidy": "$ 1.65",
     "Total_Amount_Payable": "$ 18.30",
     "Payment_Method": "Credit Card",
     "Amount_Paid": "$ 18.30"

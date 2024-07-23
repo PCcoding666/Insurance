@@ -2,17 +2,19 @@ First Step:
 
 ```markdown
 | DESCRIPTION                   | BEFORE GOVT SUBSIDY ($) | AFTER GOVT SUBSIDY ($) |
-|------------------------------|-------------------------|-------------------------|
-| PROFESSIONAL FEES - DOCTOR    | 146.00                  | 146.00                  |
-| CONSULT - NEW VISIT, DEL SUITE (1 UN) | 146.00                  | 146.00                  |
-| SPECIALISED INVESTIGATIONS    | 80.60                   | 80.60                   |
-| ANTENATAL CARDIOTOCOGRAPHY (CTG) (1 UN) | 80.60                   | 80.60                   |
-| CONSUMABLES                   | 35.83                   | 35.83                   |
-| ACTIM PARTUS / PROM (1 EA)      | 35.83                   | 35.83                   |
+|------------------------------|-------------------------|-----------------------|
+| PROFESSIONAL FEES - DOCTOR    |                         |                       |
+| CONSULT - NEW VISIT, DEL SUITE (1 UN) | 146.00                  | 146.00                 |
+| SPECIALISED INVESTIGATIONS    |                         |                       |
+| ANTENATAL CARDIOTOCOGRAPHY (CTG) (1 UN) | 80.60                   | 80.60                  |
+| CONSUMABLES                  |                         |                       |
+| ACTIM PARTUS / PROM (1 EA)   | 35.83                   | 35.83                  |
 | TOTAL AMOUNT (BEFORE GOVT SUBSIDY) | 262.43                  | 262.43                  |
-| TOTAL AMOUNT (BEFORE GST)        | 23.61                   | 23.61                   |
-| 9% GST                        |                          |                          |
+| TOTAL AMOUNT (BEFORE GST)     |                         |                       |
+| 9% GST                        |                         |                       |
 | TOTAL AMOUNT (AFTER GOVT SUBSIDY) | 286.04                  | 286.04                  |
+| FINAL AMOUNT PAYABLE          |                         |                       |
+|                                | 0.00                    | 0.00                   |
 ```
 
 Second Step:
@@ -20,31 +22,52 @@ Second Step:
 ```json
 {
   "DESCRIPTION": {
-    "PROFESSIONAL FEES - DOCTOR": "146.00",
-    "CONSULT - NEW VISIT, DEL SUITE (1 UN)": "146.00",
-    "SPECIALISED INVESTIGATIONS": "80.60",
-    "ANTENATAL CARDIOTOCOGRAPHY (CTG) (1 UN)": "80.60",
-    "CONSUMABLES": "35.83",
-    "ACTIM PARTUS / PROM (1 EA)": "35.83"
+    "PROFESSIONAL FEES - DOCTOR": {
+      "BEFORE GOVT SUBSIDY": "",
+      "AFTER GOVT SUBSIDY": ""
+    },
+    "CONSULT - NEW VISIT, DEL SUITE": {
+      "UNITS": "1",
+      "BEFORE GOVT SUBSIDY": "146.00",
+      "AFTER GOVT SUBSIDY": "146.00"
+    },
+    "SPECIALISED INVESTIGATIONS": {
+      "ANTENATAL CARDIOTOCOGRAPHY (CTG)": {
+        "UNITS": "1",
+        "BEFORE GOVT SUBSIDY": "80.60",
+        "AFTER GOVT SUBSIDY": "80.60"
+      }
+    },
+    "CONSUMABLES": {
+      "ACTIM PARTUS / PROM": {
+        "EA": "1",
+        "BEFORE GOVT SUBSIDY": "35.83",
+        "AFTER GOVT SUBSIDY": "35.83"
+      }
+    },
+    "TOTAL AMOUNT (BEFORE GOVT SUBSIDY)": "262.43",
+    "TOTAL AMOUNT (BEFORE GST)": "",
+    "9% GST": "",
+    "TOTAL AMOUNT (AFTER GOVT SUBSIDY)": "286.04",
+    "FINAL AMOUNT PAYABLE": "0.00"
   },
-  "BEFORE GOVT SUBSIDY ($)": {
-    "PROFESSIONAL FEES - DOCTOR": "146.00",
-    "CONSULT - NEW VISIT, DEL SUITE (1 UN)": "146.00",
-    "SPECIALISED INVESTIGATIONS": "80.60",
-    "ANTENATAL CARDIOTOCOGRAPHY (CTG) (1 UN)": "80.60",
-    "CONSUMABLES": "35.83",
-    "ACTIM PARTUS / PROM (1 EA)": "35.83"
-  },
-  "AFTER GOVT SUBSIDY ($)": {
-    "PROFESSIONAL FEES - DOCTOR": "146.00",
-    "CONSULT - NEW VISIT, DEL SUITE (1 UN)": "146.00",
-    "SPECIALISED INVESTIGATIONS": "80.60",
-    "ANTENATAL CARDIOTOCOGRAPHY (CTG) (1 UN)": "80.60",
-    "CONSUMABLES": "35.83",
-    "ACTIM PARTUS / PROM (1 EA)": "35.83"
-  },
-  "TOTAL AMOUNT (BEFORE GOVT SUBSIDY)": "262.43",
-  "TOTAL AMOUNT (BEFORE GST)": "23.61",
-  "TOTAL AMOUNT (AFTER GOVT SUBSIDY)": "286.04"
-}
-```
+  "KEY FIELD INFORMATION": {
+    "DESCRIPTION": {
+      "PROFESSIONAL FEES - DOCTOR": {
+        "AMOUNT": "262.43",
+        "SUBSIDY": "0.00"
+      },
+      "CONSULT - NEW VISIT, DEL SUITE": {
+        "UNITS": "1",
+        "AMOUNT": "146.00",
+        "SUBSIDY": "146.00"
+      },
+      "SPECIALISED INVESTIGATIONS": {
+        "ANTENATAL CARDIOTOCOGRAPHY (CTG)": {
+          "UNITS": "1",
+          "AMOUNT": "80.60",
+          "SUBSIDY": "80.60"
+        }
+      },
+      "CONSUMABLES": {
+        "ACTIM PARTUS / PROM": {

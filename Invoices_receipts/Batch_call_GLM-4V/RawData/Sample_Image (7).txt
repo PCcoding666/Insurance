@@ -12,27 +12,38 @@ Description
 Patient Name: [Blurred]
 Location: ENT-HEAD & NECK SURG CTR - 15D
 
-Consultation Fee: 123.05 SGD
-Investigations
-  Fine Needle Aspiration With Tech Assista: 326.89 SGD
+Consultation Fee: Consultation Services (C - FV)
+Amount(S$) 123.05
 
-Treatment Services
-  Ward/Clinic / Other Procedures: Aspiration - Fine Needle: 81.64 SGD
+INVESTIGATIONS
+Specialised: Fine Needle Aspiration With Tech Assista
+Amount(S$) 326.89
 
-Total Amount Payable: 531.58 SGD
-Adjustment: Round down for amount payable by patient: 0.03 SGD
-Payment: Master Card - 27.01.2021, Receipt #: NO14614931: 531.55 SGD
-Total Due After Payment: 0.00 SGD
-Due From: 0.00 SGD
+TREATMENT SERVICES
+Ward/Clinic / Other Procedures: Aspiration - Fine Needle
+Amount(S$) 81.64
+
+Total Amount Payable
+531.58
+
+ADJUSTMENT: ROUND DOWN FOR AMOUNT PAYABLE BY PATIENT
+0.03
+
+PAYMENT: MASTER CARD - 27.01.2021, RECEIPT #: NO14614931 )
+531.55
+
+TOTAL DUE AFTER PAYMENT
+0.00
+
+DUE FROM:
+0.00
 
 FOR INFORMATION
-Without Referral
+WITHOUT REFERRAL
 Total amount payable before GST is $496.80.
 Total GST at 7% is $34.78 for this bill.
 The amount payable by patient has been rounded down to the nearest 5 cents.
 
-PAGE 1 OF 1
-IMPORTANT NOTE: Any party who is under a contractual obligation to reimburse the medical expenses shown on this bill, if required to refund to MediShield Life or the Integrated Shield Plan, please refer to the 'Enhancement to MediShield Life Reimbursement Scheme' for more details.
 ---
 ```
 
@@ -43,46 +54,34 @@ Second Step:
   "Patient_Name": "[Blurred]",
   "Location": "ENT-HEAD & NECK SURG CTR - 15D",
   "Invoice_Details": {
-    "Consultation_Fee": "123.05 SGD",
+    "Consultation_Fee": {
+      "Description": "Consultation Services (C - FV)",
+      "Amount": "123.05"
+    },
     "Investigations": {
-      "Procedure": "Fine Needle Aspiration With Tech Assista",
-      "Amount": "326.89 SGD"
+      "Description": "Fine Needle Aspiration With Tech Assista",
+      "Amount": "326.89"
     },
     "Treatment_Services": {
-      "Service": "Aspiration - Fine Needle",
-      "Amount": "81.64 SGD"
+      "Description": "Aspiration - Fine Needle",
+      "Amount": "81.64"
     }
   },
-  "Total_Amount_Payable": "531.58 SGD",
-  "Adjustments": {
-    "Round_Down": "0.03 SGD"
-  },
+  "Total_Amount_Payable": "531.58",
+  "Adjustment": "ROUND DOWN FOR AMOUNT PAYABLE BY PATIENT 0.03",
   "Payment_Details": {
+    "Method": "MASTER CARD",
     "Date": "27.01.2021",
-    "Method": "Master Card",
-    "Receipt_Number": "NO14614931",
-    "Amount": "531.55 SGD"
+    "Receipt_Number": "NO14614931"
   },
-  "Post_Payment_Status": {
-    "Total_Due": "0.00 SGD",
-    "Due_From": "0.00 SGD"
-  },
+  "Total_Due_After_Payment": "0.00",
+  "Due_From": "0.00",
   "Additional_Information": {
-    "GST_Details": {
-      "Before_GST": "$496.80",
-      "GST_At_7%": "$34.78",
-      "Rounded_Amount": "5 cents"
+    "Without_Referral": {
+      "Total_Before_GST": "$496.80",
+      "GST_Amount": "$34.78",
+      "Rounded_Amount": true
     }
-  },
-  "Provider_Information": {
-    "Name": "NUH National University Hospital",
-    "Logo": true,
-    "Address": "Block 50, Singapore 119074",
-    "Phone": "+65 6729 5678",
-    "Company_Registration_No": "198500843R"
-  },
-  "Legal_Note": {
-    "MediShield_Life_Reimbursement": true
   }
 }
 ```

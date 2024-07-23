@@ -1,6 +1,95 @@
 First Step:
 
 ```markdown
-# Original Receipt from The Bangkok Christian Hospital
+# Receipt Information
+- **Receipt Type**: Original
+- **Provider**: The Bangkok Christian Hospital
+  - Address: 124 Silom Road, Bangkok 10500
+  - Phone Numbers: 0-2235-1000, 0-2625-9000
+- **Patient Information**:
+  - HN (Hospital Number): 10643417
+  - Name: Mr. [Redacted]
+  - VN (Visit Number): R-0079420/67
+  - Date of Visit: 9 Apr 24 17:54
+- **Diagnosis**: Not specified in the provided image.
+- **Items and Amounts**:
+  1. Drugs: 1,177.00
+  2. Parenteral Nutrition: 656.00
+  3. Medical Supplies 1: 1,460.00
+  4. Lab Investigation and Pathology: 1,380.00
+  5. General Medical Equipment: 125.00
+  6. Bed & Nursing Service: 500.00
+  7. Basic Hospital Charges: 250.00
+  8. First Outpatient Care: 800.00
+- **Total Amount**: 6,348.00 Baht
+- **Payment Details**: Tender - Change - Total (Six Thousand Three Hundred Forty Eight Baht Only)
+- **Cashier Information**: Wanida Ketpung (0537900), Cashier
+- **Note**: For patient safety's purposes, there will be no refund for pharmacy & medical supply.
+```
 
-| Field                   | Content                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                
+Second Step:
+
+```json
+{
+  "Receipt": {
+    "Type": "Original",
+    "Provider": {
+      "Name": "The Bangkok Christian Hospital",
+      "Address": "124 Silom Road, Bangkok 10500",
+      "PhoneNumbers": ["0-2235-1000", "0-2625-9000"]
+    },
+    "Patient": {
+      "HN": "10643417",
+      "Name": "Mr. [Redacted]",
+      "VN": "R-0079420/67",
+      "VisitDate": "9 Apr 24 17:54"
+    },
+    "Diagnosis": null,
+    "Items": [
+      {
+        "Item": "Drugs",
+        "Amount": 1177.00
+      },
+      {
+        "Item": "Parenteral Nutrition",
+        "Amount": 656.00
+      },
+      {
+        "Item": "Medical Supplies 1",
+        "Amount": 1460.00
+      },
+      {
+        "Item": "Lab Investigation and Pathology",
+        "Amount": 1380.00
+      },
+      {
+        "Item": "General Medical Equipment",
+        "Amount": 125.00
+      },
+      {
+        "Item": "Bed & Nursing Service",
+        "Amount": 500.00
+      },
+      {
+        "Item": "Basic Hospital Charges",
+        "Amount": 250.00
+      },
+      {
+        "Item": "First Outpatient Care",
+        "Amount": 800.00
+      }
+    ],
+    "TotalAmount": 6348.00,
+    "Payment": {
+      "Tender": "",
+      "Change": "",
+      "Total": "Six Thousand Three Hundred Forty Eight Baht Only"
+    },
+    "Cashier": {
+      "Name": "Wanida Ketpung",
+      "ID": "0537900"
+    },
+    "RefundPolicy": "For patient safety's purposes, there will be no refund for pharmacy & medical supply."
+  }
+}
+```

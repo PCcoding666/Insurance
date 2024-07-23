@@ -3,21 +3,33 @@ First Step:
 ```markdown
 # Invoice Details
 - Invoice Number: [000] 000-0000
-- Date of Issue: 2034-11-21
-- Due Date: 2061-02-21
+- Date of Issue: 2034-12-26
 
 ## Customer Information
-- Name: ชื่อผู้เสียง
-- Address: ที่อยู่
-- Phone: (000) 000-0000
+- Name: [Name]
+- Address: [Address]
+- Phone Number: [Phone]
+- Email: [email@address.com]
 - ID: 564
 
-## Items & Prices
-| Item                   | Quantity | Price      | Total     |
-|------------------------|----------|------------|-----------|
-| รายการ                | 1        | 200.00     | 200.00    |
-| รายการ                | 5        | 75.00      | 375.00    |
-| รายการ                |          | 50.00      | 50.00     |
+## Items & Services
+- Item/Service 1: Description, Price, Quantity
+  - Description: รายเดือน
+  - Price: 200.00
+  - Quantity: 1
+  - Total: 200.00
+
+- Item/Service 2: Description, Price, Quantity
+  - Description: บริการค่าประจำ 5 สังคม
+  - Price: 75.00
+  - Quantity: 5
+  - Total: 375.00
+
+- Item/Service 3: Description, Price, Quantity
+  - Description: ภาษาไทย
+  - Price: 50.00
+  - Quantity: 1
+  - Total: 50.00
 
 ## Summary
 - Subtotal: 525.00
@@ -25,8 +37,7 @@ First Step:
 - Tax Amount: 22.31
 - Grand Total: 547.31
 
-## Contact Email
-[email@address.com](mailto:email@address.com)
+---
 ```
 
 Second Step:
@@ -35,43 +46,40 @@ Second Step:
 {
   "Invoice": {
     "Number": "[000] 000-0000",
-    "IssueDate": "2034-11-21",
-    "DueDate": "2061-02-21"
-  },
-  "Customer": {
-    "Name": "ชื่อผู้เสียง",
-    "Address": "ที่อยู่",
-    "Phone": "(000) 000-0000",
-    "ID": 564
-  },
-  "Items": [
-    {
-      "Item": "รายการ",
-      "Quantity": 1,
-      "Price": 200.00,
-      "Total": 200.00
+    "Date": "2034-12-26",
+    "Customer": {
+      "Name": "[Name]",
+      "Address": "[Address]",
+      "Phone": "[Phone]",
+      "Email": "[email@address.com]",
+      "ID": 564
     },
-    {
-      "Item": "รายการ",
-      "Quantity": 5,
-      "Price": 75.00,
-      "Total": 375.00
-    },
-    {
-      "Item": "รายการ",
-      "Quantity": null,
-      "Price": 50.00,
-      "Total": 50.00
+    "Items": [
+      {
+        "Description": "รายเดือน",
+        "Price": 200.00,
+        "Quantity": 1,
+        "Total": 200.00
+      },
+      {
+        "Description": "บริการค่าประจำ 5 สังคม",
+        "Price": 75.00,
+        "Quantity": 5,
+        "Total": 375.00
+      },
+      {
+        "Description": "ภาษาไทย",
+        "Price": 50.00,
+        "Quantity": 1,
+        "Total": 50.00
+      }
+    ],
+    "Summary": {
+      "Subtotal": 525.00,
+      "TaxRate": 4.25,
+      "TaxAmount": 22.31,
+      "GrandTotal": 547.31
     }
-  ],
-  "Summary": {
-    "Subtotal": 525.00,
-    "TaxRate": 4.25,
-    "TaxAmount": 22.31,
-    "GrandTotal": 547.31
-  },
-  "Contact": {
-    "Email": "[email@address.com](mailto:email@address.com)"
   }
 }
 ```

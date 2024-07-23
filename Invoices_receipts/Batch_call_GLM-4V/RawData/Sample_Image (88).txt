@@ -24,17 +24,18 @@ First Step:
 | GST 8%                          | $358.04                          |
 | Total Estimation After GST      | $4,833.60                        |
 
-| Medisave Claim?                 | Yes                             |
-| Medisave Life Coverage?         | Yes / No                        |
+| Medisave Claim?                 | Yes                              |
+| Medisave Life Coverage?         | Yes / No                         |
 
 | Medisave Claim for Surgical Procedure | $350.00                          |
 | Medisave Claim for Hospital Charges | $300.00                          |
 | Total Maximum Medisave Deduction | $650.00                          |
 
 | Balance After Maximum Medisave Deduction | $4,183.60                        |
-| Payment Upon Admission           | $4,183.60                        |
 
-*Prices are correct at time of print and may be subjected to periodic review.*
+| Payment Upon Admission          | $4,183.60                        |
+
+*Prices are correct at time of print and may be subject to periodic review.*
 ```
 
 Second Step:
@@ -45,32 +46,26 @@ Second Step:
   "Table_of_Operation": "1B",
   "Procedure": {
     "Description": "INTESTINE/STOMACH, UPPER GI ENDOSCOPY WITH / WITHOUT BIOPSY",
-    "Type": "Endoscopy"
-  },
-  "Bill_Estimation": {
-    "Doctor_Professional_Fees": "$800.00",
-    "Anaesthetist_Fee": "$0.00",
-    "Sub_Total_Doctors_Professional_Fees": "$800.00",
-    "Hospital_Facilities_Fees": {
-      "Room_Type": "DS - NON-GA",
-      "Duration": "3 Hours",
-      "Daily_Treatment_Fee": "$118.52",
-      "Hospital_Surgical_Charges": "$1,320.00",
-      "Others": "$1,300.00",
-      "Laboratory": "$800.00",
-      "Sub_Total_Hospital_Facilities_Fees": "$3,675.56"
-    },
+    "Type": "DS - NON-GA",
+    "Duration": "3 Hours",
+    "Room_Type": "1",
+    "Daily_Treatment_Fee": "$118.52",
+    "Hospital_and_Surgical_Charges": "$1,320.00",
+    "Others": "$1,300.00",
+    "Laboratory": "$800.00",
+    "Subtotal_for_Hospital_Facilities_Fees": "$3,675.56",
     "Total_Estimation_Before_GST": "$4,475.56",
     "GST_Percentage": "8%",
-    "Total_Estimation_After_GST": "$4,833.60",
-    "Medisave_Claim": "Yes",
-    "Medisave_Life_Coverage": "Yes / No",
-    "Medisave_Details": {
-      "Surgical_Procedure": "$350.00",
-      "Hospital_Charges": "$300.00",
-      "Maximum_Deduction": "$650.00"
-    },
-    "Balance_After_Maximum_Deduction": "$4,183.60",
-    "Payment_Upon_Admission": "$4,183.60"
+    "Total_Estimation_After_GST": "$4,833.60"
   },
-  "Notes": "*Prices
+  "Medisave_Claim": true,
+  "Medisave_Life_Coverage": "Yes / No",
+  "Medisave_Details": {
+    "Surgical_Procedure": "$350.00",
+    "Hospital_Charges": "$300.00",
+    "Maximum_Deduction": "$650.00"
+  },
+  "Payment": "$4,183.60",
+  "Notes": "*Prices are correct at time of print and may be subject to periodic review.*"
+}
+```

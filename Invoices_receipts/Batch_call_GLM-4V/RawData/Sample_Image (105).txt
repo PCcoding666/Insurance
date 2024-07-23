@@ -3,24 +3,13 @@ First Step:
 ```markdown
 # STATEMENT OF ACCOUNT
 
-| No.                   | 23037218                        |
-|-----------------------|---------------------------------|
-| 姓名 Name              | [Redacted]                      |
-| 医院號数 Hospital No.   | 23-16924-4                      |
-| 房号 Room No.          | 2503-1                           |
-| 日期 Date              | 4 JUL 2023                     |
-| 页码 Page              | 2 / 2                            |
-| 代號 CODE             | 31811                           |
-| 项目 PARTICULARS      | DR. MUI (03/07/2023 ECG REPORTING) |
-| 金额 AMOUNT HKS       | 400.00                          |
-| 结餘 BALANCE HKS      | 13,000.00                        |
-| TOTAL FEES DUE TO DOCTOR/PRIVATE NURSE | 52,889.00                        |
-| GRAND TOTAL 總計       | 52,889.00                        |
-| LESS DEPOSIT RECEIPT NO. 收據號碼 | 54356                          |
-| 减去已收按金 RECEIPT NO. | 4,000.00                         |
-| PLEASE PAY THIS AMOUNT 請付此數 | 48,889.00                        |
-| DISCHARGED [出院]      | --------------------------------|
-| HKSH                  | --------------------------------|
+| DATE | CODE | PARTICULARS                   | AMOUNT HKS | BALANCE HKS |
+|-------|------|---------------------------------|-------------|---------------|
+| 04/07/23 | 31811 | DR. MUI (03/07/2023 ECG REPORTING) TOTAL FEES DUE TO DOCTOR/PRIVATE NURSE 应付醫生或私家護士之總收費 | 400.00        | 13,000.00       |
+| GRAND TOTAL 總計 | - | - | 52,889.00 | - |
+| LESS DEPOSIT RECEIVED 减已收按金 | - | - | 4,000.00 | - |
+| PLEASE PAY THIS AMOUNT 請付此數 | - | - | 48,889.00 | - |
+| DISCHARGED [出院] | - | - | - | - |
 
 ```
 
@@ -28,26 +17,14 @@ Second Step:
 
 ```json
 {
-  "No.": "23037218",
-  "Name": "[Redacted]",
-  "Hospital_No": "23-16924-4",
-  "Room_No": "2503-1",
-  "Date": "4 JUL 2023",
-  "Page": "2 / 2",
-  "Code": "31811",
-  "Particulars": {
-    "Item": "DR. MUI (03/07/2023 ECG REPORTING)",
-    "Amount": "400.00",
-    "Balance": "13,000.00"
+  "E & O.E.": {
+    "入院日期": "03/07/2023",
+    "出院日期": "04/07/2023"
   },
-  "Total_Fees_Due": "52,889.00",
-  "Grand_Total": "52,889.00",
-  "Less_Deposit": "4,000.00",
-  "Receipt_Number": "54356",
-  "Remaining_Amount": "48,889.00",
-  "Discharge": true,
-  "HKSH_Logo": true
+  "香港和醫院有限公司": {
+    "地址": "Hong Kong Sanatorium & Hospital Ltd
+2 Village Road, Happy Valley, Hong Kong
+Tel: (852) 2572 0211 Fax: (852) 2835 8006"
+  }
 }
 ```
-
-Please note that due to the redaction of personal information, certain fields are marked as `[Redacted]`.

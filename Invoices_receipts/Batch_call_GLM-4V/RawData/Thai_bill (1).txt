@@ -3,49 +3,112 @@ First Step:
 ```markdown
 # Invoice/Tax Invoice/Delivery Order
 
-## Header Text
-* Thai Text: บริษัท 323 อิสราเอล จำหน่าย ต่อ บริษัท 39 อิสราเอล ใน ประเทศไทย มี เลขที่ 30378106205
-* English Translation: Company 323 Isral sells to company 39 Israel in Thailand with the number 30378106205
+### Company Information
+Company Name: [Thai Text]
+Address: [Thai Text]
+Tax Identification Number: 0305781062025
 
-## Invoice Details
-* Invoice Number: 00001
-* Date: 64/3 ปี 10 กุมภาพันธ์ พ.ศ. 64
-* Delivery Order Number: 64/3 ปี 10 กุมภาพันธ์ พ.ศ. 64
-* Tax Rate: 0%
-* Due Date: 30 สิงหาคม 64
-* Total Amount: 87,000.00 THB
+### Document Details
+Document Type: INVOICE/TAX INVOICE/DELIVERY ORDER
+Document Number: 00001
+Date of Issue: 64/3 ปี 10 เมษายน พ.ศ. 64
+Date of Delivery: 64/3 ปี 10 เมษายน พ.ศ. 64
 
-## Detail of Goods Sold
-| No. | Description                  | Quantity | Unit Price | Total Price |
-|-----|------------------------------|----------|------------|-------------|
-| 1    | TO01                         | 1.00      | 9,000.00    | 9,000.00     |
-| 2    | TO01                         | 1.00      | 14,000.00   | 14,000.00    |
-| 3    | TO01                         | 1.00      | 9,000.00    | 9,000.00     |
-| 4    | TO01                         | 1.00      | 9,000.00    | 9,000.00     |
-| 5    | TO01                         | 1.00      | 9,000.00    | 9,000.00     |
-| 6    | TO01                         | 1.00      | 14,000.00   | 14,000.00    |
-| 7    | TO01                         | 1.00      | 9,000.00    | 9,000.00     |
-| 8    | TO01                         | 1.00      | 14,000.00   | 14,000.00    |
+### Payment Terms
+Payment Term: 0%
+Due Date: 30 สิงหาคม 64
 
-## Additional Information
-* VAT or Tax Amount: 0.00 THB
-* Grand Total: 87,000.00 THB
+### Items
+- Item Code: TO01
+  - Description: [Thai Text]
+  - Quantity: 1.00
+  - Unit Price: 9,000.00
+  - Amount: 9,000.00
+  - VAT Rate: 0%
+  - VAT Amount: 0.00
+  - Total Amount Including VAT: 9,000.00
 
-## Footer Text
-* Thai Text: บริษัท 323 อิสราเอล ผู้สั่งซื้อ ณ บริษัท 39 อิสราเอล ผู้จำหน่าย ณ บริษัท 323 อิสราเอล ใน ประเทศไทย มี เลขที่ 30378106205
-* English Translation: Company 323 Israel orders from company 39 Israel selling by company 323 Israel in Thailand with the number 30378106205
+- Item Code: TO01
+  - Description: [Thai Text]
+  - Quantity: 1.00
+  - Unit Price: 14,000.00
+  - Amount: 14,000.00
+  - VAT Rate: 0%
+  - VAT Amount: 0.00
+  - Total Amount Including VAT: 14,000.00
+
+- Item Code: TO01
+  - Description: [Thai Text]
+  - Quantity: 1.00
+  - Unit Price: 9,000.00
+  - Amount: 9,000.00
+  - VAT Rate: 0%
+  - VAT Amount: 0.00
+  - Total Amount Including VAT: 9,000.00
+
+- Item Code: TO01
+  - Description: [Thai Text]
+  - Quantity: 1.00
+  - Unit Price: 9,000.00
+  - Amount: 9,000.00
+  - VAT Rate: 0%
+  - VAT Amount: 0.00
+  - Total Amount Including VAT: 9,000.00
+
+- Item Code: TO01
+  - Description: [Thai Text]
+  - Quantity: 1.00
+  - Unit Price: 14,000.00
+  - Amount: 14,000.00
+  - VAT Rate: 0%
+  - VAT Amount: 0.00
+  - Total Amount Including VAT: 14,000.00
+
+- Item Code: TO01
+  - Description: [Thai Text]
+  - Quantity: 1.00
+  - Unit Price: 9,000.00
+  - Amount: 9,000.00
+  - VAT Rate: 0%
+  - VAT Amount: 0.00
+  - Total Amount Including VAT: 9,000.00
+
+- Item Code: TO01
+  - Description: [Thai Text]
+  - Quantity: 1.00
+  - Unit Price: 14,000.00
+  - Amount: 14,000.00
+  - VAT Rate: 0%
+  - VAT Amount: 0.00
+  - Total Amount Including VAT: 14,000.00
+
+Total Amount Before Tax: 87,000.00
+Total VAT Amount: 0.00
+Total Amount Including VAT: 87,000.00
+
+### Additional Information
+Additional Notes: [Thai Text]
 
 ---
 
-```
+[Thai Text]
 
-Second Step:
+---
 
-```json
-{
-  "Invoice": {
-    "Number": "00001",
-    "Date": "64/3 ปี 10 กุมภาพันธ์ พ.ศ. 64",
-    "Delivery_Order_Number": "64/3 ปี 10 กุมภาพันธ์ พ.ศ. 64",
-    "Tax_Rate": "0%",
-    "Due_Date": "30 สิงหาค
+[Thai Text]
+
+---
+
+[Thai Text]
+
+---
+
+[Thai Text]
+
+---
+
+[Thai Text]
+
+---
+
+[Thai

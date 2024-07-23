@@ -1,67 +1,76 @@
 First Step:
 
 ```markdown
-# MELBOURNE HEALTH
-ABN: 73 802 706 972
-Melbourne Health Pathology
-300 Grattan Street, Parkville, VIC 3052
-Enquiries: (03) 9342 4926 Fax: (03) 9342 7862
-
-| Requested Date | Service Date/Time | Reg. Doctor       | Provider #        | Request No.        |
-|-----------------|--------------------|-------------------|-------------------|--------------------|
-| 10-May-23        | 10-May-23 18:30     | Dr M PUTLAND      | 234026UK          | 14042851           |
-| 10-May-23        | 10-May-23 19:14     | Dr M PUTLAND      | 234026UK          | 14042902           |
-| 11-May-23        | 11-May-23 10:39     | Dr M CAI          | 272625AH          | 14044381           |
-| 11-May-23        | 11-May-23 05:36     | Dr R MASTERSON     | 201287A           | 14043775           |
-| 12-May-23        | 12-May-23 08:52     | Dr M CAI          | 272625AH          | 14047204           |
-| 15-May-23        | 15-May-23 09:48     | Dr N TOUSSAINT    | 23790DA           | 14053923           |
-
+| Requested Date | Service Date/Time | Reg. Doctor      | Provider #        | Request No.       | Test Description                   | ACP/ACC          | Item No            | Amount (inc GST) |
+|-----------------|-------------------|------------------|-------------------|------------------|----------------------------------|------------------|--------------------|------------------|
+| 10-May-23        | 18:30              | Dr M PUTLAND      | 234026UK          | 14042851         | Full Blood Examination (FBE)        | A01               | 65070*R            | $25.42           |
+| 10-May-23        | 19:14              | Dr M CAI         | 272625AH          | 14042902         | Double-stranded DNA Abs         | A01               | 71099*R            | $36.67           |
+| ...             | ...               | ...              | ...               | ...              | ...                             | ...              | ...                | ...              |
 ```
 
 Second Step:
 
 ```json
 {
-  "Invoice": {
-    "Number": "23.Jun.113",
-    "Date": "02-Jun-23",
-    "Provider_Name": "Dr Giles Kelsey",
-    "Provider_Number": "223374FJ",
-    "Facility_Name": "Melbourne Health Pathology",
-    "Facility_Provider_Number": "0031030B",
-    "Patient_Name": "[Redacted]",
-    "Account_Medical": "[Redacted]",
-    "Services_Rendered": [
-      {
-        "Requested_Date": "10-May-23",
-        "Service_Date": "10-May-23",
-        "Time": "18:30",
-        "Registered_Doctor": "Dr M PUTLAND",
-        "Provider_Number": "234026UK",
-        "Request_Number": "14042851",
-        "Test_Description": [
-          {
-            "Item_No": "A01",
-            "ACP/ACC": "",
-            "Test_Description": "Full Blood Examination (FBE)",
-            "Amount": "$25.42",
-            "GST": "$0.00"
-          },
-          ... OTHER TEST DESCRIPTIONS ...
-        ],
-        "Total_Amount": "$1598.57",
-        "Payment_Due_By": "16-Jun-23"
+  "Payment Due By": "16-Jun-23",
+  "Invoice Number": "23.Jun.113",
+  "Invoice Date": "02-Jun-23",
+  "Provider Name": "Dr Giles Kelsey",
+  "Provider Number": "223374FJ",
+  "Facility Name": "Melbourne Health Pathology",
+  "Facility Provider No": "0031030B",
+  "Patient Name": "[Redacted]",
+  "Patient Account Medical": "[Redacted]",
+  "Services Rendered": [
+    {
+      "Requested Date": "10-May-23",
+      "Service Time": "18:30",
+      "Registered Doctor": "Dr M PUTLAND",
+      "Provider ID": "234026UK",
+      "Request Number": "14042851",
+      "Test": {
+        "Description": "Full Blood Examination (FBE)",
+        "ACP/ACC Code": "A01",
+        "Item Number": "65070*R",
+        "Amount": "$25.42",
+        "GST Included": true
       }
-    ],
-    "Legend": {
-      "Rule_3_Exemption": "R",
-      "In_patient": "*"
     },
-    "Page": "1 of 1",
-    "GST_This_Invoice": "$0.00",
-    "Amount_Due": "$1598.57",
-    "Payment_Due_By": "16-Jun-23",
-    "Payment_Options": {
-      "Credit_Card": {
-        "Telephone": "(03) 1300 133 096",
-        "Hours": "24 hrs a day
+    {
+      ...
+    },
+    ...
+  ],
+  "Total Amount Due": "$1598.57",
+  "GST Amount": "$0.00",
+  "Legend": {
+    "Rule 3 Exemption": "R",
+    "In-patient": "="
+  },
+  "Page Information": {
+    "Page": "1 of 1"
+  },
+  "Receipt Printing Instructions": {
+    "Print Date": "11:10 Jun-23",
+    "User": "orionch07",
+    "Printing Location": "Carlton South 3053"
+  },
+  "Contact Details": {
+    "ABN": "73 802 706 972",
+    "Address": "300 Grattan Street, Parkville, VIC 3052",
+    "Enquiries Telephone": "(03) 9342 4926",
+    "Fax": "(03) 9342 7862"
+  },
+  "Payment Options": [
+    {
+      "Type": "Credit card",
+      "Telephone": "1300 133 096 (24 hrs a day)"
+    },
+    {
+      "Type": "Cheque",
+      "Mail To": "Melbourne Health Pathology Locked Bag 8603 Carlton South 3053",
+      "Payee": "Cashier, Ground Floor RMH, 300 Grattan Street Parkville VIC 3052"
+    },
+    {
+      "Type": "In Person",
+      "Location": "Cashier, Ground Floor RMH, 300 Grattan Street Parkville

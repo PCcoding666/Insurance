@@ -1,67 +1,29 @@
 First Step:
 
 ```markdown
-# National University Hospital
-## TAX INVOICE (Finalised)
-- BILL REF. NO.: 1525673304E
-- BILL DATE: 07 Nov 2023
-- LOCATION: TEMPORARY PANDEMIC WARD
-- ADMISSION DATE: 30 Oct 2023 08:29 PM
-- DISCHARGE DATE: 01 Nov 2023 01:36 PM
-
-|                   |                      |
-|------------------|---------------------|
-| TOTAL AMOUNT (BEFORE GST): $3,319.17 |
-| 8% GST              | $265.53             |
-| Transferred In Charges         | $140.00             |
-| TOTAL AMOUNT          | $3,724.70            |
-| Payable by OTHER SCHEMES      | -$3,324.86          |
-| TOTAL AMOUNT PAYABLE      | $399.84             |
-| Net Payment made      | -$1,500.00          |
-| Adjustment(s)        | -$0.04              |
-| CREDIT BALANCE        | -$1,100.20          |
-
-## CHARGES
-| SERVICES                  | DESCRIPTION                | AMOUNT ($) |
-| ROOM CHARGE                | Class B2 (2 DAYS)          | 600.00        |
-| DAILY TREATMENT FEE       | Class B2 (2 DAYS)          | 328.00        |
-| CONSUMABLES                |                      | 142.60        |
-| INVESTIGATIONS             | Laboratory                | 260.51        |
-|                             | Specialised                | 265.23        |
-|                             | X-ray                   | 1,481.48       |
-| MEDICATIONS                | Non Standard              | 11.75         |
-|                             | Standard                 | 27.59         |
-| TREATMENT SERVICES         | Ward/ Clinic / Other Procedures | 202.01        |
-
-| TOTAL AMOUNT (BEFORE GST): $3,319.17 |
-| 8% GST              | $265.53             |
-| A&E Attendance Fee (Transferred from Case No.: 1525670975F) | 140.00             |
-| TOTAL AMOUNT          | $3,724.70            |
+| BILL REF. NO. | BILL DATE | LOCATION | ADMISSION DATE | DISCHARGE DATE | TOTAL AMOUNT (BEFORE GST) | 8% GST | Transferred In Charges | TOTAL AMOUNT | Payable by OTHER SCHEMES | TOTAL AMOUNT PAYABLE | Net Payment made | Adjustment(s) | CREDIT BALANCE |
+|------------------|-------------|-----------|------------------|------------------|-------------------------|---------|-----------------------|---------------|-------------------------|----------------------|------------------|------------------|------------------|
+| 152657304E       | 07 NOV 2023  | TEMPORARY PANDEMIC WARD | 30 OCT 2023 08:29 PM | 01 NOV 2023 01:36 PM | 3,319.17                | $265.53 | 140.00               | 3,724.70      | -3,324.86              | -399.84             | -1,500.00        | -0.04           | -1,100.20        |
 ```
 
 Second Step:
 
 ```json
 {
-  "National University Hospital": {
-    "TAX INVOICE (Finalised)": {
-      "BILL REF. NO.": "1525673304E",
-      "BILL DATE": "07 Nov 2023",
-      "LOCATION": "TEMPORARY PANDEMIC WARD",
-      "ADMISSION DATE": "30 Oct 2023 08:29 PM",
-      "DISCHARGE DATE": "01 Nov 2023 01:36 PM"
-    },
-    "Details": {
-      "TOTAL AMOUNT (BEFORE GST)": "$3,319.17",
-      "8% GST": "$265.53",
-      "Transferred In Charges": "$140.00",
-      "TOTAL AMOUNT": "$3,724.70",
-      "Payable by OTHER SCHEMES": "-$3,324.86",
-      "TOTAL AMOUNT PAYABLE": "$399.84",
-      "Net Payment made": "-$1,500.00",
-      "Adjustment(s)": "-$0.04",
-      "CREDIT BALANCE": "-$1,100.20"
-    },
-    "Charges": {
-      "ROOM CHARGE": {
-        "Description": "Class B2 (2
+  "BILL_REF_NO": "152657304E",
+  "BILL_DATE": "07 NOV 2023",
+  "LOCATION": "TEMPORARY PANDEMIC WARD",
+  "ADMISSION_DATE": "30 OCT 2023 08:29 PM",
+  "DISCHARGE_DATE": "01 NOV 2023 01:36 PM",
+  "TOTAL_AMOUNT_BEFORE_GST": "3,319.17",
+  "GST_PERCENTAGE": "8%",
+  "GST_AMOUNT": "$265.53",
+  "TRANSFER_IN_CHARGES": "140.00",
+  "TOTAL_AMOUNT": "3,724.70",
+  "PAYABLE_BY_OTHER_SCHEMES": "-3,324.86",
+  "TOTAL_AMOUNT_PAYABLE": "-399.84",
+  "NET_PAYMENT_MADE": "-1,500.00",
+  "ADJUSTMENTS": "-0.04",
+  "CREDIT_BALANCE": "-1,100.20"
+}
+```

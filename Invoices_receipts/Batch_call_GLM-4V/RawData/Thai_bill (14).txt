@@ -4,58 +4,84 @@ First Step:
 # Invoice
 
 ## Customer Information
-- Name / ชื่อ: บริษัท ที่มีความสันต์
-- Address / ที่อยู่: 44/14 ถ.น้ำหายใหญ่ กรุงธนบุรี 10540
-- Tax ID / เลขประจำภาษาไทย: 0115564018396
-- Attention / ผู้เฝ้าระดับ: -
-- Email / อีเมล: p24ongina@gmail.com
-
-## BMU Consultant Information
-- Company Logo: BMU BUILD ME UP CONSULTANT
-- Issue No. / เลขที่ออก: N-20220800002
-- Issue Date / วันออก: 02/08/2022
-- Due Date / วันเป็นจำหน่าย: 09/08/2022
-- Reference / เลขที่เอกสาร: -
+- Customer Name: น้องสุขภาพ
+- Address: 44/14 หมู่ 5 ถูกใจ บริษัท ไม่เป็นคำว่าง 10540
+- Tax ID: 011564018396
+- Attention: E: p24onginal@gmail.com
+- Phone No.: -
+- Issue Date: 02/08/2022
+- Due Date: 09/08/2022
+- Reference: -
 
 ## Issuer Information
-- Name / ชื่อ: บริษัท ที่มีความสันต์
-- Tax ID / เลขประจำภาษาไทย: 0105564067809
-- Phone / โทรศัพย์: 0610655570
+- Issuer Name: BMU BUILD ME UP CONSULTANT
+- Tax ID: 010556406789
+- Address: 33/1285 หมู่ 8 ถูกใจ บริษัท ไม่เป็นคำว่าง 11110
+- Tel: 0610655570
+- Email: -
+- Weight: -
 
 ## Item Details
-- ID No. / เลขที่สินค้า: P0001
-- Description: รายงานสำหรับการประเมินผลการปกครองภาษาไทยและประเภทของ (ภาษาไทย)
+- ID No.: P0001
+- Description: ระบาดตัวยูบรรจุ 0.65
 - Quantity: 1.00
 - Unit Price: 3,500.00
 - Pre-Tax Amount: 3,500.00
 
-## Total Amounts
+## Summary
+- Remarks: -
+- Pre-VAT Amount: 3,500.00
+- VAT: 245.00
 - Grand Total: 3,745.00
 - Withheld Tax: 105.00
 - Net to Pay: 3,640.00
 
-## Payment Information
-- Approved By / อนุมัติโดย: 0961308666
-- Prepared By / จัดจำหน่ายโดย: Kankwan soda
+## Payment
+- Approved By: 0961308666
+- Accepted By: -
 
 ---
 
-# Invoice
+# Prepared by Kanokwan soda
+```
 
-## Customer Information
-- Name / ชื่อ: บริษัท ที่มีความสันต์
-- Address / ที่อยู่: 44/14 ถ.น้ำหายใหญ่ กรุงธนบุรี 10540
-- Tax ID / เลขประจำภาษาไทย: 0115564018396
-- Attention / ผู้เฝ้าระดับ: -
-- Email / อีเมล: p24ongina@gmail.com
+Second Step:
 
-## BMU Consultant Information
-- Company Logo: BMU BUILD ME UP CONSULTANT
-- Issue No. / เลขที่ออก: N-20220800002
-- Issue Date / วันออก: 02/08/2022
-- Due Date / วันเป็นจำหน่าย: 09/08/2022
-- Reference / เลขที่เอกสาร: -
-
-## Issuer Information
-- Name / ชื่อ: บริษัท ที่มีความสันต์
-- Tax ID / เลขประจำภาษาไทย: 0105564067809
+```json
+{
+  "Invoice": {
+    "Customer": {
+      "Name": "น้องสุขภาพ",
+      "Address": "44/14 หมู่ 5 ถูกใจ บริษัท ไม่เป็นคำว่าง 10540",
+      "Tax_ID": "011564018396",
+      "Attention": "E: p24onginal@gmail.com",
+      "Phone_No": "",
+      "Issue_Date": "02/08/2022",
+      "Due_Date": "09/08/2022",
+      "Reference": ""
+    },
+    "Issuer": {
+      "Name": "BMU BUILD ME UP CONSULTANT",
+      "Tax_ID": "010556406789",
+      "Address": "33/1285 หมู่ 8 ถูกใจ บริษัท ไม่เป็นคำว่าง 11110",
+      "Tel": "0610655570",
+      "Email": "",
+      "Weight": ""
+    },
+    "Item": {
+      "ID_No": "P0001",
+      "Description": "ระบาดตัวยูบรรจุ 0.65",
+      "Quantity": 1.00,
+      "Unit_Price": 3500.00,
+      "Pre_Tax_Amount": 3500.00
+    },
+    "Summary": {
+      "Remarks": "",
+      "Pre_VAT_Amount": 3500.00,
+      "VAT": 245.00,
+      "Grand_Total": 3745.00,
+      "Withheld_Tax": 105.00,
+      "Net_to_Pay": 3640.00
+    },
+    "Payment": {
+      "

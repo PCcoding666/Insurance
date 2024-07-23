@@ -2,72 +2,8 @@ First Step:
 
 ```markdown
 # e-Invoice/e-Tax Invoice
-### Company Information
-- Company Name: บริษัท กู้เงิน จำหน่าย
-- Address Line 1: 999 ถูกใจ 999
-- Address Line 2: ระบาดสัมภาพ 10500
-- Phone Number: 0812345678
-- Email: [email protected]
-### Customer Information
-- Customer Name: บริษัท ตุลีย์
-- Address Line 1: 99 ถูกใจ 99
-- Address Line 2: ระบาดสัมภาพ 10500
-- Tax ID: 09/09/2564
-### Invoice Details
-- Invoice Number: 0912345678
-- Date of Issue: 09/09/2564
-- Due Date: 10/09/2564
-### Items Sold
-| Item | Quantity | Unit Price | Total Price |
-|------|----------|-------------|-------------|
-| 1    | 2        | 40.00       | 80.00       |
-| 2    | 10       | 20.00       | 200.00      |
-### Total Amounts
-- Subtotal: 280.00
-- VAT (7%): 19.60
-- Grand Total: 309.60
-```
-
-Second Step:
-
-```json
-{
-  "Company": {
-    "Name": "บริษัท กู้เงิน จำหน่าย",
-    "Address_Line_1": "999 ถูกใจ 999",
-    "Address_Line_2": "ระบาดสัมภาพ 10500",
-    "Phone_Number": "0812345678",
-    "Email": "[email protected]"
-  },
-  "Customer": {
-    "Name": "บริษัท ตุลีย์",
-    "Address_Line_1": "99 ถูกใจ 99",
-    "Address_Line_2": "ระบาดสัมภาพ 10500",
-    "Tax_ID": "09/09/2564"
-  },
-  "Invoice": {
-    "Number": "0912345678",
-    "Date_of_Issue": "09/09/2564",
-    "Due_Date": "10/09/2564"
-  },
-  "Items": [
-    {
-      "Item": "1",
-      "Quantity": 2,
-      "Unit_Price": 40.00,
-      "Total_Price": 80.00
-    },
-    {
-      "Item": "2",
-      "Quantity": 10,
-      "Unit_Price": 20.00,
-      "Total_Price": 200.00
-    }
-  ],
-  "Amounts": {
-    "Subtotal": 280.00,
-    "VAT": 19.60,
-    "Grand_Total": 309.60
-  }
-}
-```
+### 09/09/2564
+### 7N20210500031
+### 999 wi 999 a.m. 999 u.s.u.
+### renunun ngnnmarunn 10500
+### ususususususususususususususususususususususususususususususususususususususususususususususususususususususususususususususususususususususususususususususususususususususususususususususususususususus
