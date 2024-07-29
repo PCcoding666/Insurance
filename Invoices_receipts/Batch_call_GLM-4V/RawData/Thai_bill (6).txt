@@ -1,80 +1,44 @@
-First Step:
-
-```markdown
-# Invoice
-
-### Company Information
-- Logo: [Company Logo]
-- Address: [Address Line 1] [Address Line 2] [City] [State/Province] [Postal Code] [Country]
-- Phone: (000) 000-0000
-- Date: 2034-06-21
-
-### Customer Information
-- Name: [Customer Name]
-- ID: 564
-
-### Items
-| Item Description | Quantity | Unit Price | Total Price |
-|------------------|---------|------------|------------|
-| Product A        | 1       | 200.00     | 200.00      |
-| Service B        | 5       | 75.00      | 375.00      |
-| Tax                | -       | 50.00      | 50.00       |
-
-### Summary
-- Subtotal: 525.00
-- Tax Rate: 4.25%
-- Tax Amount: 22.31
-- Grand Total: 547.31
-
-### Payment Information
-- Email: [email@address.com]
-
----
-```
-
-Second Step:
-
 ```json
 {
-  "Invoice": {
-    "Company": {
-      "Logo": "",
-      "Address": "Address Line 1",
-      "AddressLine2": "Address Line 2",
-      "City": "City",
-      "StateOrProvince": "State/Province",
-      "PostalCode": "Postal Code",
-      "Country": "Country",
-      "Phone": "(000) 000-0000",
-      "Date": "2034-06-21"
+  "CustomerName": "ไม่รูป",
+  "VendorName": "ไม่รูป",
+  "CustomerAddress": "ไม่รูป",
+  "VendorAddress": "ไม่รูป",
+  "InvoiceDate": "21/2/61",
+  "TotalTax": null,
+  "InvoiceTotal": "547.31",
+  "AmountDue": "547.31",
+  "Items": [
+    {
+      "Description": "สินค้าเลือด 1",
+      "Quantity": "1.00",
+      "Unit": "ชิง",
+      "UnitPrice": "200.00",
+      "ProductCode": null,
+      "Date": "2034",
+      "Tax": null,
+      "Amount": "200.00"
     },
-    "Customer": {
-      "Name": "Customer Name",
-      "ID": 564
+    {
+      "Description": "สินค้าเลือด 5",
+      "Quantity": "5.00",
+      "Unit": "ชิง",
+      "UnitPrice": "75.00",
+      "ProductCode": null,
+      "Date": "2034",
+      "Tax": null,
+      "Amount": "375.00"
     },
-    "Items": [
-      {
-        "Description": "Product A",
-        "Quantity": 1,
-        "UnitPrice": 200.00,
-        "TotalPrice": 200.00
-      },
-      {
-        "Description": "Service B",
-        "Quantity": 5,
-        "UnitPrice": 75.00,
-        "TotalPrice": 375.00
-      }
-    ],
-    "Summary": {
-      "Subtotal": 525.00,
-      "TaxRate": 4.25,
-      "TaxAmount": 22.31,
-      "GrandTotal": 547.31
-    },
-    "PaymentInformation": {
-      "Email": "email@address.com"
+    {
+      "Description": "ค่าบริการ",
+      "Quantity": "1.00",
+      "Unit": "ชิง",
+      "UnitPrice": "50.00",
+      "ProductCode": null,
+      "Date": "2034",
+      "Tax": null,
+      "Amount": "50.00"
     }
-  }
+  ]
 }
 ```

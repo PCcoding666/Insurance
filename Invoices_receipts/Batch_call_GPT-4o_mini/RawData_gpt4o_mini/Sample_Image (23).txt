@@ -1,0 +1,106 @@
+```json
+{
+  "CustomerName": null,
+  "VendorName": "KK Women's and Children's Hospital Pte Ltd",
+  "CustomerAddress": null,
+  "VendorAddress": "100 Bukit Timah Road Singapore 229999",
+  "InvoiceDate": "31 JUL 2023",
+  "TotalTax": "656.02",
+  "InvoiceTotal": "8,200.32",
+  "AmountDue": "0.00"
+}
+```
+```json
+[
+  {
+    "Description": "WARD (CLASS C) (1.0 day(s))",
+    "Quantity": 1,
+    "Unit": "day",
+    "UnitPrice": "390.00",
+    "ProductCode": null,
+    "Date": null,
+    "Tax": null,
+    "Amount": "169.37"
+  },
+  {
+    "Description": "IMMEDIATE POST OPERATIVE CARE",
+    "Quantity": 1,
+    "Unit": null,
+    "UnitPrice": "404.00",
+    "ProductCode": null,
+    "Date": null,
+    "Tax": null,
+    "Amount": "202.12"
+  },
+  {
+    "Description": "WARD PROCEDURES",
+    "Quantity": 1,
+    "Unit": null,
+    "UnitPrice": "381.00",
+    "ProductCode": null,
+    "Date": null,
+    "Tax": null,
+    "Amount": "189.89"
+  },
+  {
+    "Description": "DAILY TREATMENT FEE",
+    "Quantity": 1,
+    "Unit": null,
+    "UnitPrice": "168.00",
+    "ProductCode": null,
+    "Date": null,
+    "Tax": null,
+    "Amount": "84.00"
+  },
+  {
+    "Description": "X-RAY INVESTIGATIONS",
+    "Quantity": 1,
+    "Unit": null,
+    "UnitPrice": "1,087.00",
+    "ProductCode": null,
+    "Date": null,
+    "Tax": null,
+    "Amount": "607.31"
+  },
+  {
+    "Description": "SURGICAL SUPPLIES",
+    "Quantity": 1,
+    "Unit": null,
+    "UnitPrice": "820.00",
+    "ProductCode": null,
+    "Date": null,
+    "Tax": null,
+    "Amount": "411.87"
+  },
+  {
+    "Description": "REHABILITATIVE SERVICES",
+    "Quantity": 1,
+    "Unit": null,
+    "UnitPrice": "146.00",
+    "ProductCode": null,
+    "Date": null,
+    "Tax": null,
+    "Amount": "100.37"
+  },
+  {
+    "Description": "DRUGS / PRESCRIPTIONS / INJECTIONS",
+    "Quantity": 1,
+    "Unit": null,
+    "UnitPrice": "2,270.01",
+    "ProductCode": null,
+    "Date": null,
+    "Tax": null,
+    "Amount": "1,560.62"
+  },
+  {
+    "Description": "SURGICAL OPERATION",
+    "Quantity": 1,
+    "Unit": null,
+    "UnitPrice": "7,873.99",
+    "ProductCode": null,
+    "Date": null,
+    "Tax": null,
+    "Amount": "3,937.44"
+  }
+]
+```

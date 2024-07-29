@@ -1,0 +1,26 @@
+```json
+{
+  "CustomerName": null,
+  "VendorName": "Head Office",
+  "CustomerAddress": null,
+  "VendorAddress": null,
+  "InvoiceDate": "2021/05/01",
+  "TotalTax": "34.93",
+  "InvoiceTotal": "533.93",
+  "AmountDue": "533.93"
+}
+```
+```json
+[
+  {
+    "Description": "คำอธิบายสินค้า",
+    "Quantity": "1.000",
+    "Unit": "Units",
+    "UnitPrice": "499.00",
+    "ProductCode": "63100",
+    "Date": null,
+    "Tax": "34.93",
+    "Amount": "499.00"
+  }
+]
+```

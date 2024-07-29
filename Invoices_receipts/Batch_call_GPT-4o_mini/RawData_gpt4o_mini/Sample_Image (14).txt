@@ -1,0 +1,86 @@
+```json
+{
+  "CustomerName": "SHIANG FOON SUI",
+  "VendorName": "ST. TERESA'S HOSPITAL",
+  "CustomerAddress": null,
+  "VendorAddress": "327 PRINCE EDWARD ROAD, KOWLOON, HONG KONG",
+  "InvoiceDate": "29-Jul-2015",
+  "TotalTax": "1,270",
+  "InvoiceTotal": "34,100",
+  "AmountDue": "34,100"
+}
+```
+```json
+[
+  {
+    "Description": "ECHOCARDIOGRAPH/ULTRASOUND",
+    "Quantity": null,
+    "Unit": null,
+    "UnitPrice": "2,550",
+    "ProductCode": null,
+    "Date": "01-01-15",
+    "Tax": null,
+    "Amount": "2,550"
+  },
+  {
+    "Description": "HISTOPATHOLOGICAL EXAMINATION",
+    "Quantity": null,
+    "Unit": null,
+    "UnitPrice": "2,480",
+    "ProductCode": null,
+    "Date": "01-01-15",
+    "Tax": null,
+    "Amount": "2,480"
+  },
+  {
+    "Description": "OPERATION CHARGE",
+    "Quantity": null,
+    "Unit": null,
+    "UnitPrice": "3,000",
+    "ProductCode": null,
+    "Date": "01-01-15",
+    "Tax": null,
+    "Amount": "3,000"
+  },
+  {
+    "Description": "INJECTION SERVICE",
+    "Quantity": null,
+    "Unit": null,
+    "UnitPrice": "180",
+    "ProductCode": null,
+    "Date": "01-01-15",
+    "Tax": null,
+    "Amount": "180"
+  },
+  {
+    "Description": "ULTRASOUND",
+    "Quantity": null,
+    "Unit": null,
+    "UnitPrice": "520",
+    "ProductCode": null,
+    "Date": "02-01-15",
+    "Tax": null,
+    "Amount": "520"
+  },
+  {
+    "Description": "WARD ROUND FEE",
+    "Quantity": null,
+    "Unit": null,
+    "UnitPrice": "2,000",
+    "ProductCode": null,
+    "Date": "02-01-15",
+    "Tax": null,
+    "Amount": "2,000"
+  },
+  {
+    "Description": "ANESTHETIC",
+    "Quantity": null,
+    "Unit": null,
+    "UnitPrice": "4,000",
+    "ProductCode": null,
+    "Date": "02-01-15",
+    "Tax": null,
+    "Amount": "4,000"
+  }
+]
+```

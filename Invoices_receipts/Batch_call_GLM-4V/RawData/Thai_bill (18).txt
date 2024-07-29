@@ -1,60 +1,34 @@
-First Step: Extracting the text in the image into markdown format.
-
-```markdown
-#IVOMaker Invoice
-
-### #INV-2020110514
-###### วันที่เอกสาร : 05-11-2020
-###### วันที่จบ : 05-11-2020
-###### หมายเลขเอกสาร : Q0012345
-
-| ชื่อผู้สั่งซื้อ | ที่อยู่ | โทรศัพย์ | อีเมล | ระบาดเลขเอกสาร |
-|------------------|----------|---------------|--------|------------------|
-| ไม่ระบาด          | 41/94 ต.ค.11 1120 | 094185962      | codebee2014@gmail.com |
-|                   |                   | 02 962 1556    |                        |
-|                   |                   | hello@ivomaker.com |                        |
-|                   |                   | 0123456789012  |
-
-| เลขที่สินค่า | ชื่อสินค่า | ราคา | จำหนาย | รายละเมิด |
-|------------------|------------------|--------|-------|------------------|
-| 1                | Samsung Galaxy S9 | 27,000.00 | 1 ปี่ | 27,000.00         |
-| 2                | iPhone 8          | 21,900.00 | 1 ปี่ | 21,900.00         |
-```
-
-Second Step: Extracting Key Field Information into JSON Format.
-
 ```json
 {
-  "Invoice": {
-    "Number": "#INV-2020110514",
-    "Date": "05-11-2020",
-    "DueDate": "05-11-2020",
-    "Reference": "Q0012345",
-    "Seller": {
-      "Name": "",
-      "Address": "41/94 ต.ค.11 1120",
-      "Phone": "094185962",
-      "Email": "codebee2014@gmail.com",
-      "Contact": "02 962 1556",
-      "Website": "hello@ivomaker.com",
-      "Fax": "0123456789012"
+  "CustomerName": "สมุนธาวินีย์",
+  "VendorName": "IVOMaker",
+  "CustomerAddress": "41/94 ถูกใจ 11120",
+  "VendorAddress": "99/9 ห้องเล็บไม่เป็นไร 60000",
+  "InvoiceDate": "05-11-2020",
+  "TotalTax": null,
+  "InvoiceTotal": "48,900.00",
+  "AmountDue": "48,900.00",
+  "Items": [
+    {
+      "Description": "Samsung Galaxy S9",
+      "Quantity": "1 แฟ้น",
+      "Unit": "แฟ้น",
+      "UnitPrice": "27,000.00",
+      "ProductCode": "212121212121212",
+      "Date": "05-11-2020",
+      "Tax": null,
+      "Amount": "27,000.00"
     },
-    "Buyer": {
-      "Items": [
-        {
-          "Quantity": 1,
-          "Description": "Samsung Mobile S9",
-          "UnitPrice": 27000.00,
-          "Amount": 27000.00
-        },
-        {
-          "Quantity": 1,
-          "Description": "iPhone 8",
-          "UnitPrice": 21900.00,
-          "Amount": 21900.00
-        }
-      ]
+    {
+      "Description": "iPhone 8",
+      "Quantity": "1 แฟ้น",
+      "Unit": "แฟ้น",
+      "UnitPrice": "21,900.00",
+      "ProductCode": "QQ012345",
+      "Date": "05-11-2020",
+      "Tax": null,
+      "Amount": "21,900.00"
     }
-  }
+  ]
 }
 ```

@@ -1,0 +1,116 @@
+```json
+{
+  "CustomerName": null,
+  "VendorName": "Hong Kong Sanatorium & Hospital Ltd",
+  "CustomerAddress": null,
+  "VendorAddress": "2 Village Road, Happy Valley, Hong Kong",
+  "InvoiceDate": "4 JUL 2023",
+  "TotalTax": null,
+  "InvoiceTotal": "39,889.00",
+  "AmountDue": null
+}
+```
+```json
+[
+  {
+    "Description": "LABORATORY TEST(A)",
+    "Quantity": 1,
+    "Unit": null,
+    "UnitPrice": "8,880.00",
+    "ProductCode": "100",
+    "Date": "03/07/23",
+    "Tax": null,
+    "Amount": "8,880.00"
+  },
+  {
+    "Description": "ECG EXAMINATION",
+    "Quantity": 1,
+    "Unit": null,
+    "UnitPrice": "960.00",
+    "ProductCode": "200",
+    "Date": "03/07/23",
+    "Tax": null,
+    "Amount": "960.00"
+  },
+  {
+    "Description": "RADIOLOGY",
+    "Quantity": 1,
+    "Unit": null,
+    "UnitPrice": "2,610.00",
+    "ProductCode": "300",
+    "Date": "03/07/23",
+    "Tax": null,
+    "Amount": "2,610.00"
+  },
+  {
+    "Description": "COMPUTED TOMOGRAPHY",
+    "Quantity": 1,
+    "Unit": null,
+    "UnitPrice": "8,180.00",
+    "ProductCode": "400",
+    "Date": "03/07/23",
+    "Tax": null,
+    "Amount": "8,180.00"
+  },
+  {
+    "Description": "ECHOCARDIOGRAM",
+    "Quantity": 1,
+    "Unit": null,
+    "UnitPrice": "1,200.00",
+    "ProductCode": "500",
+    "Date": "04/07/23",
+    "Tax": null,
+    "Amount": "1,200.00"
+  },
+  {
+    "Description": "STRESS TEST",
+    "Quantity": 1,
+    "Unit": null,
+    "UnitPrice": "2,500.00",
+    "ProductCode": "600",
+    "Date": "04/07/23",
+    "Tax": null,
+    "Amount": "2,500.00"
+  },
+  {
+    "Description": "ULTRASOUND (O&G)",
+    "Quantity": 1,
+    "Unit": null,
+    "UnitPrice": "920.00",
+    "ProductCode": "684",
+    "Date": null,
+    "Tax": null,
+    "Amount": "920.00"
+  },
+  {
+    "Description": "DR. MUI",
+    "Quantity": 1,
+    "Unit": null,
+    "UnitPrice": "3,500.00",
+    "ProductCode": "31811",
+    "Date": "03/07/23",
+    "Tax": null,
+    "Amount": "3,500.00"
+  },
+  {
+    "Description": "DR. MUI",
+    "Quantity": 1,
+    "Unit": null,
+    "UnitPrice": "3,500.00",
+    "ProductCode": "31811",
+    "Date": "04/07/23",
+    "Tax": null,
+    "Amount": "3,500.00"
+  },
+  {
+    "Description": "DR. TANG",
+    "Quantity": 2,
+    "Unit": null,
+    "UnitPrice": "2,000.00",
+    "ProductCode": "31811",
+    "Date": "04/07/23",
+    "Tax": null,
+    "Amount": "4,000.00"
+  }
+]
+```

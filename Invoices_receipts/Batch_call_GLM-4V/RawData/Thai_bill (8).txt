@@ -1,85 +1,44 @@
-First Step:
-
-```markdown
-# Invoice Details
-- Invoice Number: [000] 000-0000
-- Date of Issue: 2034-12-26
-
-## Customer Information
-- Name: [Name]
-- Address: [Address]
-- Phone Number: [Phone]
-- Email: [email@address.com]
-- ID: 564
-
-## Items & Services
-- Item/Service 1: Description, Price, Quantity
-  - Description: รายเดือน
-  - Price: 200.00
-  - Quantity: 1
-  - Total: 200.00
-
-- Item/Service 2: Description, Price, Quantity
-  - Description: บริการค่าประจำ 5 สังคม
-  - Price: 75.00
-  - Quantity: 5
-  - Total: 375.00
-
-- Item/Service 3: Description, Price, Quantity
-  - Description: ภาษาไทย
-  - Price: 50.00
-  - Quantity: 1
-  - Total: 50.00
-
-## Summary
-- Subtotal: 525.00
-- Tax Rate: 4.25%
-- Tax Amount: 22.31
-- Grand Total: 547.31
-
----
-```
-
-Second Step:
-
 ```json
 {
-  "Invoice": {
-    "Number": "[000] 000-0000",
-    "Date": "2034-12-26",
-    "Customer": {
-      "Name": "[Name]",
-      "Address": "[Address]",
-      "Phone": "[Phone]",
-      "Email": "[email@address.com]",
-      "ID": 564
+  "CustomerName": "ไม่รูป",
+  "VendorName": "ไม่รูป",
+  "CustomerAddress": "ไม่รูป",
+  "VendorAddress": "ไม่รูป",
+  "InvoiceDate": "21/2/61",
+  "TotalTax": null,
+  "InvoiceTotal": "547.31",
+  "AmountDue": "547.31",
+  "Items": [
+    {
+      "Description": "สินค้าเลือด 1",
+      "Quantity": "1",
+      "Unit": "ชิ้น",
+      "UnitPrice": "200.00",
+      "ProductCode": null,
+      "Date": "2034",
+      "Tax": null,
+      "Amount": "200.00"
     },
-    "Items": [
-      {
-        "Description": "รายเดือน",
-        "Price": 200.00,
-        "Quantity": 1,
-        "Total": 200.00
-      },
-      {
-        "Description": "บริการค่าประจำ 5 สังคม",
-        "Price": 75.00,
-        "Quantity": 5,
-        "Total": 375.00
-      },
-      {
-        "Description": "ภาษาไทย",
-        "Price": 50.00,
-        "Quantity": 1,
-        "Total": 50.00
-      }
-    ],
-    "Summary": {
-      "Subtotal": 525.00,
-      "TaxRate": 4.25,
-      "TaxAmount": 22.31,
-      "GrandTotal": 547.31
+    {
+      "Description": "สินค้าเลือด 5",
+      "Quantity": "5",
+      "Unit": "ชิ้น",
+      "UnitPrice": "75.00",
+      "ProductCode": null,
+      "Date": "2034",
+      "Tax": null,
+      "Amount": "375.00"
+    },
+    {
+      "Description": "ค่าบริการ",
+      "Quantity": null,
+      "Unit": null,
+      "UnitPrice": "50.00",
+      "ProductCode": null,
+      "Date": null,
+      "Tax": null,
+      "Amount": "50.00"
     }
-  }
+  ]
 }
 ```

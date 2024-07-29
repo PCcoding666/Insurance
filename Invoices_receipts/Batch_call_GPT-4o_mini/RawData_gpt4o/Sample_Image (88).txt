@@ -1,0 +1,86 @@
+```json
+{
+  "CustomerName": null,
+  "VendorName": null,
+  "CustomerAddress": null,
+  "VendorAddress": null,
+  "InvoiceDate": null,
+  "TotalTax": "$358.04",
+  "InvoiceTotal": "$4,833.60",
+  "AmountDue": "$4,183.60"
+}
+```
+```json
+[
+  {
+    "Description": "Doctor's Professional Fees",
+    "Quantity": null,
+    "Unit": null,
+    "UnitPrice": "$800.00",
+    "ProductCode": null,
+    "Date": null,
+    "Tax": null,
+    "Amount": "$800.00"
+  },
+  {
+    "Description": "Anaesthetist's Fee",
+    "Quantity": null,
+    "Unit": null,
+    "UnitPrice": "$0.00",
+    "ProductCode": null,
+    "Date": null,
+    "Tax": null,
+    "Amount": "$0.00"
+  },
+  {
+    "Description": "Room Type 1",
+    "Quantity": "3",
+    "Unit": "Hours",
+    "UnitPrice": "$118.52",
+    "ProductCode": "DS - NON-GA",
+    "Date": null,
+    "Tax": null,
+    "Amount": "$118.52"
+  },
+  {
+    "Description": "Daily Treatment Fee",
+    "Quantity": null,
+    "Unit": null,
+    "UnitPrice": "$137.04",
+    "ProductCode": null,
+    "Date": null,
+    "Tax": null,
+    "Amount": "$137.04"
+  },
+  {
+    "Description": "Hospital & Surgical Charges",
+    "Quantity": null,
+    "Unit": null,
+    "UnitPrice": "$1,320.00",
+    "ProductCode": null,
+    "Date": null,
+    "Tax": null,
+    "Amount": "$1,320.00"
+  },
+  {
+    "Description": "Others",
+    "Quantity": null,
+    "Unit": null,
+    "UnitPrice": "$1,300.00",
+    "ProductCode": "EST COST OF POLY REMOVAL",
+    "Date": null,
+    "Tax": null,
+    "Amount": "$1,300.00"
+  },
+  {
+    "Description": "Laboratory",
+    "Quantity": null,
+    "Unit": null,
+    "UnitPrice": "$800.00",
+    "ProductCode": "HISTOLOGY",
+    "Date": null,
+    "Tax": null,
+    "Amount": "$800.00"
+  }
+]
+```

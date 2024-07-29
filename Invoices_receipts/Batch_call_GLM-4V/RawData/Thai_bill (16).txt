@@ -1,55 +1,64 @@
-### Step 1: Extract the text in the image and return with markdown format
-
-```markdown
-# Krungthai Card Public Company Limited Statement
-
-## Account Information
-- Account Type: KTC PROUD
-- Account Number: 4216-68XX-XXXX-7062
-- Billing Date: 18/09/21
-- Payment Due Date: 03/10/21
-- Total Amount Due: 33,415.78 THB
-- Previous Payment: 12,000.00 THB
-- Credit Limit: 59,500.00 THB
-
-## Transactions
-| Transaction Date | Posting Date | Description                   | Amount (THB)      |
-|------------------|---------------|------------------------------|---------------------|
-| 01/09/21         | 01/09/21      | Payment -KTB Internet      | 14,459.96          |
-| 11/09/21         | 11/09/21      | Payment -KBANK/KOOL        | 1,049.67           |
-| 10/09/21         | 10/09/21      | Interest                    | 10,000.00          |
-| 10/09/21         | 10/09/21      | Usage Fee                   | 181.29             |
-| 10/09/21         | 10/09/21      | FST                          | 120.87             |
-| 01/09/21         | 01/09/21      | Cash On Tap - BANGKOK      | 22,225.36          |
-| 05/09/21         | 05/09/21      | Cash On Tap - BANGKOK      | 2,000.00           |
-| 07/09/21         | 07/09/21      | Cash On Tap - BANGKOK      | 10,000.00          |
-| 13/09/21         | 14/09/21      | Cash Online - BANGKOK      | 6,800.00           |
-| 18/09/21         | 18/09/21      | Interest                    | 3,410.29           |
-| 18/09/21         | 18/09/21      | Usage Fee                   | 170.15             |
-| 18/09/21         | 18/09/21      | FST                          | 255.21             |
-
-Total Outstanding Balance: 25,635.65 THB
-
-## Contact Information
-- Customer Service Hotline: 1800 11 1010
-- Website: www.krungsri.com
-- Phone: +66 2 123 5000
-
-## Legal Disclaimer
-This statement is provided by Krungthai Card Public Company Limited. For more details on your account or to report unauthorized transactions, please visit our website at www.krungsri.com or contact us via phone at +66 2 123 5000.
-```
-
-### Step 2: Extract the key field information from the text and return in JSON format
-
 ```json
 {
-  "Account_Information": {
-    "Type": "KTC PROUD",
-    "Number": "4216-68XX-XXXX-7062",
-    "Billing_Date": "18/09/21",
-    "Payment_Due_Date": "03/10/21",
-    "Total_Amount_Due": "33,415.78",
-    "Previous_Payment": "12,000.00",
-    "Credit_Limit": "59,500.00"
-  },
-  
+  "CustomerName": "MISS A SAA",
+  "VendorName": "KRUNGTHAI CARD PUBLIC COMPANY LIMITED",
+  "CustomerAddress": null,
+  "VendorAddress": null,
+  "InvoiceDate": "18/09/21",
+  "TotalTax": null,
+  "InvoiceTotal": "34,102.29",
+  "AmountDue": "12,000.00",
+  "Items": [
+    {
+      "Description": "Payment -KTB Inter",
+      "Quantity": "1",
+      "Unit": null,
+      "UnitPrice": "14,459.96",
+      "ProductCode": null,
+      "Date": "01/09/21",
+      "Tax": null,
+      "Amount": "14,459.96"
+    },
+    {
+      "Description": "Payment -KBANK(KO0A)",
+      "Quantity": "1",
+      "Unit": null,
+      "UnitPrice": "1,049.67",
+      "ProductCode": null,
+      "Date": "11/09/21",
+      "Tax": null,
+      "Amount": "1,049.67"
+    },
+    {
+      "Description": "INTEREST",
+      "Quantity": null,
+      "Unit": null,
+      "UnitPrice": "181.29",
+      "ProductCode": null,
+      "Date": "18/09/21",
+      "Tax": null,
+      "Amount": "181.29"
+    },
+    {
+      "Description": "USAGE FEE",
+      "Quantity": null,
+      "Unit": null,
+      "UnitPrice": "120.87",
+      "ProductCode": null,
+      "Date": "18/09/21",
+      "Tax": null,
+      "Amount": "120.87"
+    },
+    {
+      "Description": "FST",
+      "Quantity": null,
+      "Unit": null,
+      "UnitPrice": "3,410.29",
+      "ProductCode": null,
+      "Date": "18/09/21",
+      "Tax": null,
+      "Amount": "3,410.29"
+    }
+  ]
+}
+```

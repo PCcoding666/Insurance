@@ -1,0 +1,96 @@
+```json
+{
+  "CustomerName": null,
+  "VendorName": null,
+  "CustomerAddress": null,
+  "VendorAddress": null,
+  "InvoiceDate": null,
+  "TotalTax": "50.72",
+  "InvoiceTotal": "684.72",
+  "AmountDue": "684.72"
+}
+```
+```json
+[
+  {
+    "Description": "Consultation Services (SC - FV)",
+    "Quantity": null,
+    "Unit": null,
+    "UnitPrice": null,
+    "ProductCode": null,
+    "Date": null,
+    "Tax": null,
+    "Amount": "140.00"
+  },
+  {
+    "Description": "Full Blood Count",
+    "Quantity": null,
+    "Unit": null,
+    "UnitPrice": null,
+    "ProductCode": null,
+    "Date": null,
+    "Tax": null,
+    "Amount": "42.25"
+  },
+  {
+    "Description": "Liver Panel",
+    "Quantity": null,
+    "Unit": null,
+    "UnitPrice": null,
+    "ProductCode": null,
+    "Date": null,
+    "Tax": null,
+    "Amount": "74.75"
+  },
+  {
+    "Description": "Vitamin D (25 Hydroxy)",
+    "Quantity": null,
+    "Unit": null,
+    "UnitPrice": null,
+    "ProductCode": null,
+    "Date": null,
+    "Tax": null,
+    "Amount": "89.70"
+  },
+  {
+    "Description": "Renal Panel 1 Modified",
+    "Quantity": null,
+    "Unit": null,
+    "UnitPrice": null,
+    "ProductCode": null,
+    "Date": null,
+    "Tax": null,
+    "Amount": "59.15"
+  },
+  {
+    "Description": "Iron Panel",
+    "Quantity": null,
+    "Unit": null,
+    "UnitPrice": null,
+    "ProductCode": null,
+    "Date": null,
+    "Tax": null,
+    "Amount": "83.46"
+  },
+  {
+    "Description": "Thyroid Screen 1",
+    "Quantity": null,
+    "Unit": null,
+    "UnitPrice": null,
+    "ProductCode": null,
+    "Date": null,
+    "Tax": null,
+    "Amount": "68.90"
+  },
+  {
+    "Description": "Zinc, Serum",
+    "Quantity": null,
+    "Unit": null,
+    "UnitPrice": null,
+    "ProductCode": null,
+    "Date": null,
+    "Tax": null,
+    "Amount": "75.79"
+  }
+]
+```

@@ -1,54 +1,35 @@
-```markdown
-# STATEMENT OF ACCOUNT
-
-| DATE | CODE | PARTICULARS                   | AMOUNT HKS | BALANCE HKS |
-|------|------|-------------------------------|-------------|--------------|
-| 03/07/23 | 100 | MEDICINE                      | 705.00        | 8,830.00      |
-| 03/07/23 | 200 | LABORATORY TEST (A)            | 8,830.00      | 9,660.00      |
-| 04/07/23 | 100 | MEDICINE                      | 4,804.00      | 3,940.00      |
-| 04/07/23 | 200 | LABORATORY TEST (A)            | 3,940.00      | 4,144.00      |
-| 04/07/23 | 500 | ROOM                          | 414.00        | 600.00        |
-| 04/07/23 | 600 | FOOD/DRINKS                   | 600.00        | 920.00        |
-| 04/07/23 | 684 | ULTRASOUND (O&G)               | 920.00        | 1,840.00      |
-| 04/07/23 | 900 | TOTAL HOSPITAL CHARGES       | 39,889.00     | -            |
-
-## FEES TO BE COLLECTED ON BEHALF OF DOCTOR/PRIVATE NURSE
-| DATE | CODE | PARTICULARS                   | AMOUNT HKS | BALANCE HKS |
-|------|------|-------------------------------|-------------|--------------|
-| 03/07/23 | 31811 | DR. MUI                       | 3,500.00      | (CHGL)        |
-| 03/07/23 | 31811 | DR. MU                        | 3,500.00      | (STRESS TEST) |
-| 04/07/23 | 25116 | DR. TANG                      | $2,000.00 X 1 | (ATTENDANCE)  |
-| 04/07/23 | 31811 | DR. MUI                       | $3,600.00      | (CHGL)        |
-| 04/07/23 | 31811 | DR. MUI                       | $1,800.00 X 2 | (ATTENDANCE)  |
-
-## E & OE
-| Date Admitted | Date Discharged |
-|-----------------|-----------------|
-| 03/07/2023      | 04/07/2023      |
-```
-
-``json
+```json
 {
-  "STATEMENT OF ACCOUNT": {
-    "No.": "23037218",
-    "Name": "",
-    "Room No.": "2503-1",
-    "Deposit": "4,000.00",
-    "Date": "4 JUL 2023",
-    "Page": "1 of 1"
-  },
-  "Step One": {
-    "Details": [
-      {
-        "Date": "03/07/23",
-        "Code": "100",
-        "Particulars": "MEDICINE",
-        "Amount HKS": "705.00",
-        "Balance HKS": "8,830.00"
-      },
-      {
-        "Date": "03/07/23",
-        "Code": "200",
-        "Particulars": "LABORATORY TEST (A)",
-        "Amount HKS": "8,830.00",
-        "Bal
+  "CustomerName": "Redacted",
+  "VendorName": "Hong Kong Sanatorium & Hospital Ltd",
+  "CustomerAddress": null,
+  "VendorAddress": "2 Villa Road, Happy Valley, Hong Kong",
+  "InvoiceDate": "4 JUL 2023",
+  "TotalTax": "965.00",
+  "InvoiceTotal": "39,889.00",
+  "AmountDue": "39,889.00",
+  "Items": [
+    {
+      "Description": "MEDICINE",
+      "Quantity": "1.00",
+      "Unit": "",
+      "UnitPrice": "705.00",
+      "ProductCode": "100",
+      "Date": "03/07/23",
+      "Tax": "0.00",
+      "Amount": "705.00"
+    },
+    {
+      "Description": "LABORATORY TEST(A)",
+      "Quantity": "1.00",
+      "Unit": "",
+      "UnitPrice": "8,830.00",
+      "ProductCode": "200",
+      "Date": "03/07/23",
+      "Tax": "0.00",
+      "Amount": "8,830.00"
+    },
+    // Other items omitted for brevity
+  ]
+}
+```

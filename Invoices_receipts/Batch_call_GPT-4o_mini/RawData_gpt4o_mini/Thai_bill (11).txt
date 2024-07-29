@@ -1,0 +1,36 @@
+```json
+{
+  "CustomerName": "บริษัท ผู้ขายทดสอบ จำกัด (สำนักงานใหญ่)",
+  "VendorName": "ลูกค้า บริษัท ผู้ขายทดสอบ จำกัด (สำนักงานใหญ่)",
+  "CustomerAddress": "99 หมู่ 9 ถ.สารสิน เขตจอมทอง กรุงเทพมหานคร 10500",
+  "VendorAddress": "99 หมู่ 9 ถ.สารสิน เขตจอมทอง กรุงเทพมหานคร 10500",
+  "InvoiceDate": "09/09/2564",
+  "TotalTax": null,
+  "InvoiceTotal": "280.00 บาท",
+  "AmountDue": null
+}
+```
+```json
+[
+  {
+    "Description": "สินค้ารายการแรก",
+    "Quantity": 2,
+    "Unit": "กล่อง",
+    "UnitPrice": 40.00,
+    "ProductCode": null,
+    "Date": null,
+    "Tax": null,
+    "Amount": 80.00
+  },
+  {
+    "Description": "สินค้ารายการที่สอง",
+    "Quantity": 10,
+    "Unit": "แพ็ค",
+    "UnitPrice": 20.00,
+    "ProductCode": null,
+    "Date": null,
+    "Tax": null,
+    "Amount": 200.00
+  }
+]
+```

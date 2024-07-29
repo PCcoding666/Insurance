@@ -1,0 +1,46 @@
+```json
+{
+  "CustomerName": null,
+  "VendorName": "National University Hospital",
+  "CustomerAddress": null,
+  "VendorAddress": "5 Lower Kent Ridge Road, Singapore 119074",
+  "InvoiceDate": "27.01.2021",
+  "TotalTax": "34.78",
+  "InvoiceTotal": "531.55",
+  "AmountDue": "0.00"
+}
+```
+```json
+[
+  {
+    "Description": "Consultation Services (C - FV)",
+    "Quantity": null,
+    "Unit": null,
+    "UnitPrice": null,
+    "ProductCode": null,
+    "Date": null,
+    "Tax": null,
+    "Amount": "123.05"
+  },
+  {
+    "Description": "Fine Needle Aspiration With Tech Assista",
+    "Quantity": null,
+    "Unit": null,
+    "UnitPrice": null,
+    "ProductCode": null,
+    "Date": null,
+    "Tax": null,
+    "Amount": "326.89"
+  },
+  {
+    "Description": "Aspiration - Fine Needle",
+    "Quantity": null,
+    "Unit": null,
+    "UnitPrice": null,
+    "ProductCode": null,
+    "Date": null,
+    "Tax": null,
+    "Amount": "81.64"
+  }
+]
+```

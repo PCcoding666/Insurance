@@ -1,0 +1,15 @@
+```json
+{
+  "CustomerName": null,
+  "VendorName": "SINOVAC LIFE SCIENCES CO., LTD.",
+  "CustomerAddress": "75/1 ถนน พระรามหก ตำบล/เขต พญาไท อำเภอ/เขต ราชเทวี จังหวัด กรุงเทพมหานคร 10400",
+  "VendorAddress": "21 ถนน TIANFU STREET หมู่ที่ ตำบล/เขต DAXING DISTRICT จังหวัด BEIJING",
+  "InvoiceDate": null,
+  "TotalTax": null,
+  "InvoiceTotal": null,
+  "AmountDue": null
+}
+```
+```json
+[]
+```

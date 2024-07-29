@@ -1,0 +1,146 @@
+```json
+{
+  "CustomerName": null,
+  "VendorName": "THOMSON MEDICAL",
+  "CustomerAddress": "339 Thomson Road, Singapore 307677",
+  "VendorAddress": null,
+  "InvoiceDate": "05/04/2023",
+  "TotalTax": "638.55",
+  "InvoiceTotal": "16,072.45",
+  "AmountDue": "6,776.45"
+}
+```
+```json
+[
+  {
+    "Description": "LSCS WITH SPINAL 2 BEDDED",
+    "Quantity": null,
+    "Unit": null,
+    "UnitPrice": "2,204.00",
+    "ProductCode": null,
+    "Date": null,
+    "Tax": null,
+    "Amount": "2,204.00"
+  },
+  {
+    "Description": "ACCOMMODATION",
+    "Quantity": null,
+    "Unit": null,
+    "UnitPrice": "656.00",
+    "ProductCode": null,
+    "Date": null,
+    "Tax": null,
+    "Amount": "656.00"
+  },
+  {
+    "Description": "DAILY TREATMENT FEES",
+    "Quantity": null,
+    "Unit": null,
+    "UnitPrice": "420.00",
+    "ProductCode": null,
+    "Date": null,
+    "Tax": null,
+    "Amount": "420.00"
+  },
+  {
+    "Description": "BABY CARE SERVICE",
+    "Quantity": null,
+    "Unit": null,
+    "UnitPrice": "220.00",
+    "ProductCode": null,
+    "Date": null,
+    "Tax": null,
+    "Amount": "220.00"
+  },
+  {
+    "Description": "OPERATING THEATRE CHARGES",
+    "Quantity": null,
+    "Unit": null,
+    "UnitPrice": "211.00",
+    "ProductCode": null,
+    "Date": null,
+    "Tax": null,
+    "Amount": "211.00"
+  },
+  {
+    "Description": "MEDICATIONS",
+    "Quantity": null,
+    "Unit": null,
+    "UnitPrice": "1,776.10",
+    "ProductCode": null,
+    "Date": null,
+    "Tax": null,
+    "Amount": "1,776.10"
+  },
+  {
+    "Description": "MEDICAL SUPPLIES",
+    "Quantity": null,
+    "Unit": null,
+    "UnitPrice": "1,202.80",
+    "ProductCode": null,
+    "Date": null,
+    "Tax": null,
+    "Amount": "1,202.80"
+  },
+  {
+    "Description": "MEDICAL LABORATORY FEE",
+    "Quantity": null,
+    "Unit": null,
+    "UnitPrice": "584.00",
+    "ProductCode": null,
+    "Date": null,
+    "Tax": null,
+    "Amount": "584.00"
+  },
+  {
+    "Description": "PROCEDURE",
+    "Quantity": null,
+    "Unit": null,
+    "UnitPrice": "683.00",
+    "ProductCode": null,
+    "Date": null,
+    "Tax": null,
+    "Amount": "683.00"
+  },
+  {
+    "Description": "USE OF EQUIPMENT",
+    "Quantity": null,
+    "Unit": null,
+    "UnitPrice": "25.00",
+    "ProductCode": null,
+    "Date": null,
+    "Tax": null,
+    "Amount": "25.00"
+  },
+  {
+    "Description": "DR ANG AI TIN (Operation Fee $810.00)",
+    "Quantity": null,
+    "Unit": null,
+    "UnitPrice": "810.00",
+    "ProductCode": null,
+    "Date": null,
+    "Tax": null,
+    "Amount": "810.00"
+  },
+  {
+    "Description": "DR TAN MARY (Operation Fee $1728.00)",
+    "Quantity": null,
+    "Unit": null,
+    "UnitPrice": "1,728.00",
+    "ProductCode": null,
+    "Date": null,
+    "Tax": null,
+    "Amount": "1,728.00"
+  },
+  {
+    "Description": "DR THAM WAI LUM BENJAMIN (Attendance Fee $486.00, Operation Fee $4428.00)",
+    "Quantity": null,
+    "Unit": null,
+    "UnitPrice": "4,914.00",
+    "ProductCode": null,
+    "Date": null,
+    "Tax": null,
+    "Amount": "4,914.00"
+  }
+]
+```

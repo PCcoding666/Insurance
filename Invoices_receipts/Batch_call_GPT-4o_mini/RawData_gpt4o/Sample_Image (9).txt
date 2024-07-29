@@ -1,0 +1,66 @@
+```json
+{
+  "CustomerName": null,
+  "VendorName": "Mount Elizabeth",
+  "CustomerAddress": null,
+  "VendorAddress": "3 Mount Elizabeth, Singapore 228510",
+  "InvoiceDate": "16.02.2022",
+  "TotalTax": "1,084.80",
+  "InvoiceTotal": "25,155.42",
+  "AmountDue": null
+}
+```
+```json
+[
+  {
+    "Description": "EQUIPMENT AND SUPPLY",
+    "Quantity": null,
+    "Unit": null,
+    "UnitPrice": null,
+    "ProductCode": null,
+    "Date": null,
+    "Tax": null,
+    "Amount": "605.30"
+  },
+  {
+    "Description": "DAILY TREATMENT FEE",
+    "Quantity": "1",
+    "Unit": null,
+    "UnitPrice": null,
+    "ProductCode": null,
+    "Date": null,
+    "Tax": null,
+    "Amount": "224.30"
+  },
+  {
+    "Description": "DR TEOH TIONG ANN",
+    "Quantity": null,
+    "Unit": null,
+    "UnitPrice": null,
+    "ProductCode": null,
+    "Date": null,
+    "Tax": null,
+    "Amount": "6,794.50"
+  },
+  {
+    "Description": "DR ASOK KURUP",
+    "Quantity": null,
+    "Unit": null,
+    "UnitPrice": null,
+    "ProductCode": null,
+    "Date": null,
+    "Tax": null,
+    "Amount": "321.00"
+  },
+  {
+    "Description": "DR TEOH PEI FEN",
+    "Quantity": null,
+    "Unit": null,
+    "UnitPrice": null,
+    "ProductCode": null,
+    "Date": null,
+    "Tax": null,
+    "Amount": "1,457.88"
+  }
+]
+```

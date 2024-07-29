@@ -1,46 +1,110 @@
-First Step:
-
-```markdown
-| DESCRIPTION                   | AMOUNT ($) |
-|------------------------------|-------------|
-| WARD (CLASS C) (8.0 day(s))  | 3,168.00    |
-| DAILY TREATMENT FEE (CLASS NRO ) (8.0 day(s)) | 2,158.00 |
-| LABORATORY INVESTIGATIONS    | 1,097.20    |
-| X-RAY INVESTIGATIONS         | 1,856.35    |
-| SPECIALISED INVESTIGATIONS    | 902.20      |
-| REHABILITATIVE SERVICES      | 65.00       |
-| DELIVERY RELATED CHARGES     | 1,158.30    |
-| DRUGS / PRESCRIPTIONS / INJECTIONS | 118.05      |
-| WARD PROCEDURES               | 669.50      |
-| OTHER PROCEDURES             | 63.70       |
-| CONSUMABLES                  | 40.93       |
-| TOTAL AMOUNT (BEFORE GST)    | 11,297.23   |
-| 9% GST                        | 1,016.76    |
-| TRANSFERED IN CHARGES        | 159.14      |
-| TOTAL AMOUNT                  | 12,473.13   |
-| FINAL AMOUNT PAYABLE          | 0.00        |
-```
-
-Second Step:
-
 ```json
 {
-  "Ward_Class_C": "3168.00",
-  "Daily_Treatment_Fee": "2158.00",
-  "Laboratory_Investigations": "1097.20",
-  "Xray_Investigations": "1856.35",
-  "Specialised_Investigations": "902.20",
-  "Rehabilitative_Services": "65.00",
-  "Delivery_Related_Charges": "1158.30",
-  "Drugs_Prescriptions_Injections": "118.05",
-  "Ward_Procedures": "669.50",
-  "Other_Procedures": "63.70",
-  "Consumables": "40.93",
-  "Total_Amount_Before_Gst": "11297.23",
-  "Gst_Percentage": "9%",
-  "Gst_Amount": "1016.76",
-  "Transferred_In_Charges": "159.14",
-  "Total_Amount_Payable": "12473.13",
-  "Final_Amount_Payable": "0.00"
-}
-```
+  "CustomerName": "null",
+  "VendorName": "null",
+  "CustomerAddress": "null",
+  "VendorAddress": "null",
+  "InvoiceDate": "null",
+  "TotalTax": "159.14",
+  "InvoiceTotal": "12,473.13",
+  "AmountDue": "0.00",
+  "Items": [
+    {
+      "Description": "WARD (CLASS C) (8.0 day(s))",
+      "Quantity": "3,168.00",
+      "Unit": null,
+      "UnitPrice": null,
+      "ProductCode": null,
+      "Date": null,
+      "Tax": null,
+      "Amount": "3,168.00"
+    },
+    {
+      "Description": "DAILY TREATMENT FEE (CLASS NRO ) (8.0 day(s))",
+      "Quantity": "2,158.00",
+      "Unit": null,
+      "UnitPrice": null,
+      "ProductCode": null,
+      "Date": null,
+      "Tax": null,
+      "Amount": "2,158.00"
+    },
+    {
+      "Description": "LABORATORY INVESTIGATIONS",
+      "Quantity": "1,097.20",
+      "Unit": null,
+      "UnitPrice": null,
+      "ProductCode": null,
+      "Date": null,
+      "Tax": null,
+      "Amount": "1,097.20"
+    },
+    {
+      "Description": "X-RAY INVESTIGATIONS",
+      "Quantity": "1,856.35",
+      "Unit": null,
+      "UnitPrice": null,
+      "ProductCode": null,
+      "Date": null,
+      "Tax": null,
+      "Amount": "1,856.35"
+    },
+    {
+      "Description": "SPECIALISED INVESTIGATIONS",
+      "Quantity": "902.20",
+      "Unit": null,
+      "UnitPrice": null,
+      "ProductCode": null,
+      "Date": null,
+      "Tax": null,
+      "Amount": "902.20"
+    },
+    {
+      "Description": "REHABILITATIVE SERVICES",
+      "Quantity": "65.00",
+      "Unit": null,
+      "UnitPrice": null,
+      "ProductCode": null,
+      "Date": null,
+      "Tax": null,
+      "Amount": "65.00"
+    },
+    {
+      "Description": "DELIVERY RELATED CHARGES",
+      "Quantity": "1,158.30",
+      "Unit": null,
+      "UnitPrice": null,
+      "ProductCode": null,
+      "Date": null,
+      "Tax": null,
+      "Amount": "1,158.30"
+    },
+    {
+      "Description": "DRUGS / PRESCRIPTIONS / INJECTIONS",
+      "Quantity": "118.05",
+      "Unit": null,
+      "UnitPrice": null,
+      "ProductCode": null,
+      "Date": null,
+      "Tax": null,
+      "Amount": "118.05"
+    },
+    {
+      "Description": "WARD PROCEDURES",
+      "Quantity": "669.50",
+      "Unit": null,
+      "UnitPrice": null,
+      "ProductCode": null,
+      "Date": null,
+      "Tax": null,
+      "Amount": "669.50"
+    },
+    {
+      "Description": "OTHER PROCEDURES",
+      "Quantity": "63.70",
+      "Unit": null,
+      "UnitPrice": null,
+      "ProductCode": null,
+      "Date": null,
+      "Tax": null,
+      "Amount

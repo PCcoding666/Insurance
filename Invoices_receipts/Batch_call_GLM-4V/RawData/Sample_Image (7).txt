@@ -1,87 +1,44 @@
-First Step:
-
-```markdown
----
-TO: [Blurred]
-NUH National University Hospital Logo
-Address: Block 50, Singapore 119074
-Phone: +65 6729 5678
-Company Registration No.: 198500843R
-
-Description
-Patient Name: [Blurred]
-Location: ENT-HEAD & NECK SURG CTR - 15D
-
-Consultation Fee: Consultation Services (C - FV)
-Amount(S$) 123.05
-
-INVESTIGATIONS
-Specialised: Fine Needle Aspiration With Tech Assista
-Amount(S$) 326.89
-
-TREATMENT SERVICES
-Ward/Clinic / Other Procedures: Aspiration - Fine Needle
-Amount(S$) 81.64
-
-Total Amount Payable
-531.58
-
-ADJUSTMENT: ROUND DOWN FOR AMOUNT PAYABLE BY PATIENT
-0.03
-
-PAYMENT: MASTER CARD - 27.01.2021, RECEIPT #: NO14614931 )
-531.55
-
-TOTAL DUE AFTER PAYMENT
-0.00
-
-DUE FROM:
-0.00
-
-FOR INFORMATION
-WITHOUT REFERRAL
-Total amount payable before GST is $496.80.
-Total GST at 7% is $34.78 for this bill.
-The amount payable by patient has been rounded down to the nearest 5 cents.
-
----
-```
-
-Second Step:
-
 ```json
 {
-  "Patient_Name": "[Blurred]",
-  "Location": "ENT-HEAD & NECK SURG CTR - 15D",
-  "Invoice_Details": {
-    "Consultation_Fee": {
-      "Description": "Consultation Services (C - FV)",
-      "Amount": "123.05"
+  "CustomerName": null,
+  "VendorName": "NUH National University Hospital",
+  "CustomerAddress": null,
+  "VendorAddress": "15 Lower Kent Ridge Road, Singapore 119074",
+  "InvoiceDate": "27/01/2021",
+  "TotalTax": "$34.78",
+  "InvoiceTotal": "$531.58",
+  "AmountDue": "$0.00",
+  "Items": [
+    {
+      "Description": "Consultation Fee: Consultation Services (C - FV)",
+      "Quantity": "1",
+      "Unit": "",
+      "UnitPrice": "$123.05",
+      "ProductCode": "",
+      "Date": "27/01/2021",
+      "Tax": "$0.00",
+      "Amount": "$123.05"
     },
-    "Investigations": {
-      "Description": "Fine Needle Aspiration With Tech Assista",
-      "Amount": "326.89"
+    {
+      "Description": "INVESTIGATIONS Specialised: Fine Needle Aspiration With Tech Assista",
+      "Quantity": "1",
+      "Unit": "",
+      "UnitPrice": "$326.89",
+      "ProductCode": "",
+      "Date": "27/01/2021",
+      "Tax": "$0.00",
+      "Amount": "$326.89"
     },
-    "Treatment_Services": {
-      "Description": "Aspiration - Fine Needle",
-      "Amount": "81.64"
+    {
+      "Description": "TREATMENT SERVICES Ward/ Clinic / Other Procedures: Aspiration - Fine Needle",
+      "Quantity": "1",
+      "Unit": "",
+      "UnitPrice": "$81.64",
+      "ProductCode": "",
+      "Date": "27/01/2021",
+      "Tax": "$0.00",
+      "Amount": "$81.64"
     }
-  },
-  "Total_Amount_Payable": "531.58",
-  "Adjustment": "ROUND DOWN FOR AMOUNT PAYABLE BY PATIENT 0.03",
-  "Payment_Details": {
-    "Method": "MASTER CARD",
-    "Date": "27.01.2021",
-    "Receipt_Number": "NO14614931"
-  },
-  "Total_Due_After_Payment": "0.00",
-  "Due_From": "0.00",
-  "Additional_Information": {
-    "Without_Referral": {
-      "Total_Before_GST": "$496.80",
-      "GST_Amount": "$34.78",
-      "Rounded_Amount": true
-    }
-  }
+  ]
 }
 ```

@@ -1,0 +1,36 @@
+```json
+{
+  "CustomerName": "บริษัท ผู้รับการทดสอบ จำกัด (สำนักงานใหญ่)",
+  "VendorName": "บริษัท ผู้รับการทดสอบ จำกัด (สำนักงานใหญ่)",
+  "CustomerAddress": "999 หมู่ 9 ถนน สาย 999 แขวงทดสอบ เขตทดสอบ กรุงเทพมหานคร 10500",
+  "VendorAddress": "999 หมู่ 9 ถนน สาย 999 แขวงทดสอบ เขตทดสอบ กรุงเทพมหานคร 10500",
+  "InvoiceDate": "01/09/2564",
+  "TotalTax": "20.00 บาท",
+  "InvoiceTotal": "299.60 บาท",
+  "AmountDue": "299.60 บาท"
+}
+```
+```json
+[
+  {
+    "Description": "สินค้าอาหารทดสอบ",
+    "Quantity": "2",
+    "Unit": "กิโล",
+    "UnitPrice": "40.00",
+    "ProductCode": null,
+    "Date": null,
+    "Tax": "5.60",
+    "Amount": "80.00"
+  },
+  {
+    "Description": "สินค้าอาหารทดสอบ",
+    "Quantity": "10",
+    "Unit": "แผ่น",
+    "UnitPrice": "20.00",
+    "ProductCode": null,
+    "Date": null,
+    "Tax": "14.40",
+    "Amount": "200.00"
+  }
+]
+```

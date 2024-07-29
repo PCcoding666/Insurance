@@ -1,0 +1,36 @@
+```json
+{
+  "CustomerName": "null",
+  "VendorName": "บริษัท บริการพัฒนาหมายเลข 1 จำกัด",
+  "CustomerAddress": "null",
+  "VendorAddress": "999/9 ซอย สาทร 999 แขวง ทุ่งมหาเมฆ เขต สาทร กรุงเทพมหานคร 10500",
+  "InvoiceDate": "09/09/2544",
+  "TotalTax": "20.00",
+  "InvoiceTotal": "299.60",
+  "AmountDue": "299.60"
+}
+```
+```json
+[
+  {
+    "Description": "บริการการพัฒนา",
+    "Quantity": "2",
+    "Unit": "รายการ",
+    "UnitPrice": "40.00",
+    "ProductCode": "null",
+    "Date": "null",
+    "Tax": "null",
+    "Amount": "80.00"
+  },
+  {
+    "Description": "บริการการพัฒนาเพิ่มเติม",
+    "Quantity": "10",
+    "Unit": "รายการ",
+    "UnitPrice": "20.00",
+    "ProductCode": "null",
+    "Date": "null",
+    "Tax": "null",
+    "Amount": "200.00"
+  }
+]
+```

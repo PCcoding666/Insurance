@@ -1,0 +1,46 @@
+```json
+{
+  "CustomerName": "เลขที่ 1 หมู่1",
+  "VendorName": "Good Invoice จำกัด",
+  "CustomerAddress": "ตำบล/แขวง ตัวอย่าง อำเภอ/เขต ตัวอย่าง จังหวัด ตัวอย่าง รหัสไปรษณีย์ 11111",
+  "VendorAddress": "1 หมู่1 ตำบล/แขวง ตัวอย่าง อำเภอ/เขต ตัวอย่าง จังหวัด ตัวอย่าง 11111",
+  "InvoiceDate": "29/05/2020",
+  "TotalTax": "32.00",
+  "InvoiceTotal": "500.00",
+  "AmountDue": null
+}
+```
+```json
+[
+  {
+    "Description": "ตัวอย่าง1",
+    "Quantity": "1",
+    "Unit": null,
+    "UnitPrice": "100.00",
+    "ProductCode": null,
+    "Date": null,
+    "Tax": null,
+    "Amount": "100.00"
+  },
+  {
+    "Description": "ตัวอย่าง2",
+    "Quantity": "1",
+    "Unit": null,
+    "UnitPrice": "200.00",
+    "ProductCode": null,
+    "Date": null,
+    "Tax": null,
+    "Amount": "200.00"
+  },
+  {
+    "Description": "ตัวอย่าง3",
+    "Quantity": "1",
+    "Unit": null,
+    "UnitPrice": "200.00",
+    "ProductCode": null,
+    "Date": null,
+    "Tax": null,
+    "Amount": "200.00"
+  }
+]
+```

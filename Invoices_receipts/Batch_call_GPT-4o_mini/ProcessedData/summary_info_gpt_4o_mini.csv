@@ -1,0 +1,50 @@
+FileName,CustomerName,VendorName,CustomerAddress,VendorAddress,InvoiceDate,TotalTax,InvoiceTotal,AmountDue
+Sample_Image (7).txt,,National University Hospital,,"NUH, Singapore 119074",27.01.2021,34.78,531.55,0.00
+Sample_Image (9).txt,,Mount Elizabeth Hospital,,"3 Mount Elizabeth, Singapore 228510",16.02.2022,"1,084.80","25,155.42","25,155.42"
+Sample_Image (12).txt,FOX HONG,ST. TERESA'S HOSPITAL,,"327 PRINCE EDWARD ROAD, KOWLOON, HONG KONG",01-Jan-2015,"HK$9,580","HK$46,492","HK$46,492"
+Sample_Image (13).txt,HO KAI PAK,ST. TERESA'S HOSPITAL,,"127 PRINCE EDWARD ROAD, KOWLOON, HONG KONG",29-Jul-2015,,"60,749","60,749"
+Sample_Image (14).txt,SHIANG FOON SUI,ST. TERESA'S HOSPITAL,,"327 PRINCE EDWARD ROAD, KOWLOON, HONG KONG",29-Jul-2015,"1,270","34,100","34,100"
+Sample_Image (18).txt,,Mount Elizabeth,,24-Hour Urgent Care Centre,10.03.2024,,,
+Sample_Image (19).txt,,Mount Elizabeth Hospital,,"3 Mount Elizabeth, Singapore 228510",10.03.2024,103.04,"1,247.91","1,247.91"
+Sample_Image (20).txt,,National University Hospital,,,27 NOV 2022,265.53,"3,724.70",399.84
+Sample_Image (22).txt,,Yishun,,,11/04/2024,1.65,18.30,18.30
+Sample_Image (23).txt,,KK Women's and Children's Hospital Pte Ltd,,100 Bukit Timah Road Singapore 229999,31 JUL 2023,656.02,"8,200.32",0.00
+Sample_Image (24).txt,,Dental Centre - Woodleigh,,Jadari Park Drive #02-11 The Woodleigh Mall Singapore 367803,22/03/2024,,"$1,385.00",$0.00
+Sample_Image (25).txt,,VetSurge Ptd Ltd,,"26 Jalan Pari Burong, Singapore, 488692",06-04-2024,,4734.38,484.38
+Sample_Image (26).txt,,Changi General Hospital,Simei Street 3 Singapore 529889,,25 AUG 2023,11.04,138.00,138.00
+Sample_Image (27).txt,,,,,,42.26,511.76,0.00
+Sample_Image (28).txt,,,,,,23.61,286.04,0.00
+Sample_Image (30).txt,,,,,,"1,016.76","12,473.13",0.00
+Sample_Image (31).txt,,Raffles Hospital,,RAFFLES WOMEN'S CENTRE 585 NORTH BRIDGE ROAD #12-00 188770 T: 63111230,16-DEC-2022,17.76,271.75,0.00
+Sample_Image (84).txt,,BANGKOK HOSPITAL,,CHIANG MAI,12/02/2024,,"3,330.00","3,330.00"
+Sample_Image (85).txt,Mr. ********,The Bangkok Christian Hospital,,"124 Silom Road, Bangkok 10500",9 Apr 24,,"6,348.00","6,348.00"
+Sample_Image (86).txt,JARUNEE NEDARUN,HUA CHIEW HOSPITAL,,,13/03/2024,0.00,2974.00,2974.00
+Sample_Image (87).txt,,Hospital Charges,,,23-JUN-2023,,879.20,
+Sample_Image (88).txt,,,,,,358.04,"4,833.60","4,183.60"
+Sample_Image (89).txt,,,,,,7.40,92.46,92.46
+Sample_Image (90).txt,,,,,,80.0,218.59,
+Sample_Image (91).txt,,,,,,50.72,684.72,684.72
+Sample_Image (92).txt,,THOMSON MEDICAL,"339 Thomson Road, Singapore 307677",,05/04/2023,638.55,"16,072.45","6,776.45"
+Sample_Image (101).txt,,Melbourne Health Pathology,,"300 Grattan Street, Parkville, VIC 3052",02-Jun-23,0.00,1598.57,1598.57
+Sample_Image (103).txt,,ST. TERESA'S HOSPITAL,,"327 PRINCE EDWARD ROAD, KOWLOON, HONG KONG",10-06-2023,,"$4,395","$4,395"
+Sample_Image (104).txt,,Hong Kong Sanatorium & Hospital Ltd,,"2 Village Road, Happy Valley, Hong Kong",4 JUL 2023,,"39,889.00",
+Sample_Image (105).txt,null,Hong Kong Sanatorium & Hospital Ltd,null,"2 Village Road, Happy Valley, Hong Kong",4 JUL 2023,null,"52,889.00","48,889.00"
+Thai_bill (1).txt,นายไพฑูรย์จินดา,หจก.ไพฑูรย์จินดา,648/3 หมู่ 10 ต.รามคำแหง,648/3 หมู่ 10 ต.รามคำแหง,31/01/56,0.00,"87,000.00","87,000.00"
+Thai_bill (2).txt,null,"SINOVAC LIFE SCIENCES CO., LTD.",null,21 ถนน TIANFU STREET หมู่ 1 ตำบล/แขวง DAXING DISTRICT,22 กุมภาพันธ์ พ.ศ. 2564,null,null,null
+Thai_bill (3).txt,SMEASY-DOC,SMEASY-DOC,305 ถนนไชยปราการ 6 ม.8 ต.บ้านใหม่ อ.เมือง จ.เชียงใหม่ 50210,305 ถนนไชยปราการ 6 ม.8 ต.บ้านใหม่ อ.เมือง จ.เชียงใหม่ 50210,22/2/2559,66.00,"1,016.50","1,016.50"
+Thai_bill (4).txt,MISS NAPISA SAA,KRUNGTHAI CARD PUBLIC COMPANY LIMITED,โรงเรียนบ้านในไร่ หมู่7 นาเตย ท่ายเมือง พิษณุโลก 82120,591 อาคารสมัชชาชาติไทย 2 ชั้น 14 ถนนสุโขทัย แขวงคลองถนนเหนือ เขตดินแดง กรุงเทพฯ 10400,18/09/21,,"33,415.78","33,415.78"
+Thai_bill (5).txt,บริษัท โลจิส จำกัด,null,7/160 ถนนนางลิ้นจี่ กรุงเทพมหานคร 10220,null,29/01/2020,360.00,"5,350.00","5,350.00"
+Thai_bill (6).txt,,บริษัท รัชดา จำกัด,,,21/2/61,22.31,547.31,
+Thai_bill (7).txt,,Head Office,,,2021/05/01,34.93,533.93,533.93
+Thai_bill (8).txt,,บริษัท รัชดา จำกัด,,,21/2/61,22.31,547.31,
+Thai_bill (9).txt,null,Good Invoice จำกัด,1 หมู่ 1 ตำบล/แขวง วัดสำราญ อำเภอ/เขต สังขละบุรี จังหวัด กาญจนบุรี 11111,null,29/05/2020,32.00,500.00,500.00
+Thai_bill (10).txt,Import Company,ABC Company Limited,,,,USD 37.90,"USD 1,000.00",
+Thai_bill (11).txt,บริษัท ผู้ขายทดสอบ จำกัด (สำนักงานใหญ่),ลูกค้า บริษัท ผู้ขายทดสอบ จำกัด (สำนักงานใหญ่),99 หมู่ 9 ถ.สารสิน เขตจอมทอง กรุงเทพมหานคร 10500,99 หมู่ 9 ถ.สารสิน เขตจอมทอง กรุงเทพมหานคร 10500,09/09/2564,,280.00 บาท,
+Thai_bill (12).txt,null,บริษัท บริการพัฒนาหมายเลข 1 จำกัด,null,999/9 ซอย สาทร 999 แขวง ทุ่งมหาเมฆ เขต สาทร กรุงเทพมหานคร 10500,09/09/2544,20.00,299.60,299.60
+Thai_bill (13).txt,บริษัท กพด จำกัด,บริษัท วันไวท์โซลูชั่น จำกัด,53 หมู่ที่ 2 อาคารเจริญประสิทธิ์ ชั้น 3 ถนนแจ้งวัฒนะ แขวงทุ่งสองห้อง เขตหลักสี่ กรุงเทพมหานคร,8/209 หมู่บ้านทาวน์เฮ้าส์ ตำบลเสาธงหิน ซอยอ้อมน้อย 68 แขวงสวนหลวง เขตสวนหลวง กรุงเทพมหานคร 10250,28-Aug-2020,,"10,000.00","10,000.00"
+Thai_bill (14).txt,บริษัท พรีวิลล์ จำกัด (สำนักงานใหญ่),บริษัท บิลดิ้ง คอนซัลแทนท์ จำกัด (สำนักงานใหญ่),44/14 หมู่ 5 ตำบลบางพรี อำเภอเมืองสมุทรปราการ 10540,33/1285 หมู่ 8 ตำบลพลับพลาไชย จังหวัดสมุทรปราการ 11110,02/08/2022,245.00,"3,745.00","3,640.00"
+Thai_bill (15).txt,บริษัท พรีวิลล์ จำกัด (สำนักงานใหญ่),บริษัท บิลดิ้ง คอนซัลแทนท์ จำกัด (สำนักงานใหญ่),44/14 หมู่ 5 ตำบลบางพรี อำเภอเมืองสมุทรปราการ 10540,เลขที่ 33/1285 หมู่ 8 ตำบลพลับพลาไชย จังหวัดสมุทรปราการ 11110,02/08/2022,245.00,"3,745.00","3,640.00"
+Thai_bill (16).txt,MISS SAA,KTC,null,591 อาคารไชยยศ 2 ชั้น 14 ถนนสาทรเหนือ แขวงสีลม เขตบางรัก กรุงเทพฯ 10110,18/09/21,"1,719.39","59,500.00","12,000.00"
+Thai_bill (17).txt,,,,,21/12/2566,104.51,"1,593.51","1,593.51"
+Thai_bill (18).txt,codebee2014@gmail.com,บริษัท มัณฑ์เพชรพลอย จำกัด,41 / 94 ปากเกร็ด นนทบุรี 11120,99/9 ปากเกร็ด อำเภอเมือง นนทบุรี 60000,05-11-2020,,"48,000.00","48,000.00"
+Thai_bill (19).txt,บริษัท กรุงไทยพลาสติก จำกัด (มหาชน),PROSOFT,83/1 หมู่ 4 ต.พลับพลาไชย 54000,2571/1 ซ.รามคำแหง 75 ถ.รามคำแหง แขวงหัวหมาก เขตบางกะปิ กรุงเทพฯ 10240,20/02/2553,,"3,987,091.29",

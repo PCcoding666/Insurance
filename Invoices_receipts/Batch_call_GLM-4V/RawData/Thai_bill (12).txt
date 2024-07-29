@@ -1,9 +1,34 @@
-First Step:
-
-```markdown
-# e-Invoice/e-Tax Invoice
-### 09/09/2564
-### 7N20210500031
-### 999 wi 999 a.m. 999 u.s.u.
-### renunun ngnnmarunn 10500
-### ususususususususususususususususususususususususususususususususususususususususususususususususususususususususususususususususususususususususususususususususususususususususususususususususususususus
+```json
+{
+  "CustomerName": "บริษัท เอ็มพระเจ้า",
+  "VendorName": "บริษัท น้ำตาล",
+  "CustomerAddress": "1234567890123",
+  "VendorAddress": "10500",
+  "InvoiceDate": "09/09/2564",
+  "TotalTax": "19.60",
+  "InvoiceTotal": "299.60",
+  "AmountDue": "299.60",
+  "Items": [
+    {
+      "Description": "สุขภาพ",
+      "Quantity": "1",
+      "Unit": "บาท",
+      "UnitPrice": "40.00",
+      "ProductCode": "null",
+      "Date": "09/09/2564",
+      "Tax": "null",
+      "Amount": "40.00"
+    },
+    {
+      "Description": "ค่าใช้ไฟ",
+      "Quantity": "10",
+      "Unit": "หน่อย",
+      "UnitPrice": "20.00",
+      "ProductCode": "null",
+      "Date": "09/09/2564",
+      "Tax": "null",
+      "Amount": "200.00"
+    }
+  ]
+}
+```

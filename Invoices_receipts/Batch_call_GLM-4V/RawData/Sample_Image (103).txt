@@ -1,58 +1,34 @@
-First Step:
-
-```markdown
-# St. Teresa's Hospital Statement of Account
-
-| Date       | 10-06-2023                  | Page       | 1 / 1                        |
-|------------|------------------------------|------------|--------------------------------|
-| Name       | [Patient Name Obscured]   | No.        | PH2023146516               |
-| Patient No.| AXXXXXXX44510X              | Sex        | F                             |
-| Admission  | Out-Patient Services       | Room No.   | XXXXXXXXXXX                  |
-| Date       | 10-06-23                    | Doctor     | DR. CHAN KUNG NGAI 陳功毅 |
-| Particulars| TREATMENT/ASSOCIATE MATERIALS | Amount (HK$) | $415                          |
-| Subtotal  |                              |                | $415                          |
-| Total Charges |                            |                | $4,395                        |
-| Doctor Fee |                            |                | $3,980                        |
-| Total Doctor Fee |                           |                | $4,395                        |
-| Balance Due |                            |                | $4,395                        |
-| Diagnosis  | Fishbone ingestion (Accident) |
-```
-
-Second Step:
-
 ```json
 {
-  "Payment_Date": "10-06-2023",
-  "Total": "$4,395",
-  "Amount_Paid": "$4,395",
-  "Method_of_Payment": "VISA",
-  "Service": {
-    "Type": "Outpatient",
-    "Specialty": "Treatment/Associate Materials",
-    "Charges": "$415",
-    "Subtotal": "$415",
-    "Doctor": {
-      "Name": "DR. CHAN KUNG NGAI 陈功毅",
-      "Fee": "$3,980",
-      "Total_Fee": "$4,395"
+  "CustomerName": "XXXXXXXXX",
+  "VendorName": "聖德肋撒醫院",
+  "CustomerAddress": "327 PRINCE EDWARD ROAD, KOWLOON, HONG KONG",
+  "VendorAddress": "香港九龍太子道327號",
+  "InvoiceDate": "10-06-2023",
+  "TotalTax": "$415",
+  "InvoiceTotal": "$4,395",
+  "AmountDue": "$4,395",
+  "Items": [
+    {
+      "Description": "治療及有關物料費",
+      "Quantity": null,
+      "Unit": null,
+      "UnitPrice": "$415",
+      "ProductCode": null,
+      "Date": "10-06-23",
+      "Tax": null,
+      "Amount": "$415"
+    },
+    {
+      "Description": "醫生費",
+      "Quantity": null,
+      "Unit": null,
+      "UnitPrice": "$3,980",
+      "ProductCode": null,
+      "Date": "10-06-23",
+      "Tax": null,
+      "Amount": "$3,980"
     }
-  },
-  "Admission": {
-    "Details": {
-      "Admission_Type": "Outpatient Services",
-      "Room_Number": "[Room No. Obscured]",
-      "Admission_No": "PH2023146516"
-    }
-  },
-  "Notes": {
-    "Payment_Policy": {
-      "Interim_Account_Deadline": "within 24 hours",
-      "Final_Account_Offset": "after consultation",
-      "Receipt_Validity": "upon clearance and hospital chop imprint",
-      "No_Official_Receipt_Issue": true,
-      "Surcharge_Reserve": true,
-      "Undercharge_Billability": true
-    }
-  }
+  ]
 }
 ```

@@ -1,0 +1,46 @@
+```json
+{
+  "CustomerName": null,
+  "VendorName": "บริษัท รหัสโปรแกรมดี",
+  "CustomerAddress": null,
+  "VendorAddress": "หมายเลขโทรศัพท์: (000) 000-0000",
+  "InvoiceDate": "21/2/61",
+  "TotalTax": "22.31",
+  "InvoiceTotal": "547.31",
+  "AmountDue": null
+}
+```
+```json
+[
+  {
+    "Description": "ค่าบริการ",
+    "Quantity": "1",
+    "Unit": null,
+    "UnitPrice": "200.00",
+    "ProductCode": null,
+    "Date": null,
+    "Tax": null,
+    "Amount": "200.00"
+  },
+  {
+    "Description": "แพคเกจ รหัสสินค้า 875/ ชั่วโมง",
+    "Quantity": "5",
+    "Unit": null,
+    "UnitPrice": "75.00",
+    "ProductCode": null,
+    "Date": null,
+    "Tax": null,
+    "Amount": "375.00"
+  },
+  {
+    "Description": "ค่าขนส่งและติดตั้งเพิ่มเติม",
+    "Quantity": null,
+    "Unit": null,
+    "UnitPrice": "50.00",
+    "ProductCode": null,
+    "Date": null,
+    "Tax": null,
+    "Amount": "50.00"
+  }
+]
+```

@@ -1,60 +1,44 @@
-First Step:
-
-```markdown
-# Good Invoice ใบสันค่า
-### 1 เทียน/หน่อย ชื่อผู้ขาย ที่มีตำแหน่ง 11111
-#### Tel. 000000000 E-mail: goodinvoice@email.com ระบุตำแหน่ง 000000000000
-### ใบสันค่า (INVOICE)
-#### เลขที่/No : 00001
-#### วัน/Date : 25/05/2020
-#### ผู้จัดการ/Manager : -
-#### ภาษา/Language : ไทย
-#### เบียนภาษา/Tax ID : 000000000000
-
-| ITEM                   | DESCRIPTION                      | QTY. | UNIT PRICE | AMOUNT |
-|--------------------------|---------------------------------|------|------------|--------|
-| 1                        | รายชื่อ1                          | 1    | 100.00     | 100.00  |
-| 2                        | รายชื่อ2                          | 1    | 200.00     | 200.00  |
-| 3                        | รายชื่อ3                          | 1    | 200.00     | 200.00  |
-
-| SUB TOTAL               |                                  |      |            | 468.00  |
-| VAT 7%                   |                                  |      |            | 32.00   |
-| GRAND TOTAL             |                                  |      |            | 500.00  |
-```
-
-Second Step:
-
 ```json
 {
-  "Invoice": {
-    "Number": "00001",
-    "Date": "25/05/2020",
-    "Manager": "",
-    "Language": "Thai",
-    "Tax_ID": "000000000000",
-    "Items": [
-      {
-        "Description": "รายชื่อ1",
-        "Quantity": 1,
-        "Unit_Price": 100.00,
-        "Amount": 100.00
-      },
-      {
-        "Description": "รายชื่อ2",
-        "Quantity": 1,
-        "Unit_Price": 200.00,
-        "Amount": 200.00
-      },
-      {
-        "Description": "รายชื่อ3",
-        "Quantity": 1,
-        "Unit_Price": 200.00,
-        "Amount": 200.00
-      }
-    ],
-    "Subtotal": 468.00,
-    "VAT": 32.00,
-    "Grand_Total": 500.00
-  }
+  "CustomerName": "ลูกคุณ",
+  "VendorName": "ผู้ขาย",
+  "CustomerAddress": "1 ถนน",
+  "VendorAddress": "11111",
+  "InvoiceDate": "29/05/2020",
+  "TotalTax": "32.00",
+  "InvoiceTotal": "500.00",
+  "AmountDue": "500.00",
+  "Items": [
+    {
+      "Description": "ระบาด1",
+      "Quantity": "1",
+      "Unit": "",
+      "UnitPrice": "100.00",
+      "ProductCode": "",
+      "Date": "29/05/2020",
+      "Tax": "",
+      "Amount": "100.00"
+    },
+    {
+      "Description": "ระบาด2",
+      "Quantity": "1",
+      "Unit": "",
+      "UnitPrice": "200.00",
+      "ProductCode": "",
+      "Date": "29/05/2020",
+      "Tax": "",
+      "Amount": "200.00"
+    },
+    {
+      "Description": "ระบาด2",
+      "Quantity": "1",
+      "Unit": "",
+      "UnitPrice": "200.00",
+      "ProductCode": "",
+      "Date": "29/05/2020",
+      "Tax": "",
+      "Amount": "200.00"
+    }
+  ]
 }
 ```

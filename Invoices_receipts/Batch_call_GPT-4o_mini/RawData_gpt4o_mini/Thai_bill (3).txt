@@ -1,0 +1,26 @@
+```json
+{
+  "CustomerName": "SMEASY-DOC",
+  "VendorName": "SMEASY-DOC",
+  "CustomerAddress": "305 ถนนไชยปราการ 6 ม.8 ต.บ้านใหม่ อ.เมือง จ.เชียงใหม่ 50210",
+  "VendorAddress": "305 ถนนไชยปราการ 6 ม.8 ต.บ้านใหม่ อ.เมือง จ.เชียงใหม่ 50210",
+  "InvoiceDate": "22/2/2559",
+  "TotalTax": "66.00",
+  "InvoiceTotal": "1,016.50",
+  "AmountDue": "1,016.50"
+}
+```
+```json
+[
+  {
+    "Description": "Full Version",
+    "Quantity": "1",
+    "Unit": "ชุด",
+    "UnitPrice": "950.00",
+    "ProductCode": "1234567890123",
+    "Date": "22/2/2559",
+    "Tax": "66.00",
+    "Amount": "1,016.50"
+  }
+]
+```

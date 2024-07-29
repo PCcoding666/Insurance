@@ -1,0 +1,36 @@
+```json
+{
+  "CustomerName": "Import Company",
+  "VendorName": "ABC Company Limited",
+  "CustomerAddress": "123 Importer Lane, Import City",
+  "VendorAddress": "456 Exporter Street, Export City",
+  "InvoiceDate": "DD/MM/YYYY",
+  "TotalTax": "USD 37.40",
+  "InvoiceTotal": "USD 737.40",
+  "AmountDue": "USD 737.40"
+}
+```
+```json
+[
+  {
+    "Description": "ABC Code 50.01.01",
+    "Quantity": "1,000 pieces",
+    "Unit": "pieces",
+    "UnitPrice": "USD 0.50",
+    "ProductCode": "50.01.01",
+    "Date": null,
+    "Tax": "USD 25.00",
+    "Amount": "USD 500.00"
+  },
+  {
+    "Description": "HS Code 20.01.01",
+    "Quantity": "1,000 kilograms",
+    "Unit": "kilograms",
+    "UnitPrice": "USD 0.20",
+    "ProductCode": "20.01.01",
+    "Date": null,
+    "Tax": "USD 12.40",
+    "Amount": "USD 200.00"
+  }
+]
+```

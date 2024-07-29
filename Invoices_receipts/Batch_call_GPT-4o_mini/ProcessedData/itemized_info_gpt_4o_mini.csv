@@ -1,0 +1,278 @@
+FileName,Description,Quantity,Unit,UnitPrice,ProductCode,Date,Tax,Amount
+Sample_Image (7).txt,Consultation Fee: Consultation Services (C - FV),,,123.05,,,,123.05
+Sample_Image (7).txt,Investigations Specialised: Fine Needle Aspiration With Tech Assista,,,326.89,,,,326.89
+Sample_Image (7).txt,Treatment Services: Aspiration - Fine Needle,,,81.64,,,,81.64
+Sample_Image (9).txt,EQUIPMENT AND SUPPLY,1,,605.30,,,,605.30
+Sample_Image (9).txt,DAILY TREATMENT FEE,1,,224.30,,,,224.30
+Sample_Image (9).txt,Hospital Charges,,,,,,"1,084.80","15,497.23"
+Sample_Image (9).txt,Total Doctor Fee,,,,,,,"8,573.38"
+Sample_Image (12).txt,GASTROSCOPY,1,,"HK$2,518",,02-Jan-2015,,"HK$2,518"
+Sample_Image (12).txt,COLONOSCOPY,1,,"HK$3,853",,02-Jan-2015,,"HK$3,853"
+Sample_Image (12).txt,HISTOPATHOLOGICAL EXAMINATION,1,,HK$667,,02-Jan-2015,,HK$667
+Sample_Image (12).txt,TREATMENT/ASSISTANCE MATERIALS,1,,"HK$1,034",,02-Jan-2015,,"HK$1,034"
+Sample_Image (12).txt,WARD ROUND FEE,1,,"HK$2,000",,02-Jan-2015,,"HK$2,000"
+Sample_Image (12).txt,ANAESTHETIC,1,,"HK$6,000",,02-Jan-2015,,"HK$6,000"
+Sample_Image (12).txt,DOCTOR FEE,1,,"HK$26,000",,02-Jan-2015,,"HK$26,000"
+Sample_Image (13).txt,PATHOLOGICAL EXAMINATION,,,180,,01-Jan-2015,,180
+Sample_Image (13).txt,ADMISSION FEE,,,"2,840",,01-Jan-2015,,"2,840"
+Sample_Image (13).txt,ROOM/ BED CHARGE,,,750,,01-Jan-2015,,750
+Sample_Image (13).txt,MEDICINE/INJECTION,,,"1,600",,01-Jan-2015,,"1,600"
+Sample_Image (13).txt,DR. CHAN TAI MAN WARD ROUND FEE,,,"2,000",,02-Jan-2015,,"2,000"
+Sample_Image (13).txt,DR. LEE TAI MAN ANAESTHETIC,,,"30,000",,02-Jan-2015,,"30,000"
+Sample_Image (13).txt,ANAESTHETIC,,,"10,000",,02-Jan-2015,,"10,000"
+Sample_Image (14).txt,ECHOCARDIOGRAPH/ULTRASOUND,,,"2,550",,01-01-15,,"2,550"
+Sample_Image (14).txt,HISTOPATHOLOGICAL EXAMINATION,,,"2,480",,01-01-15,,"2,480"
+Sample_Image (14).txt,OPERATION CHARGE,,,"3,000",,01-01-15,,"3,000"
+Sample_Image (14).txt,INJECTION SERVICE,,,180,,01-01-15,,180
+Sample_Image (14).txt,ULTRASOUND,,,520,,02-01-15,,520
+Sample_Image (14).txt,WARD ROUND FEE,,,"2,000",,02-01-15,,"2,000"
+Sample_Image (14).txt,ANESTHETIC,,,"4,000",,02-01-15,,"4,000"
+Sample_Image (18).txt,XR-CHEST 1 VIEW,1,,52.99,3501010049,09.03.2024,,52.99
+Sample_Image (18).txt,XR-SURCHARGE FIRST HR,1,,138.0,3501080016,09.03.2024,,138.0
+Sample_Image (18).txt,C-REACTIVE PROTEIN,1,,35.53,4001000183,09.03.2024,,35.53
+Sample_Image (18).txt,AFTER HRS SURCHARGE,1,,49.48,4004000049,09.03.2024,,49.48
+Sample_Image (18).txt,GENERAL FOLLOW-UP SCREEN,1,,68.51,4008000146,09.03.2024,,68.51
+Sample_Image (18).txt,MYCOPLASMA PNEUMONIAE IGM,1,,73.59,4008000034,09.03.2024,,73.59
+Sample_Image (18).txt,DENGUE NS1 ANTIGEN TEST,1,,69.78,4008000035,09.03.2024,,69.78
+Sample_Image (18).txt,INFLUENZA A&B ANTIGEN (NUR),1,,50.75,4008000085,09.03.2024,,50.75
+Sample_Image (18).txt,ANTIGEN RAPID TEST (COVID-19),1,,41.0,4008000178,09.03.2024,,41.0
+Sample_Image (18).txt,UCC NURSING FEE,1,,43.27,5600000082,09.03.2024,,43.27
+Sample_Image (18).txt,RM01,1,,0.0,5701000004,09.03.2024,,0.0
+Sample_Image (18).txt,OBSERVATION BED < 2HRS,1,,215.09,5701000004,09.03.2024,,215.09
+Sample_Image (18).txt,CONSULTATION - AFTER HOUR,1,,148.62,7108000002,09.03.2024,,148.62
+Sample_Image (19).txt,DEXTROMETHORPHAN 15MG/5ML 90ML SYRUP,1,,13.55,DEXT22,09.03.2024,,13.55
+Sample_Image (19).txt,DIFFLAM FORTE THROAT 15ML MOUTH SPR,1,,38.94,DIFF19,09.03.2024,,38.94
+Sample_Image (19).txt,OMEPRAZOLE 20MG CAPSULES,10,,23.30,OMEP3,09.03.2024,,233.00
+Sample_Image (19).txt,PARACETAMOL 500MG TABLETS,18,,11.88,PARA18,09.03.2024,,213.84
+Sample_Image (19).txt,SYNFLEX 275MG TABLETS,20,,27.00,SYNF1,09.03.2024,,540.00
+Sample_Image (20).txt,Class B2 (2 DAYS),2,days,300.00,,,,600.00
+Sample_Image (20).txt,Class B2 (2 DAYS),2,days,164.00,,,,328.00
+Sample_Image (20).txt,Laboratory,,,,,,,260.51
+Sample_Image (20).txt,Specialised,,,,,,,265.23
+Sample_Image (20).txt,X-ray,,,,,,,"1,481.48"
+Sample_Image (20).txt,Non Standard,,,,,,,11.75
+Sample_Image (20).txt,Standard,,,,,,,27.59
+Sample_Image (20).txt,Ward/ Clinic / Other Procedures,,,,,,,202.01
+Sample_Image (22).txt,Consultation,1,Qty,16.30,,,,16.30
+Sample_Image (22).txt,Charcoal 200mg Cap,30,Qty,1.40,,,,1.40
+Sample_Image (22).txt,Oral Rehydration Salt Sac,6,Qty,0.60,,,,0.60
+Sample_Image (23).txt,WARD (CLASS C) (1.0 day(s)),1,day,390.00,,,,169.37
+Sample_Image (23).txt,IMMEDIATE POST OPERATIVE CARE,1,,404.00,,,,202.12
+Sample_Image (23).txt,WARD PROCEDURES,1,,381.00,,,,189.89
+Sample_Image (23).txt,DAILY TREATMENT FEE,1,,168.00,,,,84.00
+Sample_Image (23).txt,X-RAY INVESTIGATIONS,1,,"1,087.00",,,,607.31
+Sample_Image (23).txt,SURGICAL SUPPLIES,1,,820.00,,,,411.87
+Sample_Image (23).txt,REHABILITATIVE SERVICES,1,,146.00,,,,100.37
+Sample_Image (23).txt,DRUGS / PRESCRIPTIONS / INJECTIONS,1,,"2,270.01",,,,"1,560.62"
+Sample_Image (23).txt,SURGICAL OPERATION,1,,"7,873.99",,,,"3,937.44"
+Sample_Image (24).txt,CONSULTATION,1,,$120.00,,,,$120.00
+Sample_Image (24).txt,X-RAYS (PA),1,,$50.00,,,,$50.00
+Sample_Image (24).txt,Root Canal Treatment Stage 1 - Extirpation / Emergency Treatment,1,,"$1,200.00",,,,"$1,200.00"
+Sample_Image (24).txt,Arcoxia 120mg - tablet,3,,$5.00,,,,$15.00
+Sample_Image (25).txt,Consult-Standard <15Mins,1,,,,,,54.00
+Sample_Image (25).txt,U/s Pregnancy Scan,1,,,,,,162.11
+Sample_Image (25).txt,Oxytocin Injection 10 iu/mL,0.3,,,,,,24.37
+Sample_Image (25).txt,Procyte Blood Test,1,,,,,,99.42
+Sample_Image (25).txt,Catalyst Lyte 4 Blood Test,1,,,,,,163.00
+Sample_Image (25).txt,Alfaxan Injection 10mg/mL,1,,,,,,59.00
+Sample_Image (25).txt,Methone 10mg/mL Injection per mL,1,,,,,,38.37
+Sample_Image (25).txt,Meloxicam Injection 5mg/mL Per mL,0.04,,,,,,16.61
+Sample_Image (25).txt,A/H V Catheterisation (Ex fluids),0.09,,,,,,17.47
+Sample_Image (25).txt,Afterhours Caesarian Section,1,,,,,,3855.48
+Sample_Image (25).txt,Monosyn 2/0,1,,,,,,39.00
+Sample_Image (25).txt,Gabapentin 50mg tablets,3,,,,,,4.59
+Sample_Image (26).txt,X-RAY INVESTIGATIONS,,,73.50,,,,73.50
+Sample_Image (26).txt,DRUGS / PRESCRIPTIONS / INJECTIONS,,,24.22,,,,24.22
+Sample_Image (26).txt,A&E ATTENDANCE FEE,,,276.00,,,,276.00
+Sample_Image (27).txt,CONSULT - REPEAT VISIT (1 UN),1,UN,151.00,,,,151.00
+Sample_Image (27).txt,ULTRASOUND OBS SIMPLE (MULTIPLE) (1 UN),1,UN,200.20,,,,200.20
+Sample_Image (27).txt,PLACENTAL LOCALISATION (1 UN),1,UN,96.20,,,,96.20
+Sample_Image (27).txt,OBSTETRIC ROUTINE CHECK (1 UN),1,UN,22.10,,,,22.10
+Sample_Image (28).txt,"PROFESSIONAL FEES - DOCTOR CONSULT - NEW VISIT, DEL SUITE (1 UN)",1,UN,146.00,,,,146.00
+Sample_Image (28).txt,SPECIALISED INVESTIGATIONS ANTENATAL CARDIOTOCOGRAPHY (CTG) (1 UN),1,UN,80.60,,,,80.60
+Sample_Image (28).txt,CONSUMABLES ACTIM PARTUS / PROM (1 EA),1,EA,35.83,,,,35.83
+Sample_Image (30).txt,WARD (CLASS C) (8.0 day(s)),8.0,day(s),396.00,,,,"3,168.00"
+Sample_Image (30).txt,DAILY TREATMENT FEE (CLASS NRO) (8.0 day(s)),8.0,day(s),269.75,,,,"2,158.00"
+Sample_Image (30).txt,LABORATORY INVESTIGATIONS,,,,,,,"1,097.20"
+Sample_Image (30).txt,X-RAY INVESTIGATIONS,,,,,,,"1,856.35"
+Sample_Image (30).txt,SPECIALISED INVESTIGATIONS,,,,,,,902.20
+Sample_Image (30).txt,REHABILITATIVE SERVICES,,,,,,,65.00
+Sample_Image (30).txt,DELIVERY RELATED CHARGES,,,,,,,"1,158.30"
+Sample_Image (30).txt,DRUGS / PRESCRIPTIONS / INJECTIONS,,,,,,,118.05
+Sample_Image (30).txt,WARD PROCEDURES,,,,,,,669.50
+Sample_Image (30).txt,OTHER PROCEDURES,,,,,,,63.70
+Sample_Image (30).txt,CONSUMABLES,,,,,,,40.93
+Sample_Image (31).txt,PRACTICE COST,1.0,,16.00,,,,16.00
+Sample_Image (31).txt,MAMMOGRAM ADDITIONAL VIEW (UNILATERAL BREAST),1.0,,58.00,,,,58.00
+Sample_Image (31).txt,ULTRASOUND TARGETED BREAST,1.0,,180.00,,,,180.00
+Sample_Image (84).txt,Gpo-A-Flu Capsule (7s Mg),10,,53.00,1.1.1,12/02/2024,,530.00
+Sample_Image (84).txt,Influenza A/B screening (Immunochromatography),1,,"1,750.00",1.1.4,12/02/2024,,"1,750.00"
+Sample_Image (84).txt,OPD Service Charge,1,,100.00,1.1.12,12/02/2024,,100.00
+Sample_Image (84).txt,Packaged Medical Charge,1,,200.00,1.1.14,12/02/2024,,200.00
+Sample_Image (84).txt,Physician Evaluation,1,,750.00,1.2.1,12/02/2024,,750.00
+Sample_Image (85).txt,Drugs,,,"1,177.00",,,,"1,177.00"
+Sample_Image (85).txt,Parenteral Nutrition,,,656.00,,,,656.00
+Sample_Image (85).txt,Medical Supplies 1,,,"1,460.00",,,,"1,460.00"
+Sample_Image (85).txt,Lab Investigation and Pathology,,,125.00,,,,125.00
+Sample_Image (85).txt,General Medical Equipment,,,125.00,,,,125.00
+Sample_Image (85).txt,Bed & Nursing Service,,,800.00,,,,800.00
+Sample_Image (85).txt,Basic Hospital Charges,,,800.00,,,,800.00
+Sample_Image (85).txt,First Outpatient Care,,,,,,,
+Sample_Image (86).txt,Drugs and Medical Nutrition,,,1049.00,,,0.00,1049.00
+Sample_Image (86).txt,Laboratory Investigation,,,975.00,,,0.00,975.00
+Sample_Image (86).txt,Nursing and Midwifery Charge,,,100.00,,,0.00,100.00
+Sample_Image (86).txt,Packaged Medical Charge,,,200.00,,,0.00,200.00
+Sample_Image (86).txt,Other Medical Charges,,,650.00,,,0.00,650.00
+Sample_Image (86).txt,Physician Evaluation and Management Services,,,,,,,
+Sample_Image (87).txt,Nursing Care (Treatment Room) (RTK-AG) (Screening),1,,8.20,,23-JUN-2023,,8.20
+Sample_Image (87).txt,Registration,1,,20.00,,23-JUN-2023,,20.00
+Sample_Image (87).txt,Sample Handling/Processing (RTK-AG) (Screening),1,,18.50,,23-JUN-2023,,18.50
+Sample_Image (87).txt,Treatment Room / Facility Fee (RTK-AG) (Screening),1,,12.30,,23-JUN-2023,,12.30
+Sample_Image (87).txt,"Influenza Virus & RSV, PCR",1,,292.00,,23-JUN-2023,,292.00
+Sample_Image (87).txt,SARS-Cov-2 (Covid-19) (Screening),1,,79.20,,23-JUN-2023,,79.20
+Sample_Image (87).txt,Aerius Tab 5MG,7,,22.75,,23-JUN-2023,,159.25
+Sample_Image (87).txt,Fluhalt Cap 75MG,10,,14.65,,23-JUN-2023,,146.50
+Sample_Image (87).txt,Parace Tab 500MG,42,,25.00,,23-JUN-2023,,1050.00
+Sample_Image (87).txt,Strepsils Max Pro Direct Spray 15ML,1,,43.00,,23-JUN-2023,,43.00
+Sample_Image (87).txt,Strepsils Maxpro Loz 8.75MG 16S,1,,31.55,,23-JUN-2023,,31.55
+Sample_Image (87).txt,Consultation,1,,180.00,,23-JUN-2023,,180.00
+Sample_Image (88).txt,Doctor's Professional Fees,,,800.00,,,0.00,800.00
+Sample_Image (88).txt,Anaesthetist's Fee,,,0.00,,,,0.00
+Sample_Image (88).txt,Room Type 1,3,Hours,118.52,,,,355.56
+Sample_Image (88).txt,Daily Treatment Fee,,,137.04,,,,137.04
+Sample_Image (88).txt,Hospital & Surgical Charges,,,"1,320.00",,,,"1,320.00"
+Sample_Image (88).txt,Others,,,"1,300.00",,,,"1,300.00"
+Sample_Image (88).txt,Laboratory,,,800.00,,,,800.00
+Sample_Image (89).txt,Consultation,1,QTY,54.50,,,,29.30
+Sample_Image (89).txt,Dexamethasone HCL LOZ - (NS),48,QTY,24.00,,,,24.00
+Sample_Image (89).txt,Cysteine 600MG EFF TAB - (NS),8,QTY,3.20,,,,3.20
+Sample_Image (89).txt,Dextromethorphan 15MG/5ML SYR 200ML,1,QTY,3.50,,,,2.10
+Sample_Image (89).txt,Codeine TAB - (S1),10,QTY,1.70,,,,1.28
+Sample_Image (89).txt,Paracetamol 500MG TAB - (S1),120,QTY,9.60,,,,4.20
+Sample_Image (89).txt,Ibuprofen 200MG TAB - (S1),50,QTY,10.00,,,,2.10
+Sample_Image (89).txt,Tazoline 0.05% N/SPRY - (S1)-MSV,1,QTY,3.57,,,,2.68
+Sample_Image (89).txt,Clavulanic Acid 1G TAB - (S2),14,QTY,5.60,,,,4.20
+Sample_Image (89).txt,Lidocaine 10MG TAB - (S2)-MSV,30,QTY,10.50,,,,7.88
+Sample_Image (89).txt,Budesonide Furoate 50MCG N/SP - (S2)-,1,QTY,15.36,,,,11.52
+Sample_Image (90).txt,IV CHEMOTHERAPY INFUSION,1,QTY,44.2,,,,44.2
+Sample_Image (90).txt,PEGFILGRASTIM 6 MG/0.6 ML PF SYRINGE,1,QTY,144.63,,,,144.63
+Sample_Image (90).txt,METOCLOPRAMIDE 10MG TAB,20,QTY,4.4,,,,88.0
+Sample_Image (90).txt,DEXAMETHASONE 4MG TAB,6,QTY,0.99,,,,5.94
+Sample_Image (90).txt,DOXOrubicin HCL 50MG INJ,2,QTY,62.55,,,,125.1
+Sample_Image (90).txt,CYCLOPHOSPHAMIDE 1G INJ,1,QTY,21.22,,,,21.22
+Sample_Image (90).txt,DEXAMETHASONE 4MG/ML PF INJ,2,QTY,3.76,,,,7.52
+Sample_Image (90).txt,"NETUPITANT 300MG, PALONOSETRON 0.5MG CAP (AKYNZEO)",1,QTY,95.34,,,,95.34
+Sample_Image (90).txt,PREPARATION FEE,2,QTY,31.85,,,,63.7
+Sample_Image (90).txt,I/V START,1,QTY,31.85,,,,31.85
+Sample_Image (90).txt,<2 HRS PRIVATE,1,QTY,80.0,,,,80.0
+Sample_Image (91).txt,Consultation Services (SC - FV),,,,,,,140.00
+Sample_Image (91).txt,Full Blood Count,,,,,,,42.25
+Sample_Image (91).txt,Liver Panel,,,,,,,74.75
+Sample_Image (91).txt,Vitamin D (25 Hydroxy),,,,,,,89.70
+Sample_Image (91).txt,Renal Panel 1 Modified,,,,,,,59.15
+Sample_Image (91).txt,Iron Panel,,,,,,,83.46
+Sample_Image (91).txt,Thyroid Screen 1,,,,,,,68.90
+Sample_Image (91).txt,"Zinc, Serum",,,,,,,75.79
+Sample_Image (92).txt,LSCS WITH SPINAL 2 BEDDED,,,"2,204.00",,,,"2,204.00"
+Sample_Image (92).txt,ACCOMMODATION,,,656.00,,,,656.00
+Sample_Image (92).txt,DAILY TREATMENT FEES,,,420.00,,,,420.00
+Sample_Image (92).txt,BABY CARE SERVICE,,,220.00,,,,220.00
+Sample_Image (92).txt,OPERATING THEATRE CHARGES,,,211.00,,,,211.00
+Sample_Image (92).txt,MEDICATIONS,,,"1,776.10",,,,"1,776.10"
+Sample_Image (92).txt,MEDICAL SUPPLIES,,,"1,202.80",,,,"1,202.80"
+Sample_Image (92).txt,MEDICAL LABORATORY FEE,,,584.00,,,,584.00
+Sample_Image (92).txt,PROCEDURE,,,683.00,,,,683.00
+Sample_Image (92).txt,USE OF EQUIPMENT,,,25.00,,,,25.00
+Sample_Image (92).txt,DR ANG AI TIN (Operation Fee $810.00),,,810.00,,,,810.00
+Sample_Image (92).txt,DR TAN MARY (Operation Fee $1728.00),,,"1,728.00",,,,"1,728.00"
+Sample_Image (92).txt,"DR THAM WAI LUM BENJAMIN (Attendance Fee $486.00, Operation Fee $4428.00)",,,"4,914.00",,,,"4,914.00"
+Sample_Image (101).txt,Full Blood Examination (FBE),1,,25.42,65070*R,10-May-23,,25.42
+Sample_Image (101).txt,4 or More Coagulation Tests,1,,53.55,65129*R,10-May-23,,53.55
+Sample_Image (101).txt,Biochemistry 5+ Tests,1,,26.50,66152*R,10-May-23,,26.50
+Sample_Image (101).txt,Thyroid Function Tests,1,,22.60,66152*R,10-May-23,,22.60
+Sample_Image (101).txt,1 Microbial Antibody,1,,23.47,69384*R,10-May-23,,23.47
+Sample_Image (101).txt,Hepatitis Ab/Ag 3 Tests,1,,60.48,69481*R,10-May-23,,60.48
+Sample_Image (101).txt,Complement C3 & C4 2 Tests,1,,4.42,71085*R,10-May-23,,4.42
+Sample_Image (101).txt,Antinuclear Antibodies,1,,39.75,71097*R,10-May-23,,39.75
+Sample_Image (101).txt,Double-Stranded DNA Abs,1,,39.75,71100*R,10-May-23,,39.75
+Sample_Image (101).txt,Antibodies to 1 or more ENA,1,,26.10,71101*R,10-May-23,,26.10
+Sample_Image (101).txt,Spec Coll Fee - ACC,1,,30.15,73992*R,10-May-23,,30.15
+Sample_Image (101).txt,Biochemistry Quant. 2 Tests,1,,30.15,71202*R,10-May-23,,30.15
+Sample_Image (101).txt,Microalbumin,1,,30.15,71202*R,10-May-23,,30.15
+Sample_Image (101).txt,MC&S Urine,1,,30.15,71202*R,10-May-23,,30.15
+Sample_Image (101).txt,Histology Complex Lv 5 (1+ Specs),1,,411.42,1404-4381,11-May-23,,411.42
+Sample_Image (101).txt,HCV 7-10 Abs,1,,30.15,1404-4381,11-May-23,,30.15
+Sample_Image (101).txt,3 Coagulation Tests,1,,41.77,65126*R,11-May-23,,41.77
+Sample_Image (101).txt,Spec Coll Fee - APP & Hosp. IP,1,,3.60,73931*R,11-May-23,,3.60
+Sample_Image (101).txt,2 Microbial Antibodies,1,,43.30,69387*R,12-May-23,,43.30
+Sample_Image (101).txt,Quantiferon Gold TB,1,,52.35,69417*R,12-May-23,,52.35
+Sample_Image (101).txt,Epstein Barr Virus - 1,1,,25.35,69417*R,12-May-23,,25.35
+Sample_Image (101).txt,Spec Coll Fee - APP & Hosp. IP,1,,3.60,73931*R,12-May-23,,3.60
+Sample_Image (101).txt,CMV Viral Load,1,,180.00,39617*R,12-May-23,,180.00
+Sample_Image (101).txt,EBV Load,1,,75.00,39617*R,12-May-23,,75.00
+Sample_Image (101).txt,Full Blood Examination (FBE),1,,25.42,65070*R,15-May-23,,25.42
+Sample_Image (101).txt,Biochemistry 5+ Tests,1,,26.55,66152*R,15-May-23,,26.55
+Sample_Image (101).txt,Microalbumin,1,,30.15,71202*R,15-May-23,,30.15
+Sample_Image (101).txt,THR Drug Complex 1 Test,1,,30.15,71202*R,15-May-23,,30.15
+Sample_Image (101).txt,Spec Coll Fee -Onsite ACC,1,,3.60,73920*R,15-May-23,,3.60
+Sample_Image (103).txt,Doctor Fee 醫生費用,,,"$3,980",,10-06-2023,,"$3,980"
+Sample_Image (103).txt,TREATMENT/ASSOCIATE MATERIALS 治療及有關材料費,,,$415,,10-06-2023,,$415
+Sample_Image (104).txt,LABORATORY TEST(A),1,,"8,880.00",100,03/07/23,,"8,880.00"
+Sample_Image (104).txt,ECG EXAMINATION,1,,960.00,200,03/07/23,,960.00
+Sample_Image (104).txt,RADIOLOGY,1,,"2,610.00",300,03/07/23,,"2,610.00"
+Sample_Image (104).txt,COMPUTED TOMOGRAPHY,1,,"8,180.00",400,03/07/23,,"8,180.00"
+Sample_Image (104).txt,ECHOCARDIOGRAM,1,,"1,200.00",500,04/07/23,,"1,200.00"
+Sample_Image (104).txt,STRESS TEST,1,,"2,500.00",600,04/07/23,,"2,500.00"
+Sample_Image (104).txt,ULTRASOUND (O&G),1,,920.00,684,,,920.00
+Sample_Image (104).txt,DR. MUI,1,,"3,500.00",31811,03/07/23,,"3,500.00"
+Sample_Image (104).txt,DR. MUI,1,,"3,500.00",31811,04/07/23,,"3,500.00"
+Sample_Image (104).txt,DR. TANG,2,,"2,000.00",31811,04/07/23,,"4,000.00"
+Sample_Image (105).txt,DR. MUI (CHGL) (03/07/2023 ECG REPORTING),1,null,400.00,31811,04/07/23,null,400.00
+Thai_bill (1).txt,คำบรรยายตามใบประมูลเลขที่ 0005,1.00,ชิ้น,"9,000.00",T001,,,"9,000.00"
+Thai_bill (1).txt,คำบรรยายตามใบประมูลเลขที่ 0006,1.00,ชิ้น,"14,000.00",T001,,,"14,000.00"
+Thai_bill (1).txt,คำบรรยายตามใบประมูลเลขที่ 0007,1.00,ชิ้น,"9,000.00",T001,,,"9,000.00"
+Thai_bill (1).txt,คำบรรยายตามใบประมูลเลขที่ 0009,1.00,ชิ้น,"9,000.00",T001,,,"9,000.00"
+Thai_bill (1).txt,คำบรรยายตามใบประมูลเลขที่ 0015,1.00,ชิ้น,"9,000.00",T001,,,"9,000.00"
+Thai_bill (1).txt,คำบรรยายตามใบประมูลเลขที่ 0016,1.00,ชิ้น,"4,000.00",T001,,,"4,000.00"
+Thai_bill (1).txt,คำบรรยายตามใบประมูลเลขที่ 0021,1.00,ชิ้น,"14,000.00",T001,,,"14,000.00"
+Thai_bill (1).txt,คำบรรยายตามใบประมูลเลขที่ 0022,1.00,ชิ้น,"14,000.00",T001,,,"14,000.00"
+Thai_bill (2).txt,SUSPENSION FOR INJECTION,null,null,null,1C 90003/64 (NB),null,null,null
+Thai_bill (3).txt,Full Version,1,ชุด,950.00,1234567890123,22/2/2559,66.00,"1,016.50"
+Thai_bill (4).txt,Payment-KTB Internet,,,,,01/09/21,,"14,459.96"
+Thai_bill (4).txt,Payment-KBANK(004)Internet,,,,,11/09/21,,"18,981.74"
+Thai_bill (4).txt,Interest,,,,,,,"1,974.08"
+Thai_bill (5).txt,FSER00002 ค่าบริการรายเดือน,1.00,THB,500.00,FSER00002,null,null,500.00
+Thai_bill (6).txt,สินค้า: รหัสสินค้า 875/1,1,,200.00,,,,200.00
+Thai_bill (6).txt,สินค้า: รหัสสินค้า 875/2,5,,75.00,,,,375.00
+Thai_bill (6).txt,สินค้า: รหัสสินค้า 875/3,1,,50.00,,,,50.00
+Thai_bill (7).txt,คำอธิบายสินค้า,1.000,Units,499.00,63100,,34.93,499.00
+Thai_bill (8).txt,สินค้า: รหัสสินค้า 875/1,1,,200.00,,,,200.00
+Thai_bill (8).txt,สินค้า: รหัสสินค้า 875/2,5,,75.00,,,,375.00
+Thai_bill (8).txt,สินค้า: รหัสสินค้า 875/3,1,,50.00,,,,50.00
+Thai_bill (9).txt,สินค้า1,1,null,100.00,null,null,null,100.00
+Thai_bill (9).txt,สินค้า2,1,null,200.00,null,null,null,200.00
+Thai_bill (9).txt,สินค้า2,1,null,200.00,null,null,null,200.00
+Thai_bill (10).txt,Item 1: ABC CD,2.000 pieces,pieces,USD 50.00,,,USD 3.99,USD 100.00
+Thai_bill (10).txt,Item 2: DEF Product,1.000 kilograms,kilograms,USD 20.00,,,USD 1.00,USD 20.00
+Thai_bill (11).txt,สินค้ารายการแรก,2,กล่อง,40.0,,,,80.0
+Thai_bill (11).txt,สินค้ารายการที่สอง,10,แพ็ค,20.0,,,,200.0
+Thai_bill (12).txt,บริการการพัฒนา,2,รายการ,40.00,null,null,null,80.00
+Thai_bill (12).txt,บริการการพัฒนาเพิ่มเติม,10,รายการ,20.00,null,null,null,200.00
+Thai_bill (13).txt,ค่าบริการติดตั้งระบบไฟฟ้า,1,หน่วย,"10,000.00",,,,"10,000.00"
+Thai_bill (14).txt,ค่าบำรุงปี เดือน ส.ค.65,1.00,เดือน,"3,500.00",P00001,,,"3,500.00"
+Thai_bill (15).txt,ค่าบำรุงปี 2565,1.00,เดือน,"3,500.00",P00001,,,"3,500.00"
+Thai_bill (16).txt,Payment-KTB Intern,1,null,"14,459.96",null,01/09/21,null,"14,459.96"
+Thai_bill (16).txt,Payment-BANK(00),1,null,"22,225.36",null,01/09/21,null,"22,225.36"
+Thai_bill (16).txt,CASH ON TAP,1,null,"2,000.00",null,05/09/21,null,"2,000.00"
+Thai_bill (16).txt,CASH ON TAP,1,null,"10,000.00",null,07/09/21,null,"10,000.00"
+Thai_bill (16).txt,CASH ONLINE,1,null,"6,800.00",null,07/09/21,null,"6,800.00"
+Thai_bill (16).txt,CASH ONLINE,1,null,"3,000.00",null,14/09/21,null,"3,000.00"
+Thai_bill (16).txt,INTEREST,1,null,256.21,null,18/09/21,null,256.21
+Thai_bill (16).txt,USAGE FEE,1,null,170.15,null,18/09/21,null,170.15
+Thai_bill (17).txt,2Gbps Fibre 2000/1000 Mbps,1,month,"1,399.00",,21/12/2566,104.51,"1,593.51"
+Thai_bill (18).txt,Samsung Mobile S9,1,เครื่อง,"27,000.00",,,,"27,000.00"
+Thai_bill (18).txt,iPhone 8,1,เครื่อง,"21,900.00",,,,"21,900.00"
+Thai_bill (19).txt,ขายสินค้า,,,"3,835,431.05",BL5302-00001,22/03/2553,,"3,835,431.05"
+Thai_bill (19).txt,ลูกบี้เหล็ก,,,"100,000.00",ARIN5311-00002,31/01/2553,,"100,000.00"
+Thai_bill (19).txt,ลูกบี้อื่น ๆ,,,"149,526.08",SN5311-00001,22/03/2553,,"149,526.08"
+Thai_bill (19).txt,ลดหนี้ลูกหนี้,,,"-97,865.84",CNS302-00001,27/03/2553,,"-97,865.84"

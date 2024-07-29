@@ -1,90 +1,54 @@
-First Step:
-
-```markdown
-# Dental Centre - Woodleigh Invoice
-- **Invoice Number**: #WL M-5656
-- **Date**: 22/03/2024
-- **Reference Number**: 485143
-
-## Itemized Charges
-- **Item**: Consultation
-  - **Quantity**: 1
-  - **Unit Cost**: $120.00
-  - **Sub Total**: $120.00
-- **Item**: X-Rays (PA)
-  - **Quantity**: 1
-  - **Unit Cost**: $50.00
-  - **Sub Total**: $50.00
-- **Item**: Root Canal Treatment Stage 1 - Extirpation / Emergency Treatment
-  - **Quantity**: 1
-  - **Unit Cost**: $1,200.00
-  - **Sub Total**: $1,200.00
-- **Item**: Aroxia 120mg - tablet
-  - **Quantity**: 3
-  - **Unit Cost**: $5.00
-  - **Sub Total**: $15.00
-
-**Sub-Total**: $1,385.00
-**Total**: $1,385.00
-
-**Payment Method**: Visa
-**Amount Paid**: $1,385.00
-**Outstanding Balance**: $0.00
-
----
-
-*View your Medisave and/or Medishield Life Claim details online:* Login to mycpf online services with your SingPass at http://www.cpf.gov.sg and proceed to My Statement >> Section B>> Medisave/Medishield Life/Integrated Shield Plan Claims and Reimbursements. For more information, please visit http://www.cpf.gov.sg >> FAQ >> Healthcare.
-
-## Reimbursement Information for Employers and Insurers
-- Reimbursement should be made to cash outlay first, followed by Medisave, then Medishield Life OR the Integrated Shield PLan.
-- To make reimbursement to Medisave and Medishield Life, submit through internet at http://www.cpf.gov.sg and proceed to Employers >> Services >> Medisave/Medishield Life Reimbursement.
-- To reimbursement to an Integrated Shield Plan, please pay directly to the private insurer offering the Integrated Shield Plan."
-
----
-
-*Dental Centre - Woodleigh Address*: 900 Tampines Street 91, Singapore 528799
-*Contact Numbers*: +65 6760 0000 or +65 6760 0001
-```
-
-Second Step:
-
 ```json
 {
-  "Invoice": {
-    "Number": "#WL M-5656",
-    "Date": "22/03/2024",
-    "Reference": "485143"
-  },
-  "Charges": [
+  "CustomerName": "ZF",
+  "VendorName": "Dental Centre - Woodleigh",
+  "CustomerAddress": "1 Kadari Park Drive #02-11/12 The Woodleigh Mall Singapore 367803",
+  "VendorAddress": null,
+  "InvoiceDate": "22/03/2024",
+  "TotalTax": "$50.00",
+  "InvoiceTotal": "$1,385.00",
+  "AmountDue": "$1,385.00",
+  "Items": [
     {
-      "Description": "Consultation",
-      "Quantity": 1,
-      "Unit Cost": "$120.00",
-      "Subtotal": "$120.00"
+      "Description": "CONSULTATION",
+      "Quantity": "1",
+      "Unit": "",
+      "UnitPrice": "$120.00",
+      "ProductCode": null,
+      "Date": "22 Mar 2024",
+      "Tax": "$0.00",
+      "Amount": "$120.00"
     },
     {
-      "Description": "X-Rays (PA)",
-      "Quantity": 1,
-      "Unit Cost": "$50.00",
-      "Subtotal": "$50.00"
+      "Description": "X-RAYS (PA)",
+      "Quantity": "1",
+      "Unit": "",
+      "UnitPrice": "$50.00",
+      "ProductCode": null,
+      "Date": "22 Mar 2024",
+      "Tax": "$0.00",
+      "Amount": "$50.00"
     },
     {
       "Description": "Root Canal Treatment Stage 1 - Extirpation / Emergency Treatment",
-      "Quantity": 1,
-      "Unit Cost": "$1,200.00",
-      "Subtotal": "$1,200.00"
+      "Quantity": "1",
+      "Unit": "",
+      "UnitPrice": "$1,200.00",
+      "ProductCode": null,
+      "Date": "22 Mar 2024",
+      "Tax": "$0.00",
+      "Amount": "$1,200.00"
     },
     {
-      "Description": "Aroxia 120mg - tablet",
-      "Quantity": 3,
-      "Unit Cost": "$5.00",
-      "Subtotal": "$15.00"
+      "Description": "Arcoxia 120mg - tablet",
+      "Quantity": "3",
+      "Unit": "",
+      "UnitPrice": "$5.00",
+      "ProductCode": null,
+      "Date": "22 Mar 2024",
+      "Tax": "$0.00",
+      "Amount": "$15.00"
     }
-  ],
-  "Payment": {
-    "Method": "Visa",
-    "Amount": "$1,385.00",
-    "Balance": "$0.00"
-  },
-  "Additional_Information": {
-    "
+  ]
+}
+```

@@ -1,30 +1,24 @@
-First Step:
-
-```markdown
-# STATEMENT OF ACCOUNT
-
-| DATE | CODE | PARTICULARS                   | AMOUNT HKS | BALANCE HKS |
-|-------|------|---------------------------------|-------------|---------------|
-| 04/07/23 | 31811 | DR. MUI (03/07/2023 ECG REPORTING) TOTAL FEES DUE TO DOCTOR/PRIVATE NURSE 应付醫生或私家護士之總收費 | 400.00        | 13,000.00       |
-| GRAND TOTAL 總計 | - | - | 52,889.00 | - |
-| LESS DEPOSIT RECEIVED 减已收按金 | - | - | 4,000.00 | - |
-| PLEASE PAY THIS AMOUNT 請付此數 | - | - | 48,889.00 | - |
-| DISCHARGED [出院] | - | - | - | - |
-
-```
-
-Second Step:
-
 ```json
 {
-  "E & O.E.": {
-    "入院日期": "03/07/2023",
-    "出院日期": "04/07/2023"
-  },
-  "香港和醫院有限公司": {
-    "地址": "Hong Kong Sanatorium & Hospital Ltd
-2 Village Road, Happy Valley, Hong Kong
-Tel: (852) 2572 0211 Fax: (852) 2835 8006"
-  }
+  "CustomerName": "redacted",
+  "VendorName": "Hong Kong Sanatorium & Hospital Ltd",
+  "CustomerAddress": null,
+  "VendorAddress": "2 Village Road, Happy Valley, Hong Kong",
+  "InvoiceDate": "04/07/23",
+  "TotalTax": "5,691.00",
+  "InvoiceTotal": "58,589.00",
+  "AmountDue": "48,898.00",
+  "Items": [
+    {
+      "Description": "DR. MUI (03/07/2023 ECG REPORTING)",
+      "Quantity": "1.00",
+      "Unit": "(CHGL)",
+      "UnitPrice": "400.00",
+      "ProductCode": null,
+      "Date": "04/07/23",
+      "Tax": "0.00",
+      "Amount": "400.00"
+    }
+  ]
 }
 ```

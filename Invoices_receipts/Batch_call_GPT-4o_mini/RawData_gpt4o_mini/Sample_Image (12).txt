@@ -1,0 +1,86 @@
+```json
+{
+  "CustomerName": "FOX HONG",
+  "VendorName": "ST. TERESA'S HOSPITAL",
+  "CustomerAddress": null,
+  "VendorAddress": "327 PRINCE EDWARD ROAD, KOWLOON, HONG KONG",
+  "InvoiceDate": "01-Jan-2015",
+  "TotalTax": "HK$9,580",
+  "InvoiceTotal": "HK$46,492",
+  "AmountDue": "HK$46,492"
+}
+```
+```json
+[
+  {
+    "Description": "GASTROSCOPY",
+    "Quantity": 1,
+    "Unit": null,
+    "UnitPrice": "HK$2,518",
+    "ProductCode": null,
+    "Date": "02-Jan-2015",
+    "Tax": null,
+    "Amount": "HK$2,518"
+  },
+  {
+    "Description": "COLONOSCOPY",
+    "Quantity": 1,
+    "Unit": null,
+    "UnitPrice": "HK$3,853",
+    "ProductCode": null,
+    "Date": "02-Jan-2015",
+    "Tax": null,
+    "Amount": "HK$3,853"
+  },
+  {
+    "Description": "HISTOPATHOLOGICAL EXAMINATION",
+    "Quantity": 1,
+    "Unit": null,
+    "UnitPrice": "HK$667",
+    "ProductCode": null,
+    "Date": "02-Jan-2015",
+    "Tax": null,
+    "Amount": "HK$667"
+  },
+  {
+    "Description": "TREATMENT/ASSISTANCE MATERIALS",
+    "Quantity": 1,
+    "Unit": null,
+    "UnitPrice": "HK$1,034",
+    "ProductCode": null,
+    "Date": "02-Jan-2015",
+    "Tax": null,
+    "Amount": "HK$1,034"
+  },
+  {
+    "Description": "WARD ROUND FEE",
+    "Quantity": 1,
+    "Unit": null,
+    "UnitPrice": "HK$2,000",
+    "ProductCode": null,
+    "Date": "02-Jan-2015",
+    "Tax": null,
+    "Amount": "HK$2,000"
+  },
+  {
+    "Description": "ANAESTHETIC",
+    "Quantity": 1,
+    "Unit": null,
+    "UnitPrice": "HK$6,000",
+    "ProductCode": null,
+    "Date": "02-Jan-2015",
+    "Tax": null,
+    "Amount": "HK$6,000"
+  },
+  {
+    "Description": "DOCTOR FEE",
+    "Quantity": 1,
+    "Unit": null,
+    "UnitPrice": "HK$26,000",
+    "ProductCode": null,
+    "Date": "02-Jan-2015",
+    "Tax": null,
+    "Amount": "HK$26,000"
+  }
+]
+```

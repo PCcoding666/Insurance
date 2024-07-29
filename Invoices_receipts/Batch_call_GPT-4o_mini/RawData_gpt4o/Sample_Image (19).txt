@@ -1,0 +1,66 @@
+```json
+{
+  "CustomerName": null,
+  "VendorName": "Mount Elizabeth Hospital",
+  "CustomerAddress": null,
+  "VendorAddress": "3 Mount Elizabeth, Singapore 228510",
+  "InvoiceDate": "10.03.2024",
+  "TotalTax": "103.04",
+  "InvoiceTotal": "1,247.91",
+  "AmountDue": "1,247.91"
+}
+```
+```json
+[
+  {
+    "Description": "DEXTROMETHORPHAN 15MG/5ML 90ML SYRU",
+    "Quantity": "1",
+    "Unit": null,
+    "UnitPrice": null,
+    "ProductCode": "DEXT22",
+    "Date": "09.03.2024",
+    "Tax": null,
+    "Amount": "13.55"
+  },
+  {
+    "Description": "DIFFLAM FORTE THROAT 15ML MOUTH SPR",
+    "Quantity": "1",
+    "Unit": null,
+    "UnitPrice": null,
+    "ProductCode": "DIFF19",
+    "Date": "09.03.2024",
+    "Tax": null,
+    "Amount": "38.94"
+  },
+  {
+    "Description": "OMEPRAZOLE 20MG CAPSULES",
+    "Quantity": "10",
+    "Unit": null,
+    "UnitPrice": null,
+    "ProductCode": "OMEP3",
+    "Date": "09.03.2024",
+    "Tax": null,
+    "Amount": "23.30"
+  },
+  {
+    "Description": "PARACETAMOL 500mg TABLETS",
+    "Quantity": "18",
+    "Unit": null,
+    "UnitPrice": null,
+    "ProductCode": "PARA18",
+    "Date": "09.03.2024",
+    "Tax": null,
+    "Amount": "11.88"
+  },
+  {
+    "Description": "SYNFLEX 275MG TABLETS",
+    "Quantity": "20",
+    "Unit": null,
+    "UnitPrice": null,
+    "ProductCode": "SYNF1",
+    "Date": "09.03.2024",
+    "Tax": null,
+    "Amount": "27.00"
+  }
+]
+```

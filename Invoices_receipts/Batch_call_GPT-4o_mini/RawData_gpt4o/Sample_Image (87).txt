@@ -1,0 +1,136 @@
+```json
+{
+  "CustomerName": null,
+  "VendorName": null,
+  "CustomerAddress": null,
+  "VendorAddress": null,
+  "InvoiceDate": "23-JUN-2023",
+  "TotalTax": null,
+  "InvoiceTotal": "1148.20",
+  "AmountDue": null
+}
+```
+```json
+[
+  {
+    "Description": "NURSING CARE (TREATMENT ROOM) (RTK-AG) (SCREENING)",
+    "Quantity": "1",
+    "Unit": null,
+    "UnitPrice": "8.20",
+    "ProductCode": null,
+    "Date": "23-JUN-2023",
+    "Tax": null,
+    "Amount": "8.20"
+  },
+  {
+    "Description": "REGISTRATION",
+    "Quantity": "1",
+    "Unit": null,
+    "UnitPrice": "20.00",
+    "ProductCode": null,
+    "Date": "23-JUN-2023",
+    "Tax": null,
+    "Amount": "20.00"
+  },
+  {
+    "Description": "SAMPLE HANDLING/PROCESSING (RTK-AG) (SCREENING)",
+    "Quantity": "1",
+    "Unit": null,
+    "UnitPrice": "18.50",
+    "ProductCode": null,
+    "Date": "23-JUN-2023",
+    "Tax": null,
+    "Amount": "18.50"
+  },
+  {
+    "Description": "TREATMENT ROOM / FACILITY FEE (RTK-AG) (SCREENING)",
+    "Quantity": "1",
+    "Unit": null,
+    "UnitPrice": "12.30",
+    "ProductCode": null,
+    "Date": "23-JUN-2023",
+    "Tax": null,
+    "Amount": "12.30"
+  },
+  {
+    "Description": "INFLUENZA VIRUS & RSV, PCR",
+    "Quantity": "1",
+    "Unit": null,
+    "UnitPrice": "292.00",
+    "ProductCode": null,
+    "Date": "23-JUN-2023",
+    "Tax": null,
+    "Amount": "292.00"
+  },
+  {
+    "Description": "SARS-COV-2 AG (COVID-19) (SCREENING)",
+    "Quantity": "1",
+    "Unit": null,
+    "UnitPrice": "79.20",
+    "ProductCode": null,
+    "Date": "23-JUN-2023",
+    "Tax": null,
+    "Amount": "79.20"
+  },
+  {
+    "Description": "AERIUS TAB 5MG",
+    "Quantity": "7",
+    "Unit": null,
+    "UnitPrice": "22.75",
+    "ProductCode": null,
+    "Date": "23-JUN-2023",
+    "Tax": null,
+    "Amount": "22.75"
+  },
+  {
+    "Description": "FLUHALT CAP 75MG",
+    "Quantity": "10",
+    "Unit": null,
+    "UnitPrice": "146.50",
+    "ProductCode": null,
+    "Date": "23-JUN-2023",
+    "Tax": null,
+    "Amount": "146.50"
+  },
+  {
+    "Description": "PARACAP TAB 500MG",
+    "Quantity": "42",
+    "Unit": null,
+    "UnitPrice": "25.20",
+    "ProductCode": null,
+    "Date": "23-JUN-2023",
+    "Tax": null,
+    "Amount": "25.20"
+  },
+  {
+    "Description": "STREPSILS MAX PRO DIRECT SPRAY 15ML",
+    "Quantity": "1",
+    "Unit": null,
+    "UnitPrice": "43.00",
+    "ProductCode": null,
+    "Date": "23-JUN-2023",
+    "Tax": null,
+    "Amount": "43.00"
+  },
+  {
+    "Description": "STREPSILS MAXPRO LOZ 8.75MG 16S",
+    "Quantity": "1",
+    "Unit": null,
+    "UnitPrice": "31.55",
+    "ProductCode": null,
+    "Date": "23-JUN-2023",
+    "Tax": null,
+    "Amount": "31.55"
+  },
+  {
+    "Description": "CONSULTATION",
+    "Quantity": "1",
+    "Unit": null,
+    "UnitPrice": "180.00",
+    "ProductCode": null,
+    "Date": "23-JUN-2023",
+    "Tax": null,
+    "Amount": "180.00"
+  }
+]
+```

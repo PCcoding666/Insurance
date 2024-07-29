@@ -1,58 +1,100 @@
-First Step:
-
-```markdown
-# Hospital Invoice Sample 1 - Gastroscopy & Colonoscopy Case
-
-| 日期 DATE                   | 29-Jul-2015 12:07:16                        |
-|---------------------------|----------------------------------------------|
-| 姓名 NAME                  | 福安 Fook An Hong (0000)                      |
-| 病人编号 PATIENT NO.       | HN2015000009J                               |
-| 入院日期 ADMISSION DATE    | 01-Jan-2015                                 |
-| 出院日期 DISCHARGE DATE   | 02-Jan-2015                                 |
-
-| 项目 PARTICULARS          | 金额 AMOUNT (HK$)                             |
-|---------------------------|----------------------------------------------|
-| 心电图检查 E.C.G. EXAMINATION | $425                                        |
-| 化验费 LABORATORY CHARGE  | $3,855                                      |
-| 入院服务费 ADMISSION SERVICE CHARGE | $1,800                                      |
-| 病房费 BEDROOM CHARGE      | $575                                        |
-| 压力测试 STRESS TEST        | $2,420                                      |
-
-| 胃镜/肠镜检查 ENDOSCOPIC CHARGE-GASTROESCOPY | $2,518                                      |
-| 结肠镜检查 ENDOSCOPIC CHARGE-COLONOSCOPY | $3,853                                      |
-| 病理检验 HISTOPATHOLOGICAL EXAMINATION | $2,840                                      |
-| 药物/注射费 MEDICINE/INJECTION TREATMENT/ASSOCIATE MATERIALS | $867                                        |
-| 治疗及有关物料费 TOTAL HOSPITAL CHARGES | $1,034                                      |
-
-| 医生费用 TOTAL DOCTOR FEE ($) |                                                |
-| 陈大文医生 DR. CHAN TAI MAN | $2,000                                      |
-| 李大文医生 DR. LEE TAI MAN | $18,000                                      |
-| 麻醉师 ANAESTHETIC        | $6,000                                      |
-
-| 总费用 GRAND TOTAL         |                                                |
-| 总额總計 TOTAL BALANCE DUE  | $46,492                                      |
-
-**备注：**
-1. 本账单须於出院後一小时内付款，如未能在出院時和付，出院时须预付给帐单。
-2. 如於帐单开出后30天内未缴清帐单，将收取利息。
-3. 以上收费之差额，若其差额已超过$500，方可作有效收据。
-4. 未经本院书面同意，此收据不可作为抵销的凭据。
-5. 出院帐单如有差错，请保留此收据以供查证。
-
-Interim account, when presented, must be settled within 24 hours. Deposit will be offset in the final account.Final account must be settled upon patient's discharge.Out-Patient account must be settled after consultation.No official receipt will be issued.The Hospital reserves the right to impose surcharge on the overdue accounts.The Hospital reserves the right to subsequently bill any undercharge.
-
-### E. & O.E.
-
-(1) 上述客票样本以本院標准房住院收费為基准，所有數據只作参考用途。
-(2) 各项的费用乃根据病房的情况、个案、手术的复杂性及个别醫生所签定之收費等因素而有所改动。
-
-*(1) The above sample invoice is derived from charges of in-patient in Standard Ward ("SW") accommodation. All information should be used for reference only.*
-*(2) The exact charges would be subject to change in accordance with patient's condition, case, surgery complexity and doctor's decision on fee etc. No charge incurred.*
-
-Second Step:
-
 ```json
 {
-  "Patient Information": {
-    "Name": "Fook An Hong",
-    "Patient Number": "HN201500000
+  "CustomerName": "FOOK AN HONG",
+  "VendorName": "聖德肋撒醫院 ST. TERESA'S HOSPITAL",
+  "CustomerAddress": "327 PRINCE EDWARD ROAD, KOWLOON, HONG KONG",
+  "VendorAddress": "327 PRINCE EDWARD ROAD, KOWLOON, HONG KONG",
+  "InvoiceDate": "29-Jul-2015 12:07:16",
+  "TotalTax": "$425",
+  "InvoiceTotal": "$9,580",
+  "AmountDue": "$9,580",
+  "Items": [
+    {
+      "Description": "E.C.G. EXAMINATION",
+      "Quantity": "1.00",
+      "Unit": "",
+      "UnitPrice": "$425",
+      "ProductCode": "",
+      "Date": "01-Jan-2015",
+      "Tax": "",
+      "Amount": "$425"
+    },
+    {
+      "Description": "LABORATORY TEST",
+      "Quantity": "1.00",
+      "Unit": "",
+      "UnitPrice": "$585",
+      "ProductCode": "",
+      "Date": "02-Jan-2015",
+      "Tax": "",
+      "Amount": "$585"
+    },
+    {
+      "Description": "ADMISSION SERVICE CHARGE",
+      "Quantity": "1.00",
+      "Unit": "",
+      "UnitPrice": "$420",
+      "ProductCode": "",
+      "Date": "02-Jan-2015",
+      "Tax": "",
+      "Amount": "$420"
+    },
+    {
+      "Description": "BED/ROOM CHARGE",
+      "Quantity": "1.00",
+      "Unit": "",
+      "UnitPrice": "$1,800",
+      "ProductCode": "",
+      "Date": "02-Jan-2015",
+      "Tax": "",
+      "Amount": "$1,800"
+    },
+    {
+      "Description": "STRESS TEST",
+      "Quantity": "1.00",
+      "Unit": "",
+      "UnitPrice": "$560",
+      "ProductCode": "",
+      "Date": "02-Jan-2015",
+      "Tax": "",
+      "Amount": "$560"
+    },
+    {
+      "Description": "ENDOSCOPIC CHARGE-GASTROESOPHAGY",
+      "Quantity": "1.00",
+      "Unit": "",
+      "UnitPrice": "$2,518",
+      "ProductCode": "",
+      "Date": "02-Jan-2015",
+      "Tax": "",
+      "Amount": "$2,518"
+    },
+    {
+      "Description": "ENDOSCOPIC CHARGE-COLONOSCOPY",
+      "Quantity": "1.00",
+      "Unit": "",
+      "UnitPrice": "$3,853",
+      "ProductCode": "",
+      "Date": "02-Jan-2015",
+      "Tax": "",
+      "Amount": "$3,853"
+    },
+    {
+      "Description": "HISTOPATHOLOGICAL EXAMINATION",
+      "Quantity": "1.00",
+      "Unit": "",
+      "UnitPrice": "$2,840",
+      "ProductCode": "",
+      "Date": "02-Jan-2015",
+      "Tax": "",
+      "Amount": "$2,840"
+    },
+    {
+      "Description": "MEDICINE/INJECTION",
+      "Quantity": "1.00",
+      "Unit": "",
+      "UnitPrice": "$867",
+      "ProductCode": "",
+      "Date": "02-Jan-2015",
+      "Tax": "",
+      "Amount

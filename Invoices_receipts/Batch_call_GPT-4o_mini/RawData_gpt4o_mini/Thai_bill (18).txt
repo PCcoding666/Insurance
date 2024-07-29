@@ -1,0 +1,36 @@
+```json
+{
+  "CustomerName": "codebee2014@gmail.com",
+  "VendorName": "บริษัท มัณฑ์เพชรพลอย จำกัด",
+  "CustomerAddress": "41 / 94 ปากเกร็ด นนทบุรี 11120",
+  "VendorAddress": "99/9 ปากเกร็ด อำเภอเมือง นนทบุรี 60000",
+  "InvoiceDate": "05-11-2020",
+  "TotalTax": null,
+  "InvoiceTotal": "48,000.00",
+  "AmountDue": "48,000.00"
+}
+```
+```json
+[
+  {
+    "Description": "Samsung Mobile S9",
+    "Quantity": "1",
+    "Unit": "เครื่อง",
+    "UnitPrice": "27,000.00",
+    "ProductCode": null,
+    "Date": null,
+    "Tax": null,
+    "Amount": "27,000.00"
+  },
+  {
+    "Description": "iPhone 8",
+    "Quantity": "1",
+    "Unit": "เครื่อง",
+    "UnitPrice": "21,900.00",
+    "ProductCode": null,
+    "Date": null,
+    "Tax": null,
+    "Amount": "21,900.00"
+  }
+]
+```

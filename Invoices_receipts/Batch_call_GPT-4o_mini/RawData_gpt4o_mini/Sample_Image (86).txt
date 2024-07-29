@@ -1,0 +1,76 @@
+```json
+{
+  "CustomerName": "JARUNEE NEDARUN",
+  "VendorName": "HUA CHIEW HOSPITAL",
+  "CustomerAddress": null,
+  "VendorAddress": null,
+  "InvoiceDate": "13/03/2024",
+  "TotalTax": "0.00",
+  "InvoiceTotal": "2974.00",
+  "AmountDue": "2974.00"
+}
+```
+```json
+[
+  {
+    "Description": "Drugs and Medical Nutrition",
+    "Quantity": null,
+    "Unit": null,
+    "UnitPrice": "1049.00",
+    "ProductCode": null,
+    "Date": null,
+    "Tax": "0.00",
+    "Amount": "1049.00"
+  },
+  {
+    "Description": "Laboratory Investigation",
+    "Quantity": null,
+    "Unit": null,
+    "UnitPrice": "975.00",
+    "ProductCode": null,
+    "Date": null,
+    "Tax": "0.00",
+    "Amount": "975.00"
+  },
+  {
+    "Description": "Nursing and Midwifery Charge",
+    "Quantity": null,
+    "Unit": null,
+    "UnitPrice": "100.00",
+    "ProductCode": null,
+    "Date": null,
+    "Tax": "0.00",
+    "Amount": "100.00"
+  },
+  {
+    "Description": "Packaged Medical Charge",
+    "Quantity": null,
+    "Unit": null,
+    "UnitPrice": "200.00",
+    "ProductCode": null,
+    "Date": null,
+    "Tax": "0.00",
+    "Amount": "200.00"
+  },
+  {
+    "Description": "Other Medical Charges",
+    "Quantity": null,
+    "Unit": null,
+    "UnitPrice": "650.00",
+    "ProductCode": null,
+    "Date": null,
+    "Tax": "0.00",
+    "Amount": "650.00"
+  },
+  {
+    "Description": "Physician Evaluation and Management Services",
+    "Quantity": null,
+    "Unit": null,
+    "UnitPrice": null,
+    "ProductCode": null,
+    "Date": null,
+    "Tax": null,
+    "Amount": null
+  }
+]
+```

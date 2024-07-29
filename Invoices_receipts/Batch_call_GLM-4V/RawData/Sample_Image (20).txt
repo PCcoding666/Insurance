@@ -1,29 +1,84 @@
-First Step:
-
-```markdown
-| BILL REF. NO. | BILL DATE | LOCATION | ADMISSION DATE | DISCHARGE DATE | TOTAL AMOUNT (BEFORE GST) | 8% GST | Transferred In Charges | TOTAL AMOUNT | Payable by OTHER SCHEMES | TOTAL AMOUNT PAYABLE | Net Payment made | Adjustment(s) | CREDIT BALANCE |
-|------------------|-------------|-----------|------------------|------------------|-------------------------|---------|-----------------------|---------------|-------------------------|----------------------|------------------|------------------|------------------|
-| 152657304E       | 07 NOV 2023  | TEMPORARY PANDEMIC WARD | 30 OCT 2023 08:29 PM | 01 NOV 2023 01:36 PM | 3,319.17                | $265.53 | 140.00               | 3,724.70      | -3,324.86              | -399.84             | -1,500.00        | -0.04           | -1,100.20        |
-```
-
-Second Step:
-
 ```json
 {
-  "BILL_REF_NO": "152657304E",
-  "BILL_DATE": "07 NOV 2023",
-  "LOCATION": "TEMPORARY PANDEMIC WARD",
-  "ADMISSION_DATE": "30 OCT 2023 08:29 PM",
-  "DISCHARGE_DATE": "01 NOV 2023 01:36 PM",
-  "TOTAL_AMOUNT_BEFORE_GST": "3,319.17",
-  "GST_PERCENTAGE": "8%",
-  "GST_AMOUNT": "$265.53",
-  "TRANSFER_IN_CHARGES": "140.00",
-  "TOTAL_AMOUNT": "3,724.70",
-  "PAYABLE_BY_OTHER_SCHEMES": "-3,324.86",
-  "TOTAL_AMOUNT_PAYABLE": "-399.84",
-  "NET_PAYMENT_MADE": "-1,500.00",
-  "ADJUSTMENTS": "-0.04",
-  "CREDIT_BALANCE": "-1,100.20"
+  "CustomerName": "MISS CENT SINGA",
+  "VendorName": "National University Hospital",
+  "CustomerAddress": null,
+  "VendorAddress": "15 Lower Kent Ridge Road, Singapore 119076",
+  "InvoiceDate": "27 Nov 2023",
+  "TotalTax": "$265.53",
+  "InvoiceTotal": "$3,724.70",
+  "AmountDue": "-$1,100.20",
+  "Items": [
+    {
+      "Description": "Class B2 (2 DAYS)",
+      "Quantity": "1.00",
+      "Unit": "DAY",
+      "UnitPrice": "$600.00",
+      "ProductCode": null,
+      "Date": "30 Oct 2023",
+      "Tax": "$265.53",
+      "Amount": "$600.00"
+    },
+    {
+      "Description": "Class B2 (2 DAYS)",
+      "Quantity": "1.00",
+      "Unit": "DAY",
+      "UnitPrice": "$328.00",
+      "ProductCode": null,
+      "Date": "30 Oct 2023",
+      "Tax": "$140.00",
+      "Amount": "$328.00"
+    },
+    {
+      "Description": "Laboratory",
+      "Quantity": "1.00",
+      "Unit": "TEST",
+      "UnitPrice": "$142.60",
+      "ProductCode": null,
+      "Date": "30 Oct 2023",
+      "Tax": "$0.00",
+      "Amount": "$142.60"
+    },
+    {
+      "Description": "Specialised X-ray",
+      "Quantity": "1.00",
+      "Unit": "X-RAY",
+      "UnitPrice": "$260.51",
+      "ProductCode": null,
+      "Date": "30 Oct 2023",
+      "Tax": "$0.00",
+      "Amount": "$260.51"
+    },
+    {
+      "Description": "Non Standard Medications",
+      "Quantity": "1.00",
+      "Unit": "PACKAGE",
+      "UnitPrice": "$11.75",
+      "ProductCode": null,
+      "Date": "30 Oct 2023",
+      "Tax": "$0.00",
+      "Amount": "$11.75"
+    },
+    {
+      "Description": "Standard Medications",
+      "Quantity": "1.00",
+      "Unit": "PACKAGE",
+      "UnitPrice": "$27.59",
+      "ProductCode": null,
+      "Date": "30 Oct 2023",
+      "Tax": "$0.00",
+      "Amount": "$27.59"
+    },
+    {
+      "Description": "Ward/Clinic/Other Procedures",
+      "Quantity": "1.00",
+      "Unit": "SERVICE",
+      "UnitPrice": "$202.01",
+      "ProductCode": null,
+      "Date": "30 Oct 2023",
+      "Tax": "$0.00",
+      "Amount": "$202.01"
+    }
+  ]
 }
 ```

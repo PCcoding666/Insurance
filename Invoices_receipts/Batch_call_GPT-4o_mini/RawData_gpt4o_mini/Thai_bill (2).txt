@@ -1,0 +1,26 @@
+```json
+{
+  "CustomerName": "null",
+  "VendorName": "SINOVAC LIFE SCIENCES CO., LTD.",
+  "CustomerAddress": "null",
+  "VendorAddress": "21 ถนน TIANFU STREET หมู่ 1 ตำบล/แขวง DAXING DISTRICT",
+  "InvoiceDate": "22 กุมภาพันธ์ พ.ศ. 2564",
+  "TotalTax": "null",
+  "InvoiceTotal": "null",
+  "AmountDue": "null"
+}
+```
+```json
+[
+  {
+    "Description": "SUSPENSION FOR INJECTION",
+    "Quantity": "null",
+    "Unit": "null",
+    "UnitPrice": "null",
+    "ProductCode": "1C 90003/64 (NB)",
+    "Date": "null",
+    "Tax": "null",
+    "Amount": "null"
+  }
+]
+```

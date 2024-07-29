@@ -1,66 +1,104 @@
-### Step 1: Extract the text in the image and return with markdown format
-```markdown
-# THOMSON MEDICAL
-## INTERIM BILL
-- BILL NO : [Redacted]
-- DATE : 05/04/2023
-- ACCOUNT NO : [Redacted]
-- GST REG. No : [Redacted]
-
-| PATIENT NAME | HOSPITAL NO. | EPISODE NO. | RM NO. | PAYER TYPE |
-|------------------|---------------|----------------|--------|--------------|
-| [Redacted]      |                | 1              | 320B   | H            |
-
-### HOSPITAL CHARGES
-| LCSCS WITH SPINAL 2 BEDDED | AMOUNT |
-| ACCOMMODATION                  | 656.00 |
-| DAILY TREATMENT FEES          | 420.00 |
-| BABY CARE SERVICE               | 221.00 |
-| OPERATING THEATRE CHARGES    | 1,776.10 |
-| MEDICATIONS                   | 1,776.10 |
-| MEDICAL SUPPLIES               | 1,202.80 |
-| PROCEDURE                      | 584.00 |
-| USE OF EQUIPMENT               | 683.00 |
-| TOTAL HOSPITAL CHARGES        | 7,981.90 |
-| GST                            | 638.55 |
-| TOTAL CHARGES INCLUSIVE OF GST | 8,620.45 |
-
-### DOCTOR FEES
-| DR ANG AI TIN (Operation Fee $810.00) | 810.00 |
-| DR TAN MARY (Operation Fee $1728.00) | 1,728.00 |
-| DR THAM WAI LUM BENJAMIN (Attendance Fee $486.00, Operation Fee $4428.00) | 4,914.00 |
-| TOTAL DOCTOR FEES                | 7,452.00 |
-
-## GRAND TOTAL
-| DEPOSIT / PAYMENTS RECEIVED      | -8,000.00 |
-| TOTAL PAYMENT RECEIVED          | -8,000.00 |
-| AMOUNT PAYABLE TO DR THAM WAI LUM BENJAMIN AT CLINIC | -1,296.00 |
-
-### PAYMENT REQUIRED
-| DR ANG AI TIN fees $810.00, instruction 'To Collect' $810.00 |
-| ADMISSION DATE : 03/04/2023 00:45 |
-| DISCHARGE DATE : 05/04/2023 09:43 |
-
-#### Thomson Medical Pte. Ltd.
-339 Thomson Road, Singapore 307677
-T +65 6350 2222 F +65 6253 4408
-W www.thomsonmedical.com
-Registered Number: 19710220K
-
-Page 1 of 2 SYS PRINTED ON 06/04/2023 12:03
-```
-
-### Step 2: Extract the key field information from the text and return in JSON format
 ```json
 {
-  "INTERIM_BILL": {
-    "BILL_NO": "[Redacted]",
-    "DATE": "05/04/2023",
-    "ACCOUNT_NO": "[Redacted]",
-    "GST_REGISTRATION_NUMBER": "[Redacted]"
-  },
-  "HOSPITAL_CHARGES": {
-    "LCSCS_WITH_SPINAL_2_BEDDED": {
-      "AMOUNT": 2204.00
+  "CustomerName": null,
+  "VendorName": "THOMSON MEDICAL",
+  "CustomerAddress": null,
+  "VendorAddress": "339 Thomson Road, Singapore 307677",
+  "InvoiceDate": "05/04/2023",
+  "TotalTax": "638.55",
+  "InvoiceTotal": "8,620.45",
+  "AmountDue": "6,776.45",
+  "Items": [
+    {
+      "Description": "LSCS WITH SPINAL 2 BEDDED",
+      "Quantity": "1",
+      "Unit": "",
+      "UnitPrice": "2,204.00",
+      "ProductCode": "",
+      "Date": "03/04/2023",
+      "Tax": "",
+      "Amount": "2,204.00"
     },
-    "ACCOMMODATION": 656
+    {
+      "Description": "ACCOMMODATION",
+      "Quantity": "1",
+      "Unit": "",
+      "UnitPrice": "656.00",
+      "ProductCode": "",
+      "Date": "03/04/2023",
+      "Tax": "",
+      "Amount": "656.00"
+    },
+    {
+      "Description": "DAILY TREATMENT FEES",
+      "Quantity": "1",
+      "Unit": "",
+      "UnitPrice": "420.00",
+      "ProductCode": "",
+      "Date": "03/04/2023",
+      "Tax": "",
+      "Amount": "420.00"
+    },
+    {
+      "Description": "BABY CARE SERVICE",
+      "Quantity": "1",
+      "Unit": "",
+      "UnitPrice": "221.00",
+      "ProductCode": "",
+      "Date": "03/04/2023",
+      "Tax": "",
+      "Amount": "221.00"
+    },
+    {
+      "Description": "OPERATING THEATRE CHARGES",
+      "Quantity": "1",
+      "Unit": "",
+      "UnitPrice": "1,776.10",
+      "ProductCode": "",
+      "Date": "03/04/2023",
+      "Tax": "",
+      "Amount": "1,776.10"
+    },
+    {
+      "Description": "MEDICATIONS",
+      "Quantity": "1",
+      "Unit": "",
+      "UnitPrice": "1,202.80",
+      "ProductCode": "",
+      "Date": "03/04/2023",
+      "Tax": "",
+      "Amount": "1,202.80"
+    },
+    {
+      "Description": "MEDICAL SUPPLIES",
+      "Quantity": "1",
+      "Unit": "",
+      "UnitPrice": "584.00",
+      "ProductCode": "",
+      "Date": "03/04/2023",
+      "Tax": "",
+      "Amount": "584.00"
+    },
+    {
+      "Description": "PROCEDURE",
+      "Quantity": "1",
+      "Unit": "",
+      "UnitPrice": "683.00",
+      "ProductCode": "",
+      "Date": "03/04/2023",
+      "Tax": "",
+      "Amount": "683.00"
+    },
+    {
+      "Description": "USE OF EQUIPMENT",
+      "Quantity": "1",
+      "Unit": "",
+      "UnitPrice": "25.00",
+      "ProductCode": "",
+      "Date": "03/04/2023",
+      "Tax": "",
+      "Amount": "25.00"
+    }
+  ]
+}
+```

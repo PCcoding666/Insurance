@@ -1,114 +1,35 @@
-First Step:
-
-```markdown
-# Invoice/Tax Invoice/Delivery Order
-
-### Company Information
-Company Name: [Thai Text]
-Address: [Thai Text]
-Tax Identification Number: 0305781062025
-
-### Document Details
-Document Type: INVOICE/TAX INVOICE/DELIVERY ORDER
-Document Number: 00001
-Date of Issue: 64/3 ปี 10 เมษายน พ.ศ. 64
-Date of Delivery: 64/3 ปี 10 เมษายน พ.ศ. 64
-
-### Payment Terms
-Payment Term: 0%
-Due Date: 30 สิงหาคม 64
-
-### Items
-- Item Code: TO01
-  - Description: [Thai Text]
-  - Quantity: 1.00
-  - Unit Price: 9,000.00
-  - Amount: 9,000.00
-  - VAT Rate: 0%
-  - VAT Amount: 0.00
-  - Total Amount Including VAT: 9,000.00
-
-- Item Code: TO01
-  - Description: [Thai Text]
-  - Quantity: 1.00
-  - Unit Price: 14,000.00
-  - Amount: 14,000.00
-  - VAT Rate: 0%
-  - VAT Amount: 0.00
-  - Total Amount Including VAT: 14,000.00
-
-- Item Code: TO01
-  - Description: [Thai Text]
-  - Quantity: 1.00
-  - Unit Price: 9,000.00
-  - Amount: 9,000.00
-  - VAT Rate: 0%
-  - VAT Amount: 0.00
-  - Total Amount Including VAT: 9,000.00
-
-- Item Code: TO01
-  - Description: [Thai Text]
-  - Quantity: 1.00
-  - Unit Price: 9,000.00
-  - Amount: 9,000.00
-  - VAT Rate: 0%
-  - VAT Amount: 0.00
-  - Total Amount Including VAT: 9,000.00
-
-- Item Code: TO01
-  - Description: [Thai Text]
-  - Quantity: 1.00
-  - Unit Price: 14,000.00
-  - Amount: 14,000.00
-  - VAT Rate: 0%
-  - VAT Amount: 0.00
-  - Total Amount Including VAT: 14,000.00
-
-- Item Code: TO01
-  - Description: [Thai Text]
-  - Quantity: 1.00
-  - Unit Price: 9,000.00
-  - Amount: 9,000.00
-  - VAT Rate: 0%
-  - VAT Amount: 0.00
-  - Total Amount Including VAT: 9,000.00
-
-- Item Code: TO01
-  - Description: [Thai Text]
-  - Quantity: 1.00
-  - Unit Price: 14,000.00
-  - Amount: 14,000.00
-  - VAT Rate: 0%
-  - VAT Amount: 0.00
-  - Total Amount Including VAT: 14,000.00
-
-Total Amount Before Tax: 87,000.00
-Total VAT Amount: 0.00
-Total Amount Including VAT: 87,000.00
-
-### Additional Information
-Additional Notes: [Thai Text]
-
----
-
-[Thai Text]
-
----
-
-[Thai Text]
-
----
-
-[Thai Text]
-
----
-
-[Thai Text]
-
----
-
-[Thai Text]
-
----
-
-[Thai
+```json
+{
+  "CustomerName": "ไม่รูป",
+  "VendorName": "ไม่รูป",
+  "CustomerAddress": "ไม่รูป",
+  "VendorAddress": "ไม่รูป",
+  "InvoiceDate": "31/01/56",
+  "TotalTax": "87,000.00",
+  "InvoiceTotal": "87,000.00",
+  "AmountDue": "87,000.00",
+  "Items": [
+    {
+      "Description": "สินค้าเลขที่ 0005",
+      "Quantity": "1.00",
+      "Unit": "ไม่รูป",
+      "UnitPrice": "9,000.00",
+      "ProductCode": "TO01",
+      "Date": "31/01/56",
+      "Tax": "9,000.00",
+      "Amount": "9,000.00"
+    },
+    {
+      "Description": "สินค้าเลขที่ 0006",
+      "Quantity": "1.00",
+      "Unit": "ไม่รูป",
+      "UnitPrice": "14,000.00",
+      "ProductCode": "TO01",
+      "Date": "31/01/56",
+      "Tax": "14,000.00",
+      "Amount": "14,000.00"
+    },
+    // ... and so on for other items ...
+  ]
+}
+```

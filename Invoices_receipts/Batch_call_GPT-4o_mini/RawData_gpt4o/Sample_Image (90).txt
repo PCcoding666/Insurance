@@ -1,0 +1,116 @@
+```json
+{
+  "CustomerName": null,
+  "VendorName": null,
+  "CustomerAddress": null,
+  "VendorAddress": null,
+  "InvoiceDate": null,
+  "TotalTax": null,
+  "InvoiceTotal": "218.59",
+  "AmountDue": "80.00"
+}
+```
+```json
+[
+  {
+    "Description": "IV CHEMOTHERAPY INFUSION",
+    "Quantity": "1",
+    "Unit": "QTY",
+    "UnitPrice": null,
+    "ProductCode": null,
+    "Date": null,
+    "Tax": null,
+    "Amount": "44.20"
+  },
+  {
+    "Description": "PEGFILGRASTIM 6 MG/ 0.6 ML PF SYRINGE",
+    "Quantity": "1",
+    "Unit": "QTY",
+    "UnitPrice": null,
+    "ProductCode": null,
+    "Date": null,
+    "Tax": null,
+    "Amount": "144.63"
+  },
+  {
+    "Description": "METOCLOPRAMIDE 10MG TAB",
+    "Quantity": "20",
+    "Unit": "QTY",
+    "UnitPrice": null,
+    "ProductCode": null,
+    "Date": null,
+    "Tax": null,
+    "Amount": "4.40"
+  },
+  {
+    "Description": "DEXAMETHASONE 4MG TAB",
+    "Quantity": "6",
+    "Unit": "QTY",
+    "UnitPrice": null,
+    "ProductCode": null,
+    "Date": null,
+    "Tax": null,
+    "Amount": "0.99"
+  },
+  {
+    "Description": "DOXOrubicin HCL 50MG INJ",
+    "Quantity": "2",
+    "Unit": "QTY",
+    "UnitPrice": null,
+    "ProductCode": null,
+    "Date": null,
+    "Tax": null,
+    "Amount": "62.55"
+  },
+  {
+    "Description": "CYCLOPHOSPHAMIDE 1G INJ",
+    "Quantity": "1",
+    "Unit": "QTY",
+    "UnitPrice": null,
+    "ProductCode": null,
+    "Date": null,
+    "Tax": null,
+    "Amount": "21.22"
+  },
+  {
+    "Description": "DEXAMETHASONE 4MG/ML PF INJ",
+    "Quantity": "2",
+    "Unit": "QTY",
+    "UnitPrice": null,
+    "ProductCode": null,
+    "Date": null,
+    "Tax": null,
+    "Amount": "3.76"
+  },
+  {
+    "Description": "NETUPITANT 300MG, PALONOSETRON 0.5MG CAP (AKYNZEO)",
+    "Quantity": "1",
+    "Unit": "QTY",
+    "UnitPrice": null,
+    "ProductCode": null,
+    "Date": null,
+    "Tax": null,
+    "Amount": "95.34"
+  },
+  {
+    "Description": "PREPARATION FEE",
+    "Quantity": "2",
+    "Unit": "QTY",
+    "UnitPrice": null,
+    "ProductCode": null,
+    "Date": null,
+    "Tax": null,
+    "Amount": "176.00"
+  },
+  {
+    "Description": "I/V START",
+    "Quantity": "1",
+    "Unit": "QTY",
+    "UnitPrice": null,
+    "ProductCode": null,
+    "Date": null,
+    "Tax": null,
+    "Amount": "31.85"
+  }
+]
+```

@@ -1,0 +1,96 @@
+```json
+{
+  "CustomerName": "นายไพฑูรย์จินดา",
+  "VendorName": "หจก.ไพฑูรย์จินดา",
+  "CustomerAddress": "648/3 หมู่ 10 ต.รามคำแหง",
+  "VendorAddress": "648/3 หมู่ 10 ต.รามคำแหง",
+  "InvoiceDate": "31/01/56",
+  "TotalTax": "0.00",
+  "InvoiceTotal": "87,000.00",
+  "AmountDue": "87,000.00"
+}
+```
+```json
+[
+  {
+    "Description": "คำบรรยายตามใบประมูลเลขที่ 0005",
+    "Quantity": "1.00",
+    "Unit": "ชิ้น",
+    "UnitPrice": "9,000.00",
+    "ProductCode": "T001",
+    "Date": null,
+    "Tax": null,
+    "Amount": "9,000.00"
+  },
+  {
+    "Description": "คำบรรยายตามใบประมูลเลขที่ 0006",
+    "Quantity": "1.00",
+    "Unit": "ชิ้น",
+    "UnitPrice": "14,000.00",
+    "ProductCode": "T001",
+    "Date": null,
+    "Tax": null,
+    "Amount": "14,000.00"
+  },
+  {
+    "Description": "คำบรรยายตามใบประมูลเลขที่ 0007",
+    "Quantity": "1.00",
+    "Unit": "ชิ้น",
+    "UnitPrice": "9,000.00",
+    "ProductCode": "T001",
+    "Date": null,
+    "Tax": null,
+    "Amount": "9,000.00"
+  },
+  {
+    "Description": "คำบรรยายตามใบประมูลเลขที่ 0009",
+    "Quantity": "1.00",
+    "Unit": "ชิ้น",
+    "UnitPrice": "9,000.00",
+    "ProductCode": "T001",
+    "Date": null,
+    "Tax": null,
+    "Amount": "9,000.00"
+  },
+  {
+    "Description": "คำบรรยายตามใบประมูลเลขที่ 0015",
+    "Quantity": "1.00",
+    "Unit": "ชิ้น",
+    "UnitPrice": "9,000.00",
+    "ProductCode": "T001",
+    "Date": null,
+    "Tax": null,
+    "Amount": "9,000.00"
+  },
+  {
+    "Description": "คำบรรยายตามใบประมูลเลขที่ 0016",
+    "Quantity": "1.00",
+    "Unit": "ชิ้น",
+    "UnitPrice": "4,000.00",
+    "ProductCode": "T001",
+    "Date": null,
+    "Tax": null,
+    "Amount": "4,000.00"
+  },
+  {
+    "Description": "คำบรรยายตามใบประมูลเลขที่ 0021",
+    "Quantity": "1.00",
+    "Unit": "ชิ้น",
+    "UnitPrice": "14,000.00",
+    "ProductCode": "T001",
+    "Date": null,
+    "Tax": null,
+    "Amount": "14,000.00"
+  },
+  {
+    "Description": "คำบรรยายตามใบประมูลเลขที่ 0022",
+    "Quantity": "1.00",
+    "Unit": "ชิ้น",
+    "UnitPrice": "14,000.00",
+    "ProductCode": "T001",
+    "Date": null,
+    "Tax": null,
+    "Amount": "14,000.00"
+  }
+]
+```

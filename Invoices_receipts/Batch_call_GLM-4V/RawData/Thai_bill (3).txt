@@ -1,14 +1,24 @@
-First Step - Extracting Text in Markdown Format:
-
-```markdown
-# SMEasy-Doc
-### Tax Invoice/Receipt
-
-##### วันที่: 22/3/2559
-##### เลขอิสราม: REC-03-004
-##### บัญชีผู้จ่าย: 1234567890123
-
-| รายการ | หน่าต้อง | สั่งซื้อ | จ่าย/ได้ | ระบุ |
-| --- | --- | --- | --- | --- |
-| 1 SMEASY-DOC | Full Version | 950.00 | 950.00 | ประจำเดือน 950 บาท ต่อไปไม่ 1 เท่า |
-|                  | Standalone 950 u. และ 1 ในเดือน Promotion 1,900 u. และสั่งซื้อให้ค่าเป็น 4 เท่า |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                
+```json
+{
+  "CustomerName": "สมุนที่",
+  "VendorName": "SMEASY-DOC",
+  "CustomerAddress": "305 ห้องเล็ก 6 ชั้น 1 บริษัณฑ์ วิชัญชานุศรา 50210",
+  "VendorAddress": null,
+  "InvoiceDate": "22/3/2559",
+  "TotalTax": "950.00",
+  "InvoiceTotal": "1,016.50",
+  "AmountDue": "1,016.50",
+  "Items": [
+    {
+      "Description": "Full Version",
+      "Quantity": "1.00",
+      "Unit": "license",
+      "UnitPrice": "950.00",
+      "ProductCode": null,
+      "Date": "22/3/2559",
+      "Tax": "950.00",
+      "Amount": "950.00"
+    }
+  ]
+}
+```

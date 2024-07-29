@@ -1,87 +1,24 @@
-First Step:
-
-```markdown
-# Invoice
-
-## Customer Information
-- Customer Name: น้องสุขภาพ
-- Address: 44/14 หมู่ 5 ถูกใจ บริษัท ไม่เป็นคำว่าง 10540
-- Tax ID: 011564018396
-- Attention: E: p24onginal@gmail.com
-- Phone No.: -
-- Issue Date: 02/08/2022
-- Due Date: 09/08/2022
-- Reference: -
-
-## Issuer Information
-- Issuer Name: BMU BUILD ME UP CONSULTANT
-- Tax ID: 010556406789
-- Address: 33/1285 หมู่ 8 ถูกใจ บริษัท ไม่เป็นคำว่าง 11110
-- Tel: 0610655570
-- Email: -
-- Weight: -
-
-## Item Details
-- ID No.: P0001
-- Description: ระบาดตัวยูบรรจุ 0.65
-- Quantity: 1.00
-- Unit Price: 3,500.00
-- Pre-Tax Amount: 3,500.00
-
-## Summary
-- Remarks: -
-- Pre-VAT Amount: 3,500.00
-- VAT: 245.00
-- Grand Total: 3,745.00
-- Withheld Tax: 105.00
-- Net to Pay: 3,640.00
-
-## Payment
-- Approved By: 0961308666
-- Accepted By: -
-
----
-
-# Prepared by Kanokwan soda
-```
-
-Second Step:
-
 ```json
 {
-  "Invoice": {
-    "Customer": {
-      "Name": "น้องสุขภาพ",
-      "Address": "44/14 หมู่ 5 ถูกใจ บริษัท ไม่เป็นคำว่าง 10540",
-      "Tax_ID": "011564018396",
-      "Attention": "E: p24onginal@gmail.com",
-      "Phone_No": "",
-      "Issue_Date": "02/08/2022",
-      "Due_Date": "09/08/2022",
-      "Reference": ""
-    },
-    "Issuer": {
-      "Name": "BMU BUILD ME UP CONSULTANT",
-      "Tax_ID": "010556406789",
-      "Address": "33/1285 หมู่ 8 ถูกใจ บริษัท ไม่เป็นคำว่าง 11110",
-      "Tel": "0610655570",
-      "Email": "",
-      "Weight": ""
-    },
-    "Item": {
-      "ID_No": "P0001",
-      "Description": "ระบาดตัวยูบรรจุ 0.65",
-      "Quantity": 1.00,
-      "Unit_Price": 3500.00,
-      "Pre_Tax_Amount": 3500.00
-    },
-    "Summary": {
-      "Remarks": "",
-      "Pre_VAT_Amount": 3500.00,
-      "VAT": 245.00,
-      "Grand_Total": 3745.00,
-      "Withheld_Tax": 105.00,
-      "Net_to_Pay": 3640.00
-    },
-    "Payment": {
-      "
+  "CustomerName": "บริษัท จำหน่ายเอล",
+  "VendorName": "BMU BUILD ME UP CONSULTANT",
+  "CustomerAddress": "44/14 ถูกใจ 5 ชั้งคม ปี 2565 ต่อไปได้ 10540",
+  "VendorAddress": "11110",
+  "InvoiceDate": "02/08/2022",
+  "TotalTax": "3,500.00",
+  "InvoiceTotal": "3,745.00",
+  "AmountDue": "3,640.00",
+  "Items": [
+    {
+      "Description": "สินค้า 1",
+      "Quantity": "1.00",
+      "Unit": "ราย",
+      "UnitPrice": "3,500.00",
+      "ProductCode": "P0001",
+      "Date": "02/08/2022",
+      "Tax": "245.00",
+      "Amount": "3,745.00"
+    }
+  ]
+}
+```

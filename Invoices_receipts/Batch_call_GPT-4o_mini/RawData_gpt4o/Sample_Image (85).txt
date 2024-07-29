@@ -1,0 +1,86 @@
+```json
+{
+  "CustomerName": "Mr. [Redacted]",
+  "VendorName": "THE BANGKOK CHRISTIAN HOSPITAL",
+  "CustomerAddress": null,
+  "VendorAddress": "124 ถนนสีลม เขตบางรัก กรุงเทพฯ 10500 โทร. 0-2235-1000, 0-2625-9000\n124 Silom Road, Bangkok 10500 Tel. 0-2235-1000, 0-2625-9000",
+  "InvoiceDate": "9 Apr 24 17:54",
+  "TotalTax": null,
+  "InvoiceTotal": "6,348.00",
+  "AmountDue": "6,348.00"
+}
+```
+```json
+[
+  {
+    "Description": "1.1.1(3) Drugs",
+    "Quantity": null,
+    "Unit": null,
+    "UnitPrice": null,
+    "ProductCode": null,
+    "Date": null,
+    "Tax": null,
+    "Amount": "1,177.00"
+  },
+  {
+    "Description": "1.1.1(4) Parenteral Nutrition",
+    "Quantity": null,
+    "Unit": null,
+    "UnitPrice": null,
+    "ProductCode": null,
+    "Date": null,
+    "Tax": null,
+    "Amount": "656.00"
+  },
+  {
+    "Description": "1.1.2(1) Medical Supplies 1",
+    "Quantity": null,
+    "Unit": null,
+    "UnitPrice": null,
+    "ProductCode": null,
+    "Date": null,
+    "Tax": null,
+    "Amount": "1,460.00"
+  },
+  {
+    "Description": "1.1.4 Lab Investigation and Pathology",
+    "Quantity": null,
+    "Unit": null,
+    "UnitPrice": null,
+    "ProductCode": null,
+    "Date": null,
+    "Tax": null,
+    "Amount": "1,130.00"
+  },
+  {
+    "Description": "1.1.7.1 General Medical Equipment",
+    "Quantity": null,
+    "Unit": null,
+    "UnitPrice": null,
+    "ProductCode": null,
+    "Date": null,
+    "Tax": null,
+    "Amount": "125.00"
+  },
+  {
+    "Description": "1.1.14(1.5) Bed & Nursing Service",
+    "Quantity": null,
+    "Unit": null,
+    "UnitPrice": null,
+    "ProductCode": null,
+    "Date": null,
+    "Tax": null,
+    "Amount": "1,000.00"
+  },
+  {
+    "Description": "1.2.1(2) Basic Hospital Charges",
+    "Quantity": null,
+    "Unit": null,
+    "UnitPrice": null,
+    "ProductCode": null,
+    "Date": null,
+    "Tax": null,
+    "Amount": "800.00"
+  }
+]
+```

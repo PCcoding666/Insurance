@@ -1,42 +1,104 @@
-First Step:
-
-```markdown
-| DESCRIPTION                   | AMOUNT ($) |
-|------------------------------|-------------|
-| Consultation Services (SC - FV) | 140.00      |
-| Laboratory                    |             |
-| Full Blood Count              | 42.25       |
-| Liver Panel                   | 74.75       |
-| Vitamin D (25 Hydroxy)        | 89.70       |
-| Renal Panel 1 Modified        | 59.15       |
-| Iron Panel                    | 83.46       |
-| Thyroid Screen 1              | 68.90       |
-| Zinc, Serum                   | 75.79       |
-| TOTAL AMOUNT (BEFORE GST)    | 634.00      |
-| 8% GST                        | 50.72       |
-| TOTAL AMOUNT                  | 684.72      |
-```
-
-Second Step:
-
 ```json
 {
-  "key_field_information": {
-    "DESCRIPTION": "Consultation Services (SC - FV)",
-    "AMOUNT": "140.00",
-    "LABORATORY": {
-      "Full Blood Count": "42.25",
-      "Liver Panel": "74.75",
-      "Vitamin D (25 Hydroxy)": "89.70",
-      "Renal Panel 1 Modified": "59.15",
-      "Iron Panel": "83.46",
-      "Thyroid Screen 1": "68.90",
-      "Zinc, Serum": "75.79"
+  "CustomerName": "N/A",
+  "VendorName": "N/A",
+  "CustomerAddress": "N/A",
+  "VendorAddress": "N/A",
+  "InvoiceDate": "N/A",
+  "TotalTax": "50.72",
+  "InvoiceTotal": "684.72",
+  "AmountDue": "684.72",
+  "Items": [
+    {
+      "Description": "Consultation Services (SC - FV)",
+      "Quantity": "1.00",
+      "Unit": "N/A",
+      "UnitPrice": "140.00",
+      "ProductCode": "N/A",
+      "Date": "N/A",
+      "Tax": "N/A",
+      "Amount": "140.00"
     },
-    "TOTAL_AMOUNT_BEFORE_GST": "634.00",
-    "GST_PERCENTAGE": "8%",
-    "GST_AMOUNT": "50.72",
-    "TOTAL_AMOUNT": "684.72"
-  }
+    {
+      "Description": "Laboratory",
+      "Quantity": "N/A",
+      "Unit": "N/A",
+      "UnitPrice": "42.25",
+      "ProductCode": "N/A",
+      "Date": "N/A",
+      "Tax": "N/A",
+      "Amount": "42.25"
+    },
+    {
+      "Description": "Full Blood Count",
+      "Quantity": "1.00",
+      "Unit": "N/A",
+      "UnitPrice": "74.75",
+      "ProductCode": "N/A",
+      "Date": "N/A",
+      "Tax": "N/A",
+      "Amount": "74.75"
+    },
+    {
+      "Description": "Liver Panel",
+      "Quantity": "1.00",
+      "Unit": "N/A",
+      "UnitPrice": "89.70",
+      "ProductCode": "N/A",
+      "Date": "N/A",
+      "Tax": "N/A",
+      "Amount": "89.70"
+    },
+    {
+      "Description": "Vitamin D (25 Hydroxy)",
+      "Quantity": "1.00",
+      "Unit": "N/A",
+      "UnitPrice": "89.70",
+      "ProductCode": "N/A",
+      "Date": "N/A",
+      "Tax": "N/A",
+      "Amount": "89.70"
+    },
+    {
+      "Description": "Renal Panel 1 Modified",
+      "Quantity": "1.00",
+      "Unit": "N/A",
+      "UnitPrice": "59.15",
+      "ProductCode": "N/A",
+      "Date": "N/A",
+      "Tax": "N/A",
+      "Amount": "59.15"
+    },
+    {
+      "Description": "Iron Panel",
+      "Quantity": "1.00",
+      "Unit": "N/A",
+      "UnitPrice": "83.46",
+      "ProductCode": "N/A",
+      "Date": "N/A",
+      "Tax": "N/A",
+      "Amount": "83.46"
+    },
+    {
+      "Description": "Thyroid Screen 1",
+      "Quantity": "1.00",
+      "Unit": "N/A",
+      "UnitPrice": "68.90",
+      "ProductCode": "N/A",
+      "Date": "N/A",
+      "Tax": "N/A",
+      "Amount": "68.90"
+    },
+    {
+      "Description": "Zinc, Serum",
+      "Quantity": "1.00",
+      "Unit": "N/A",
+      "UnitPrice": "75.79",
+      "ProductCode": "N/A",
+      "Date": "N/A",
+      "Tax": "N/A",
+      "Amount": "75.79"
+    }
+  ]
 }
 ```

@@ -1,0 +1,56 @@
+```json
+{
+  "CustomerName": "บริษัท กรุงไทยพลาสติก จำกัด (มหาชน)",
+  "VendorName": "PROSOFT",
+  "CustomerAddress": "83/1 หมู่ 4 ต.พลับพลาไชย 54000",
+  "VendorAddress": "2571/1 ซ.รามคำแหง 75 ถ.รามคำแหง แขวงหัวหมาก เขตบางกะปิ กรุงเทพฯ 10240",
+  "InvoiceDate": "20/02/2553",
+  "TotalTax": null,
+  "InvoiceTotal": "3,987,091.29",
+  "AmountDue": null
+}
+```
+```json
+[
+  {
+    "Description": "ขายสินค้า",
+    "Quantity": null,
+    "Unit": null,
+    "UnitPrice": "3,835,431.05",
+    "ProductCode": "BL5302-00001",
+    "Date": "22/03/2553",
+    "Tax": null,
+    "Amount": "3,835,431.05"
+  },
+  {
+    "Description": "ลูกบี้เหล็ก",
+    "Quantity": null,
+    "Unit": null,
+    "UnitPrice": "100,000.00",
+    "ProductCode": "ARIN5311-00002",
+    "Date": "31/01/2553",
+    "Tax": null,
+    "Amount": "100,000.00"
+  },
+  {
+    "Description": "ลูกบี้อื่น ๆ",
+    "Quantity": null,
+    "Unit": null,
+    "UnitPrice": "149,526.08",
+    "ProductCode": "SN5311-00001",
+    "Date": "22/03/2553",
+    "Tax": null,
+    "Amount": "149,526.08"
+  },
+  {
+    "Description": "ลดหนี้ลูกหนี้",
+    "Quantity": null,
+    "Unit": null,
+    "UnitPrice": "-97,865.84",
+    "ProductCode": "CNS302-00001",
+    "Date": "27/03/2553",
+    "Tax": null,
+    "Amount": "-97,865.84"
+  }
+]
+```

@@ -1,0 +1,96 @@
+```json
+{
+  "CustomerName": "หจก.ไชยรัตน์เจริญ",
+  "VendorName": "บริษัท ตัวอย่าง จำกัด",
+  "CustomerAddress": "648/3 หมู่ 10 ถ.รามคำแหง แขวงสะพานสูง เขตสะพานสูง",
+  "VendorAddress": "323 อาคารยูไนเต็ดเซ็นเตอร์ ชั้น 39 ห้อง 3903 สีลม บางรัก กทม.",
+  "InvoiceDate": "31/01/56",
+  "TotalTax": "0.00",
+  "InvoiceTotal": "87,000.00",
+  "AmountDue": "87,000.00"
+}
+```
+```json
+[
+  {
+    "Description": "ค่าบริการตามใบประกอบเลขที่ 0005",
+    "Quantity": "1.00",
+    "Unit": "หน่วย",
+    "UnitPrice": "9,000.00",
+    "ProductCode": "T001",
+    "Date": null,
+    "Tax": "0%",
+    "Amount": "9,000.00"
+  },
+  {
+    "Description": "ค่าบริการตามใบประกอบเลขที่ 0006",
+    "Quantity": "1.00",
+    "Unit": "หน่วย",
+    "UnitPrice": "14,000.00",
+    "ProductCode": "T001",
+    "Date": null,
+    "Tax": "0%",
+    "Amount": "14,000.00"
+  },
+  {
+    "Description": "ค่าบริการตามใบประกอบเลขที่ 0007",
+    "Quantity": "1.00",
+    "Unit": "หน่วย",
+    "UnitPrice": "9,000.00",
+    "ProductCode": "T001",
+    "Date": null,
+    "Tax": "0%",
+    "Amount": "9,000.00"
+  },
+  {
+    "Description": "ค่าบริการตามใบประกอบเลขที่ 0009",
+    "Quantity": "1.00",
+    "Unit": "หน่วย",
+    "UnitPrice": "9,000.00",
+    "ProductCode": "T001",
+    "Date": null,
+    "Tax": "0%",
+    "Amount": "9,000.00"
+  },
+  {
+    "Description": "ค่าบริการตามใบประกอบเลขที่ 0015",
+    "Quantity": "1.00",
+    "Unit": "หน่วย",
+    "UnitPrice": "9,000.00",
+    "ProductCode": "T001",
+    "Date": null,
+    "Tax": "0%",
+    "Amount": "9,000.00"
+  },
+  {
+    "Description": "ค่าบริการตามใบประกอบเลขที่ 0016",
+    "Quantity": "1.00",
+    "Unit": "หน่วย",
+    "UnitPrice": "14,000.00",
+    "ProductCode": "T001",
+    "Date": null,
+    "Tax": "0%",
+    "Amount": "14,000.00"
+  },
+  {
+    "Description": "ค่าบริการตามใบประกอบเลขที่ 0021",
+    "Quantity": "1.00",
+    "Unit": "หน่วย",
+    "UnitPrice": "9,000.00",
+    "ProductCode": "T001",
+    "Date": null,
+    "Tax": "0%",
+    "Amount": "9,000.00"
+  },
+  {
+    "Description": "ค่าบริการตามใบประกอบเลขที่ 0022",
+    "Quantity": "1.00",
+    "Unit": "หน่วย",
+    "UnitPrice": "14,000.00",
+    "ProductCode": "T001",
+    "Date": null,
+    "Tax": "0%",
+    "Amount": "14,000.00"
+  }
+]
+```

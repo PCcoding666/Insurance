@@ -1,0 +1,46 @@
+```json
+{
+  "CustomerName": null,
+  "VendorName": "Clinic: Yishun",
+  "CustomerAddress": null,
+  "VendorAddress": null,
+  "InvoiceDate": "11/04/2024 09:06",
+  "TotalTax": "1.65",
+  "InvoiceTotal": "19.95",
+  "AmountDue": "18.30"
+}
+```
+```json
+[
+  {
+    "Description": "Consultation",
+    "Quantity": "1",
+    "Unit": "Qty",
+    "UnitPrice": "16.30",
+    "ProductCode": null,
+    "Date": null,
+    "Tax": null,
+    "Amount": "16.30"
+  },
+  {
+    "Description": "Charcoal 200mg Cap",
+    "Quantity": "30",
+    "Unit": "Qty",
+    "UnitPrice": "1.40",
+    "ProductCode": null,
+    "Date": null,
+    "Tax": null,
+    "Amount": "1.40"
+  },
+  {
+    "Description": "Oral Rehydration Salt Sac",
+    "Quantity": "6",
+    "Unit": "Qty",
+    "UnitPrice": "0.60",
+    "ProductCode": null,
+    "Date": null,
+    "Tax": null,
+    "Amount": "0.60"
+  }
+]
+```

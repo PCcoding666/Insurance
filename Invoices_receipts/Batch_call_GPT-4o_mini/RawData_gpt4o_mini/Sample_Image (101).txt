@@ -1,0 +1,306 @@
+```json
+{
+  "CustomerName": null,
+  "VendorName": "Melbourne Health Pathology",
+  "CustomerAddress": null,
+  "VendorAddress": "300 Grattan Street, Parkville, VIC 3052",
+  "InvoiceDate": "02-Jun-23",
+  "TotalTax": "0.00",
+  "InvoiceTotal": "1598.57",
+  "AmountDue": "1598.57"
+}
+```
+```json
+[
+  {
+    "Description": "Full Blood Examination (FBE)",
+    "Quantity": 1,
+    "Unit": null,
+    "UnitPrice": "25.42",
+    "ProductCode": "65070*R",
+    "Date": "10-May-23",
+    "Tax": null,
+    "Amount": "25.42"
+  },
+  {
+    "Description": "4 or More Coagulation Tests",
+    "Quantity": 1,
+    "Unit": null,
+    "UnitPrice": "53.55",
+    "ProductCode": "65129*R",
+    "Date": "10-May-23",
+    "Tax": null,
+    "Amount": "53.55"
+  },
+  {
+    "Description": "Biochemistry 5+ Tests",
+    "Quantity": 1,
+    "Unit": null,
+    "UnitPrice": "26.50",
+    "ProductCode": "66152*R",
+    "Date": "10-May-23",
+    "Tax": null,
+    "Amount": "26.50"
+  },
+  {
+    "Description": "Thyroid Function Tests",
+    "Quantity": 1,
+    "Unit": null,
+    "UnitPrice": "22.60",
+    "ProductCode": "66152*R",
+    "Date": "10-May-23",
+    "Tax": null,
+    "Amount": "22.60"
+  },
+  {
+    "Description": "1 Microbial Antibody",
+    "Quantity": 1,
+    "Unit": null,
+    "UnitPrice": "23.47",
+    "ProductCode": "69384*R",
+    "Date": "10-May-23",
+    "Tax": null,
+    "Amount": "23.47"
+  },
+  {
+    "Description": "Hepatitis Ab/Ag 3 Tests",
+    "Quantity": 1,
+    "Unit": null,
+    "UnitPrice": "60.48",
+    "ProductCode": "69481*R",
+    "Date": "10-May-23",
+    "Tax": null,
+    "Amount": "60.48"
+  },
+  {
+    "Description": "Complement C3 & C4 2 Tests",
+    "Quantity": 1,
+    "Unit": null,
+    "UnitPrice": "4.42",
+    "ProductCode": "71085*R",
+    "Date": "10-May-23",
+    "Tax": null,
+    "Amount": "4.42"
+  },
+  {
+    "Description": "Antinuclear Antibodies",
+    "Quantity": 1,
+    "Unit": null,
+    "UnitPrice": "39.75",
+    "ProductCode": "71097*R",
+    "Date": "10-May-23",
+    "Tax": null,
+    "Amount": "39.75"
+  },
+  {
+    "Description": "Double-Stranded DNA Abs",
+    "Quantity": 1,
+    "Unit": null,
+    "UnitPrice": "39.75",
+    "ProductCode": "71100*R",
+    "Date": "10-May-23",
+    "Tax": null,
+    "Amount": "39.75"
+  },
+  {
+    "Description": "Antibodies to 1 or more ENA",
+    "Quantity": 1,
+    "Unit": null,
+    "UnitPrice": "26.10",
+    "ProductCode": "71101*R",
+    "Date": "10-May-23",
+    "Tax": null,
+    "Amount": "26.10"
+  },
+  {
+    "Description": "Spec Coll Fee - ACC",
+    "Quantity": 1,
+    "Unit": null,
+    "UnitPrice": "30.15",
+    "ProductCode": "73992*R",
+    "Date": "10-May-23",
+    "Tax": null,
+    "Amount": "30.15"
+  },
+  {
+    "Description": "Biochemistry Quant. 2 Tests",
+    "Quantity": 1,
+    "Unit": null,
+    "UnitPrice": "30.15",
+    "ProductCode": "71202*R",
+    "Date": "10-May-23",
+    "Tax": null,
+    "Amount": "30.15"
+  },
+  {
+    "Description": "Microalbumin",
+    "Quantity": 1,
+    "Unit": null,
+    "UnitPrice": "30.15",
+    "ProductCode": "71202*R",
+    "Date": "10-May-23",
+    "Tax": null,
+    "Amount": "30.15"
+  },
+  {
+    "Description": "MC&S Urine",
+    "Quantity": 1,
+    "Unit": null,
+    "UnitPrice": "30.15",
+    "ProductCode": "71202*R",
+    "Date": "10-May-23",
+    "Tax": null,
+    "Amount": "30.15"
+  },
+  {
+    "Description": "Histology Complex Lv 5 (1+ Specs)",
+    "Quantity": 1,
+    "Unit": null,
+    "UnitPrice": "411.42",
+    "ProductCode": "1404-4381",
+    "Date": "11-May-23",
+    "Tax": null,
+    "Amount": "411.42"
+  },
+  {
+    "Description": "HCV 7-10 Abs",
+    "Quantity": 1,
+    "Unit": null,
+    "UnitPrice": "30.15",
+    "ProductCode": "1404-4381",
+    "Date": "11-May-23",
+    "Tax": null,
+    "Amount": "30.15"
+  },
+  {
+    "Description": "3 Coagulation Tests",
+    "Quantity": 1,
+    "Unit": null,
+    "UnitPrice": "41.77",
+    "ProductCode": "65126*R",
+    "Date": "11-May-23",
+    "Tax": null,
+    "Amount": "41.77"
+  },
+  {
+    "Description": "Spec Coll Fee - APP & Hosp. IP",
+    "Quantity": 1,
+    "Unit": null,
+    "UnitPrice": "3.60",
+    "ProductCode": "73931*R",
+    "Date": "11-May-23",
+    "Tax": null,
+    "Amount": "3.60"
+  },
+  {
+    "Description": "2 Microbial Antibodies",
+    "Quantity": 1,
+    "Unit": null,
+    "UnitPrice": "43.30",
+    "ProductCode": "69387*R",
+    "Date": "12-May-23",
+    "Tax": null,
+    "Amount": "43.30"
+  },
+  {
+    "Description": "Quantiferon Gold TB",
+    "Quantity": 1,
+    "Unit": null,
+    "UnitPrice": "52.35",
+    "ProductCode": "69417*R",
+    "Date": "12-May-23",
+    "Tax": null,
+    "Amount": "52.35"
+  },
+  {
+    "Description": "Epstein Barr Virus - 1",
+    "Quantity": 1,
+    "Unit": null,
+    "UnitPrice": "25.35",
+    "ProductCode": "69417*R",
+    "Date": "12-May-23",
+    "Tax": null,
+    "Amount": "25.35"
+  },
+  {
+    "Description": "Spec Coll Fee - APP & Hosp. IP",
+    "Quantity": 1,
+    "Unit": null,
+    "UnitPrice": "3.60",
+    "ProductCode": "73931*R",
+    "Date": "12-May-23",
+    "Tax": null,
+    "Amount": "3.60"
+  },
+  {
+    "Description": "CMV Viral Load",
+    "Quantity": 1,
+    "Unit": null,
+    "UnitPrice": "180.00",
+    "ProductCode": "39617*R",
+    "Date": "12-May-23",
+    "Tax": null,
+    "Amount": "180.00"
+  },
+  {
+    "Description": "EBV Load",
+    "Quantity": 1,
+    "Unit": null,
+    "UnitPrice": "75.00",
+    "ProductCode": "39617*R",
+    "Date": "12-May-23",
+    "Tax": null,
+    "Amount": "75.00"
+  },
+  {
+    "Description": "Full Blood Examination (FBE)",
+    "Quantity": 1,
+    "Unit": null,
+    "UnitPrice": "25.42",
+    "ProductCode": "65070*R",
+    "Date": "15-May-23",
+    "Tax": null,
+    "Amount": "25.42"
+  },
+  {
+    "Description": "Biochemistry 5+ Tests",
+    "Quantity": 1,
+    "Unit": null,
+    "UnitPrice": "26.55",
+    "ProductCode": "66152*R",
+    "Date": "15-May-23",
+    "Tax": null,
+    "Amount": "26.55"
+  },
+  {
+    "Description": "Microalbumin",
+    "Quantity": 1,
+    "Unit": null,
+    "UnitPrice": "30.15",
+    "ProductCode": "71202*R",
+    "Date": "15-May-23",
+    "Tax": null,
+    "Amount": "30.15"
+  },
+  {
+    "Description": "THR Drug Complex 1 Test",
+    "Quantity": 1,
+    "Unit": null,
+    "UnitPrice": "30.15",
+    "ProductCode": "71202*R",
+    "Date": "15-May-23",
+    "Tax": null,
+    "Amount": "30.15"
+  },
+  {
+    "Description": "Spec Coll Fee -Onsite ACC",
+    "Quantity": 1,
+    "Unit": null,
+    "UnitPrice": "3.60",
+    "ProductCode": "73920*R",
+    "Date": "15-May-23",
+    "Tax": null,
+    "Amount": "3.60"
+  }
+]
+```

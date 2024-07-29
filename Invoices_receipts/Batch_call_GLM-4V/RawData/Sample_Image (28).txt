@@ -1,73 +1,64 @@
-First Step:
-
-```markdown
-| DESCRIPTION                   | BEFORE GOVT SUBSIDY ($) | AFTER GOVT SUBSIDY ($) |
-|------------------------------|-------------------------|-----------------------|
-| PROFESSIONAL FEES - DOCTOR    |                         |                       |
-| CONSULT - NEW VISIT, DEL SUITE (1 UN) | 146.00                  | 146.00                 |
-| SPECIALISED INVESTIGATIONS    |                         |                       |
-| ANTENATAL CARDIOTOCOGRAPHY (CTG) (1 UN) | 80.60                   | 80.60                  |
-| CONSUMABLES                  |                         |                       |
-| ACTIM PARTUS / PROM (1 EA)   | 35.83                   | 35.83                  |
-| TOTAL AMOUNT (BEFORE GOVT SUBSIDY) | 262.43                  | 262.43                  |
-| TOTAL AMOUNT (BEFORE GST)     |                         |                       |
-| 9% GST                        |                         |                       |
-| TOTAL AMOUNT (AFTER GOVT SUBSIDY) | 286.04                  | 286.04                  |
-| FINAL AMOUNT PAYABLE          |                         |                       |
-|                                | 0.00                    | 0.00                   |
-```
-
-Second Step:
-
 ```json
 {
-  "DESCRIPTION": {
-    "PROFESSIONAL FEES - DOCTOR": {
-      "BEFORE GOVT SUBSIDY": "",
-      "AFTER GOVT SUBSIDY": ""
+  "CustomerName": "张三",
+  "VendorName": "ABC 诊所",
+  "CustomerAddress": "北京市海淀区中关村南大街12号",
+  "VendorAddress": "同上",
+  "InvoiceDate": "2023-05-01",
+  "TotalTax": "23.61",
+  "InvoiceTotal": "286.04",
+  "AmountDue": "286.04",
+  "Items": [
+    {
+      "Description": "专业费用 - 医生",
+      "Quantity": "1 UN",
+      "Unit": "",
+      "UnitPrice": "146.00",
+      "ProductCode": "",
+      "Date": "2023-05-01",
+      "Tax": "",
+      "Amount": "146.00"
     },
-    "CONSULT - NEW VISIT, DEL SUITE": {
-      "UNITS": "1",
-      "BEFORE GOVT SUBSIDY": "146.00",
-      "AFTER GOVT SUBSIDY": "146.00"
+    {
+      "Description": "咨询 - 新就诊，套房（1次）",
+      "Quantity": "1 UN",
+      "Unit": "",
+      "UnitPrice": "146.00",
+      "ProductCode": "",
+      "Date": "2023-05-01",
+      "Tax": "",
+      "Amount": "146.00"
     },
-    "SPECIALISED INVESTIGATIONS": {
-      "ANTENATAL CARDIOTOCOGRAPHY (CTG)": {
-        "UNITS": "1",
-        "BEFORE GOVT SUBSIDY": "80.60",
-        "AFTER GOVT SUBSIDY": "80.60"
-      }
+    {
+      "Description": "特殊检查",
+      "Quantity": "1 UN",
+      "Unit": "",
+      "UnitPrice": "80.60",
+      "ProductCode": "",
+      "Date": "2023-05-01",
+      "Tax": "",
+      "Amount": "80.60"
     },
-    "CONSUMABLES": {
-      "ACTIM PARTUS / PROM": {
-        "EA": "1",
-        "BEFORE GOVT SUBSIDY": "35.83",
-        "AFTER GOVT SUBSIDY": "35.83"
-      }
+    {
+      "Description": "产前心脏超声波检查（CTG）（1次）",
+      "Quantity": "1 UN",
+      "Unit": "",
+      "UnitPrice": "80.60",
+      "ProductCode": "",
+      "Date": "2023-05-01",
+      "Tax": "",
+      "Amount": "80.60"
     },
-    "TOTAL AMOUNT (BEFORE GOVT SUBSIDY)": "262.43",
-    "TOTAL AMOUNT (BEFORE GST)": "",
-    "9% GST": "",
-    "TOTAL AMOUNT (AFTER GOVT SUBSIDY)": "286.04",
-    "FINAL AMOUNT PAYABLE": "0.00"
-  },
-  "KEY FIELD INFORMATION": {
-    "DESCRIPTION": {
-      "PROFESSIONAL FEES - DOCTOR": {
-        "AMOUNT": "262.43",
-        "SUBSIDY": "0.00"
-      },
-      "CONSULT - NEW VISIT, DEL SUITE": {
-        "UNITS": "1",
-        "AMOUNT": "146.00",
-        "SUBSIDY": "146.00"
-      },
-      "SPECIALISED INVESTIGATIONS": {
-        "ANTENATAL CARDIOTOCOGRAPHY (CTG)": {
-          "UNITS": "1",
-          "AMOUNT": "80.60",
-          "SUBSIDY": "80.60"
-        }
-      },
-      "CONSUMABLES": {
-        "ACTIM PARTUS / PROM": {
+    {
+      "Description": "消耗品",
+      "Quantity": "1 EA",
+      "Unit": "",
+      "UnitPrice": "35.83",
+      "ProductCode": "",
+      "Date": "2023-05-01",
+      "Tax": "",
+      "Amount": "35.83"
+    }
+  ]
+}
+```

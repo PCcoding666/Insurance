@@ -1,0 +1,46 @@
+```json
+{
+  "CustomerName": "JULIA",
+  "VendorName": "Changi General Hospital",
+  "CustomerAddress": "SINGAPORE 429###",
+  "VendorAddress": "2 Simei Street 3 Singapore 529889",
+  "InvoiceDate": "25 AUG 2023",
+  "TotalTax": "11.04",
+  "InvoiceTotal": "138.00",
+  "AmountDue": "138.00"
+}
+```
+```json
+[
+  {
+    "Description": "X-RAY INVESTIGATIONS",
+    "Quantity": null,
+    "Unit": null,
+    "UnitPrice": null,
+    "ProductCode": null,
+    "Date": null,
+    "Tax": null,
+    "Amount": "73.50"
+  },
+  {
+    "Description": "DRUGS / PRESCRIPTIONS / INJECTIONS",
+    "Quantity": null,
+    "Unit": null,
+    "UnitPrice": null,
+    "ProductCode": null,
+    "Date": null,
+    "Tax": null,
+    "Amount": "24.22"
+  },
+  {
+    "Description": "A&E ATTENDANCE FEE",
+    "Quantity": null,
+    "Unit": null,
+    "UnitPrice": null,
+    "ProductCode": null,
+    "Date": null,
+    "Tax": null,
+    "Amount": "276.00"
+  }
+]
+```

@@ -1,50 +1,93 @@
-First Step:
-
-```markdown
-| DATE         | DESCRIPTION                          | UNIT  | GROSS CHARGES (RM) | DISCOUNT (RM) |
-|--------------|---------------------------------------|-------|---------------------|-----------------|
-| 23-JUN-2023  | HOSPITAL CHARGES                      |        |                     |                 |
-|              | NURSING CARE (TREATMENT ROOM) (RTK-AG) (SCREENING) | 1     | 8.20                | 0.00            |
-|              | REGISTRATION                          | 1     | 20.00               | 0.00            |
-|              | SAMPLE HANDLING/PROCESSING (RTK-AG) (SCREENING) | 1     | 18.50               | 0.00            |
-|              | TREATMENT ROOM / FACILITY FEE (RTK-AG) (SCREENING) | 1     | 12.30               | 0.00            |
-|              | SUBTOTAL                              |        | 59.00               | 0.00            |
-|              | LABORATORY                            |        |                     |                 |
-|              | INFLUENZA VIRUS & RSV, PCR             | 1     | 292.00              | 0.00            |
-|              | SARS-COV-2 AG (COVID-19) (SCREENING)  | 1     | 79.20               | 0.00            |
-|              | SUBTOTAL                              |        | 371.20              | 0.00            |
-|              | MEDICATION                            |        |                     |                 |
-|              | AERIUS TAB 5MG                        | 7     | 22.75               | 0.00            |
-|              | FLUHALT CAP 75MG                      | 10    | 146.50              | 0.00            |
-|              | PARACAP TAB 500MG                     | 42    | 25.20               | 0.00            |
-|              | STREPSILS MAX PRO DIRECT SPRAY 15ML | 1     | 43.00               | 0.00            |
-|              | STREPSILS MAXPRO LOZ 8.75MG 16S      | 1     | 31.55               | 0.00            |
-|              | SUBTOTAL                              |        | 269.00              | 0.00            |
-|              | HOSPITAL CHARGES TOTAL                 |        | 699.20              |                 |
-|              | DOCTOR CHARGES                        |        |                     |                 |
-|              | DR LEM LI KHEN                        |        |                     |                 |
-|              | DOCTOR CHARGES                        |        |                     |                 |
-|              | CONSULTATION                          | 1     | 180.00              |                 |
-|              | SUBTOTAL                              |        | 180.00              |                 |
-|              | TOTAL                                 |        |                     |                 |
-```
-
-Second Step:
-
 ```json
 {
-  "DATE": "23-JUN-2023",
-  "HOSPITAL_CHARGES": {
-    "NURSING_CARE": {
-      "UNIT": 1,
-      "GROSS_CHARGES": 8.20,
-      "DISCOUNT": 0.00
+  "CustomerName": "N/A",
+  "VendorName": "N/A",
+  "CustomerAddress": "N/A",
+  "VendorAddress": "N/A",
+  "InvoiceDate": "23-JUN-2023",
+  "TotalTax": "N/A",
+  "InvoiceTotal": "699.20",
+  "AmountDue": "699.20",
+  "Items": [
+    {
+      "Description": "HOSPITAL CHARGES",
+      "Quantity": "1",
+      "Unit": "",
+      "UnitPrice": "8.20",
+      "ProductCode": "N/A",
+      "Date": "23-JUN-2023",
+      "Tax": "0.00",
+      "Amount": "8.20"
     },
-    "REGISTRATION": {
-      "UNIT": 1,
-      "GROSS_CHARGES": 20.00,
-      "DISCOUNT": 0.00
+    {
+      "Description": "NURSING CARE (TREATMENT ROOM) (RTK-AG) (SCREENING)",
+      "Quantity": "1",
+      "Unit": "",
+      "UnitPrice": "20.00",
+      "ProductCode": "N/A",
+      "Date": "23-JUN-2023",
+      "Tax": "0.00",
+      "Amount": "20.00"
     },
-    "SAMPLE_HANDLING_PROCESSING": {
-      "UNIT": 1,
-      "GROSS_CHARGES": 18
+    {
+      "Description": "REGISTRATION",
+      "Quantity": "1",
+      "Unit": "",
+      "UnitPrice": "18.50",
+      "ProductCode": "N/A",
+      "Date": "23-JUN-2023",
+      "Tax": "0.00",
+      "Amount": "18.50"
+    },
+    {
+      "Description": "SAMPLE HANDLING/PROCESSING (RTK-AG) (SCREENING)",
+      "Quantity": "1",
+      "Unit": "",
+      "UnitPrice": "12.30",
+      "ProductCode": "N/A",
+      "Date": "23-JUN-2023",
+      "Tax": "0.00",
+      "Amount": "12.30"
+    },
+    {
+      "Description": "TREATMENT ROOM / FACILITY FEE (RTK-AG) (SCREENING)",
+      "Quantity": "1",
+      "Unit": "",
+      "UnitPrice": "59.00",
+      "ProductCode": "N/A",
+      "Date": "23-JUN-2023",
+      "Tax": "0.00",
+      "Amount": "59.00"
+    },
+    {
+      "Description": "INFLUENZA VIRUS & RSV, PCR",
+      "Quantity": "1",
+      "Unit": "",
+      "UnitPrice": "292.00",
+      "ProductCode": "N/A",
+      "Date": "23-JUN-2023",
+      "Tax": "0.00",
+      "Amount": "292.00"
+    },
+    {
+      "Description": "SARS-COV-2 AG (COVID-19) (SCREENING)",
+      "Quantity": "1",
+      "Unit": "",
+      "UnitPrice": "79.20",
+      "ProductCode": "N/A",
+      "Date": "23-JUN-2023",
+      "Tax": "0.00",
+      "Amount": "79.20"
+    },
+    {
+      "Description": "AERIUS TAB 5MG",
+      "Quantity": "7",
+      "Unit": "Tab",
+      "UnitPrice": "22.75",
+      "ProductCode": "N/A",
+      "Date": "23-JUN-2023",
+      "Tax": "0.00",
+      "Amount": "158.25"
+    },
+    {
+      "Description": "FLUHALT

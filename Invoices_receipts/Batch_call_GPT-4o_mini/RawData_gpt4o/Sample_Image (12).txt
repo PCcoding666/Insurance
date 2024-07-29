@@ -1,0 +1,156 @@
+```json
+{
+  "CustomerName": "FOX AH KONG (0001)",
+  "VendorName": "ST. TERESA'S HOSPITAL",
+  "CustomerAddress": null,
+  "VendorAddress": "327 PRINCE EDWARD ROAD, KOWLOON, HONG KONG",
+  "InvoiceDate": "29-Jul-2015 12:07:16",
+  "TotalTax": null,
+  "InvoiceTotal": "$46,492",
+  "AmountDue": "$46,492"
+}
+```
+```json
+[
+  {
+    "Description": "X-RAY EXAMINATION",
+    "Quantity": null,
+    "Unit": null,
+    "UnitPrice": null,
+    "ProductCode": null,
+    "Date": "02-01-15",
+    "Tax": null,
+    "Amount": "$425"
+  },
+  {
+    "Description": "LABORATORY",
+    "Quantity": null,
+    "Unit": null,
+    "UnitPrice": null,
+    "ProductCode": null,
+    "Date": "02-01-15",
+    "Tax": null,
+    "Amount": "$5,495"
+  },
+  {
+    "Description": "ULTRASOUND",
+    "Quantity": null,
+    "Unit": null,
+    "UnitPrice": null,
+    "ProductCode": null,
+    "Date": "02-01-15",
+    "Tax": null,
+    "Amount": "$420"
+  },
+  {
+    "Description": "MEDICATION/SERVICE",
+    "Quantity": null,
+    "Unit": null,
+    "UnitPrice": null,
+    "ProductCode": null,
+    "Date": "02-01-15",
+    "Tax": null,
+    "Amount": "$1,450"
+  },
+  {
+    "Description": "STRESS TEST",
+    "Quantity": null,
+    "Unit": null,
+    "UnitPrice": null,
+    "ProductCode": null,
+    "Date": "02-01-15",
+    "Tax": null,
+    "Amount": "$2,442"
+  },
+  {
+    "Description": "ENDOSCOPIC CHARGE-GASTROSCOPY",
+    "Quantity": null,
+    "Unit": null,
+    "UnitPrice": null,
+    "ProductCode": null,
+    "Date": "02-01-15",
+    "Tax": null,
+    "Amount": "$2,518"
+  },
+  {
+    "Description": "ENDOSCOPIC CHARGES-COLONOSCOPY",
+    "Quantity": null,
+    "Unit": null,
+    "UnitPrice": null,
+    "ProductCode": null,
+    "Date": "02-01-15",
+    "Tax": null,
+    "Amount": "$3,853"
+  },
+  {
+    "Description": "HISTOPATHOLOGICAL EXAMINATION",
+    "Quantity": null,
+    "Unit": null,
+    "UnitPrice": null,
+    "ProductCode": null,
+    "Date": "02-01-15",
+    "Tax": null,
+    "Amount": "$1,034"
+  },
+  {
+    "Description": "MEDICINE/INJECTION",
+    "Quantity": null,
+    "Unit": null,
+    "UnitPrice": null,
+    "ProductCode": null,
+    "Date": "02-01-15",
+    "Tax": null,
+    "Amount": "$667"
+  },
+  {
+    "Description": "TREATMENT/ASSOCIATE MATERIALS",
+    "Quantity": null,
+    "Unit": null,
+    "UnitPrice": null,
+    "ProductCode": null,
+    "Date": "02-01-15",
+    "Tax": null,
+    "Amount": "$1,034"
+  },
+  {
+    "Description": "1850 DR. CHAN TAI MAN",
+    "Quantity": null,
+    "Unit": null,
+    "UnitPrice": null,
+    "ProductCode": null,
+    "Date": "02-01-15",
+    "Tax": null,
+    "Amount": "$2,000"
+  },
+  {
+    "Description": "Ward Round Fee",
+    "Quantity": null,
+    "Unit": null,
+    "UnitPrice": null,
+    "ProductCode": null,
+    "Date": "02-01-15",
+    "Tax": null,
+    "Amount": "$18,000"
+  },
+  {
+    "Description": "3532 DR. LEE TAI MAN",
+    "Quantity": null,
+    "Unit": null,
+    "UnitPrice": null,
+    "ProductCode": null,
+    "Date": "02-01-15",
+    "Tax": null,
+    "Amount": "$6,000"
+  },
+  {
+    "Description": "Anaesthetic",
+    "Quantity": null,
+    "Unit": null,
+    "UnitPrice": null,
+    "ProductCode": null,
+    "Date": "02-01-15",
+    "Tax": null,
+    "Amount": "$26,000"
+  }
+]
+```

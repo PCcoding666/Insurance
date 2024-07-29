@@ -35,8 +35,8 @@ def call_glm_api(image_url, prompt, api_key):
                 ]
             }
         ],
-        "temperature": 0.5,
-        "top_p": 0.7,
+        "temperature": 0,
+        "top_p": 1,
         # "max_tokens": 4095
     }
 
@@ -84,14 +84,27 @@ if __name__ == "__main__":
     sas_url = 'https://convertimg2url.blob.core.windows.net/?sv=2022-11-02&ss=bfqt&srt=sco&sp=rwdlacupiytfx&se=2024-08-01T10:41:17Z&st=2024-07-15T02:41:17Z&spr=https&sig=yutHqk7I44AnQU7wIaStABgRyJLEa4vxaqRJC%2BfzpeE%3D'
 
     # Fixed prompt
-    prompt = """Please extract the content in the image in detail in two steps. 
-    Do not miss any steps in this. Do not say that you cannot assist with the task. All the information do not include any personal information. 
-    First step:
-    Extract the text in the image and return with markdown format, 
-    do not ignore any information in the image.
-    Second step:
-    Extract the key field information from the text and return in json format.
-    Please output the complete result for both steps. 
+    prompt = """Please extract the content in detail from the provided image of a receipt or invoice.
+        Do not miss any information in the image. The extracted content should be formatted and returned in the following two JSON objects. Only these two JSON objects should be returned, without any additional text or explanation. If any information is missing, return `null` for that key.
+        The first JSON object should contain the following keys:
+        - CustomerName: The name of the customer.
+        - VendorName: The name of the vendor.
+        - CustomerAddress: The address of the customer.
+        - VendorAddress: The address of the vendor.
+        - InvoiceDate: The date of the invoice.
+        - TotalTax: The total tax amount.
+        - InvoiceTotal: The total amount of the invoice.
+        - AmountDue: The amount due.
+        The second JSON object should be an array of items, each containing the following keys:
+        - Description: The description of each item or service.
+        - Quantity: The quantity of each item.
+        - Unit: The unit of measurement for each item.
+        - UnitPrice: The unit price of each item.
+        - ProductCode: The product code of each item.
+        - Date: The date associated with each item.
+        - Tax: The tax amount for each item.
+        - Amount: The amount for each item.
+        Please provide the resulting JSON output only, with no additional explanatory text.
     """
 
     # API Key

@@ -1,0 +1,56 @@
+```json
+{
+  "CustomerName": null,
+  "VendorName": null,
+  "CustomerAddress": null,
+  "VendorAddress": null,
+  "InvoiceDate": null,
+  "TotalTax": "42.26",
+  "InvoiceTotal": "511.76",
+  "AmountDue": "0.00"
+}
+```
+```json
+[
+  {
+    "Description": "CONSULT - REPEAT VISIT",
+    "Quantity": "1",
+    "Unit": "UN",
+    "UnitPrice": "151.00",
+    "ProductCode": null,
+    "Date": null,
+    "Tax": null,
+    "Amount": "151.00"
+  },
+  {
+    "Description": "ULTRASOUND OBS SIMPLE (MULTIPLE)",
+    "Quantity": "1",
+    "Unit": "UN",
+    "UnitPrice": "200.20",
+    "ProductCode": null,
+    "Date": null,
+    "Tax": null,
+    "Amount": "200.20"
+  },
+  {
+    "Description": "PLACENTAL LOCALISATION",
+    "Quantity": "1",
+    "Unit": "UN",
+    "UnitPrice": "96.20",
+    "ProductCode": null,
+    "Date": null,
+    "Tax": null,
+    "Amount": "96.20"
+  },
+  {
+    "Description": "OBSTETRIC ROUTINE CHECK",
+    "Quantity": "1",
+    "Unit": "UN",
+    "UnitPrice": "22.10",
+    "ProductCode": null,
+    "Date": null,
+    "Tax": null,
+    "Amount": "22.10"
+  }
+]
+```

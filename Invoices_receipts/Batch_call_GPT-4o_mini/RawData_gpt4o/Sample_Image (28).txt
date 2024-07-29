@@ -1,0 +1,46 @@
+```json
+{
+  "CustomerName": null,
+  "VendorName": null,
+  "CustomerAddress": null,
+  "VendorAddress": null,
+  "InvoiceDate": null,
+  "TotalTax": "23.61",
+  "InvoiceTotal": "286.04",
+  "AmountDue": "0.00"
+}
+```
+```json
+[
+  {
+    "Description": "CONSULT - NEW VISIT, DEL SUITE (1 UN)",
+    "Quantity": "1",
+    "Unit": "UN",
+    "UnitPrice": "146.00",
+    "ProductCode": null,
+    "Date": null,
+    "Tax": null,
+    "Amount": "146.00"
+  },
+  {
+    "Description": "ANTENATAL CARDIOTOCOGRAPHY (CTG) (1 UN)",
+    "Quantity": "1",
+    "Unit": "UN",
+    "UnitPrice": "80.60",
+    "ProductCode": null,
+    "Date": null,
+    "Tax": null,
+    "Amount": "80.60"
+  },
+  {
+    "Description": "ACTIM PARTUS / PROM (1 EA)",
+    "Quantity": "1",
+    "Unit": "EA",
+    "UnitPrice": "35.83",
+    "ProductCode": null,
+    "Date": null,
+    "Tax": null,
+    "Amount": "35.83"
+  }
+]
+```

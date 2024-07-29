@@ -1,94 +1,44 @@
-### Step 1: Extract the text in Markdown format
-```markdown
-# Changi General Hospital SingHealth Tax Invoice
-
-### BILL REF NO
-6923672547A
-
-### BILL DATE
-25 AUG 2023
-
-### LOCATION
-A&E
-
-### VISIT DATE
-25 AUG 2023 10:03 AM
-
-### PATIENT INFORMATION
-- Name: HE A NIA
-- National Registration Identity Card (NRIC)/FIN/Passport No.: 692023672547A
-
-### CHARGES SUMMARY
-| SERVICES                   | DESCRIPTION                       | BEFORE GOVT SUBSIDY ($) | AFTER GOVT SUBSIDY ($) |
-|---------------------------|----------------------------------|------------------------|------------------------|
-| INVESTIGATIONS            | X-RAY INVESTIGATIONS             | 73.50                   | 0.00                   |
-| MEDICATIONS               | DRUGS / PRESCRIPTIONS / INJECTIONS | 24.22                   | 0.00                   |
-| TREATMENT                | A&E ATTENDANCE FEE               | 276.00                  | 138.00                  |
-
-### TOTAL AMOUNT BEFORE GST
-373.72
-
-### GOVT SUBSIDY
--235.72
-
-### TOTAL AMOUNT AFTER GST
-138.00
-
-### GST ABSORBED BY GOVT FOR SUBSIDISED PATIENT ONLY
-11.04
-
-### FINAL AMOUNT PAYABLE
-138.00
-
-### SCHEME/ECHEQUE ID/PAYOR
-HEM_
-
-### PAYMENT SUMMARY
-- TOTAL AMOUNT AFTER GOVT SUBSIDY: $138.00
-- REFERENCE NO.: Not provided on page 1
-- AMOUNT PAYABLE ($): $138.00
-
-### CONTACT AND REGISTRATION INFORMATION
-- Changi General Hospital Pte Ltd website: www.cgh.com.sg
-- Address: 2 Simel Street 3 Singapore 529889
-- Tel: +65 6788 8833
-- Company Registration No.: 198904226R
-- GST Reg No.: M90368910N
-
-### QR CODE ACCEPTS PAYMENT THROUGH PayNow
-```
-
-### Step 2: Extract Key Field Information in JSON Format
 ```json
 {
-  "Changi General Hospital SingHealth Tax Invoice": {
-    "Bill Ref No": "6923672547A",
-    "Bill Date": "25 Aug 2023",
-    "Location": "A&E",
-    "Visit Date": "25 Aug 2023 10:03 AM",
-    "Patient Information": {
-      "Name": "HE A NIA",
-      "National Registration Identity Card (NRIC)/FIN/Passport No.": "692023672547A"
-    },
-    "Charges Summary": {
-      "Investigations": {
-        "X-Ray Investigations": {
-          "Before Govt Subsidy": 73.50,
-          "After Govt Subsidy": 0.00
-        }
-      },
-      "Medications": {
-        "Drugs / Prescriptions / Injections": {
-          "Before Govt Subsidy": 24.22,
-          "After Govt Subsidy": 0.00
-        }
-      },
-      "Treatment": {
-        "A&E Attendance Fee": {
-          "Before Govt Subsidy": 276.00,
-          "After Govt Subsidy": 138.00
-        }
-      }
-    },
-    "Total Amount Before Gst": 373.72,
-    "Govt Sub
+  "CustomerName": "HE A NIA",
+  "VendorName": "Changi General Hospital SingHealth",
+  "CustomerAddress": null,
+  "VendorAddress": "2 Simel Street 3 Singapore 529889",
+  "InvoiceDate": "25 Aug 2023",
+  "TotalTax": "$11.04",
+  "InvoiceTotal": "$138.00",
+  "AmountDue": "$138.00"
+},
+[
+  {
+    "Description": "X-RAY INVESTIGATIONS",
+    "Quantity": "1.00",
+    "Unit": "",
+    "UnitPrice": "$73.50",
+    "ProductCode": null,
+    "Date": "25 Aug 2023",
+    "Tax": "$11.04",
+    "Amount": "$73.50"
+  },
+  {
+    "Description": "DRUGS / PRESCRIPTIONS / INJECTIONS",
+    "Quantity": "1.00",
+    "Unit": "",
+    "UnitPrice": "$24.22",
+    "ProductCode": null,
+    "Date": "25 Aug 2023",
+    "Tax": "$0.00",
+    "Amount": "$24.22"
+  },
+  {
+    "Description": "A&E ATTENDANCE FEE",
+    "Quantity": "1.00",
+    "Unit": "",
+    "UnitPrice": "$276.00",
+    "ProductCode": null,
+    "Date": "25 Aug 2023",
+    "Tax": "$11.04",
+    "Amount": "$276.00"
+  }
+]
+```

@@ -1,0 +1,26 @@
+```json
+{
+  "CustomerName": "ลูกค้า",
+  "VendorName": "SMEASY-DOC",
+  "CustomerAddress": null,
+  "VendorAddress": "305 ถนนท่าไชยใต้ ต.มะขามเตี้ย อ.เมือง จ.สุราษฎร์ธานี 50210",
+  "InvoiceDate": "22/3/2559",
+  "TotalTax": null,
+  "InvoiceTotal": "1,016.50",
+  "AmountDue": null
+}
+```
+```json
+[
+  {
+    "Description": "Full Version\nรายละเอียด\nStandalone 950 บ. ต่อ 1 เครื่อง\nPromotion 1,900 บ. ต่อไม่เกิน 4 เครื่อง (license)",
+    "Quantity": "1",
+    "Unit": null,
+    "UnitPrice": "950.00",
+    "ProductCode": null,
+    "Date": null,
+    "Tax": null,
+    "Amount": "950.00"
+  }
+]
+```

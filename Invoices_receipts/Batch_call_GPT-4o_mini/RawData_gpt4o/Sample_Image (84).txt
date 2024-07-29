@@ -1,0 +1,67 @@
+```json
+{
+  "CustomerName": null,
+  "VendorName": "BANGKOK HOSPITAL",
+  "CustomerAddress": null,
+  "VendorAddress": "CHIANG MAI",
+  "InvoiceDate": "12/02/2024",
+  "TotalTax": "0.00",
+  "InvoiceTotal": "3,330.00",
+  "AmountDue": null
+}
+```
+
+```json
+[
+  {
+    "Description": "Gpo-A-Flu Capsule (75 Mg)",
+    "Quantity": "10",
+    "Unit": null,
+    "UnitPrice": "53.00",
+    "ProductCode": null,
+    "Date": "12/02/2024",
+    "Tax": "0.00",
+    "Amount": "530.00"
+  },
+  {
+    "Description": "Influenza A/B screening ( Immunochromatography )",
+    "Quantity": "1",
+    "Unit": null,
+    "UnitPrice": "1,750.00",
+    "ProductCode": null,
+    "Date": "12/02/2024",
+    "Tax": "0.00",
+    "Amount": "1,750.00"
+  },
+  {
+    "Description": "Out patient nursing service charge",
+    "Quantity": null,
+    "Unit": null,
+    "UnitPrice": null,
+    "ProductCode": null,
+    "Date": "12/02/2024",
+    "Tax": "0.00",
+    "Amount": "100.00"
+  },
+  {
+    "Description": "Other Medical Charge",
+    "Quantity": null,
+    "Unit": null,
+    "UnitPrice": null,
+    "ProductCode": null,
+    "Date": "12/02/2024",
+    "Tax": "0.00",
+    "Amount": "200.00"
+  },
+  {
+    "Description": "PAITOON NARONGCHAI, M.D.",
+    "Quantity": null,
+    "Unit": null,
+    "UnitPrice": null,
+    "ProductCode": null,
+    "Date": "12/02/2024",
+    "Tax": "0.00",
+    "Amount": "750.00"
+  }
+]
+```

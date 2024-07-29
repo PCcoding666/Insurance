@@ -1,0 +1,36 @@
+```json
+{
+  "CustomerName": null,
+  "VendorName": "ST. TERESA'S HOSPITAL",
+  "CustomerAddress": null,
+  "VendorAddress": "327 PRINCE EDWARD ROAD, KOWLOON, HONG KONG",
+  "InvoiceDate": "10-06-2023",
+  "TotalTax": null,
+  "InvoiceTotal": "$4,395",
+  "AmountDue": "$4,395"
+}
+```
+```json
+[
+  {
+    "Description": "TREATMENT/ASSOCIATE MATERIALS",
+    "Quantity": null,
+    "Unit": null,
+    "UnitPrice": null,
+    "ProductCode": null,
+    "Date": "10-06-23",
+    "Tax": null,
+    "Amount": "$415"
+  },
+  {
+    "Description": "Doctor Fee",
+    "Quantity": null,
+    "Unit": null,
+    "UnitPrice": null,
+    "ProductCode": null,
+    "Date": "10-06-23",
+    "Tax": null,
+    "Amount": "$3,980"
+  }
+]
+```

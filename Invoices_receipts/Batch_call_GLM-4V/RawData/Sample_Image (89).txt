@@ -1,47 +1,88 @@
-First Step:
-
-```markdown
-|                             | BEFORE GOVT SUBSIDY ($) | AFTER GOVT SUBSIDY ($) |
-|-----------------------------|--------------------------|------------------------|
-| TOTAL AMOUNT(BEFORE GOVT SUBSIDY)  | $141.53                  | -$49.07                 |
-| GOVT SUBSIDY                 | -$49.07                  | -$49.07                 |
-| TOTAL AMOUNT (BEFORE GST)      | $92.46                   | $7.40                   |
-| 8% GST                      | $7.40                    | -$7.40                  |
-| GST absorbed by Govt          | -$7.40                   | -$7.40                  |
-| TOTAL AMOUNT (AFTER GOVT SUBSIDY) | $92.46                   | $92.46                  |
-| TOTAL AMOUNT PAYABLE          | $92.46                   | $92.46                  |
-| Net Payment made              | $0.00                    | $0.00                   |
-| FINAL AMOUNT PAYABLE          | $92.46                   | $92.46                  |
-
----
-
-| MEDICATION                   | BEFORE GOVT SUBSIDY ($) | AFTER GOVT SUBSIDY ($) |
-|-----------------------------|--------------------------|------------------------|
-| ADMINISTRATION (1 QTY)        | $54.50                   | $29.30                  |
-| DIPHENAMINE HCL LOZ - (NS) (48 QTY) | $24.00                   | $24.00                  |
-| CYSTEINE 600MG EFF TAB - (NS) (8 QTY) | $3.20                    | $3.20                   |
-| OMETHORPHAN 15MG/5ML SYR 200ML - (QTY) | $3.50                    | $2.10                   |
-| PHENERGINE TAB - (S1) (10 QTY) | $1.70                    | $1.28                   |
-| ACETAMOL 500MG TAB - (S1) (120 QTY) | $9.60                    | $4.20                   |
-| PARACETAMOL 200MG TAB - (S1) (50 QTY) | $10.00                   | $2.10                   |
-| BENAZOLINE 0.05% N/SPRAY - (S1)-MSV (1 QTY) | $3.57                    | $2.68                   |
-| CEFIXIME 1G TAB - (S2) (14 QTY) | $5.60                    | $4.20                   |
-| CLARITHROMYCIN 10MG TAB - (S2)-MSV (30 QTY) | $10.50                   | $7.88                   |
-| MESALAMINE FUROATE 50MCG N/SP - (S2)- (QTY) | $15.36                   | $11.52                  |
-
----
-
-| CHARGE                      | AMOUNT (BEFORE GOVT SUBSIDY) | AMOUNT (BEFORE GST) |
-|-----------------------------|--------------------------|------------------------|
-| Subsidy                     | -$49.07                  | -$49.07                  |
-| Total Amount Before GST     | $92.46                   | $92.46                  |
-```
-
-Second Step:
-
 ```json
 {
-  "before_govt_subsidy": {
-    "total_amount": "$141.53",
-    "govt_subsidy": "-$49.07",
-    "total_amount_before_gst": "$92.
+  "CustomerName": "MEDICARE",
+  "VendorName": "PHARMACY",
+  "CustomerAddress": "123 MAIN STREET, ANYTOWN, NSW 0000",
+  "VendorAddress": "456 SHOPPING CENTER DRIVE, NEXTTOWN, QLD 1000",
+  "InvoiceDate": "2022-09-18",
+  "TotalTax": "$7.40",
+  "InvoiceTotal": "$92.46",
+  "AmountDue": "$92.46",
+  "Items": [
+    {
+      "Description": "ADAMINE HCL LOZ - NS",
+      "Quantity": "48 QTY",
+      "Unit": "LOZ",
+      "UnitPrice": "$24.00",
+      "ProductCode": null,
+      "Date": "2022-09-18",
+      "Tax": "$0.00",
+      "Amount": "$112.00"
+    },
+    {
+      "Description": "CYSTEINE 600MG EFF TAB - NS",
+      "Quantity": "8 QTY",
+      "Unit": "EFF TAB",
+      "UnitPrice": "$3.20",
+      "ProductCode": null,
+      "Date": "2022-09-18",
+      "Tax": "$0.00",
+      "Amount": "$25.60"
+    },
+    {
+      "Description": "OMETHORPHAN 15MG/5ML SYR 200ML - S1",
+      "Quantity": "120 QTY",
+      "Unit": "SYR",
+      "UnitPrice": "$3.50",
+      "ProductCode": null,
+      "Date": "2022-09-18",
+      "Tax": "$0.00",
+      "Amount": "$420.00"
+    },
+    {
+      "Description": "CODEINE TAB - S1",
+      "Quantity": "10 QTY",
+      "Unit": "TAB",
+      "UnitPrice": "$1.70",
+      "ProductCode": null,
+      "Date": "2022-09-18",
+      "Tax": "$0.00",
+      "Amount": "$17.00"
+    },
+    {
+      "Description": "FENATOL 500MG TAB - S1",
+      "Quantity": "120 QTY",
+      "Unit": "TAB",
+      "UnitPrice": "$9.60",
+      "ProductCode": null,
+      "Date": "2022-09-18",
+      "Tax": "$0.00",
+      "Amount": "$1152.00"
+    },
+    {
+      "Description": "FENOXEFEN 200MG TAB - S1",
+      "Quantity": "50 QTY",
+      "Unit": "TAB",
+      "UnitPrice": "$10.00",
+      "ProductCode": null,
+      "Date": "2022-09-18",
+      "Tax": "$0.00",
+      "Amount": "$500.00"
+    },
+    {
+      "Description": "TAZOLINE 0.05% N/SPRAY - S1",
+      "Quantity": "1 MSV",
+      "Unit": "N/SPRAY",
+      "UnitPrice": "$3.57",
+      "ProductCode": null,
+      "Date": "2022-09-18",
+      "Tax": "$0.00",
+      "Amount": "$3.57"
+    },
+    {
+      "Description": "OXICLAV 1G TAB - S2",
+      "Quantity": "14 QTY",
+      "Unit": "TAB",
+      "UnitPrice": "$5.60",
+      "ProductCode": null,
+      

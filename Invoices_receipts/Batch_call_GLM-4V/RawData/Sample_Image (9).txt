@@ -1,82 +1,24 @@
-First Step:
-
-```markdown
-# Mount Elizabeth Orchard
-## TAX INVOICE
-- Page No.: 3 of 4
-- GST Reg No.: 20-0409811-Z
-- Business Reg No.: 53029035M
-- Print Date/Time: 16.02.2022/22:31:39
-- Bill Date: 16.02.2022
-- Customer No.: 6449330
-- Case No.: 2022009391
-- Bill Document No.: 100000042
-- Admission Date: 08.02.2022
-- Discharge Date: 09.02.2022
-
-| Service Description | Amount ($) |
-|----------------------|---------------|
-| EQUIPMENT AND SUPPLY | 605.30       |
-| DAILY TREATMENT FEE  | 224.30       |
-| Subtotal             | 15,497.23    |
-| Hospital Charges     | 15,497.23    |
-| GST @ 7%              | 1,084.80     |
-| Hospital Charges Subtotal | 16,582.03 |
-| Rounding Difference  | 0.01         |
-
-| Doctor Fee           |                |
-| - DR TEOH TIONG ANN  | 6,794.50     |
-| - DR ASOK KURUP      | 321.00       |
-| - DR TEOH PEI FEN    | 1,457.88     |
-| Total Doctor Fee     | 8,553.38     |
-| Total Bill           | 25,155.42    |
-| Total Hospital Charges | 25,155.42    |
-```
-
-Second Step:
-
 ```json
 {
-  "Invoice": {
-    "Provider": "Mount Elizabeth Orchard",
-    "Type": "TAX INVOICE",
-    "Page_Number": "3 of 4",
-    "GST_Registration_Number": "20-0409811-Z",
-    "Business_Registration_Number": "53029035M",
-    "Print_DateTime": "16.02.2022/22:31:39",
-    "Bill_Date": "16.02.2022",
-    "Customer_Number": "6449330",
-    "Case_Number": "2022009391",
-    "Bill_Document_Number": "100000042",
-    "Admission_Date": "08.02.2022",
-    "Discharge_Date": "09.02.2022"
-  },
-  "Services": [
+  "CustomerName": "GST Reg No",
+  "VendorName": "Mount Elizabeth Orchard",
+  "CustomerAddress": "20-0409811-Z",
+  "VendorAddress": "53029035M",
+  "InvoiceDate": "16.02.2022/22:31:39",
+  "TotalTax": "1,084.80",
+  "InvoiceTotal": "25,155.42",
+  "AmountDue": "25,155.42",
+  "Items": [
     {
       "Description": "EQUIPMENT AND SUPPLY",
-      "Amount": "605.30"
-    },
-    {
-      "Description": "DAILY TREATMENT FEE",
-      "Amount": "224.30"
+      "Quantity": "1",
+      "Unit": "",
+      "UnitPrice": "605.30",
+      "ProductCode": "DAILY TREATMENT FEE",
+      "Date": "08.02.2022",
+      "Tax": "224.30",
+      "Amount": "829.60"
     }
-  ],
-  "Summary": {
-    "Subtotal": "15,497.23",
-    "Hospital_Charges": "15,497.23",
-    "GST": "1,084.80",
-    "Hospital_Charges_Subtotal": "16,582.03",
-    "Rounding_Difference": "0.01"
-  },
-  "Doctors": [
-    {
-      "Name": "DR TEOH TIONG ANN",
-      "Fee": "6,794.50"
-    },
-    {
-      "Name": "DR ASOK KURUP",
-      "Fee": "321.00"
-    },
-    {
-      "Name": "DR TEOH PEI FEN",
-      "Fee": "1,457.88
+  ]
+}
+```

@@ -1,0 +1,96 @@
+```json
+{
+  "CustomerName": "Mr. ********",
+  "VendorName": "The Bangkok Christian Hospital",
+  "CustomerAddress": null,
+  "VendorAddress": "124 Silom Road, Bangkok 10500",
+  "InvoiceDate": "9 Apr 24",
+  "TotalTax": null,
+  "InvoiceTotal": "6,348.00",
+  "AmountDue": "6,348.00"
+}
+```
+```json
+[
+  {
+    "Description": "Drugs",
+    "Quantity": null,
+    "Unit": null,
+    "UnitPrice": "1,177.00",
+    "ProductCode": null,
+    "Date": null,
+    "Tax": null,
+    "Amount": "1,177.00"
+  },
+  {
+    "Description": "Parenteral Nutrition",
+    "Quantity": null,
+    "Unit": null,
+    "UnitPrice": "656.00",
+    "ProductCode": null,
+    "Date": null,
+    "Tax": null,
+    "Amount": "656.00"
+  },
+  {
+    "Description": "Medical Supplies 1",
+    "Quantity": null,
+    "Unit": null,
+    "UnitPrice": "1,460.00",
+    "ProductCode": null,
+    "Date": null,
+    "Tax": null,
+    "Amount": "1,460.00"
+  },
+  {
+    "Description": "Lab Investigation and Pathology",
+    "Quantity": null,
+    "Unit": null,
+    "UnitPrice": "125.00",
+    "ProductCode": null,
+    "Date": null,
+    "Tax": null,
+    "Amount": "125.00"
+  },
+  {
+    "Description": "General Medical Equipment",
+    "Quantity": null,
+    "Unit": null,
+    "UnitPrice": "125.00",
+    "ProductCode": null,
+    "Date": null,
+    "Tax": null,
+    "Amount": "125.00"
+  },
+  {
+    "Description": "Bed & Nursing Service",
+    "Quantity": null,
+    "Unit": null,
+    "UnitPrice": "800.00",
+    "ProductCode": null,
+    "Date": null,
+    "Tax": null,
+    "Amount": "800.00"
+  },
+  {
+    "Description": "Basic Hospital Charges",
+    "Quantity": null,
+    "Unit": null,
+    "UnitPrice": "800.00",
+    "ProductCode": null,
+    "Date": null,
+    "Tax": null,
+    "Amount": "800.00"
+  },
+  {
+    "Description": "First Outpatient Care",
+    "Quantity": null,
+    "Unit": null,
+    "UnitPrice": null,
+    "ProductCode": null,
+    "Date": null,
+    "Tax": null,
+    "Amount": null
+  }
+]
+```

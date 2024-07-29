@@ -1,79 +1,44 @@
-First Step:
-
-```markdown
-# Bill Information
-- Service Type: AIS Play Premium Plus 299
-- Package Details: 2Gbps/Fiber 2000/1000Mbps
-- Usage Period: From 22/11/2566 to 23/11/2566
-- Current Charge: 1,593.51 THB
-- Outstanding Balance: 0.00 THB
-- Total Outstanding Balance: 1,593.51 THB
-- Due Date: 24/12/2566
-
-# Summary of Current Charges
-- Service Fee: 6,289.26 THB
-- VAT at 7%: 4,800.00 THB
-- Other Charges: 104.25 THB
-- Total Current Charge: 1,593.51 THB
-
-# Your Package
-- Package Name: AIS PLAYBOX
-- Subscription Period: 1 year (until 24/11/2566)
-
-# Current Charges
-- 2Gbps/Fiber 2000/1000Mbps usage from 22/11/2566 to 23/11/2566: 90.26 THB
-- 2Gbps/Fiber 2000/1000Mbps usage from 24/11/2566 to 23/12/2566: 1,390.00 THB
-- Information Withholding Tax: 4,800.00 THB
-
-# Total Current Charge before VAT
-- Amount Before VAT: 1,489.26 THB
-
-# Total Current Charge after Information Withholding Tax
-- Total Current Charge Including Tax: 1,593.51 THB
-```
-
-Second Step:
-
 ```json
 {
-  "Bill Information": {
-    "Service Type": "AIS Play Premium Plus 299",
-    "Package Details": {
-      "Speed": [
-        "2Gbps",
-        "Fiber",
-        "2000",
-        "1000Mbps"
-      ]
+  "CustomerName": "มินิน 2Gbps 2000/1000 Mbps 1,399 บาท/เดือน",
+  "VendorName": "ไม้สายไฟรี 2Gbps Fibre 2000/1000 Mbps 1,399 บาท/เดือน",
+  "CustomerAddress": null,
+  "VendorAddress": null,
+  "InvoiceDate": "22/11/2566",
+  "TotalTax": "44.68",
+  "InvoiceTotal": "1,593.51",
+  "AmountDue": "1,593.51",
+  "Items": [
+    {
+      "Description": "AIS PLAYBOX ปี 2024 หลังคุณ",
+      "Quantity": "1",
+      "Unit": "ช่อง",
+      "UnitPrice": "90.26",
+      "ProductCode": null,
+      "Date": "22/11/2566",
+      "Tax": "0.00",
+      "Amount": "90.26"
     },
-    "Usage Period": {
-      "Start": "22/11/2566",
-      "End": "23/11/2566"
+    {
+      "Description": "2GbpsFibre2000/1000Mbpsระบาดใหญ่ 1,399บาท/เดือน (22/11/2566 23/11/2566)",
+      "Quantity": "1,399.00",
+      "Unit": "ช่อง",
+      "UnitPrice": "4,800.00",
+      "ProductCode": null,
+      "Date": "22/11/2566",
+      "Tax": "104.25",
+      "Amount": "1,489.25"
     },
-    "Current Charge": "1,593.51 THB",
-    "Outstanding Balance": "0.00 THB",
-    "Total Outstanding Balance": "1,593.51 THB",
-    "Due Date": "24/12/2566"
-  },
-  "Summary of Current Charges": {
-    "Service Fee": "6,289.26 THB",
-    "VAT at 7%": "4,800.00 THB",
-    "Other Charges": "104.25 THB",
-    "Total Current Charge": "1,593.51 THB"
-  },
-  "Your Package": {
-    "Name": "AIS PLAYBOX",
-    "Subscription Period": {
-      "Start": "22/11/2566",
-      "End": "24/11/2566"
+    {
+      "Description": "2GbpsFibre2000/1000Mbpsระบาดใหญ่ 1,399บาท/เดือน (24/11/2566 23/12/2566)",
+      "Quantity": "1,399.00",
+      "Unit": "ช่อง",
+      "UnitPrice": "4,800.00",
+      "ProductCode": null,
+      "Date": "24/11/2566",
+      "Tax": "4.80",
+      "Amount": "1,489.26"
     }
-  },
-  "Current Charges": {
-    "From 22/11/2566 to 23/11/2566": "90.26 THB",
-    "From 24/11/2566 to 23/12/2566": "1,390.00 THB",
-    "Information Withholding Tax": "4,800.00 THB"
-  },
-  "Total Current Charge before VAT": "1,489.26 THB",
-  "Total Current Charge after Information Withholding Tax": "1,593.51 THB"
+  ]
 }
 ```

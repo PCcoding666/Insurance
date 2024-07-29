@@ -1,0 +1,26 @@
+```json
+{
+  "CustomerName": null,
+  "VendorName": null,
+  "CustomerAddress": null,
+  "VendorAddress": null,
+  "InvoiceDate": null,
+  "TotalTax": "104.26",
+  "InvoiceTotal": "1,593.51",
+  "AmountDue": "1,593.51"
+}
+```
+```json
+[
+  {
+    "Description": "แพ็กเกจ 2Gbps Fibre 2000/1000 Mbps ค่าบริการรายเดือน 1,399 บาท นาน 24 เดือน",
+    "Quantity": "1",
+    "Unit": "เดือน",
+    "UnitPrice": "1,399.00",
+    "ProductCode": null,
+    "Date": "23/11/2566",
+    "Tax": "104.26",
+    "Amount": "1,489.26"
+  }
+]
+```

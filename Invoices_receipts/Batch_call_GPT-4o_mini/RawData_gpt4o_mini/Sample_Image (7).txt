@@ -1,0 +1,46 @@
+```json
+{
+  "CustomerName": null,
+  "VendorName": "National University Hospital",
+  "CustomerAddress": null,
+  "VendorAddress": "NUH, Singapore 119074",
+  "InvoiceDate": "27.01.2021",
+  "TotalTax": "34.78",
+  "InvoiceTotal": "531.55",
+  "AmountDue": "0.00"
+}
+```
+```json
+[
+  {
+    "Description": "Consultation Fee: Consultation Services (C - FV)",
+    "Quantity": null,
+    "Unit": null,
+    "UnitPrice": "123.05",
+    "ProductCode": null,
+    "Date": null,
+    "Tax": null,
+    "Amount": "123.05"
+  },
+  {
+    "Description": "Investigations Specialised: Fine Needle Aspiration With Tech Assista",
+    "Quantity": null,
+    "Unit": null,
+    "UnitPrice": "326.89",
+    "ProductCode": null,
+    "Date": null,
+    "Tax": null,
+    "Amount": "326.89"
+  },
+  {
+    "Description": "Treatment Services: Aspiration - Fine Needle",
+    "Quantity": null,
+    "Unit": null,
+    "UnitPrice": "81.64",
+    "ProductCode": null,
+    "Date": null,
+    "Tax": null,
+    "Amount": "81.64"
+  }
+]
+```

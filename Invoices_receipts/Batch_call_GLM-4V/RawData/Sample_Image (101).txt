@@ -1,76 +1,32 @@
-First Step:
-
-```markdown
-| Requested Date | Service Date/Time | Reg. Doctor      | Provider #        | Request No.       | Test Description                   | ACP/ACC          | Item No            | Amount (inc GST) |
-|-----------------|-------------------|------------------|-------------------|------------------|----------------------------------|------------------|--------------------|------------------|
-| 10-May-23        | 18:30              | Dr M PUTLAND      | 234026UK          | 14042851         | Full Blood Examination (FBE)        | A01               | 65070*R            | $25.42           |
-| 10-May-23        | 19:14              | Dr M CAI         | 272625AH          | 14042902         | Double-stranded DNA Abs         | A01               | 71099*R            | $36.67           |
-| ...             | ...               | ...              | ...               | ...              | ...                             | ...              | ...                | ...              |
-```
-
-Second Step:
-
 ```json
 {
-  "Payment Due By": "16-Jun-23",
-  "Invoice Number": "23.Jun.113",
-  "Invoice Date": "02-Jun-23",
-  "Provider Name": "Dr Giles Kelsey",
-  "Provider Number": "223374FJ",
-  "Facility Name": "Melbourne Health Pathology",
-  "Facility Provider No": "0031030B",
-  "Patient Name": "[Redacted]",
-  "Patient Account Medical": "[Redacted]",
-  "Services Rendered": [
-    {
-      "Requested Date": "10-May-23",
-      "Service Time": "18:30",
-      "Registered Doctor": "Dr M PUTLAND",
-      "Provider ID": "234026UK",
-      "Request Number": "14042851",
-      "Test": {
-        "Description": "Full Blood Examination (FBE)",
-        "ACP/ACC Code": "A01",
-        "Item Number": "65070*R",
-        "Amount": "$25.42",
-        "GST Included": true
-      }
-    },
-    {
-      ...
-    },
-    ...
-  ],
-  "Total Amount Due": "$1598.57",
-  "GST Amount": "$0.00",
-  "Legend": {
-    "Rule 3 Exemption": "R",
-    "In-patient": "="
+  "CustomerName": null,
+  "VendorName": "Melbourne Health",
+  "CustomerAddress": {
+    "Street": "300 Grattan Street, Parkville, VIC 3052",
+    "Enquiries": "(03) 9342 4926 Fax: (03) 9342 7862"
   },
-  "Page Information": {
-    "Page": "1 of 1"
-  },
-  "Receipt Printing Instructions": {
-    "Print Date": "11:10 Jun-23",
-    "User": "orionch07",
-    "Printing Location": "Carlton South 3053"
-  },
-  "Contact Details": {
+  "VendorAddress": {
     "ABN": "73 802 706 972",
-    "Address": "300 Grattan Street, Parkville, VIC 3052",
-    "Enquiries Telephone": "(03) 9342 4926",
-    "Fax": "(03) 9342 7862"
+    "ProviderNumber": "223374FJ",
+    "FacilityProviderNo": "0031030B"
   },
-  "Payment Options": [
+  "InvoiceDate": "02-Jun-23",
+  "TotalTax": "$0.00",
+  "InvoiceTotal": "$1598.57",
+  "AmountDue": "$1598.57",
+  "Items": [
     {
-      "Type": "Credit card",
-      "Telephone": "1300 133 096 (24 hrs a day)"
+      "Description": "Full Blood Examination (FBE)",
+      "Quantity": "1",
+      "Unit": "AO1",
+      "UnitPrice": "$25.42",
+      "ProductCode": "65070*R",
+      "Date": "10-May-23",
+      "Tax": "$0.00",
+      "Amount": "$25.42"
     },
-    {
-      "Type": "Cheque",
-      "Mail To": "Melbourne Health Pathology Locked Bag 8603 Carlton South 3053",
-      "Payee": "Cashier, Ground Floor RMH, 300 Grattan Street Parkville VIC 3052"
-    },
-    {
-      "Type": "In Person",
-      "Location": "Cashier, Ground Floor RMH, 300 Grattan Street Parkville
+    // Other items omitted for brevity
+  ]
+}
+```

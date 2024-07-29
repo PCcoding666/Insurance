@@ -1,0 +1,47 @@
+FileName,CustomerName,VendorName,CustomerAddress,VendorAddress,InvoiceDate,TotalTax,InvoiceTotal,AmountDue
+Sample_Image (7).txt,,National University Hospital,,"5 Lower Kent Ridge Road, Singapore 119074",27.01.2021,34.78,531.55,0.00
+Sample_Image (9).txt,,Mount Elizabeth,,"3 Mount Elizabeth, Singapore 228510",16.02.2022,"1,084.80","25,155.42",
+Sample_Image (12).txt,FOX AH KONG (0001),ST. TERESA'S HOSPITAL,,"327 PRINCE EDWARD ROAD, KOWLOON, HONG KONG",29-Jul-2015 12:07:16,,"$46,492","$46,492"
+Sample_Image (13).txt,HO KAI PAK,ST. TERESA'S HOSPITAL,,"327 PRINCE EDWARD ROAD, KOWLOON, HONG KONG",29-Jul-2015,,"$60,749","$60,749"
+Sample_Image (14).txt,SIANG FONG SIU (0001),ST. TERESA'S HOSPITAL,,"327 PRINCE EDWARD ROAD, KOWLOON, HONG KONG",29-Jul-2015 12:02:25,,"$34,100","$34,100"
+Sample_Image (18).txt,,Mount Elizabeth ORCHARD,,,10.03.2024,,,
+Sample_Image (19).txt,,Mount Elizabeth Hospital,,"3 Mount Elizabeth, Singapore 228510",10.03.2024,103.04,"1,247.91","1,247.91"
+Sample_Image (20).txt,,National University Hospital,,,07 NOV 2023,265.53,"3,724.70","-1,100.20"
+Sample_Image (22).txt,,Clinic: Yishun,,,11/04/2024 09:06,1.65,19.95,18.30
+Sample_Image (23).txt,,KK Women's and Children's Hospital Pte Ltd,,100 Bukit Timah Road Singapore 229899,31 Jul 2023 01:33 PM,656.02,"8,200.32",0.00
+Sample_Image (24).txt,,Dental Centre - Woodleigh,,9 Bidadari Park Drive #02-11/12 The Woodleigh Mall Singapore 367803,22/03/2024,,"$1,385.00",$0.00
+Sample_Image (25).txt,,VetSurge Ptd Ltd / Advanced VetCare,,"26 Jalan Pari Burong, Singapore, 488692",06-04-2024,,$4734.38,$484.38
+Sample_Image (26).txt,JULIA,Changi General Hospital,SINGAPORE 429###,2 Simei Street 3 Singapore 529889,25 AUG 2023,11.04,138.00,138.00
+Sample_Image (27).txt,,,,,,42.26,511.76,0.00
+Sample_Image (28).txt,,,,,,23.61,286.04,0.00
+Sample_Image (30).txt,,,,,,"1,016.76","12,473.13",0.00
+Sample_Image (85).txt,Mr. [Redacted],THE BANGKOK CHRISTIAN HOSPITAL,,"124 ถนนสีลม เขตบางรัก กรุงเทพฯ 10500 โทร. 0-2235-1000, 0-2625-9000
+124 Silom Road, Bangkok 10500 Tel. 0-2235-1000, 0-2625-9000",9 Apr 24 17:54,,"6,348.00","6,348.00"
+Sample_Image (86).txt,,HUA CHIEW HOSPITAL,,,13/03/2024,0.00,"2,974.00",0.00
+Sample_Image (87).txt,,,,,23-JUN-2023,,1148.20,
+Sample_Image (88).txt,,,,,,$358.04,"$4,833.60","$4,183.60"
+Sample_Image (89).txt,,,,,,7.40,92.46,92.46
+Sample_Image (90).txt,,,,,,,218.59,80.00
+Sample_Image (91).txt,,,,,,50.72,684.72,684.72
+Sample_Image (92).txt,,Thomson Medical Pte. Ltd.,,"339 Thomson Road, Singapore 307677",05/04/2023,638.55,"16,072.45","6,776.45"
+Sample_Image (101).txt,,Melbourne Health Pathology,,"300 Grattan Street, Parkville, VIC 3052",02-Jun-23,$0.00,$1598.57,$1598.57
+Sample_Image (103).txt,,ST. TERESA'S HOSPITAL,,"327 PRINCE EDWARD ROAD, KOWLOON, HONG KONG",10-06-2023,,"$4,395","$4,395"
+Sample_Image (104).txt,,Hong Kong Sanatorium & Hospital Ltd,,"2 Village Road, Happy Valley, Hong Kong",4 JUL 2023,,"39,889.00",
+Sample_Image (105).txt,,Hong Kong Sanatorium & Hospital Ltd,,"2 Village Road, Happy Valley, Hong Kong",4 JUL 2023,,"52,889.00","48,889.00"
+Thai_bill (1).txt,หจก.ไชยรัตน์เจริญ,บริษัท ตัวอย่าง จำกัด,648/3 หมู่ 10 ถ.รามคำแหง แขวงสะพานสูง เขตสะพานสูง,323 อาคารยูไนเต็ดเซ็นเตอร์ ชั้น 39 ห้อง 3903 สีลม บางรัก กทม.,31/01/56,0.00,"87,000.00","87,000.00"
+Thai_bill (2).txt,,"SINOVAC LIFE SCIENCES CO., LTD.",75/1 ถนน พระรามหก ตำบล/เขต พญาไท อำเภอ/เขต ราชเทวี จังหวัด กรุงเทพมหานคร 10400,21 ถนน TIANFU STREET หมู่ที่ ตำบล/เขต DAXING DISTRICT จังหวัด BEIJING,,,,
+Thai_bill (3).txt,ลูกค้า,SMEASY-DOC,,305 ถนนท่าไชยใต้ ต.มะขามเตี้ย อ.เมือง จ.สุราษฎร์ธานี 50210,22/3/2559,,"1,016.50",
+Thai_bill (4).txt,MISS NAPISA SAA,KRUNGTHAI CARD PUBLIC COMPANY LIMITED,โรงเรียนบ้านในไร่ หมู่7 นาเตย ท้ายเหมือง พังงา 82120,591 อาคารสมัชชาวาณิช 2 ชั้น 14 ถนนสุขุมวิท แขวงคลองตันเหนือ เขตวัฒนา กรุงเทพฯ 10110,18/09/21,,"33,415.78","33,415.78"
+Thai_bill (5).txt,บริษัท โลตัส จำกัด,,7/160 หนองแขม หนองแขม กรุงเทพมหานคร 10220,,29/01/2020,350.00,"5,350.00",
+Thai_bill (7).txt,,Head Office,,,2021/05/01,34.93 ฿,533.93 ฿,533.93 ฿
+Thai_bill (8).txt,,บริษัท รหัสโปรแกรมดี,,หมายเลขโทรศัพท์: (000) 000-0000,21/2/61,22.31,547.31,
+Thai_bill (9).txt,เลขที่ 1 หมู่1,Good Invoice จำกัด,ตำบล/แขวง ตัวอย่าง อำเภอ/เขต ตัวอย่าง จังหวัด ตัวอย่าง รหัสไปรษณีย์ 11111,1 หมู่1 ตำบล/แขวง ตัวอย่าง อำเภอ/เขต ตัวอย่าง จังหวัด ตัวอย่าง 11111,29/05/2020,32.00,500.00,
+Thai_bill (10).txt,Import Company,ABC Company Limited,"123 Importer Lane, Import City","456 Exporter Street, Export City",DD/MM/YYYY,USD 37.40,USD 737.40,USD 737.40
+Thai_bill (11).txt,บริษัท ผู้ซื้อทดสอบ จำกัด สำนักงานใหญ่,บริษัท ผู้ขายทดสอบ จำกัด (สำนักงานใหญ่),99 หมู่ 9 อาคาร 99 แขวงสามเสน เขตบางรัก กรุงเทพมหานคร 10500,999 หมู่ 999 ถ.สามพราน 999 แขวงสีลม เขตบางรัก กรุงเทพมหานคร 10500,09/09/2564,,,
+Thai_bill (12).txt,บริษัท ผู้รับการทดสอบ จำกัด (สำนักงานใหญ่),บริษัท ผู้รับการทดสอบ จำกัด (สำนักงานใหญ่),999 หมู่ 9 ถนน สาย 999 แขวงทดสอบ เขตทดสอบ กรุงเทพมหานคร 10500,999 หมู่ 9 ถนน สาย 999 แขวงทดสอบ เขตทดสอบ กรุงเทพมหานคร 10500,01/09/2564,20.00 บาท,299.60 บาท,299.60 บาท
+Thai_bill (13).txt,บริษัท กขค จำกัด,บริษัท วันวันโซลูชั่น ออดิทติ้ง จำกัด,53 หมู่ที่ 2 อาคารเจนจิราประสิทธิ์ ชั้น 3 ถนนแจ้งวัฒนะ แขวงทุ่งสองห้อง เขตหลักสี่ กรุงเทพมหานคร,8/209 หมู่บ้านทาวน์อเวนิว ติวานนท์ ซอยแจ่มจันทร์ 68 แขวงสวนหลวง เขตสวนหลวง กรุงเทพมหานคร 10250,28-Aug-20,,"10,000.00",
+Thai_bill (14).txt,บริษัท ดีดีดี เพรสทิจ จำกัด (สำนักงานใหญ่),บริษัท บิลด์มีอัพ คอนซัลแทนท์ จำกัด (สำนักงานใหญ่),44/14 หมู่ที่ 5 ตำบลบางพึ่ง อำเภอพระประแดง จังหวัดสมุทรปราการ 10540,เลขที่ 33/1285 หมู่ที่ 8 ตำบลพิมลราช อำเภอบางบัวทอง จังหวัดนนทบุรี 11110,02/08/2022,245.00,"3,745.00","3,640.00"
+Thai_bill (16).txt,MISS S AAA,KRUNGTHAI CARD PUBLIC COMPANY LIMITED,"Bangkok, Thailand 82120",591 อาคารสมัชชาวาณิช 2 ชั้น 14 ถนนสุขุมวิท แขวงคลองตันเหนือ เขตวัฒนา กรุงเทพฯ 10110,03/10/21,"1,719.39","33,415.78","12,000.00"
+Thai_bill (17).txt,,,,,,104.26,"1,593.51","1,593.51"
+Thai_bill (18).txt,คุณ รุ่งเรือง ค้าขายร่ำรวย,บริษัท เอซีบี จำกัด,99/9 ปากน้ำโพ ตำบลเมือง นครสวรรค์ 60000,41 / 94 ปากเกร็ด นนทบุรี 11120,05-11-2020,,"48,900.00",
+Thai_bill (19).txt,บริษัท กรุงเทพพลาสติกส์ จำกัด (มหาชน),บริษัท ตัวอย่าง จำกัด,83/1 หมู่4 ถ.พหลโยธิน ต.คำไฮ อ.วังน้อย จ.พระนครศรีอยุธยา 54000,257/1 ซ.รามคำแหง 75 ถ.รามคำแหง แขวงหัวหมาก เขตบางกะปิ กรุงเทพฯ 10240,20/02/2553,,"3,987,091.29",

@@ -1,0 +1,56 @@
+```json
+{
+  "CustomerName": null,
+  "VendorName": "Dental Centre - Woodleigh",
+  "CustomerAddress": null,
+  "VendorAddress": "Jadari Park Drive #02-11 The Woodleigh Mall Singapore 367803",
+  "InvoiceDate": "22/03/2024",
+  "TotalTax": null,
+  "InvoiceTotal": "$1,385.00",
+  "AmountDue": "$0.00"
+}
+```
+```json
+[
+  {
+    "Description": "CONSULTATION",
+    "Quantity": 1,
+    "Unit": null,
+    "UnitPrice": "$120.00",
+    "ProductCode": null,
+    "Date": null,
+    "Tax": null,
+    "Amount": "$120.00"
+  },
+  {
+    "Description": "X-RAYS (PA)",
+    "Quantity": 1,
+    "Unit": null,
+    "UnitPrice": "$50.00",
+    "ProductCode": null,
+    "Date": null,
+    "Tax": null,
+    "Amount": "$50.00"
+  },
+  {
+    "Description": "Root Canal Treatment Stage 1 - Extirpation / Emergency Treatment",
+    "Quantity": 1,
+    "Unit": null,
+    "UnitPrice": "$1,200.00",
+    "ProductCode": null,
+    "Date": null,
+    "Tax": null,
+    "Amount": "$1,200.00"
+  },
+  {
+    "Description": "Arcoxia 120mg - tablet",
+    "Quantity": 3,
+    "Unit": null,
+    "UnitPrice": "$5.00",
+    "ProductCode": null,
+    "Date": null,
+    "Tax": null,
+    "Amount": "$15.00"
+  }
+]
+```

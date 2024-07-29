@@ -1,68 +1,34 @@
-First Step:
-
-```markdown
-# Commercial Invoice
-
-| EXPORTER NAME & ADDRESS | COMMERCIAL INVOICE | IMPORTER NAME & ADDRESS |
-|-------------------------|----------------------|-------------------------|
-| ABC Company Limited      |                      | XYZ Company Limited      |
-
-| Date                   | DD/MM/YYYY           | Mode of Transportation | Vessel / Air        |
-| Invoice Number          | INV 0101             | Incoterms              | FOB Bangkok         |
-| Referred to P.O. or L/C Number | PO 2323 / L/C       | Payment Terms          | 50% Advanced T/T / 50% L/C |
-| Port of Loading         | Bangkok              | Post of Destination      | Tokyo               |
-
-| Items                  | Description          | Quantity              | Price per Unit        | Amount              |
-| 1                      | ABC                  | 1,000 pieces          | USD 29.99            | USD 29,990           |
-| 2                      | DEF                  | 2,000 kilograms        | USD 1.99             | USD 7,980            |
-| Total                  |                      |                        |                        | USD 37,970           |
-
-| Remarks:                |                      |                        |                        |
-| 1. Shipping Mark: ABC Company | 2. Payment must be made by end of month. | 3. Extra Documents Fee is excluded. |
-
-| Mr. A B                | Export Company        | Mr. B B                | Import Company        |
-```
-
-Second Step:
-
 ```json
 {
-  "EXPORTER_NAME_ADDRESS": "ABC Company Limited",
-  "IMPORTER_NAME_ADDRESS": "XYZ Company Limited",
-  "DATE": "DD/MM/YYYY",
-  "INVOICE_NUMBER": "INV 0101",
-  "REFERENCED_TO_P.O._OR_L.C._NUMBER": {
-    "P.O.": "PO 2323",
-    "L.C.": ""
-  },
-  "PORT_OF_LOADING": "Bangkok",
-  "POST_OF_DESTINATION": "Tokyo",
-  "MODE_OF_TRANSPORTATION": {
-    "INCOTERMS": "FOB Bangkok",
-    "PAYMENT_TERMS": {
-      "ADVANCED_T/T": "50%",
-      "L/C": "50%"
-    }
-  },
-  "ITEMS": [
+  "CustomerName": "ABC Company Limited",
+  "VendorName": "XYZ Company Limited",
+  "CustomerAddress": {},
+  "VendorAddress": {},
+  "InvoiceDate": "DO/MM/YYYY",
+  "TotalTax": null,
+  "InvoiceTotal": "USD 37,970",
+  "AmountDue": "USD 37,970",
+  "Items": [
     {
-      "QUANTITY": "1,000 pieces",
-      "PRICE_PER_UNIT": "USD 29.99",
-      "AMOUNT": "USD 29,990"
+      "Description": "ABC",
+      "Quantity": "1,000 pieces",
+      "Unit": "",
+      "UnitPrice": "USD 29.99",
+      "ProductCode": "50.10.11",
+      "Date": "",
+      "Tax": null,
+      "Amount": "USD 29,990"
     },
     {
-      "QUANTITY": "2,000 kilograms",
-      "PRICE_PER_UNIT": "USD 1.99",
-      "AMOUNT": "USD 7,980"
+      "Description": "DEF",
+      "Quantity": "2,000 kilograms",
+      "Unit": "kilograms",
+      "UnitPrice": "USD 1.99",
+      "ProductCode": "12.01.01",
+      "Date": "",
+      "Tax": null,
+      "Amount": "USD 7,980"
     }
-  ],
-  "TOTAL": "USD 37,970",
-  "REMARKS": [
-    "Shipping Mark: ABC Company",
-    "Payment must be made by end of month.",
-    "Extra Documents Fee is excluded."
-  ],
-  "EXPORT_COMPANY_REPRESENTATIVE": "Mr. A B",
-  "IMPORT_COMPANY_REPRESENTATIVE": "Mr. B B"
+  ]
 }
 ```

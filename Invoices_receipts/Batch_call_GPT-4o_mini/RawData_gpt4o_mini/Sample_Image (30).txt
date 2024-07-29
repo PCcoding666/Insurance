@@ -1,0 +1,126 @@
+```json
+{
+  "CustomerName": null,
+  "VendorName": null,
+  "CustomerAddress": null,
+  "VendorAddress": null,
+  "InvoiceDate": null,
+  "TotalTax": "1,016.76",
+  "InvoiceTotal": "12,473.13",
+  "AmountDue": "0.00"
+}
+```
+```json
+[
+  {
+    "Description": "WARD (CLASS C) (8.0 day(s))",
+    "Quantity": "8.0",
+    "Unit": "day(s)",
+    "UnitPrice": "396.00",
+    "ProductCode": null,
+    "Date": null,
+    "Tax": null,
+    "Amount": "3,168.00"
+  },
+  {
+    "Description": "DAILY TREATMENT FEE (CLASS NRO) (8.0 day(s))",
+    "Quantity": "8.0",
+    "Unit": "day(s)",
+    "UnitPrice": "269.75",
+    "ProductCode": null,
+    "Date": null,
+    "Tax": null,
+    "Amount": "2,158.00"
+  },
+  {
+    "Description": "LABORATORY INVESTIGATIONS",
+    "Quantity": null,
+    "Unit": null,
+    "UnitPrice": null,
+    "ProductCode": null,
+    "Date": null,
+    "Tax": null,
+    "Amount": "1,097.20"
+  },
+  {
+    "Description": "X-RAY INVESTIGATIONS",
+    "Quantity": null,
+    "Unit": null,
+    "UnitPrice": null,
+    "ProductCode": null,
+    "Date": null,
+    "Tax": null,
+    "Amount": "1,856.35"
+  },
+  {
+    "Description": "SPECIALISED INVESTIGATIONS",
+    "Quantity": null,
+    "Unit": null,
+    "UnitPrice": null,
+    "ProductCode": null,
+    "Date": null,
+    "Tax": null,
+    "Amount": "902.20"
+  },
+  {
+    "Description": "REHABILITATIVE SERVICES",
+    "Quantity": null,
+    "Unit": null,
+    "UnitPrice": null,
+    "ProductCode": null,
+    "Date": null,
+    "Tax": null,
+    "Amount": "65.00"
+  },
+  {
+    "Description": "DELIVERY RELATED CHARGES",
+    "Quantity": null,
+    "Unit": null,
+    "UnitPrice": null,
+    "ProductCode": null,
+    "Date": null,
+    "Tax": null,
+    "Amount": "1,158.30"
+  },
+  {
+    "Description": "DRUGS / PRESCRIPTIONS / INJECTIONS",
+    "Quantity": null,
+    "Unit": null,
+    "UnitPrice": null,
+    "ProductCode": null,
+    "Date": null,
+    "Tax": null,
+    "Amount": "118.05"
+  },
+  {
+    "Description": "WARD PROCEDURES",
+    "Quantity": null,
+    "Unit": null,
+    "UnitPrice": null,
+    "ProductCode": null,
+    "Date": null,
+    "Tax": null,
+    "Amount": "669.50"
+  },
+  {
+    "Description": "OTHER PROCEDURES",
+    "Quantity": null,
+    "Unit": null,
+    "UnitPrice": null,
+    "ProductCode": null,
+    "Date": null,
+    "Tax": null,
+    "Amount": "63.70"
+  },
+  {
+    "Description": "CONSUMABLES",
+    "Quantity": null,
+    "Unit": null,
+    "UnitPrice": null,
+    "ProductCode": null,
+    "Date": null,
+    "Tax": null,
+    "Amount": "40.93"
+  }
+]
+```

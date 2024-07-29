@@ -1,97 +1,24 @@
-First Step:
-
-```markdown
-# Thai Health Ministry Document - COVID-19 Vaccine Information
-
-**Document Type:**
-IC 3/64 (NBC)
-
-**Vaccine Information:**
-- **Vaccine Name:** CoronaVac
-- **Vaccine Code:** IC 90003/64 (NB)
-- **Suspension For Injection:** Yes
-
-**Manufacturer Information:**
-- **Company Name:** SINOVAC LIFE SCIENCES CO., LTD.
-- **Address:** No. 21 Tianfu Street, Beijing, Daxing District, People's Republic of China
-
-**Contact Information:**
-- **Phone Number:** 0 2203 8600-3
-
-**Date and Time Stamp:**
-- **Time Stamp:** 24/2541
-- **Date:** 75/1
-- **Year:** 2022
-
-**Weight Information:**
-- **Weight (g):** 22
-- **Volume (ml):** 2564
-
-**Additional Notes:**
-- **Page Number:** 21
-- **Signature:** Yes
-
----
-
-# Thai Health Ministry Document - COVID-19 Vaccine Information JSON Format
-{
-  "Document_Type": "IC 3/64 (NBC)",
-  "Vaccine_Information": {
-    "Name": "CoronaVac",
-    "Code": "IC 90003/64 (NB)",
-    "Suspension_For_Injection": true
-  },
-  "Manufacturer_Information": {
-    "Company_Name": "SINOVAC LIFE SCIENCES CO., LTD.",
-    "Address": "No. 21 Tianfu Street, Beijing, Daxing District, People's Republic of China"
-  },
-  "Contact_Information": {
-    "Phone_Number": "0 2203 8600-3"
-  },
-  "Date_and_Time_Stamp": {
-    "Time_Stamp": "24/2541",
-    "Date": "75/1",
-    "Year": "2022"
-  },
-  "Weight_Information": {
-    "Weight": "22 g",
-    "Volume": "2564 ml"
-  },
-  "Additional_Notes": {
-    "Page_Number": "21",
-    "Signature": true
-  }
-}
-```
-
-Second Step:
-
 ```json
 {
-  "Document_Type": "IC 3/64 (NBC)",
-  "Vaccine_Code": "IC 90003/64 (NB)",
-  "Suspension_For_Injection": true,
-  "Manufacturer_Details": {
-    "Company_Name": "SINOVAC LIFE SCIENCES CO., LTD.",
-    "Address": "No. 21 Tianfu Street, Beijing, Daxing District, People's Republic of China"
-  },
-  "Contact_Number": "0 2203 8600-3",
-  "Date_Details": {
-    "Time_Stamp": "24/2541",
-    "Date": "75/1",
-    "Year": "2022"
-  },
-  "Weight": {
-    "Value": "22 g",
-    "Unit": "g"
-  },
-  "Volume": {
-    "Value": "2564 ml",
-    "Unit": "ml"
-  },
-  "Additional_Info": {
-    "Page_Number": "21",
-    "Signature": true
-  }
+  "CustomerName": "SINOVAC LIFE SCIENCES CO., LTD.",
+  "VendorName": "IC 3/64 (NBC)",
+  "CustomerAddress": "21 กรุงธนบุรี ตำบันสินธาร์ อู่น/เมือง 10400",
+  "VendorAddress": "75/1 ถูกใจ ชั้น 3 อาคาร ห้องประชุม ที่ 1 บริษันธุ์ วิชัญชั้น 10400",
+  "InvoiceDate": "24/2541",
+  "TotalTax": "0",
+  "InvoiceTotal": "2564",
+  "AmountDue": "2564",
+  "Items": [
+    {
+      "Description": "ยา CoronaVac",
+      "Quantity": "1",
+      "Unit": "บริษันธุ์",
+      "UnitPrice": "2564",
+      "ProductCode": "IC 90003/64 (NB)",
+      "Date": "22",
+      "Tax": "0",
+      "Amount": "2564"
+    }
+  ]
 }
 ```

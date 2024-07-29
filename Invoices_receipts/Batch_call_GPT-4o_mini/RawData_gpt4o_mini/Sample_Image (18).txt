@@ -1,0 +1,146 @@
+```json
+{
+  "CustomerName": null,
+  "VendorName": "Mount Elizabeth",
+  "CustomerAddress": null,
+  "VendorAddress": "24-Hour Urgent Care Centre",
+  "InvoiceDate": "10.03.2024",
+  "TotalTax": null,
+  "InvoiceTotal": null,
+  "AmountDue": null
+}
+```
+```json
+[
+  {
+    "Description": "XR-CHEST 1 VIEW",
+    "Quantity": 1,
+    "Unit": null,
+    "UnitPrice": 52.99,
+    "ProductCode": "3501010049",
+    "Date": "09.03.2024",
+    "Tax": null,
+    "Amount": 52.99
+  },
+  {
+    "Description": "XR-SURCHARGE FIRST HR",
+    "Quantity": 1,
+    "Unit": null,
+    "UnitPrice": 138.00,
+    "ProductCode": "3501080016",
+    "Date": "09.03.2024",
+    "Tax": null,
+    "Amount": 138.00
+  },
+  {
+    "Description": "C-REACTIVE PROTEIN",
+    "Quantity": 1,
+    "Unit": null,
+    "UnitPrice": 35.53,
+    "ProductCode": "4001000183",
+    "Date": "09.03.2024",
+    "Tax": null,
+    "Amount": 35.53
+  },
+  {
+    "Description": "AFTER HRS SURCHARGE",
+    "Quantity": 1,
+    "Unit": null,
+    "UnitPrice": 49.48,
+    "ProductCode": "4004000049",
+    "Date": "09.03.2024",
+    "Tax": null,
+    "Amount": 49.48
+  },
+  {
+    "Description": "GENERAL FOLLOW-UP SCREEN",
+    "Quantity": 1,
+    "Unit": null,
+    "UnitPrice": 68.51,
+    "ProductCode": "4008000146",
+    "Date": "09.03.2024",
+    "Tax": null,
+    "Amount": 68.51
+  },
+  {
+    "Description": "MYCOPLASMA PNEUMONIAE IGM",
+    "Quantity": 1,
+    "Unit": null,
+    "UnitPrice": 73.59,
+    "ProductCode": "4008000034",
+    "Date": "09.03.2024",
+    "Tax": null,
+    "Amount": 73.59
+  },
+  {
+    "Description": "DENGUE NS1 ANTIGEN TEST",
+    "Quantity": 1,
+    "Unit": null,
+    "UnitPrice": 69.78,
+    "ProductCode": "4008000035",
+    "Date": "09.03.2024",
+    "Tax": null,
+    "Amount": 69.78
+  },
+  {
+    "Description": "INFLUENZA A&B ANTIGEN (NUR)",
+    "Quantity": 1,
+    "Unit": null,
+    "UnitPrice": 50.75,
+    "ProductCode": "4008000085",
+    "Date": "09.03.2024",
+    "Tax": null,
+    "Amount": 50.75
+  },
+  {
+    "Description": "ANTIGEN RAPID TEST (COVID-19)",
+    "Quantity": 1,
+    "Unit": null,
+    "UnitPrice": 41.00,
+    "ProductCode": "4008000178",
+    "Date": "09.03.2024",
+    "Tax": null,
+    "Amount": 41.00
+  },
+  {
+    "Description": "UCC NURSING FEE",
+    "Quantity": 1,
+    "Unit": null,
+    "UnitPrice": 43.27,
+    "ProductCode": "5600000082",
+    "Date": "09.03.2024",
+    "Tax": null,
+    "Amount": 43.27
+  },
+  {
+    "Description": "RM01",
+    "Quantity": 1,
+    "Unit": null,
+    "UnitPrice": 0.00,
+    "ProductCode": "5701000004",
+    "Date": "09.03.2024",
+    "Tax": null,
+    "Amount": 0.00
+  },
+  {
+    "Description": "OBSERVATION BED < 2HRS",
+    "Quantity": 1,
+    "Unit": null,
+    "UnitPrice": 215.09,
+    "ProductCode": "5701000004",
+    "Date": "09.03.2024",
+    "Tax": null,
+    "Amount": 215.09
+  },
+  {
+    "Description": "CONSULTATION - AFTER HOUR",
+    "Quantity": 1,
+    "Unit": null,
+    "UnitPrice": 148.62,
+    "ProductCode": "7108000002",
+    "Date": "09.03.2024",
+    "Tax": null,
+    "Amount": 148.62
+  }
+]
+```

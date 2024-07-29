@@ -1,0 +1,46 @@
+```json
+{
+  "CustomerName": null,
+  "VendorName": "บริษัท รัชดา จำกัด",
+  "CustomerAddress": null,
+  "VendorAddress": null,
+  "InvoiceDate": "21/2/61",
+  "TotalTax": "22.31",
+  "InvoiceTotal": "547.31",
+  "AmountDue": null
+}
+```
+```json
+[
+  {
+    "Description": "สินค้า: รหัสสินค้า 875/1",
+    "Quantity": "1",
+    "Unit": null,
+    "UnitPrice": "200.00",
+    "ProductCode": null,
+    "Date": null,
+    "Tax": null,
+    "Amount": "200.00"
+  },
+  {
+    "Description": "สินค้า: รหัสสินค้า 875/2",
+    "Quantity": "5",
+    "Unit": null,
+    "UnitPrice": "75.00",
+    "ProductCode": null,
+    "Date": null,
+    "Tax": null,
+    "Amount": "375.00"
+  },
+  {
+    "Description": "สินค้า: รหัสสินค้า 875/3",
+    "Quantity": "1",
+    "Unit": null,
+    "UnitPrice": "50.00",
+    "ProductCode": null,
+    "Date": null,
+    "Tax": null,
+    "Amount": "50.00"
+  }
+]
+```

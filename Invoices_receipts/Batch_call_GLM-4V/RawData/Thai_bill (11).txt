@@ -1,63 +1,34 @@
-First Step:
-
-```markdown
-# e-Invoice/e-Tax Invoice
-### เรื่องข้อมูลที่เกี่ยวข้อง
-* บัญชีผู้ขาย: 999 หน่อย 999 ถูกใจ
-* บัญชีผู้สั่งซื้อ: 99 หน่อย 99 ถูกใจ
-* ที่อยู่: 10500
-* โทรศัพย์: 123456789099
-* อีเมล: seller@test.com
-* เลขที่อิสราคม: 0912345678
-
-### เรื่องข้อมูลสำหรับผู้สั่งซื้อ
-* บัญชีผู้สั่งซื้อ: 99 หน่อย 99 ถูกใจ
-* ที่อยู่: 10500
-* โทรศัพย์: 1234567890123
-* อีเมล: buyer@test.com
-* เลขที่อิสราคม: 0812345678
-
-### รายละเอียดสินค้า
-| รายละเอียด | จำนวน | ราคาต่อไปนี้ | ภาษา | รายละเอียดสินค้า |
-|------------------|---------|------------------|-------|------------------|
-| 1                | 2       | 40.00            | THB   | อาหารเสริม          |
-| 2                | 10      | 20.00            | THB   | อาหารเสริม          |
-```
-
-Second Step:
-
 ```json
 {
-  "invoice": {
-    "type": "e-Invoice/e-Tax Invoice",
-    "seller_details": {
-      "name": "999 หน่อย 999 ถูกใจ",
-      "address": "10500",
-      "phone": "123456789099",
-      "email": "seller@test.com",
-      "tax_id": "0912345678"
+  "CustomerName": "Supaluck Singjan",
+  "VendorName": "999 หน่อย 999 วันที่",
+  "CustomerAddress": "10500",
+  "VendorAddress": "123456789099",
+  "InvoiceDate": "09/09/2564",
+  "TotalTax": "80.00",
+  "InvoiceTotal": "200.00",
+  "AmountDue": "200.00",
+  "Items": [
+    {
+      "Description": "สินค้าเล็ก",
+      "Quantity": "2",
+      "Unit": "บาตร",
+      "UnitPrice": "40.00",
+      "ProductCode": "TIW20210500001",
+      "Date": "09/09/2564",
+      "Tax": "80.00",
+      "Amount": "80.00"
     },
-    "buyer_details": {
-      "name": "99 หน่อย 99 ถูกใจ",
-      "address": "10500",
-      "phone": "1234567890123",
-      "email": "buyer@test.com",
-      "tax_id": "0812345678"
-    },
-    "items": [
-      {
-        "description": "อาหารเสริม",
-        "quantity": 2,
-        "unit_price": 40.00,
-        "language": "THB"
-      },
-      {
-        "description": "อาหารเสริม",
-        "quantity": 10,
-        "unit_price": 20.00,
-        "language": "THB"
-      }
-    ]
-  }
+    {
+      "Description": "สินค้าประจำ",
+      "Quantity": "10",
+      "Unit": "ชุด",
+      "UnitPrice": "20.00",
+      "ProductCode": null,
+      "Date": null,
+      "Tax": "200.00",
+      "Amount": "200.00"
+    }
+  ]
 }
 ```

@@ -1,0 +1,26 @@
+```json
+{
+  "CustomerName": null,
+  "VendorName": null,
+  "CustomerAddress": null,
+  "VendorAddress": null,
+  "InvoiceDate": "21/12/2566",
+  "TotalTax": "104.51",
+  "InvoiceTotal": "1,593.51",
+  "AmountDue": "1,593.51"
+}
+```
+```json
+[
+  {
+    "Description": "2Gbps Fibre 2000/1000 Mbps",
+    "Quantity": "1",
+    "Unit": "month",
+    "UnitPrice": "1,399.00",
+    "ProductCode": null,
+    "Date": "21/12/2566",
+    "Tax": "104.51",
+    "Amount": "1,593.51"
+  }
+]
+```

@@ -1,0 +1,36 @@
+```json
+{
+  "CustomerName": null,
+  "VendorName": "Hong Kong Sanatorium & Hospital Ltd",
+  "CustomerAddress": null,
+  "VendorAddress": "2 Village Road, Happy Valley, Hong Kong",
+  "InvoiceDate": "4 JUL 2023",
+  "TotalTax": null,
+  "InvoiceTotal": "52,889.00",
+  "AmountDue": "48,889.00"
+}
+```
+```json
+[
+  {
+    "Description": "DR. MUI (CHGL) (03/07/2023 ECG REPORTING)",
+    "Quantity": null,
+    "Unit": null,
+    "UnitPrice": null,
+    "ProductCode": "31811",
+    "Date": "04/07/23",
+    "Tax": null,
+    "Amount": "400.00"
+  },
+  {
+    "Description": "TOTAL FEES DUE TO DOCTOR/PRIVATE NURSE",
+    "Quantity": null,
+    "Unit": null,
+    "UnitPrice": null,
+    "ProductCode": null,
+    "Date": null,
+    "Tax": null,
+    "Amount": "13,000.00"
+  }
+]
+```

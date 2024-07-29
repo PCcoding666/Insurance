@@ -1,0 +1,126 @@
+```json
+{
+  "CustomerName": null,
+  "VendorName": null,
+  "CustomerAddress": null,
+  "VendorAddress": null,
+  "InvoiceDate": null,
+  "TotalTax": "7.40",
+  "InvoiceTotal": "92.46",
+  "AmountDue": "92.46"
+}
+```
+```json
+[
+  {
+    "Description": "Consultation",
+    "Quantity": "1",
+    "Unit": "QTY",
+    "UnitPrice": "54.50",
+    "ProductCode": null,
+    "Date": null,
+    "Tax": null,
+    "Amount": "29.30"
+  },
+  {
+    "Description": "Dexamethasone HCL LOZ - (NS)",
+    "Quantity": "48",
+    "Unit": "QTY",
+    "UnitPrice": "24.00",
+    "ProductCode": null,
+    "Date": null,
+    "Tax": null,
+    "Amount": "24.00"
+  },
+  {
+    "Description": "Cysteine 600MG EFF TAB - (NS)",
+    "Quantity": "8",
+    "Unit": "QTY",
+    "UnitPrice": "3.20",
+    "ProductCode": null,
+    "Date": null,
+    "Tax": null,
+    "Amount": "3.20"
+  },
+  {
+    "Description": "Dextromethorphan 15MG/5ML SYR 200ML",
+    "Quantity": "1",
+    "Unit": "QTY",
+    "UnitPrice": "3.50",
+    "ProductCode": null,
+    "Date": null,
+    "Tax": null,
+    "Amount": "2.10"
+  },
+  {
+    "Description": "Codeine TAB - (S1)",
+    "Quantity": "10",
+    "Unit": "QTY",
+    "UnitPrice": "1.70",
+    "ProductCode": null,
+    "Date": null,
+    "Tax": null,
+    "Amount": "1.28"
+  },
+  {
+    "Description": "Paracetamol 500MG TAB - (S1)",
+    "Quantity": "120",
+    "Unit": "QTY",
+    "UnitPrice": "9.60",
+    "ProductCode": null,
+    "Date": null,
+    "Tax": null,
+    "Amount": "4.20"
+  },
+  {
+    "Description": "Ibuprofen 200MG TAB - (S1)",
+    "Quantity": "50",
+    "Unit": "QTY",
+    "UnitPrice": "10.00",
+    "ProductCode": null,
+    "Date": null,
+    "Tax": null,
+    "Amount": "2.10"
+  },
+  {
+    "Description": "Tazoline 0.05% N/SPRY - (S1)-MSV",
+    "Quantity": "1",
+    "Unit": "QTY",
+    "UnitPrice": "3.57",
+    "ProductCode": null,
+    "Date": null,
+    "Tax": null,
+    "Amount": "2.68"
+  },
+  {
+    "Description": "Clavulanic Acid 1G TAB - (S2)",
+    "Quantity": "14",
+    "Unit": "QTY",
+    "UnitPrice": "5.60",
+    "ProductCode": null,
+    "Date": null,
+    "Tax": null,
+    "Amount": "4.20"
+  },
+  {
+    "Description": "Lidocaine 10MG TAB - (S2)-MSV",
+    "Quantity": "30",
+    "Unit": "QTY",
+    "UnitPrice": "10.50",
+    "ProductCode": null,
+    "Date": null,
+    "Tax": null,
+    "Amount": "7.88"
+  },
+  {
+    "Description": "Budesonide Furoate 50MCG N/SP - (S2)-",
+    "Quantity": "1",
+    "Unit": "QTY",
+    "UnitPrice": "15.36",
+    "ProductCode": null,
+    "Date": null,
+    "Tax": null,
+    "Amount": "11.52"
+  }
+]
+```

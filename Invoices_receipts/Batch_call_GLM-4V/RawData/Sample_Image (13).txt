@@ -1,55 +1,99 @@
-First Step:
-
-```markdown
-| 日期 DATE                   | 29-Jul-2015 11:58:10              |
-|---------------------------|--------------------------------------|
-| 姓名 NAME                  | 何启凯 HO KAI PAK (0001)             |
-| 病人编号 PATIENT NO.        | HN20150001IX                      |
-| 入院日期 ADMISSION DATE    | 01-Jan-2015                      |
-| 出院日期 DISCHARGE DATE    | 02-Jan-2015                      |
-| 项目 DATE                  | PARTICULARS                       |
-| 加床费 EXTRA BED           | $180                                |
-| 病理化验 HISTOPATHOLOGICAL EXAMINATION | $2,840                              |
-| 化验费 LABORATORY            | $1,975                              |
-| 麻醉/药物注射费 ANESTHETIC/INJECTION | $320                              |
-| 手术费 OPERATING THEATRE CHARGE | $3,260                              |
-| 手术室物料费 OPERATING THEATRE MATERIALS | $7,784                              |
-| 入院服务费 ADMISSION SERVICE   | $180                              |
-| 病床/病房收费 BED/ROOM CHARGE  | $750                              |
-| 药费/药物注射费 MEDICINE/INJECTION | $560                              |
-| 床位/病房收费 BED/ROOM CHARGE  | $750                              |
-| 治疗及有关物料费 TREATMENT/ASSOCIATE MATERIALS | $290                              |
-| 总医院费用 TOTAL HOSPITAL CHARGES | $18,749                            |
-| 医生费用 TOTAL DOCTOR FEE(S) | ------------------------------------|
-| 病房费 WARD ROUND FEE       | $2,000                              |
-| 手术费 OPERATION            | $30,000                             |
-| 李大文 DR. LEE TAI MAN      | $352                              |
-| 麻醉费 ANESTHETIC          | $10,000                             |
-| 总医生费用 TOTAL DOCTOR FEE(S) | $42,000                            |
-| 总费用 GRAND TOTAL          | $60,749                            |
-| 总额 TOTAL BALANCE DUE    | $60,749                            |
-| 应缴金额总数 GRAND TOTAL     | $60,749                            |
-| 备注 REMARKS                | ------------------------------------|
-| 1.住院票据须於出院後二十四小时内清付，否则在出院时将作保留。
-| 2.所有收费必须以现金或支票支付，恕不接受其他付款方式。
-| 3.至本院护士长“签名”表示已出户，方可有效收据。
-| 4.本院不负责保管。若失窃或遗失，恕不补发。
-| 5.此账单只供参考，一切以本院发出之账单为准。
-| 6.出院票据如有遗失，请向本院查询及补打。
-| N.B.
-| 1. 住院帐单，如已提出，必须在24小时内结清。存款将在出院时抵销余额。
-| 2. 门诊帐单必须在就诊后开出。
-| 3. 此收据只有在支票被银行兑现后才生效。
-| 4. 此收据一经开出，概不退换。
-| 5. 本院保留根据病人的情况、个案/手术的复杂性及个别医生所定之收费等因素而有所更改的权利。
-| 6. 本院保留有权利因任何原因而重新计算任何未清款项。
-```
-
-Second Step:
-
 ```json
 {
-  "Patient_Information": {
-    "Date_of_Admission": "01-Jan-2015",
-    "Date_of_Discharge": "02-Jan-2015",
-    "Name": "何启凯
+  "CustomerName": "Ho Kai Pai",
+  "VendorName": "聖德肋撒醫院 ST. TERESA'S HOSPITAL",
+  "CustomerAddress": "27 Prince Edward Road, Kowloon, Hong Kong",
+  "VendorAddress": "27 Prince Edward Road, Kowloon, Hong Kong",
+  "InvoiceDate": "29-Jul-2015 11:58:10",
+  "TotalTax": "$2,840",
+  "InvoiceTotal": "$60,749",
+  "AmountDue": "$60,749",
+  "Items": [
+    {
+      "Description": "加床床位费",
+      "Quantity": "1",
+      "Unit": "",
+      "UnitPrice": "$180",
+      "ProductCode": "AC2015000123",
+      "Date": "01-Jan-2015",
+      "Tax": "$0",
+      "Amount": "$180"
+    },
+    {
+      "Description": "病理化驗",
+      "Quantity": "1",
+      "Unit": "",
+      "UnitPrice": "$2,840",
+      "ProductCode": "LABORATORY",
+      "Date": "01-Jan-2015",
+      "Tax": "$0",
+      "Amount": "$2,840"
+    },
+    {
+      "Description": "麻醉/藥物注射費",
+      "Quantity": "1",
+      "Unit": "",
+      "UnitPrice": "$1,975",
+      "ProductCode": "ANESTHETIC",
+      "Date": "02-Jan-2015",
+      "Tax": "$0",
+      "Amount": "$1,975"
+    },
+    {
+      "Description": "手術费",
+      "Quantity": "1",
+      "Unit": "",
+      "UnitPrice": "$3,200",
+      "ProductCode": "OPERATING THEATRE CHARGE",
+      "Date": "02-Jan-2015",
+      "Tax": "$0",
+      "Amount": "$3,200"
+    },
+    {
+      "Description": "手術室物料費",
+      "Quantity": "1",
+      "Unit": "",
+      "UnitPrice": "$7,784",
+      "ProductCode": "OPERATING THEATRE MATERIALS",
+      "Date": "02-Jan-2015",
+      "Tax": "$0",
+      "Amount": "$7,784"
+    },
+    {
+      "Description": "入院服務",
+      "Quantity": "1",
+      "Unit": "",
+      "UnitPrice": "$180",
+      "ProductCode": "ADMISSION SERVICE",
+      "Date": "02-Jan-2015",
+      "Tax": "$0",
+      "Amount": "$180"
+    },
+    {
+      "Description": "病床/病房收费",
+      "Quantity": "1",
+      "Unit": "",
+      "UnitPrice": "$750",
+      "ProductCode": "BED/ROOM CHARGE",
+      "Date": "02-Jan-2015",
+      "Tax": "$0",
+      "Amount": "$750"
+    },
+    {
+      "Description": "藥物/藥物注射費",
+      "Quantity": "1",
+      "Unit": "",
+      "UnitPrice": "$560",
+      "ProductCode": "MEDICINE/INJECTION",
+      "Date": "02-Jan-2015",
+      "Tax": "$0",
+      "Amount": "$560"
+    },
+    {
+      "Description": "治療及有關材料費",
+      "Quantity": "1",
+      "Unit": "",
+      "UnitPrice": "$290",
+      "ProductCode": "TREATMENT/ASSOCIATE MATERIALS",
+      "Date": "02-Jan-2015",
+      

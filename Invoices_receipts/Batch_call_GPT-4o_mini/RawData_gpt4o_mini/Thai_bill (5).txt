@@ -1,0 +1,26 @@
+```json
+{
+  "CustomerName": "บริษัท โลจิส จำกัด",
+  "VendorName": "null",
+  "CustomerAddress": "7/160 ถนนนางลิ้นจี่ กรุงเทพมหานคร 10220",
+  "VendorAddress": "null",
+  "InvoiceDate": "29/01/2020",
+  "TotalTax": "360.00",
+  "InvoiceTotal": "5,350.00",
+  "AmountDue": "5,350.00"
+}
+```
+```json
+[
+  {
+    "Description": "FSER00002 ค่าบริการรายเดือน",
+    "Quantity": "1.00",
+    "Unit": "THB",
+    "UnitPrice": "500.00",
+    "ProductCode": "FSER00002",
+    "Date": "null",
+    "Tax": "null",
+    "Amount": "500.00"
+  }
+]
+```

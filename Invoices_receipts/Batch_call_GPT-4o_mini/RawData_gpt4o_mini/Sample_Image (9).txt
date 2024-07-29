@@ -1,0 +1,56 @@
+```json
+{
+  "CustomerName": null,
+  "VendorName": "Mount Elizabeth Hospital",
+  "CustomerAddress": null,
+  "VendorAddress": "3 Mount Elizabeth, Singapore 228510",
+  "InvoiceDate": "16.02.2022",
+  "TotalTax": "1,084.80",
+  "InvoiceTotal": "25,155.42",
+  "AmountDue": "25,155.42"
+}
+```
+```json
+[
+  {
+    "Description": "EQUIPMENT AND SUPPLY",
+    "Quantity": 1,
+    "Unit": null,
+    "UnitPrice": "605.30",
+    "ProductCode": null,
+    "Date": null,
+    "Tax": null,
+    "Amount": "605.30"
+  },
+  {
+    "Description": "DAILY TREATMENT FEE",
+    "Quantity": 1,
+    "Unit": null,
+    "UnitPrice": "224.30",
+    "ProductCode": null,
+    "Date": null,
+    "Tax": null,
+    "Amount": "224.30"
+  },
+  {
+    "Description": "Hospital Charges",
+    "Quantity": null,
+    "Unit": null,
+    "UnitPrice": null,
+    "ProductCode": null,
+    "Date": null,
+    "Tax": "1,084.80",
+    "Amount": "15,497.23"
+  },
+  {
+    "Description": "Total Doctor Fee",
+    "Quantity": null,
+    "Unit": null,
+    "UnitPrice": null,
+    "ProductCode": null,
+    "Date": null,
+    "Tax": null,
+    "Amount": "8,573.38"
+  }
+]
+```

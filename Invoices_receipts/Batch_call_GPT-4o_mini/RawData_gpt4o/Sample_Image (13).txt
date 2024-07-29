@@ -1,0 +1,126 @@
+```json
+{
+  "CustomerName": "HO KAI PAK",
+  "VendorName": "ST. TERESA'S HOSPITAL",
+  "CustomerAddress": null,
+  "VendorAddress": "327 PRINCE EDWARD ROAD, KOWLOON, HONG KONG",
+  "InvoiceDate": "29-Jul-2015",
+  "TotalTax": null,
+  "InvoiceTotal": "$60,749",
+  "AmountDue": "$60,749"
+}
+```
+```json
+[
+  {
+    "Description": "BED",
+    "Quantity": null,
+    "Unit": null,
+    "UnitPrice": null,
+    "ProductCode": null,
+    "Date": "01-Jan-2015",
+    "Tax": null,
+    "Amount": "$180"
+  },
+  {
+    "Description": "PATHOLOGICAL EXAMINATION",
+    "Quantity": null,
+    "Unit": null,
+    "UnitPrice": null,
+    "ProductCode": null,
+    "Date": "01-Jan-2015",
+    "Tax": null,
+    "Amount": "$2,840"
+  },
+  {
+    "Description": "OPERATION THEATRE CHARGES",
+    "Quantity": null,
+    "Unit": null,
+    "UnitPrice": null,
+    "ProductCode": null,
+    "Date": "01-Jan-2015",
+    "Tax": null,
+    "Amount": "$7,975"
+  },
+  {
+    "Description": "ADMISSION SERVICE",
+    "Quantity": null,
+    "Unit": null,
+    "UnitPrice": null,
+    "ProductCode": null,
+    "Date": "01-Jan-2015",
+    "Tax": null,
+    "Amount": "$180"
+  },
+  {
+    "Description": "BED/ROOM CHARGE",
+    "Quantity": null,
+    "Unit": null,
+    "UnitPrice": null,
+    "ProductCode": null,
+    "Date": "01-Jan-2015",
+    "Tax": null,
+    "Amount": "$750"
+  },
+  {
+    "Description": "MEDICINE/INJECTION",
+    "Quantity": null,
+    "Unit": null,
+    "UnitPrice": null,
+    "ProductCode": null,
+    "Date": "02-Jan-2015",
+    "Tax": null,
+    "Amount": "$560"
+  },
+  {
+    "Description": "BED/ROOM CHARGE",
+    "Quantity": null,
+    "Unit": null,
+    "UnitPrice": null,
+    "ProductCode": null,
+    "Date": "02-Jan-2015",
+    "Tax": null,
+    "Amount": "$750"
+  },
+  {
+    "Description": "TREATMENT/ASSOCIATE MATERIALS",
+    "Quantity": null,
+    "Unit": null,
+    "UnitPrice": null,
+    "ProductCode": null,
+    "Date": "02-Jan-2015",
+    "Tax": null,
+    "Amount": "$290"
+  },
+  {
+    "Description": "DR. CHAN TAI MAN",
+    "Quantity": null,
+    "Unit": null,
+    "UnitPrice": null,
+    "ProductCode": null,
+    "Date": "02-Jan-2015",
+    "Tax": null,
+    "Amount": "$2,000"
+  },
+  {
+    "Description": "Operation",
+    "Quantity": null,
+    "Unit": null,
+    "UnitPrice": null,
+    "ProductCode": null,
+    "Date": "02-Jan-2015",
+    "Tax": null,
+    "Amount": "$30,000"
+  },
+  {
+    "Description": "DR. LEE TAI MAN",
+    "Quantity": null,
+    "Unit": null,
+    "UnitPrice": null,
+    "ProductCode": null,
+    "Date": "02-Jan-2015",
+    "Tax": null,
+    "Amount": "$10,000"
+  }
+]
+```

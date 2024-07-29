@@ -1,0 +1,26 @@
+```json
+{
+  "CustomerName": "บริษัท โลตัส จำกัด",
+  "VendorName": null,
+  "CustomerAddress": "7/160 หนองแขม หนองแขม กรุงเทพมหานคร 10220",
+  "VendorAddress": null,
+  "InvoiceDate": "29/01/2020",
+  "TotalTax": "350.00",
+  "InvoiceTotal": "5,350.00",
+  "AmountDue": null
+}
+```
+```json
+[
+  {
+    "Description": "ค่าบริการรายเดือน",
+    "Quantity": "1.0000",
+    "Unit": "10",
+    "UnitPrice": "500.0000",
+    "ProductCode": "FSER00002",
+    "Date": null,
+    "Tax": "350.00",
+    "Amount": "5,000.00"
+  }
+]
+```

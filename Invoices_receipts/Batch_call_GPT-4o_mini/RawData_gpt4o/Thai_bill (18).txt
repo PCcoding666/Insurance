@@ -1,0 +1,36 @@
+```json
+{
+  "CustomerName": "คุณ รุ่งเรือง ค้าขายร่ำรวย",
+  "VendorName": "บริษัท เอซีบี จำกัด",
+  "CustomerAddress": "99/9 ปากน้ำโพ ตำบลเมือง นครสวรรค์ 60000",
+  "VendorAddress": "41 / 94 ปากเกร็ด นนทบุรี 11120",
+  "InvoiceDate": "05-11-2020",
+  "TotalTax": null,
+  "InvoiceTotal": "48,900.00",
+  "AmountDue": null
+}
+```
+```json
+[
+  {
+    "Description": "Samsung Mobile S9",
+    "Quantity": "1",
+    "Unit": "เครื่อง",
+    "UnitPrice": "27,000.00",
+    "ProductCode": null,
+    "Date": null,
+    "Tax": null,
+    "Amount": "27,000.00"
+  },
+  {
+    "Description": "iPhone 8 ใช้งานดีทนทาน",
+    "Quantity": "1",
+    "Unit": "เครื่อง",
+    "UnitPrice": "21,900.00",
+    "ProductCode": null,
+    "Date": null,
+    "Tax": null,
+    "Amount": "21,900.00"
+  }
+]
+```

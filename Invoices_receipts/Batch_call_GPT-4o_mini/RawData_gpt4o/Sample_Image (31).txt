@@ -1,0 +1,47 @@
+```json
+{
+  "CustomerName": null,
+  "VendorName": "Raffles Hospital",
+  "CustomerAddress": null,
+  "VendorAddress": "Raffles Women's Centre 585 North Bridge Road #12-00 Raffles Hospital Singapore 188770",
+  "InvoiceDate": "16-DEC-2022",
+  "TotalTax": "17.78",
+  "InvoiceTotal": "271.75",
+  "AmountDue": "0.00"
+}
+```
+
+```json
+[
+  {
+    "Description": "PRACTICE COST",
+    "Quantity": "1.0",
+    "Unit": null,
+    "UnitPrice": "16.00",
+    "ProductCode": null,
+    "Date": null,
+    "Tax": null,
+    "Amount": "16.00"
+  },
+  {
+    "Description": "MAMMOGRAM ADDITIONAL VIEW (UNILATERAL BREAST)",
+    "Quantity": "1.0",
+    "Unit": null,
+    "UnitPrice": "58.00",
+    "ProductCode": null,
+    "Date": null,
+    "Tax": null,
+    "Amount": "58.00"
+  },
+  {
+    "Description": "ULTRASOUND TARGETED BREAST",
+    "Quantity": "1.0",
+    "Unit": null,
+    "UnitPrice": "180.00",
+    "ProductCode": null,
+    "Date": null,
+    "Tax": null,
+    "Amount": "180.00"
+  }
+]
+```

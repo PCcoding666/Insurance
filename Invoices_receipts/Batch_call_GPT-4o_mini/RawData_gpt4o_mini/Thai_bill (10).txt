@@ -1,0 +1,36 @@
+```json
+{
+  "CustomerName": "Import Company",
+  "VendorName": "ABC Company Limited",
+  "CustomerAddress": null,
+  "VendorAddress": null,
+  "InvoiceDate": null,
+  "TotalTax": "USD 37.90",
+  "InvoiceTotal": "USD 1,000.00",
+  "AmountDue": null
+}
+```
+```json
+[
+  {
+    "Description": "Item 1: ABC CD",
+    "Quantity": "2.000 pieces",
+    "Unit": "pieces",
+    "UnitPrice": "USD 50.00",
+    "ProductCode": null,
+    "Date": null,
+    "Tax": "USD 3.99",
+    "Amount": "USD 100.00"
+  },
+  {
+    "Description": "Item 2: DEF Product",
+    "Quantity": "1.000 kilograms",
+    "Unit": "kilograms",
+    "UnitPrice": "USD 20.00",
+    "ProductCode": null,
+    "Date": null,
+    "Tax": "USD 1.00",
+    "Amount": "USD 20.00"
+  }
+]
+```

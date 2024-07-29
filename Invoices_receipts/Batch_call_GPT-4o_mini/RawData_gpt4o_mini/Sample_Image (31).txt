@@ -1,0 +1,46 @@
+```json
+{
+  "CustomerName": null,
+  "VendorName": "Raffles Hospital",
+  "CustomerAddress": null,
+  "VendorAddress": "RAFFLES WOMEN'S CENTRE 585 NORTH BRIDGE ROAD #12-00 188770 T: 63111230",
+  "InvoiceDate": "16-DEC-2022",
+  "TotalTax": "17.76",
+  "InvoiceTotal": "271.75",
+  "AmountDue": "0.00"
+}
+```
+```json
+[
+  {
+    "Description": "PRACTICE COST",
+    "Quantity": "1.0",
+    "Unit": null,
+    "UnitPrice": "16.00",
+    "ProductCode": null,
+    "Date": null,
+    "Tax": null,
+    "Amount": "16.00"
+  },
+  {
+    "Description": "MAMMOGRAM ADDITIONAL VIEW (UNILATERAL BREAST)",
+    "Quantity": "1.0",
+    "Unit": null,
+    "UnitPrice": "58.00",
+    "ProductCode": null,
+    "Date": null,
+    "Tax": null,
+    "Amount": "58.00"
+  },
+  {
+    "Description": "ULTRASOUND TARGETED BREAST",
+    "Quantity": "1.0",
+    "Unit": null,
+    "UnitPrice": "180.00",
+    "ProductCode": null,
+    "Date": null,
+    "Tax": null,
+    "Amount": "180.00"
+  }
+]
+```

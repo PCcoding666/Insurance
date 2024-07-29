@@ -1,0 +1,96 @@
+```json
+{
+  "CustomerName": null,
+  "VendorName": "National University Hospital",
+  "CustomerAddress": null,
+  "VendorAddress": null,
+  "InvoiceDate": "07 NOV 2023",
+  "TotalTax": "265.53",
+  "InvoiceTotal": "3,724.70",
+  "AmountDue": "-1,100.20"
+}
+```
+```json
+[
+  {
+    "Description": "Class B2 (2 DAYS)",
+    "Quantity": null,
+    "Unit": null,
+    "UnitPrice": null,
+    "ProductCode": null,
+    "Date": null,
+    "Tax": null,
+    "Amount": "600.00"
+  },
+  {
+    "Description": "Class B2 (2 DAYS)",
+    "Quantity": null,
+    "Unit": null,
+    "UnitPrice": null,
+    "ProductCode": null,
+    "Date": null,
+    "Tax": null,
+    "Amount": "328.00"
+  },
+  {
+    "Description": "Laboratory",
+    "Quantity": null,
+    "Unit": null,
+    "UnitPrice": null,
+    "ProductCode": null,
+    "Date": null,
+    "Tax": null,
+    "Amount": "260.51"
+  },
+  {
+    "Description": "Specialised",
+    "Quantity": null,
+    "Unit": null,
+    "UnitPrice": null,
+    "ProductCode": null,
+    "Date": null,
+    "Tax": null,
+    "Amount": "265.23"
+  },
+  {
+    "Description": "X-ray",
+    "Quantity": null,
+    "Unit": null,
+    "UnitPrice": null,
+    "ProductCode": null,
+    "Date": null,
+    "Tax": null,
+    "Amount": "1,481.48"
+  },
+  {
+    "Description": "Non Standard",
+    "Quantity": null,
+    "Unit": null,
+    "UnitPrice": null,
+    "ProductCode": null,
+    "Date": null,
+    "Tax": null,
+    "Amount": "11.75"
+  },
+  {
+    "Description": "Standard",
+    "Quantity": null,
+    "Unit": null,
+    "UnitPrice": null,
+    "ProductCode": null,
+    "Date": null,
+    "Tax": null,
+    "Amount": "27.59"
+  },
+  {
+    "Description": "Ward/ Clinic / Other Procedures",
+    "Quantity": null,
+    "Unit": null,
+    "UnitPrice": null,
+    "ProductCode": null,
+    "Date": null,
+    "Tax": null,
+    "Amount": "202.01"
+  }
+]
+```

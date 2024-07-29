@@ -1,0 +1,46 @@
+```json
+{
+  "CustomerName": "MISS NAPISA SAA",
+  "VendorName": "KRUNGTHAI CARD PUBLIC COMPANY LIMITED",
+  "CustomerAddress": "โรงเรียนบ้านในไร่ หมู่7 นาเตย ท่ายเมือง พิษณุโลก 82120",
+  "VendorAddress": "591 อาคารสมัชชาชาติไทย 2 ชั้น 14 ถนนสุโขทัย แขวงคลองถนนเหนือ เขตดินแดง กรุงเทพฯ 10400",
+  "InvoiceDate": "18/09/21",
+  "TotalTax": null,
+  "InvoiceTotal": "33,415.78",
+  "AmountDue": "33,415.78"
+}
+```
+```json
+[
+  {
+    "Description": "Payment-KTB Internet",
+    "Quantity": null,
+    "Unit": null,
+    "UnitPrice": null,
+    "ProductCode": null,
+    "Date": "01/09/21",
+    "Tax": null,
+    "Amount": "14,459.96"
+  },
+  {
+    "Description": "Payment-KBANK(004)Internet",
+    "Quantity": null,
+    "Unit": null,
+    "UnitPrice": null,
+    "ProductCode": null,
+    "Date": "11/09/21",
+    "Tax": null,
+    "Amount": "18,981.74"
+  },
+  {
+    "Description": "Interest",
+    "Quantity": null,
+    "Unit": null,
+    "UnitPrice": null,
+    "ProductCode": null,
+    "Date": null,
+    "Tax": null,
+    "Amount": "1,974.08"
+  }
+]
+```

@@ -1,0 +1,46 @@
+```json
+{
+  "CustomerName": "null",
+  "VendorName": "Good Invoice จำกัด",
+  "CustomerAddress": "1 หมู่ 1 ตำบล/แขวง วัดสำราญ อำเภอ/เขต สังขละบุรี จังหวัด กาญจนบุรี 11111",
+  "VendorAddress": "null",
+  "InvoiceDate": "29/05/2020",
+  "TotalTax": "32.00",
+  "InvoiceTotal": "500.00",
+  "AmountDue": "500.00"
+}
+```
+```json
+[
+  {
+    "Description": "สินค้า1",
+    "Quantity": "1",
+    "Unit": "null",
+    "UnitPrice": "100.00",
+    "ProductCode": "null",
+    "Date": "null",
+    "Tax": "null",
+    "Amount": "100.00"
+  },
+  {
+    "Description": "สินค้า2",
+    "Quantity": "1",
+    "Unit": "null",
+    "UnitPrice": "200.00",
+    "ProductCode": "null",
+    "Date": "null",
+    "Tax": "null",
+    "Amount": "200.00"
+  },
+  {
+    "Description": "สินค้า2",
+    "Quantity": "1",
+    "Unit": "null",
+    "UnitPrice": "200.00",
+    "ProductCode": "null",
+    "Date": "null",
+    "Tax": "null",
+    "Amount": "200.00"
+  }
+]
+```

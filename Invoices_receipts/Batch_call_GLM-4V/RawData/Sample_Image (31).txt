@@ -1,56 +1,44 @@
-First Step:
-
-```markdown
-| GST REG NO. | PAGE | VISIT NO. | BILL TYPE | BILL DATE | INVOICE NO. | PATIENT NAME | PATIENT ID NO. | POLICY NO. |
-|--------------|-----|-----------|------------|------------|-------------|----------------|----------------|--------------|
-|                | 1 of 1 |                  | PATIN/OUT | 16-DEC-2022 |                |                |                |              |
-| PRACTICE COST |      |               |            |            |              |                |                |              |
-| - RADIOLOGY   | 1.0 | 16.00      | 16.00      |            |              |                |                |              |
-| - MAMMOGRAM ADDITIONAL VIEW (UNILATERAL BREAST) | 1.0 | 58.00 | 58.00 |            |              |                |                |              |
-| - ULTRASOUND TARGETED BREAST | 1.0 | 180.00 | 180.00 |            |              |                |                |              |
-| SUB-TOTAL     |      |               |            |            |              |                |                |              |
-| TOTAL CHARGES BEFORE GST |      | 238.00      | 238.00      |            |              |                |                |              |
-| GST @ 7%      |      |               |            |            |              |                |                |              |
-| TOTAL CHARGES AFTER GST |      | 254.00      | 254.00      |            |              |                |                |              |
-| LESS ROUNDING ADJUSTMENT |      | (-0.03)     | (-0.03)     |            |              |                |                |              |
-| TOTAL AMOUNT PAID |      | 271.78      | 271.78      |            |              |                |                |              |
-| RES2201922525 - 16/12/2022 - UOB VCMC (VISA MASTER) |      |               |            |            |              |                |                |              |
-| TOTAL BALANCE DUE |      | 0.00        | 0.00        |            |              |                |                |              |
-```
-
-Second Step:
-
 ```json
 {
-  "GST_REG_NO": "",
-  "PAGE": "1 of 1",
-  "VISIT_NO": "",
-  "BILL_TYPE": "PATIN/OUT",
-  "BILL_DATE": "16-DEC-2022",
-  "INVOICE_NO": "",
-  "PATIENT_NAME": "",
-  "PATIENT_ID_NO": "",
-  "POLICY_NO": "",
-  "PRACTICE_COST": {
-    "RADIOLOGY": {
-      "QTY": 1.0,
-      "S$": 16.00,
-      "AMOUNT": 16.00
+  "CustomerName": null,
+  "VendorName": "RAFFLES WOMEN'S CENTRE",
+  "CustomerAddress": null,
+  "VendorAddress": "585 NORTH BRIDGE ROAD #12-00 RAFFLES HOSPITAL SINGAPORE 188770",
+  "InvoiceDate": "16/DEC/2022",
+  "TotalTax": "17.78",
+  "InvoiceTotal": "271.78",
+  "AmountDue": "0.00",
+  "Items": [
+    {
+      "Description": "PRACTICE COST",
+      "Quantity": "1.00",
+      "Unit": "",
+      "UnitPrice": "16.00",
+      "ProductCode": "",
+      "Date": "16/DEC/2022",
+      "Tax": "",
+      "Amount": "16.00"
     },
-    "MAMMOGRAM_ADDITIONAL_VIEW": {
-      "QTY": 1.0,
-      "S$": 58.00,
-      "AMOUNT": 58.00
+    {
+      "Description": "MAMMOGRAM ADDITIONAL VIEW (UNILATERAL BREAST)",
+      "Quantity": "1.00",
+      "Unit": "",
+      "UnitPrice": "58.00",
+      "ProductCode": "",
+      "Date": "16/DEC/2022",
+      "Tax": "",
+      "Amount": "58.00"
     },
-    "ULTRASOUND_TARGETED_BREAST": {
-      "QTY": 1.0,
-      "S$": 180.00,
-      "AMOUNT": 180.00
+    {
+      "Description": "ULTRASOUND TARGETED BREAST",
+      "Quantity": "1.00",
+      "Unit": "",
+      "UnitPrice": "180.00",
+      "ProductCode": "",
+      "Date": "16/DEC/2022",
+      "Tax": "",
+      "Amount": "180.00"
     }
-  },
-  "SUB_TOTAL": 238.00,
-  "TOTAL_CHARGES_BEFORE_GST": 238.00,
-  "GST_PERCENTAGE": 7,
-  "TOTAL_CHARGES_AFTER_GST": 254.00,
-  "LESS_ROUNDING_ADJUSTMENT": -0.03,
-  "TOTAL_AMOUNT_PAID": 2
+  ]
+}
+```

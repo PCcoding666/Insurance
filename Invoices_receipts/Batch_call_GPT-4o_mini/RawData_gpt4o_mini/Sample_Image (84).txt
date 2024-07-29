@@ -1,0 +1,66 @@
+```json
+{
+  "CustomerName": null,
+  "VendorName": "BANGKOK HOSPITAL",
+  "CustomerAddress": null,
+  "VendorAddress": "CHIANG MAI",
+  "InvoiceDate": "12/02/2024",
+  "TotalTax": null,
+  "InvoiceTotal": "3,330.00",
+  "AmountDue": "3,330.00"
+}
+```
+```json
+[
+  {
+    "Description": "Gpo-A-Flu Capsule (7s Mg)",
+    "Quantity": "10",
+    "Unit": null,
+    "UnitPrice": "53.00",
+    "ProductCode": "1.1.1",
+    "Date": "12/02/2024",
+    "Tax": null,
+    "Amount": "530.00"
+  },
+  {
+    "Description": "Influenza A/B screening (Immunochromatography)",
+    "Quantity": "1",
+    "Unit": null,
+    "UnitPrice": "1,750.00",
+    "ProductCode": "1.1.4",
+    "Date": "12/02/2024",
+    "Tax": null,
+    "Amount": "1,750.00"
+  },
+  {
+    "Description": "OPD Service Charge",
+    "Quantity": "1",
+    "Unit": null,
+    "UnitPrice": "100.00",
+    "ProductCode": "1.1.12",
+    "Date": "12/02/2024",
+    "Tax": null,
+    "Amount": "100.00"
+  },
+  {
+    "Description": "Packaged Medical Charge",
+    "Quantity": "1",
+    "Unit": null,
+    "UnitPrice": "200.00",
+    "ProductCode": "1.1.14",
+    "Date": "12/02/2024",
+    "Tax": null,
+    "Amount": "200.00"
+  },
+  {
+    "Description": "Physician Evaluation",
+    "Quantity": "1",
+    "Unit": null,
+    "UnitPrice": "750.00",
+    "ProductCode": "1.2.1",
+    "Date": "12/02/2024",
+    "Tax": null,
+    "Amount": "750.00"
+  }
+]
+```

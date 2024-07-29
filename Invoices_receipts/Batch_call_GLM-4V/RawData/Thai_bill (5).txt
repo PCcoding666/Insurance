@@ -1,93 +1,24 @@
-### Step 1: Extracting Text in Markdown Format
-The image contains an invoice document written in Thai language. Due to the complexity of Thai script and the potential loss of nuance in translation, I will provide a structured overview based on visible elements without translating the text verbatim.
-
-```markdown
-# Invoice
-## Header
-- Company Logo: [Thai script]
-- Document Type: INVOICE
-- Number: C001
-- Date: 29/01/2020
-- Reference: NV2001-0003
-- VAT No.: 7/160
-- PO Number: 10220
-
-## Customer Information
-- Name: [Thai script]
-- Address: [Thai script]
-- Tax ID: 111111111111
-- Currency: THB
-- Total Amount: 1,000,000
-
-## Items
-- Item No.: FSER0002
-- Description: [Thai script]
-- Quantity: 10
-- Unit Price: 500,000
-- Total Cost: 5,000,000
-
-## Additional Charges
-- Service Charge: 0.00
-- Discount: 5,000.00
-- Subtotal: 5,000,000
-- Tax: 5,000.00
-- Grand Total: 5,350,000
-
-## Payment Terms
-- Payment Method: [Thai script]
-- Due Date: 30 days from issue date
-
-## Acknowledgment
-- Signature Block: [Placeholder for signatures]
-```
-
-This is a simplified structure based on the visible elements and does not cover all possible details that might be found on an actual invoice.
-
-### Step 2: Extracting Key Field Information in JSON Format
-Here is the extracted key field information from the text in JSON format:
-
 ```json
 {
-  "Invoice": {
-    "Header": {
-      "Company_Logo": "[Thai script]",
-      "Document_Type": "INVOICE",
-      "Number": "C001",
+  "CustomerName": "คู่บุญยาณ",
+  "VendorName": "บริษัท",
+  "CustomerAddress": "10220",
+  "VendorAddress": "7/160 ถนนสุขภาพ และเว็บไฟ",
+  "InvoiceDate": "29/01/2020",
+  "TotalTax": null,
+  "InvoiceTotal": "5,360.00",
+  "AmountDue": "5,360.00",
+  "Items": [
+    {
+      "Description": "หมายเลือก",
+      "Quantity": "1.0000",
+      "Unit": "ชิ้น",
+      "UnitPrice": "500.0000",
+      "ProductCode": "FSER0002",
       "Date": "29/01/2020",
-      "Reference": "NV2001-0003",
-      "VAT_No.": "7/160",
-      "PO_Number": "10220"
-    },
-    "Customer_Information": {
-      "Name": "[Thai script]",
-      "Address": "[Thai script]",
-      "Tax_ID": "111111111111",
-      "Currency": "THB",
-      "Total_Amount": "1,000,000"
-    },
-    "Items": {
-      "Item_No.": "FSER0002",
-      "Description": "[Thai script]",
-      "Quantity": 10,
-      "Unit_Price": 500,000,
-      "Total_Cost": 5,000,000
-    },
-    "Additional_Charges": {
-      "Service_Charge": 0.00,
-      "Discount": 5,000.00,
-      "Subtotal": 5,000,000,
-      "Tax": 5,000.00,
-      "Grand_Total": 5,350,000
-    },
-    "Payment_Terms": {
-      "Payment_Method": "[Thai script]",
-      "Due_Date": "30 days from issue date"
-    },
-    "Acknowledgment": {
-      "Signature_Block": "[Placeholder for signatures]"
+      "Tax": "0.00",
+      "Amount": "5,000.00"
     }
-  }
+  ]
 }
 ```
-
-This JSON object represents a structured view of the invoice data, focusing on key fields for clarity and ease of reference.

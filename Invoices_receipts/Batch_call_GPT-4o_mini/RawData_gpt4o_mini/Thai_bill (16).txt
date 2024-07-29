@@ -1,0 +1,96 @@
+```json
+{
+  "CustomerName": "MISS SAA",
+  "VendorName": "KTC",
+  "CustomerAddress": "null",
+  "VendorAddress": "591 อาคารไชยยศ 2 ชั้น 14 ถนนสาทรเหนือ แขวงสีลม เขตบางรัก กรุงเทพฯ 10110",
+  "InvoiceDate": "18/09/21",
+  "TotalTax": "1,719.39",
+  "InvoiceTotal": "59,500.00",
+  "AmountDue": "12,000.00"
+}
+```
+```json
+[
+  {
+    "Description": "Payment-KTB Intern",
+    "Quantity": "1",
+    "Unit": "null",
+    "UnitPrice": "14,459.96",
+    "ProductCode": "null",
+    "Date": "01/09/21",
+    "Tax": "null",
+    "Amount": "14,459.96"
+  },
+  {
+    "Description": "Payment-BANK(00)",
+    "Quantity": "1",
+    "Unit": "null",
+    "UnitPrice": "22,225.36",
+    "ProductCode": "null",
+    "Date": "01/09/21",
+    "Tax": "null",
+    "Amount": "22,225.36"
+  },
+  {
+    "Description": "CASH ON TAP",
+    "Quantity": "1",
+    "Unit": "null",
+    "UnitPrice": "2,000.00",
+    "ProductCode": "null",
+    "Date": "05/09/21",
+    "Tax": "null",
+    "Amount": "2,000.00"
+  },
+  {
+    "Description": "CASH ON TAP",
+    "Quantity": "1",
+    "Unit": "null",
+    "UnitPrice": "10,000.00",
+    "ProductCode": "null",
+    "Date": "07/09/21",
+    "Tax": "null",
+    "Amount": "10,000.00"
+  },
+  {
+    "Description": "CASH ONLINE",
+    "Quantity": "1",
+    "Unit": "null",
+    "UnitPrice": "6,800.00",
+    "ProductCode": "null",
+    "Date": "07/09/21",
+    "Tax": "null",
+    "Amount": "6,800.00"
+  },
+  {
+    "Description": "CASH ONLINE",
+    "Quantity": "1",
+    "Unit": "null",
+    "UnitPrice": "3,000.00",
+    "ProductCode": "null",
+    "Date": "14/09/21",
+    "Tax": "null",
+    "Amount": "3,000.00"
+  },
+  {
+    "Description": "INTEREST",
+    "Quantity": "1",
+    "Unit": "null",
+    "UnitPrice": "256.21",
+    "ProductCode": "null",
+    "Date": "18/09/21",
+    "Tax": "null",
+    "Amount": "256.21"
+  },
+  {
+    "Description": "USAGE FEE",
+    "Quantity": "1",
+    "Unit": "null",
+    "UnitPrice": "170.15",
+    "ProductCode": "null",
+    "Date": "18/09/21",
+    "Tax": "null",
+    "Amount": "170.15"
+  }
+]
+```

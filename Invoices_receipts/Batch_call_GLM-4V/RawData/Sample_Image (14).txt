@@ -1,77 +1,74 @@
-First Step:
-
-```markdown
-# Hospital Invoice Sample 2
-## D. & C.
-
-| 日期 | DATE | 29-Jul-2015 12:02:25 |
-|------|--------|-------------------------------|
-| 姓名 | NAME | 常凤秀 |
-| 病人编号 | PATIENT NO. | HN201500010Z |
-| 入院日期 | ADMISSION DATE | 01-Jan-2015 |
-| 日期 | DATE | 01-Jan-15 |
-| 超声波心臟检查/超 | ECHOCARDIOGRAM/ULTRASOUND | $2,550 |
-| 磁波 | / | $2,840 |
-| 病理检查 | BIOPATHOLOGICAL EXAMINATION | $7,600 |
-| 药物/输液 | MEDICINE/INJECTION | $3,000 |
-| 手术室收费 | OPERATING THEATRE CHARGE | $2,670 |
-| 手术室物料 | OPERATING THEATRE MATERIALS | $180 |
-| 入院服务 | ADMISSION SERVICE | $750 |
-| 病房收费 | BEDROOM CHARGE | $3,000 |
-| 超聲波 | ULTRASOUND | $16,830 |
-| 药费/输液 | MEDICINE/INJECTION | $520 |
-| 病床/病房收费 | BED/ROOM CHARGE | $750 |
-| 住院费用合计 | TOTAL HOSPITAL CHARGES | $18,100 |
-| 日期 | DATE | 02-Jan-15 |
-| 医生费 | DOCTOR FEE | $16,000 |
-| 总费用 | GRAND TOTAL | $34,100 |
-| 总额 | TOTAL BALANCE DUE | $34,100 |
-
-**备注：**
-1. 住院帐单必须于出院后二十四小时内付清，否则在出院时扣除，出院时请结清住院帐单。
-2. 所有帐单须分次缴付。
-3. 以上所列收费，若实际费用已超出，方可有权收取。
-4. 最终账单金额以医院通知为准。
-5. 本院保留向逾期付款收取利息的权利。
-6. 出院单如有遗失，整张账单将作废。
-
-N.B.
-Final account, when presented, must be settled within 24 hours. Deposit will be offset in the final account.
-All bills must be paid in installments.
-The above sample invoice is derived from charges of in-patients in Standard Ward ("SW") accommodation. All information should be used for reference only.
-
-Second Step:
-
 ```json
 {
-  "Patient Information": {
-    "Name": "常凤秀",
-    "Patient No.": "HN201500010Z",
-    "Admission Date": "01-Jan-2015",
-    "Discharge Date": "02-Jan-2015"
-  },
-  "Invoice Details": {
-    "Page": "1 of 1",
-    "Invoice No.": "AC2015000124",
-    "Total Amount": "$34,100",
-    "Subtotal": "$16,830",
-    "Grand Total": "$34,100",
-    "Due Amount": "$34,100"
-  },
-  "Services and Charges": [
+  "CustomerName": "SHAUNG FUON SIU",
+  "VendorName": "ST. TERESA'S HOSPITAL",
+  "CustomerAddress": "327 PRINCE EDWARD ROAD KOWLOON, HONG KONG",
+  "VendorAddress": "327 PRINCE EDWARD ROAD KOWLOON, HONG KONG",
+  "InvoiceDate": "29-Jul-2015 12:02:25",
+  "TotalTax": "$2,840",
+  "InvoiceTotal": "$16,830",
+  "AmountDue": "$34,100",
+  "Items": [
     {
-      "Date": "01-Jan-15",
-      "Description": "超声波心臟检查/超磁波",
-      "Amount (HK$)": "$2,550"
+      "Description": "ECHO/CARDIOGRAM/ULTRASOUND",
+      "Quantity": "1.00",
+      "Unit": "",
+      "UnitPrice": "$2,550",
+      "ProductCode": "AC2015000124",
+      "Date": "01-Jan-2015",
+      "Tax": "$2,840",
+      "Amount": "$5,390"
     },
     {
-      "Description": "病理检查",
-      "Amount (HK$)": "$7,600"
+      "Description": "HISTOPATHOLOGICAL EXAMINATION",
+      "Quantity": "1.00",
+      "Unit": "",
+      "UnitPrice": "$7,000",
+      "ProductCode": "",
+      "Date": "01-Jan-2015",
+      "Tax": "$7,000",
+      "Amount": "$14,000"
     },
     {
-      "Description": "药物/输液",
-      "Amount (HK$)": "$3,000"
+      "Description": "MEDICINE INJECTION",
+      "Quantity": "1.00",
+      "Unit": "",
+      "UnitPrice": "$1,000",
+      "ProductCode": "",
+      "Date": "02-Jan-2015",
+      "Tax": "$1,000",
+      "Amount": "$1,000"
     },
     {
-      "Description": "手术室收费",
-      "Amount (HK$)": "$2,670
+      "Description": "OPERATING THEATRE CHARGE",
+      "Quantity": "1.00",
+      "Unit": "",
+      "UnitPrice": "$2,600",
+      "ProductCode": "",
+      "Date": "02-Jan-2015",
+      "Tax": "$2,600",
+      "Amount": "$2,600"
+    },
+    {
+      "Description": "ADMISSION SERVICE",
+      "Quantity": "1.00",
+      "Unit": "",
+      "UnitPrice": "$180",
+      "ProductCode": "",
+      "Date": "02-Jan-2015",
+      "Tax": "$180",
+      "Amount": "$180"
+    },
+    {
+      "Description": "BEDROOM CHARGE",
+      "Quantity": "1.00",
+      "Unit": "",
+      "UnitPrice": "$750",
+      "ProductCode": "",
+      "Date": "02-Jan-2015",
+      "Tax": "$750",
+      "Amount": "$750"
+    }
+  ]
+}
+```

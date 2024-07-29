@@ -1,0 +1,206 @@
+```json
+{
+  "CustomerName": null,
+  "VendorName": "Hong Kong Sanatorium & Hospital Ltd",
+  "CustomerAddress": null,
+  "VendorAddress": "2 Village Road, Happy Valley, Hong Kong",
+  "InvoiceDate": "4 JUL 2023",
+  "TotalTax": null,
+  "InvoiceTotal": "39,889.00",
+  "AmountDue": null
+}
+```
+```json
+[
+  {
+    "Description": "MEDICINE",
+    "Quantity": null,
+    "Unit": null,
+    "UnitPrice": null,
+    "ProductCode": "100",
+    "Date": "03/07/23",
+    "Tax": null,
+    "Amount": "705.00"
+  },
+  {
+    "Description": "LABORATORY TEST(A)",
+    "Quantity": null,
+    "Unit": null,
+    "UnitPrice": null,
+    "ProductCode": "200",
+    "Date": "03/07/23",
+    "Tax": null,
+    "Amount": "8,880.00"
+  },
+  {
+    "Description": "ECG EXAMINATION",
+    "Quantity": null,
+    "Unit": null,
+    "UnitPrice": null,
+    "ProductCode": "210",
+    "Date": "03/07/23",
+    "Tax": null,
+    "Amount": "960.00"
+  },
+  {
+    "Description": "RADIOLOGY",
+    "Quantity": null,
+    "Unit": null,
+    "UnitPrice": null,
+    "ProductCode": "500",
+    "Date": "03/07/23",
+    "Tax": null,
+    "Amount": "1,200.00"
+  },
+  {
+    "Description": "COMPUTED TOMOGRAPHY",
+    "Quantity": null,
+    "Unit": null,
+    "UnitPrice": null,
+    "ProductCode": "510",
+    "Date": "03/07/23",
+    "Tax": null,
+    "Amount": "8,150.00"
+  },
+  {
+    "Description": "FOOD/DRINKS",
+    "Quantity": null,
+    "Unit": null,
+    "UnitPrice": null,
+    "ProductCode": "600",
+    "Date": "03/07/23",
+    "Tax": null,
+    "Amount": "1,200.00"
+  },
+  {
+    "Description": "ROOM",
+    "Quantity": null,
+    "Unit": null,
+    "UnitPrice": null,
+    "ProductCode": "675",
+    "Date": "03/07/23",
+    "Tax": null,
+    "Amount": "2,000.00"
+  },
+  {
+    "Description": "ECHOCARDIOGRAM",
+    "Quantity": null,
+    "Unit": null,
+    "UnitPrice": null,
+    "ProductCode": "200",
+    "Date": "04/07/23",
+    "Tax": null,
+    "Amount": "1,200.00"
+  },
+  {
+    "Description": "STRESS TEST",
+    "Quantity": null,
+    "Unit": null,
+    "UnitPrice": null,
+    "ProductCode": "210",
+    "Date": "04/07/23",
+    "Tax": null,
+    "Amount": "2,610.00"
+  },
+  {
+    "Description": "ECG (CARDIOLOGY)",
+    "Quantity": null,
+    "Unit": null,
+    "UnitPrice": null,
+    "ProductCode": "500",
+    "Date": "04/07/23",
+    "Tax": null,
+    "Amount": "960.00"
+  },
+  {
+    "Description": "MEDICINE",
+    "Quantity": null,
+    "Unit": null,
+    "UnitPrice": null,
+    "ProductCode": "100",
+    "Date": "04/07/23",
+    "Tax": null,
+    "Amount": "4,804.00"
+  },
+  {
+    "Description": "LABORATORY TEST(A)",
+    "Quantity": null,
+    "Unit": null,
+    "UnitPrice": null,
+    "ProductCode": "200",
+    "Date": "04/07/23",
+    "Tax": null,
+    "Amount": "8,880.00"
+  },
+  {
+    "Description": "FOOD/DRINKS",
+    "Quantity": null,
+    "Unit": null,
+    "UnitPrice": null,
+    "ProductCode": "600",
+    "Date": "04/07/23",
+    "Tax": null,
+    "Amount": "1,200.00"
+  },
+  {
+    "Description": "ULTRASOUND (O&G)",
+    "Quantity": null,
+    "Unit": null,
+    "UnitPrice": null,
+    "ProductCode": "684",
+    "Date": "04/07/23",
+    "Tax": null,
+    "Amount": "920.00"
+  },
+  {
+    "Description": "TOTAL HOSPITAL CHARGES",
+    "Quantity": null,
+    "Unit": null,
+    "UnitPrice": null,
+    "ProductCode": "900",
+    "Date": null,
+    "Tax": null,
+    "Amount": "39,889.00"
+  },
+  {
+    "Description": "DR. MUI (CHGL) (ECHOARDIOGRAM)",
+    "Quantity": null,
+    "Unit": null,
+    "UnitPrice": null,
+    "ProductCode": "31811",
+    "Date": "03/07/23",
+    "Tax": null,
+    "Amount": "3,500.00"
+  },
+  {
+    "Description": "DR. MUI (CHGL) (STRESS TEST)",
+    "Quantity": null,
+    "Unit": null,
+    "UnitPrice": null,
+    "ProductCode": "31811",
+    "Date": "03/07/23",
+    "Tax": null,
+    "Amount": "3,500.00"
+  },
+  {
+    "Description": "DR. TANG (04/07/2023 - 04/07/2023, $2,000.00 X 1) (ATTENDANCE)",
+    "Quantity": null,
+    "Unit": null,
+    "UnitPrice": null,
+    "ProductCode": "31811",
+    "Date": "04/07/23",
+    "Tax": null,
+    "Amount": "2,000.00"
+  },
+  {
+    "Description": "DR. MUI (CHGL) (ATTENDANCE)",
+    "Quantity": null,
+    "Unit": null,
+    "UnitPrice": null,
+    "ProductCode": "31811",
+    "Date": "04/07/23",
+    "Tax": null,
+    "Amount": "3,600.00"
+  }
+]
+```

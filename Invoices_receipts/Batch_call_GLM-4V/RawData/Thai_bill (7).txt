@@ -1,92 +1,24 @@
-### First Step - Text Extraction
-```markdown
-# Invoice OV/2021/0063
-
-| Company Branch | Head Office                  |
-|------------------|-----------------------------|
-| Supplier        | [Supplier Name]              |
-| Tax ID.          | [Tax Identification Number] |
-| Branch           | [Branch Code]                |
-| Fiscal Position  | [Fiscal Position Code]       |
-| Source Document | [Document Number]            |
-| Supplier Invoice Number | 001                        |
-| Payment Reference| [Reference Number]          |
-
-| Invoice Date    | 2021/05/01                  |
-| Due Date         | 2021/05/26                  |
-| Account          | 21100 เที่ยวไม้                |
-| Journal          | Purchase Journal (THB)      |
-| Header for Report| INVOICE                    |
-| Currency         | THB                         |
-
-| Product          | Description                 |
-|------------------| Account                      |
-| Asset Category   | Quantity                    |
-| Unit of Measure   | Unit Price (%)               |
-| Discount (%)     | Taxes                        |
-| Amount            |                              |
-
-|                  |                              |
-|                  |                              |
-|                  |                              |
-|                  |                              |
-
-| Tax Description  | Tax Account                  |
-| Base              | Amount                      |
-
-| Subtotal :       |                              |
-| Tax :             |                              |
-| Total :           |                              |
-| Balance :        |                              |
-```
-
-### Second Step - JSON Format
 ```json
 {
-  "Invoice": {
-    "Number": "OV/2021/0063",
-    "Company_Branch": "Head Office",
-    "Supplier": {
-      "Name": "[Supplier Name]",
-      "Tax_ID": "[Tax Identification Number]",
-      "Branch_Code": "[Branch Code]",
-      "Fiscal_Position_Code": "[Fiscal Position Code]",
-      "Source_Document_Number": "[Document Number]",
-      "Supplier_Invoice_Number": "001",
-      "Payment_Reference": "[Reference Number]"
-    },
-    "Invoice_Date": "2021/05/01",
-    "Due_Date": "2021/05/26",
-    "Account": "21100 เที่ยวไม้",
-    "Journal": "Purchase Journal (THB)",
-    "Header_for_Report": "INVOICE",
-    "Currency": "THB"
-  },
-  "Details": [
+  "CustomerName": "Company Branch",
+  "VendorName": "Head Office",
+  "CustomerAddress": null,
+  "VendorAddress": null,
+  "InvoiceDate": "2021/05/01",
+  "TotalTax": "34.93",
+  "InvoiceTotal": "533.93",
+  "AmountDue": "533.93",
+  "Items": [
     {
-      "Product": "",
-      "Description": "",
-      "Account": "",
-      "Asset_Category": "",
-      "Quantity": "",
-      "Unit_of_Measure": "",
-      "Unit_Price": "",
-      "Discount": "",
-      "Taxes": "",
-      "Amount": ""
+      "Description": "ระบาดประจำสินค้า",
+      "Quantity": "1.000",
+      "Unit": "Units",
+      "UnitPrice": "499.00",
+      "ProductCode": "63100",
+      "Date": "2021/05/01",
+      "Tax": "34.93",
+      "Amount": "499.00"
     }
-  ],
-  "Taxes": {
-    "Description": "ภาษาไทย",
-    "Account": "11262 ภาษาไทย",
-    "Base": "499.00",
-    "Amount": "34.93"
-  },
-  "Summary": {
-    "Subtotal": "499.00",
-    "Tax": "34.93",
-    "Total": "533.93",
-    "Balance": "533.93"
-  }
+  ]
 }
 ```

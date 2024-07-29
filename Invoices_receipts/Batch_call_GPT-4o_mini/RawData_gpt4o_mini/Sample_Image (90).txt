@@ -1,0 +1,126 @@
+```json
+{
+  "CustomerName": null,
+  "VendorName": null,
+  "CustomerAddress": null,
+  "VendorAddress": null,
+  "InvoiceDate": null,
+  "TotalTax": 80.00,
+  "InvoiceTotal": 218.59,
+  "AmountDue": null
+}
+```
+```json
+[
+  {
+    "Description": "IV CHEMOTHERAPY INFUSION",
+    "Quantity": 1,
+    "Unit": "QTY",
+    "UnitPrice": 44.20,
+    "ProductCode": null,
+    "Date": null,
+    "Tax": null,
+    "Amount": 44.20
+  },
+  {
+    "Description": "PEGFILGRASTIM 6 MG/0.6 ML PF SYRINGE",
+    "Quantity": 1,
+    "Unit": "QTY",
+    "UnitPrice": 144.63,
+    "ProductCode": null,
+    "Date": null,
+    "Tax": null,
+    "Amount": 144.63
+  },
+  {
+    "Description": "METOCLOPRAMIDE 10MG TAB",
+    "Quantity": 20,
+    "Unit": "QTY",
+    "UnitPrice": 4.40,
+    "ProductCode": null,
+    "Date": null,
+    "Tax": null,
+    "Amount": 88.00
+  },
+  {
+    "Description": "DEXAMETHASONE 4MG TAB",
+    "Quantity": 6,
+    "Unit": "QTY",
+    "UnitPrice": 0.99,
+    "ProductCode": null,
+    "Date": null,
+    "Tax": null,
+    "Amount": 5.94
+  },
+  {
+    "Description": "DOXOrubicin HCL 50MG INJ",
+    "Quantity": 2,
+    "Unit": "QTY",
+    "UnitPrice": 62.55,
+    "ProductCode": null,
+    "Date": null,
+    "Tax": null,
+    "Amount": 125.10
+  },
+  {
+    "Description": "CYCLOPHOSPHAMIDE 1G INJ",
+    "Quantity": 1,
+    "Unit": "QTY",
+    "UnitPrice": 21.22,
+    "ProductCode": null,
+    "Date": null,
+    "Tax": null,
+    "Amount": 21.22
+  },
+  {
+    "Description": "DEXAMETHASONE 4MG/ML PF INJ",
+    "Quantity": 2,
+    "Unit": "QTY",
+    "UnitPrice": 3.76,
+    "ProductCode": null,
+    "Date": null,
+    "Tax": null,
+    "Amount": 7.52
+  },
+  {
+    "Description": "NETUPITANT 300MG, PALONOSETRON 0.5MG CAP (AKYNZEO)",
+    "Quantity": 1,
+    "Unit": "QTY",
+    "UnitPrice": 95.34,
+    "ProductCode": null,
+    "Date": null,
+    "Tax": null,
+    "Amount": 95.34
+  },
+  {
+    "Description": "PREPARATION FEE",
+    "Quantity": 2,
+    "Unit": "QTY",
+    "UnitPrice": 31.85,
+    "ProductCode": null,
+    "Date": null,
+    "Tax": null,
+    "Amount": 63.70
+  },
+  {
+    "Description": "I/V START",
+    "Quantity": 1,
+    "Unit": "QTY",
+    "UnitPrice": 31.85,
+    "ProductCode": null,
+    "Date": null,
+    "Tax": null,
+    "Amount": 31.85
+  },
+  {
+    "Description": "<2 HRS PRIVATE",
+    "Quantity": 1,
+    "Unit": "QTY",
+    "UnitPrice": 80.00,
+    "ProductCode": null,
+    "Date": null,
+    "Tax": null,
+    "Amount": 80.00
+  }
+]
+```
