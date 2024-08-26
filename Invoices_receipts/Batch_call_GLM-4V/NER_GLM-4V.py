@@ -5,7 +5,7 @@ import pandas as pd
 import re
 
 # 请在此处填入您的APIKey
-API_KEY = "61b5150277229e4c9f6337e013e1836f.5LkrF5U7FXOP9YgR"
+API_KEY = ""
 
 # 模型名称
 MODEL_NAME = "glm-4"
