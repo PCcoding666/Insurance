@@ -1,5 +1,5 @@
 # Insurance
-Insurance Project for FWD
+Insurance Project for HyperGAI Insurance Project POC
 # Project Title
 
 This project processes images and PDF files to extract structured data and provides a Streamlit interface for user interaction. The project also includes image preprocessing for enhanced image quality.
