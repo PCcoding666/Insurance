@@ -123,7 +123,7 @@ if uploaded_file is not None:
         f.write(uploaded_file.getbuffer())
 
     if is_supported_image(temp_file_path):
-        st.image(uploaded_file, caption='Uploaded Image', use_column_width=True)
+        st.image(uploaded_file, caption='Uploaded Image', use_container_width=True)
 
         if st.button("Submit"):
             with st.spinner('Extracting data...'):
