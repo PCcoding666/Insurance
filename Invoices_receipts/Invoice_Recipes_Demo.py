@@ -17,6 +17,7 @@ def is_supported_image(file_path):
 def extract(file_path):
     key = st.secrets['key']
     endpoint = st.secrets['endpoint']
+
     # 创建客户端
     document_analysis_client = DocumentAnalysisClient(endpoint=endpoint, credential=AzureKeyCredential(key))
 
