@@ -25,6 +25,7 @@ def extract(file_path):
         poller = document_analysis_client.begin_analyze_document("prebuilt-invoice", document=file)
     # 获取分析结果
     invoices = poller.result()
+    print(invoices)
     return invoices
 
 def info_extract(invoices):
@@ -36,67 +37,109 @@ def info_extract(invoices):
         fields = doc.fields
 
         CustomerName = fields.get('CustomerName')
-        if CustomerName:
-            info_dict['CustomerName'] = CustomerName.content
-        else:
-            info_dict['CustomerName'] = np.nan
+        info_dict['CustomerName'] = CustomerName.content if CustomerName else np.nan
 
-        VendorName = fields.get('VendorName')
-        if VendorName:
-            info_dict['VendorName'] = VendorName.content
-        else:
-            info_dict['VendorName'] = np.nan
+        CustomerId = fields.get('CustomerId')
+        info_dict['CustomerId'] = CustomerId.content if CustomerId else np.nan
 
-        CustomerAddress = fields.get('CustomerAddress')
-        if CustomerAddress:
-            info_dict['CustomerAddress'] = CustomerAddress.content
-        else:
-            info_dict['CustomerAddress'] = np.nan
+        PurchaseOrder = fields.get('PurchaseOrder')
+        info_dict['PurchaseOrder'] = PurchaseOrder.content if PurchaseOrder else np.nan
 
-        VendorAddress = fields.get('VendorAddress')
-        if VendorAddress:
-            info_dict['VendorAddress'] = VendorAddress.content
-        else:
-            info_dict['VendorAddress'] = np.nan
+        Invoiceld = fields.get('Invoiceld')
+        info_dict['Invoiceld'] = Invoiceld.content if Invoiceld else np.nan
 
         InvoiceDate = fields.get('InvoiceDate')
-        if InvoiceDate:
-            info_dict['InvoiceDate'] = InvoiceDate.content
-        else:
-            info_dict['InvoiceDate'] = np.nan
+        info_dict['InvoiceDate'] = InvoiceDate.content if InvoiceDate else np.nan
+
+        DueDate = fields.get('DueDate')
+        info_dict['DueDate'] = DueDate.content if DueDate else np.nan
+
+        VendorName = fields.get('VendorName')
+        info_dict['VendorName'] = VendorName.content if VendorName else np.nan
+
+        VendorAddress = fields.get('VendorAddress')
+        info_dict['VendorAddress'] = VendorAddress.content if VendorAddress else np.nan
+
+        VendorAddressRecipient = fields.get('VendorAddressRecipient')
+        info_dict['VendorAddressRecipient'] = VendorAddressRecipient.content if VendorAddressRecipient else np.nan
+
+        CustomerAddress = fields.get('CustomerAddress')
+        info_dict['CustomerAddress'] = CustomerAddress.content if CustomerAddress else np.nan
+
+        CustomerAddressRecipient = fields.get('CustomerAddressRecipient')
+        info_dict['CustomerAddressRecipient'] = CustomerAddressRecipient.content if CustomerAddressRecipient else np.nan
+
+        BillingAddress = fields.get('BillingAddress')
+        info_dict['BillingAddress'] = BillingAddress.content if BillingAddress else np.nan
+
+        BillingAddressRecipient = fields.get('BillingAddressRecipient')
+        info_dict['BillingAddressRecipient'] = BillingAddressRecipient.content if BillingAddressRecipient else np.nan
+
+        ShippingAddress = fields.get('ShippingAddress')
+        info_dict['ShippingAddress'] = ShippingAddress.content if ShippingAddress else np.nan
+
+        ShippingAddressRecipient = fields.get('ShippingAddressRecipient')
+        info_dict['ShippingAddressRecipient'] = ShippingAddressRecipient.content if ShippingAddressRecipient else np.nan
+
+        SubTotal = fields.get('SubTotal')
+        info_dict['SubTotal'] = SubTotal.content if SubTotal else np.nan
+
+        TotalDiscount = fields.get('TotalDiscount')
+        info_dict['TotalDiscount'] = TotalDiscount.content if TotalDiscount else np.nan
 
         TotalTax = fields.get('TotalTax')
-        if TotalTax:
-            info_dict['TotalTax'] = TotalTax.content
-        else:
-            info_dict['TotalTax'] = np.nan
+        info_dict['TotalTax'] = TotalTax.content if TotalTax else np.nan
 
         InvoiceTotal = fields.get('InvoiceTotal')
-        if InvoiceTotal:
-            info_dict['InvoiceTotal'] = InvoiceTotal.content
-        else:
-            info_dict['InvoiceTotal'] = np.nan
+        info_dict['InvoiceTotal'] = InvoiceTotal.content if InvoiceTotal else np.nan
 
         AmountDue = fields.get('AmountDue')
-        if AmountDue:
-            info_dict['AmountDue'] = AmountDue.content
-        else:
-            info_dict['AmountDue'] = np.nan
+        info_dict['AmountDue'] = AmountDue.content if AmountDue else np.nan
+
+        PreviousUnpaidBalance = fields.get('PreviousUnpaidBalance')
+        info_dict['PreviousUnpaidBalance'] = PreviousUnpaidBalance.content if PreviousUnpaidBalance else np.nan
+
+        RemittanceAddress = fields.get('RemittanceAddress')
+        info_dict['RemittanceAddress'] = RemittanceAddress.content if RemittanceAddress else np.nan
+
+        RemittanceAddressRecipient = fields.get('RemittanceAddressRecipient')
+        info_dict['RemittanceAddressRecipient'] = RemittanceAddressRecipient.content if RemittanceAddressRecipient else np.nan
+
+        ServiceAddress = fields.get('ServiceAddress')
+        info_dict['ServiceAddress'] = ServiceAddress.content if ServiceAddress else np.nan
+
+        ServiceAddressRecipient = fields.get('ServiceAddressRecipient')
+        info_dict['ServiceAddressRecipient'] = ServiceAddressRecipient.content if ServiceAddressRecipient else np.nan
+
+        ServiceStartDate = fields.get('ServiceStartDate')
+        info_dict['ServiceStartDate'] = ServiceStartDate.content if ServiceStartDate else np.nan
+
+        ServiceEndDate = fields.get('ServiceEndDate')
+        info_dict['ServiceEndDate'] = ServiceEndDate.content if ServiceEndDate else np.nan
+
+        VendorTaxId = fields.get('VendorTaxId')
+        info_dict['VendorTaxId'] = VendorTaxId.content if VendorTaxId else np.nan
+
+        CustomerTaxId = fields.get('CustomerTaxId')
+        info_dict['CustomerTaxId'] = CustomerTaxId.content if CustomerTaxId else np.nan
+
+        PaymentTerm = fields.get('PaymentTerm')
+        info_dict['PaymentTerm'] = PaymentTerm.content if PaymentTerm else np.nan
 
         Items = fields.get('Items')
         if Items:
             for item in Items.value:
                 item_dict = {}
-                item_dict['Description'] = item.value.get('Description').content if item.value.get(
-                    'Description') else np.nan
+                item_dict['Amount'] = item.value.get('Amount').content if item.value.get('Amount') else np.nan
+                item_dict['Date'] = item.value.get('Date').content if item.value.get('Date') else np.nan
+                item_dict['Description'] = item.value.get('Description').content if item.value.get('Description') else np.nan
                 item_dict['Quantity'] = item.value.get('Quantity').content if item.value.get('Quantity') else np.nan
+                item_dict['ProductCode'] = item.value.get('ProductCode').content if item.value.get('ProductCode') else np.nan
+                item_dict['Tax'] = item.value.get('Tax').content if item.value.get('Tax') else np.nan
+                item_dict['TaxRate'] = item.value.get('TaxRate').content if item.value.get('TaxRate') else np.nan
                 item_dict['Unit'] = item.value.get('Unit').content if item.value.get('Unit') else np.nan
                 item_dict['UnitPrice'] = item.value.get('UnitPrice').content if item.value.get('UnitPrice') else np.nan
-                item_dict['ProductCode'] = item.value.get('ProductCode').content if item.value.get(
-                    'ProductCode') else np.nan
-                item_dict['Date'] = item.value.get('Date').content if item.value.get('Date') else np.nan
-                item_dict['Tax'] = item.value.get('Tax').content if item.value.get('Tax') else np.nan
-                item_dict['Amount'] = item.value.get('Amount').content if item.value.get('Amount') else np.nan
+                items_list.append(item_dict)
 
                 items_list.append(item_dict)
 
@@ -108,9 +151,10 @@ def save_to_dataframes(info_dict, items_list):
     return info_df, items_df
 
 # Streamlit App
-st.title("Invoice, Recipes Data Extraction")
+st.set_page_config(page_title="Invoice Data Extraction", layout="wide")
+st.title("Invoice and Receipt Data Extraction")
 
-uploaded_file = st.file_uploader("Choose an invoice image...", type=["jpg", "jpeg", "png"])
+uploaded_file = st.file_uploader("Upload an invoice image", type=["jpg", "jpeg", "png"])
 
 if uploaded_file is not None:
     # Ensure the 'temp' directory exists
@@ -124,9 +168,9 @@ if uploaded_file is not None:
         f.write(uploaded_file.getbuffer())
 
     if is_supported_image(temp_file_path):
-        st.image(uploaded_file, caption='Uploaded Image', use_column_width=True)
+        st.image(uploaded_file, caption='Uploaded Image', use_container_width=True)
 
-        if st.button("Submit"):
+        if st.button("Extract Data"):
             with st.spinner('Extracting data...'):
                 invoices = extract(temp_file_path)
                 info_dict, items_list = info_extract(invoices)
@@ -135,7 +179,7 @@ if uploaded_file is not None:
             st.success('Data extraction complete!')
 
             st.subheader("Extracted Information")
-            st.dataframe(info_df)
+            st.dataframe(info_df.transpose())  # Transpose the DataFrame to switch rows and columns
 
             st.subheader("Extracted Items")
             st.dataframe(items_df)
